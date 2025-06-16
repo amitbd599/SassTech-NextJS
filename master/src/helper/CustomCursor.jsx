@@ -2,67 +2,67 @@
 
 import { useEffect, useRef } from "react";
 
-const CustomCursor = () => {
-  const cursorOuterRef = useRef(null);
-  const cursorInnerRef = useRef(null);
-  console.warn = () => {};
-  console.error = () => {};
+export default function CustomCursor() {
+  const ringRef = useRef(null); // the outer hollow circle
+  const dotRef = useRef(null); // the solid dot in the middle
+
   useEffect(() => {
-    const cursorOuter = cursorOuterRef.current;
-    const cursorInner = cursorInnerRef.current;
+    if (!window) return; // SSR guard
 
-    if (!cursorOuter || !cursorInner) return;
+    const ring = ringRef.current;
+    const dot = dotRef.current;
 
-    let mouseX = 0;
-    let mouseY = 0;
+    /* ----------------- Mouse move (position) ----------------- */
+    const move = ({ clientX: x, clientY: y }) => {
+      // translate3d keeps it on its own composite layer (no jank)
+      ring.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      dot.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    };
+    window.addEventListener("mousemove", move);
 
-    const moveCursor = (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-
-      cursorInner.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
-      cursorOuter.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    /* ------------ Hover effects for scale / visibility ------- */
+    // Any element you give className="cursor-small" or "cursor-big"
+    // will trigger the proper scaling.
+    const scaleOn = (scale) => () => {
+      dot.style.transform += ` scale(${scale})`; // combine with translate
+      ring.style.opacity = "0";
+    };
+    const scaleOff = () => {
+      // strip any existing scale() from the transform string
+      dot.style.transform = dot.style.transform.replace(/ scale\([^)]+\)/, "");
+      ring.style.opacity = "1";
     };
 
-    const addHoverClass = () => {
-      cursorInner.classList.add("cursor-hover");
-      cursorOuter.classList.add("cursor-hover");
-    };
+    const smallTargets = document.querySelectorAll(".cursor-small");
+    const bigTargets = document.querySelectorAll(".cursor-big");
 
-    const removeHoverClass = () => {
-      cursorInner.classList.remove("cursor-hover");
-      cursorOuter.classList.remove("cursor-hover");
-    };
-
-    document.addEventListener("mousemove", moveCursor);
-
-    const hoverElements = document.querySelectorAll(
-      "a, button, .cursor-pointer"
-    );
-    hoverElements.forEach((el) => {
-      el.addEventListener("mouseenter", addHoverClass);
-      el.addEventListener("mouseleave", removeHoverClass);
+    smallTargets.forEach((el) => {
+      el.addEventListener("mouseenter", scaleOn(16));
+      el.addEventListener("mouseleave", scaleOff);
+    });
+    bigTargets.forEach((el) => {
+      el.addEventListener("mouseenter", scaleOn(26));
+      el.addEventListener("mouseleave", scaleOff);
     });
 
-    // Make cursors visible
-    cursorInner.style.visibility = "visible";
-    cursorOuter.style.visibility = "visible";
-
+    /* ---------------------- cleanup -------------------------- */
     return () => {
-      document.removeEventListener("mousemove", moveCursor);
-      hoverElements.forEach((el) => {
-        el.removeEventListener("mouseenter", addHoverClass);
-        el.removeEventListener("mouseleave", removeHoverClass);
+      window.removeEventListener("mousemove", move);
+      smallTargets.forEach((el) => {
+        el.removeEventListener("mouseenter", scaleOn);
+        el.removeEventListener("mouseleave", scaleOff);
+      });
+      bigTargets.forEach((el) => {
+        el.removeEventListener("mouseenter", scaleOn);
+        el.removeEventListener("mouseleave", scaleOff);
       });
     };
   }, []);
 
   return (
     <>
-      <div ref={cursorOuterRef} className='mouseCursor cursor-outer'></div>
-      <div ref={cursorInnerRef} className='mouseCursor cursor-inner'></div>
+      <div ref={ringRef} className='cursor' />
+      <div ref={dotRef} className='dot' />
     </>
   );
-};
-
-export default CustomCursor;
+}
