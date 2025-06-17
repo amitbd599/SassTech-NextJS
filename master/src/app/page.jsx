@@ -26,17 +26,14 @@ export const metadata = {
 const page = () => {
   return (
     <AOSWrap>
-      {/* Top Header One */}
-      <TopHeaderOne />
-
       {/* CustomCursor */}
       <CustomCursor />
 
+      {/* Top Header One */}
+      <TopHeaderOne />
+
       {/* HeaderOne */}
       <HeaderOne />
-
-      {/* MobileMenu */}
-      <MobileMenu />
 
       {/* TopFeaturesOne */}
       <TopFeaturesOne />

@@ -15,7 +15,7 @@ const RoadmapOne = () => {
         >
           <div className='tw-ps-74-px tw-pe-6 '>
             <div className='d-flex flex-xl-nowrap flex-wrap tw-gap-126-px'>
-              <div className='max-w-432-px w-100 flex-shrink-0'>
+              <div className='max-w-432-px w-100 flex-shrink-0' ref={ref}>
                 <div className='pt-120 tw-pb-9 position-relative'>
                   <img
                     src='assets/images/shapes/curve-arrow-white.png'
@@ -77,10 +77,22 @@ const RoadmapOne = () => {
                             />
                           </div>
                         </div>
-                        <span className='h5 counter text-white'>2.3M+</span>
+                        <span className='h5 counter text-white'>
+                          {inView && (
+                            <span>
+                              <CountUp delay={0} start={0} end={4} />
+                              M+
+                            </span>
+                          )}
+                        </span>
                       </div>
                       <p className='fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white'>
-                        5000+ Client reviews
+                        {inView && (
+                          <span>
+                            <CountUp delay={0} start={0} end={5000} />+ Client
+                            reviews
+                          </span>
+                        )}
                       </p>
                     </div>
                   </div>

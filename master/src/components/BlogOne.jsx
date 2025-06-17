@@ -41,7 +41,7 @@ const BlogOne = () => {
                 </a>
                 <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
                   <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
-                    02 Apr 2021
+                    02 Apr 2025
                   </span>
                   <span className='text-heading fw-medium tw-text-base'>
                     Comments (03)
@@ -85,7 +85,7 @@ const BlogOne = () => {
                 </a>
                 <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
                   <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
-                    02 Apr 2021
+                    02 Apr 2025
                   </span>
                   <span className='text-heading fw-medium tw-text-base'>
                     Comments (03)

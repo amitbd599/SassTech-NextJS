@@ -1,6 +1,10 @@
-import React from "react";
-
+"use client";
+import { useInView } from "react-intersection-observer";
+import CountUp from "react-countup";
 const AboutOne = () => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
   return (
     <section className='py-120 drag-rotate-element-section'>
       <div className='container'>
@@ -8,7 +12,7 @@ const AboutOne = () => {
           <div className='row gy-4'>
             <div className='col-lg-6'>
               <div className='tw-pe-12 position-relative'>
-                <div className='row g-2'>
+                <div className='row g-2' ref={ref}>
                   <div
                     className='col-sm-6'
                     data-aos='fade-up'
@@ -20,7 +24,11 @@ const AboutOne = () => {
                         <span className='d-flex'>
                           <img src='assets/images/icons/arrow-up.svg' alt='' />
                         </span>
-                        88%
+                        {inView && (
+                          <span>
+                            <CountUp delay={0} start={0} end={88} />%
+                          </span>
+                        )}
                       </h3>
                       <p className='text-white tw-text-sm'>
                         Average revenue growth for per successful clients
@@ -45,7 +53,13 @@ const AboutOne = () => {
                         <i className='ph-bold ph-smiley' />
                       </span>
                       <div className=''>
-                        <h6 className=''>99.8%</h6>
+                        <h6 className=''>
+                          {inView && (
+                            <span>
+                              <CountUp delay={0} start={0} end={99} />%
+                            </span>
+                          )}
+                        </h6>
                         <p className='fw-medium tw-text-sm text-neutral-500'>
                           Client Satisfaction
                         </p>

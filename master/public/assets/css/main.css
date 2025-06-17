@@ -8309,5 +8309,124 @@ svg.radial-progress text {
   }
 }
 
+.mobile-menu {
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(-300px, 0px);
+  transition: all 0.4s linear;
+  &.active {
+    transform: translate(0px, 0px);
+  }
+}
+
+.side-overlay {
+  visibility: hidden;
+  opacity: 0;
+  &.active {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.has-submenu > button::before {
+  position: absolute;
+  content: "";
+  inset-inline-end: 0px;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  font-family: Phosphor;
+  font-weight: 900;
+  color: var(--neutral-400);
+  font-size: 12px;
+  transition: 0.2s linear;
+}
+.nav-menu--mobile .nav-menu__item > button::before {
+  transform: translateY(-50%) rotate(0deg);
+}
+.nav-menu__item.activePage > button::before {
+  color: var(--main-600);
+}
+.has-submenu.active > button::before {
+  transform: translateY(-50%) rotate(180deg) !important;
+}
+
+.cursor-outer {
+  -webkit-margin-start: -12px;
+  margin-inline-start: -12px;
+  margin-top: -12px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--neutral-950);
+  background-color: var(--neutral-200);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 10000000;
+  opacity: 0.34;
+  -webkit-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+.cursor-outer.cursor-hover {
+  opacity: 0.14;
+}
+.cursor-outer.cursor-big {
+  opacity: 0;
+}
+
+.mouseCursor {
+  position: fixed;
+  top: 0;
+  inset-inline-start: 0;
+  inset-inline-end: 0;
+  bottom: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+  text-align: center;
+}
+.mouseCursor.cursor-big {
+  width: 20px;
+  height: 20px;
+  -webkit-margin-start: -12px;
+  margin-inline-start: -12px;
+  margin-top: -12px;
+}
+
+.cursor-inner {
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+  margin-top: 0px;
+  width: 6px;
+  height: 6px;
+  z-index: 10000001;
+  background-color: var(--neutral-900);
+  opacity: 1;
+  -webkit-transition: all 0.24s ease-out 0s;
+  transition: all 0.24s ease-out 0s;
+}
+.cursor-inner span {
+  color: var(--neutral-200);
+  line-height: 60px;
+  opacity: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.cursor-inner.cursor-big span {
+  opacity: 1;
+}
+.cursor-inner.cursor-hover {
+  -webkit-margin-start: -10px;
+  margin-inline-start: -10px;
+  margin-top: -10px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #686363;
+  opacity: 0;
+}
+
 /* ========================================== Shop page css End ========================================== */
 /*# sourceMappingURL=main.css.map */

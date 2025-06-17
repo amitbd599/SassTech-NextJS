@@ -2,67 +2,67 @@
 
 import { useEffect, useRef } from "react";
 
-export default function CustomCursor() {
-  const ringRef = useRef(null); // the outer hollow circle
-  const dotRef = useRef(null); // the solid dot in the middle
-
+const CustomCursor = () => {
+  const cursorOuterRef = useRef(null);
+  const cursorInnerRef = useRef(null);
+  console.warn = () => {};
+  console.error = () => {};
   useEffect(() => {
-    if (!window) return; // SSR guard
+    const cursorOuter = cursorOuterRef.current;
+    const cursorInner = cursorInnerRef.current;
 
-    const ring = ringRef.current;
-    const dot = dotRef.current;
+    if (!cursorOuter || !cursorInner) return;
 
-    /* ----------------- Mouse move (position) ----------------- */
-    const move = ({ clientX: x, clientY: y }) => {
-      // translate3d keeps it on its own composite layer (no jank)
-      ring.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-      dot.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-    };
-    window.addEventListener("mousemove", move);
+    let mouseX = 0;
+    let mouseY = 0;
 
-    /* ------------ Hover effects for scale / visibility ------- */
-    // Any element you give className="cursor-small" or "cursor-big"
-    // will trigger the proper scaling.
-    const scaleOn = (scale) => () => {
-      dot.style.transform += ` scale(${scale})`; // combine with translate
-      ring.style.opacity = "0";
-    };
-    const scaleOff = () => {
-      // strip any existing scale() from the transform string
-      dot.style.transform = dot.style.transform.replace(/ scale\([^)]+\)/, "");
-      ring.style.opacity = "1";
+    const moveCursor = (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+
+      cursorInner.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+      cursorOuter.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
     };
 
-    const smallTargets = document.querySelectorAll(".cursor-small");
-    const bigTargets = document.querySelectorAll(".cursor-big");
+    const addHoverClass = () => {
+      cursorInner.classList.add("cursor-hover");
+      cursorOuter.classList.add("cursor-hover");
+    };
 
-    smallTargets.forEach((el) => {
-      el.addEventListener("mouseenter", scaleOn(16));
-      el.addEventListener("mouseleave", scaleOff);
-    });
-    bigTargets.forEach((el) => {
-      el.addEventListener("mouseenter", scaleOn(26));
-      el.addEventListener("mouseleave", scaleOff);
+    const removeHoverClass = () => {
+      cursorInner.classList.remove("cursor-hover");
+      cursorOuter.classList.remove("cursor-hover");
+    };
+
+    document.addEventListener("mousemove", moveCursor);
+
+    const hoverElements = document.querySelectorAll(
+      "a, button, .cursor-pointer"
+    );
+    hoverElements.forEach((el) => {
+      el.addEventListener("mouseenter", addHoverClass);
+      el.addEventListener("mouseleave", removeHoverClass);
     });
 
-    /* ---------------------- cleanup -------------------------- */
+    // Make cursors visible
+    cursorInner.style.visibility = "visible";
+    cursorOuter.style.visibility = "visible";
+
     return () => {
-      window.removeEventListener("mousemove", move);
-      smallTargets.forEach((el) => {
-        el.removeEventListener("mouseenter", scaleOn);
-        el.removeEventListener("mouseleave", scaleOff);
-      });
-      bigTargets.forEach((el) => {
-        el.removeEventListener("mouseenter", scaleOn);
-        el.removeEventListener("mouseleave", scaleOff);
+      document.removeEventListener("mousemove", moveCursor);
+      hoverElements.forEach((el) => {
+        el.removeEventListener("mouseenter", addHoverClass);
+        el.removeEventListener("mouseleave", removeHoverClass);
       });
     };
   }, []);
 
   return (
     <>
-      <div ref={ringRef} className='cursor' />
-      <div ref={dotRef} className='dot' />
+      <div ref={cursorOuterRef} className='mouseCursor cursor-outer'></div>
+      <div ref={cursorInnerRef} className='mouseCursor cursor-inner'></div>
     </>
   );
-}
+};
+
+export default CustomCursor;
