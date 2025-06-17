@@ -1,6 +1,11 @@
-import React from "react";
-
+"use client";
+import { useInView } from "react-intersection-observer";
+import CountUp from "react-countup";
 const BannerOne = () => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
   return (
     <section className='banner tw-py-80-px overflow-hidden section-bg-three position-relative'>
       <img
@@ -69,10 +74,13 @@ const BannerOne = () => {
                         />
                       </div>
                     </div>
-                    <span className='h5 counter'>2.3M+</span>
+                    <span className='h5 counter'>
+                      <CountUp delay={0} start={0} end={3} />
+                      M+
+                    </span>
                   </div>
                   <p className='fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter'>
-                    5000+ Client reviews
+                    <CountUp delay={0} start={0} end={5000} />+ Client reviews
                   </p>
                 </div>
               </div>
@@ -117,7 +125,9 @@ const BannerOne = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={900}
               >
-                <h2 className='text-white counter'>8+</h2>
+                <h2 className='text-white counter'>
+                  $<CountUp delay={0} start={0} end={8} />+
+                </h2>
                 <span className='text-white'>Years Experience</span>
               </div>
               {/* Experience */}
@@ -145,7 +155,10 @@ const BannerOne = () => {
                       <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
                         Revenue
                       </span>
-                      <h5 className='tw-mb-6 counter'>$4820.00</h5>
+                      <h5 className='tw-mb-6 counter'>
+                        $<CountUp delay={0} start={0} end={4820} />
+                        .00
+                      </h5>
                     </div>
                     <div
                       className='tab-pane fade'
@@ -157,7 +170,10 @@ const BannerOne = () => {
                       <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
                         Revenue
                       </span>
-                      <h5 className='tw-mb-6 counter'>$2445.00</h5>
+                      <h5 className='tw-mb-6 counter'>
+                        $<CountUp delay={0} start={0} end={2445} />
+                        .00
+                      </h5>
                     </div>
                     <div
                       className='tab-pane fade'
@@ -169,7 +185,10 @@ const BannerOne = () => {
                       <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
                         Revenue
                       </span>
-                      <h5 className='tw-mb-6 counter'>$8221.00</h5>
+                      <h5 className='tw-mb-6 counter'>
+                        $<CountUp delay={0} start={0} end={8221} />
+                        .00
+                      </h5>
                     </div>
                   </div>
                   <ul

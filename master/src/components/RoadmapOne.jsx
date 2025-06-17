@@ -2,7 +2,7 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 const RoadmapOne = () => {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0,
   });
   return (
