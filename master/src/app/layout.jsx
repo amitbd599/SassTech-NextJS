@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
         <link rel='stylesheet' href='/assets/css/bootstrap.min.css' />
         <link rel='stylesheet' href='/assets/css/aos.css' />
         <link rel='stylesheet' href='/assets/css/satoshi.css' />
+        {/* <link rel='stylesheet' href='/assets/css/swiper-bundle.min.css' /> */}
         <link rel='stylesheet' href='/assets/css/main.css' />
       </head>
       <body suppressHydrationWarning={true}>

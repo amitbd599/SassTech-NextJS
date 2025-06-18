@@ -68,18 +68,6 @@ const HeaderTwo = () => {
   /* which top‑level submenu is open?  -1 = none */
   const [openIndex, setOpenIndex] = useState(-1);
 
-  /* which file is currently active? */
-  const [activeFile, setActiveFile] = useState("/" + pathname);
-
-  /* grab the filename from the URL exactly once */
-  // useEffect(() => {
-  //   let file = window.location.pathname.split("/").pop();
-  //   if (file === "" || file === "/") file = "/";
-  //   setActiveFile(file);
-  // }, []);
-
-  console.log(pathname);
-
   /* helper */
   const itemIsActive = (item) =>
     item.href === pathname ||
@@ -173,23 +161,23 @@ const HeaderTwo = () => {
               {/* Header Right start */}
               <div className='d-flex align-items-center tw-gap-6'>
                 <div className='d-flex align-items-center tw-gap-6'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='d-flex align-items-center tw-gap-105 d-xl-flex d-none text-heading hover-text-main-600'
                   >
                     <span className='tw-text-base text-main-600 d-flex tw-leading-none'>
                       <i className='ph-bold ph-user' />
                     </span>
                     <span className='fw-semibold tw-text-sm '>Sign in</span>
-                  </a>
-                  <a
-                    href='register.html'
+                  </Link>
+                  <Link
+                    href='/register'
                     className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-xxl-5 px-xl-4 px-3 tw-py-405 fw-medium rounded-pill btn-main hover-style-one '
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
                 <button
                   onClick={handleMobileMenu}

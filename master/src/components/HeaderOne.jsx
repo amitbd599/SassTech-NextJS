@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const HeaderOne = () => {
+  let pathname = usePathname();
   const [scroll, setScroll] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
   useEffect(() => {
@@ -66,20 +68,10 @@ const HeaderOne = () => {
   /* which top‑level submenu is open?  -1 = none */
   const [openIndex, setOpenIndex] = useState(-1);
 
-  /* which file is currently active? */
-  const [activeFile, setActiveFile] = useState("index.html");
-
-  /* grab the filename from the URL exactly once */
-  useEffect(() => {
-    let file = window.location.pathname.split("/").pop();
-    if (file === "" || file === "/") file = "/";
-    setActiveFile(file);
-  }, []);
-
   /* helper */
   const itemIsActive = (item) =>
-    item.href === activeFile ||
-    (item.children && item.children.some((child) => child.href === activeFile));
+    item.href === pathname ||
+    (item.children && item.children.some((child) => child.href === pathname));
 
   return (
     <>
@@ -112,7 +104,7 @@ const HeaderOne = () => {
               {/* Nav menu Start */}
               <ul className='nav-menu d-lg-flex align-items-center tw-gap-14'>
                 {MENU.map((item) => {
-                  const active = itemIsActive(item, activeFile);
+                  const active = itemIsActive(item, pathname);
 
                   return (
                     <li
@@ -144,7 +136,7 @@ const HeaderOne = () => {
                             <li
                               key={sub.href}
                               className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
-                                sub.href === activeFile ? "activePage" : ""
+                                sub.href === pathname ? "activePage" : ""
                               }`}
                             >
                               <Link
@@ -247,7 +239,7 @@ const HeaderOne = () => {
                             <li
                               key={sub.href}
                               className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
-                                sub.href === activeFile ? "activePage" : ""
+                                sub.href === pathname ? "activePage" : ""
                               }`}
                             >
                               <Link
