@@ -1,5 +1,4 @@
 "use client";
-import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 const BannerOne = () => {
   return (

@@ -292,6 +292,7 @@
   --neutral-800: #1f2937;
   --neutral-900: #111827;
   --neutral-950: #030712;
+  --bg-main-green: #06766e;
   --font-xs: 0.75rem;
   --font-sm: 0.875rem;
   --font-base: 1rem;
@@ -8301,6 +8302,7 @@ svg.radial-progress text {
 }
 
 .show-case-slider,
+.plan-execute-slider.one,
 .service-slider.one {
   .slick-slide {
     padding: 0 12px;
@@ -8325,6 +8327,28 @@ svg.radial-progress text {
     border-radius: 100px;
     width: 10px;
     height: 10px;
+    &::before {
+      display: none;
+    }
+  }
+  .slick-dots {
+    bottom: -50px;
+  }
+}
+.plan-execute-slider.one {
+  .slick-dots li button {
+    background: #fff;
+    box-shadow: 0px 4px 8px 0px #00000047 !important;
+    border-radius: 100px;
+    width: 14px;
+    height: 14px;
+    &::before {
+      display: none;
+    }
+  }
+  .slick-dots li.slick-active button {
+    background: linear-gradient(270deg, #06766e 0%, #20ba8b 100%);
+
     &::before {
       display: none;
     }
@@ -8486,6 +8510,26 @@ svg.radial-progress text {
 .active-text-white .nav-link.active {
   color: hsl(var(--white)) !important;
   background-color: var(--bs-nav-pills-link-active-bg) !important;
+}
+.header.three {
+  .nav-menu__item > a {
+    color: #fff !important;
+  }
+  .nav-menu__item > a::before {
+    color: #fff !important;
+  }
+  .nav-menu__item.activePage > a {
+    color: #fff !important;
+  }
+  .nav-menu__item.activePage > a::before {
+    color: #fff !important;
+  }
+  .nav-submenu__item.activePage .nav-submenu__link {
+    color: #06766e !important;
+  }
+}
+.gradient-bg-80-percent::before {
+  height: 126%;
 }
 
 /* ========================================== Shop page css End ========================================== */

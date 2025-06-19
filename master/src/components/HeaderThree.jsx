@@ -77,7 +77,7 @@ const HeaderThree = () => {
       <div className='overlay'></div>
       <div className={`side-overlay ${mobileMenu && "active"}`}></div>
       <header
-        className={`header py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-8 position-absolute ${
+        className={`header three py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-8 position-absolute ${
           scroll && "fixed-header"
         }`}
       >
