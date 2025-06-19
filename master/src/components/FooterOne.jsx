@@ -316,7 +316,7 @@ const FooterOne = () => {
           <div className='container container-two'>
             <div className='d-flex align-items-center justify-content-between tw-gap-4 flex-wrap'>
               <p className='text--white text-line-1 fw-normal'>
-                © 2025{" "}
+                © {new Date().getFullYear()}{" "}
                 <a
                   href='https://themeforest.net/user/wowtheme7'
                   className='fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9'

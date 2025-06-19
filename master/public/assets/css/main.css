@@ -8300,12 +8300,37 @@ svg.radial-progress text {
   stroke-dashoffset: 48.3805px !important;
 }
 
-.show-case-slider {
+.show-case-slider,
+.service-slider.one {
   .slick-slide {
     padding: 0 12px;
   }
   .slick-list {
     margin: 0 -12px;
+  }
+}
+
+.service-slider.one {
+  .slick-dots li button {
+    background: #ffffff;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    &::before {
+      display: none;
+    }
+  }
+  .slick-dots li.slick-active button {
+    background: #1e53f1;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    &::before {
+      display: none;
+    }
+  }
+  .slick-dots {
+    bottom: -50px;
   }
 }
 
@@ -8456,6 +8481,11 @@ svg.radial-progress text {
   .hosting-plan-slider .swiper-slide {
     border-inline-end: 1px solid var(--neutral-100);
   }
+}
+
+.active-text-white .nav-link.active {
+  color: hsl(var(--white)) !important;
+  background-color: var(--bs-nav-pills-link-active-bg) !important;
 }
 
 /* ========================================== Shop page css End ========================================== */

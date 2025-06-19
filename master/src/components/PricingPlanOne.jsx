@@ -35,7 +35,6 @@ const PricingPlanOne = () => {
               id='pills-tabTwo'
               role='tablist'
             >
-              <li className='background style-two' />
               <li className='nav-item flex-grow-1' role='presentation'>
                 <button
                   className='nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1 active'
