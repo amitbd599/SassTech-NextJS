@@ -8541,6 +8541,10 @@ svg.radial-progress text {
   .nav-submenu__item.activePage .nav-submenu__link {
     color: #ffb114 !important;
   }
+  .btn-main {
+    color: var(--heading-color) !important;
+    background-color: var(--main-600) !important;
+  }
 }
 
 /* ========================================== Shop page css End ========================================== */

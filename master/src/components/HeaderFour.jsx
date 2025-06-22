@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const HeaderOne = () => {
+const HeaderFour = () => {
   let pathname = usePathname();
   const [scroll, setScroll] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
@@ -78,106 +78,116 @@ const HeaderOne = () => {
       <div className='overlay'></div>
       <div className={`side-overlay ${mobileMenu && "active"}`}></div>
       <header
-        className={`header bg-white transition-all ${
+        className={`header home-two-header py-0 top-0 tw-start-0 tw-end-0 w-100 tw-z-99 tw-mt-13 position-absolute ${
           scroll && "fixed-header"
-        } `}
+        }`}
       >
-        <div className='container container-two'>
-          <nav className='d-flex align-items-center justify-content-between'>
-            {/* Logo Start */}
-            <div className='logo'>
-              <Link
-                href='/'
-                className='link hover--translate-y-1 active--translate-y-scale-9'
-              >
-                <img
-                  src='assets/images/logo/logo.png'
-                  alt='Logo'
-                  className='max-w-200-px'
-                />
-              </Link>
-            </div>
-            {/* Logo End  */}
-            {/* Menu Start  */}
+        <div className='container'>
+          <div className='header-box-inner py-2 py-lg-0 tw-gap-4 tw-lg-ps-12 ps-4 tw-pe-705 bg-white transition-all tw-rounded-lg'>
+            <nav className='d-flex align-items-center justify-content-between'>
+              {/* Logo Start */}
+              <div className='logo'>
+                <Link
+                  href='/'
+                  className='link hover--translate-y-1 active--translate-y-scale-9'
+                >
+                  <img
+                    src='assets/images/logo/logo-four.png'
+                    alt='Logo'
+                    className='max-w-200-px'
+                  />
+                </Link>
+              </div>
+              {/* Logo End  */}
+              {/* Menu Start  */}
+              <div className='header-menu d-lg-block d-none'>
+                {/* Nav menu Start */}
+                <ul className='nav-menu d-lg-flex align-items-center tw-gap-14'>
+                  {MENU.map((item) => {
+                    const active = itemIsActive(item, pathname);
 
-            <div className='header-menu d-lg-block d-none'>
-              {/* Nav menu Start */}
-              <ul className='nav-menu d-lg-flex align-items-center tw-gap-7'>
-                {MENU.map((item) => {
-                  const active = itemIsActive(item, pathname);
+                    return (
+                      <li
+                        key={item.label}
+                        className={`nav-menu__item ${
+                          item.children ? "has-submenu position-relative" : ""
+                        } ${active ? "activePage" : ""}`}
+                      >
+                        {item.children ? (
+                          <Link
+                            href='#'
+                            className='nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100'
+                          >
+                            {item.label}
+                          </Link>
+                        ) : (
+                          <Link
+                            href={item.href}
+                            className='nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100'
+                          >
+                            {item.label}
+                          </Link>
+                        )}
 
-                  return (
-                    <li
-                      key={item.label}
-                      className={`nav-menu__item ${
-                        item.children
-                          ? "nav-menu__item has-submenu position-relative"
-                          : ""
-                      } ${active ? "activePage" : ""}`}
-                    >
-                      {item.children ? (
-                        <Link
-                          href='#'
-                          className='nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100'
-                        >
-                          {item.label}
-                        </Link>
-                      ) : (
-                        <Link
-                          href={item.href}
-                          className='nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100'
-                        >
-                          {item.label}
-                        </Link>
-                      )}
-
-                      {/* Sub‑menu */}
-                      {item.children && (
-                        <ul className='nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99'>
-                          {item.children.map((sub) => (
-                            <li
-                              key={sub.href}
-                              className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
-                                sub.href === pathname ? "activePage" : ""
-                              }`}
-                            >
-                              <Link
-                                href={sub.href}
-                                className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
+                        {/* Sub‑menu */}
+                        {item.children && (
+                          <ul className='nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99'>
+                            {item.children.map((sub) => (
+                              <li
+                                key={sub.href}
+                                className={`nav-submenu__item d-block tw-rounded tw-duration-200 position-relative ${
+                                  sub.href === pathname ? "activePage" : ""
+                                }`}
                               >
-                                {sub.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  );
-                })}
-              </ul>
-              {/* Nav menu End */}
-            </div>
-            {/* Menu End  */}
-            {/* Header Right start */}
-            <div className='d-flex align-items-center tw-gap-6'>
-              <Link
-                href='/register'
-                className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4 fw-semibold'
-                data-block='button'
-              >
-                <span className='button__flair' />
-                <span className='button__label'>Sign Up Now</span>
-              </Link>
-              <button
-                onClick={handleMobileMenu}
-                type='button'
-                className='toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9'
-              >
-                <i className='ph ph-list' />
-              </button>
-            </div>
-            {/* Header Right End  */}
-          </nav>
+                                <Link
+                                  href={sub.href}
+                                  className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
+                                >
+                                  {sub.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+                {/* Nav menu End  */}
+              </div>
+              {/* Menu End  */}
+              {/* Header Right start */}
+              <div className='d-flex align-items-center tw-gap-6'>
+                <div className='d-flex align-items-center tw-gap-6'>
+                  <Link
+                    href='/login'
+                    className='d-flex align-items-center tw-gap-105 d-xl-flex d-none text-heading hover-text-main-600'
+                  >
+                    <span className='tw-text-base text-main-600 d-flex tw-leading-none'>
+                      <i className='ph-bold ph-user' />
+                    </span>
+                    <span className='fw-semibold tw-text-sm '>Sign in</span>
+                  </Link>
+                  <Link
+                    href='/register'
+                    className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-xxl-5 px-xl-4 px-3 tw-py-405 fw-medium rounded-pill btn-main hover-style-one common-shadow-inset-one'
+                    data-block='button'
+                  >
+                    <span className='button__flair' />
+                    <span className='button__label'>Get Started</span>
+                  </Link>
+                </div>
+                <button
+                  onClick={handleMobileMenu}
+                  type='button'
+                  className='toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9'
+                >
+                  <i className='ph ph-list' />
+                </button>
+              </div>
+              {/* Header Right End  */}
+            </nav>
+          </div>
         </div>
       </header>
 
@@ -274,4 +284,4 @@ const HeaderOne = () => {
   );
 };
 
-export default HeaderOne;
+export default HeaderFour;
