@@ -236,26 +236,6 @@
 }
 
 .home-crm {
-  h1,
-  .h1,
-  h2,
-  .h2,
-  h3,
-  .h3,
-  h4,
-  .h4,
-  h5,
-  .h5,
-  h6,
-  .h6 {
-    color: var(--heading-color);
-    font-family: "Montserrat Alternates", sans-serif;
-  }
-
-  .font-caveat {
-    font-family: "Caveat", cursive;
-  }
-
   .header-menu {
     .nav-menu__item.activePage > a {
       color: #ffb114 !important;
@@ -294,5 +274,35 @@
   }
   .banner_four_btn_outline.btn-orange-outline:hover {
     background-color: #ffb114 !important;
+  }
+  .text-white {
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  }
+  .hover-style-two:hover {
+    color: var(--white) !important;
+    background-color: #ffb114 !important;
+  }
+  .hover-style-five:hover,
+  .hover-style-five:active {
+    color: var(--main-two-600) !important;
+    background-color: #ffb114 !important;
+  }
+}
+
+.button--stroke .button__label {
+  transition: none;
+}
+
+.testimonials-four {
+  .testimonials-four-slider {
+    .slick-slide.slick-active.slick-current {
+      .animate-left-right {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+        transition: 0.2s linear;
+        transition-delay: 200ms;
+      }
+    }
   }
 }

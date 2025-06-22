@@ -1,8 +1,15 @@
+import AboutFour from "@/components/AboutFour";
 import AboutThree from "@/components/AboutThree";
 import BannerFour from "@/components/BannerFour";
 import BrandFour from "@/components/BrandFour";
+import CounterUpOne from "@/components/CounterUpOne";
+import CRMOne from "@/components/CRMOne";
+import DrivenSectionOne from "@/components/DrivenSectionOne";
 import FeaturesFour from "@/components/FeaturesFour";
+import FooterFour from "@/components/FooterFour";
 import HeaderFour from "@/components/HeaderFour";
+import IntegrateAppsOne from "@/components/IntegrateAppsOne";
+import TestimonialsFour from "@/components/TestimonialsFour";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
@@ -33,6 +40,27 @@ const page = () => {
 
         {/* FeaturesFour */}
         <FeaturesFour />
+
+        {/* AboutFour */}
+        <AboutFour />
+
+        {/* CRMOne */}
+        <CRMOne />
+
+        {/* TestimonialsFour */}
+        <TestimonialsFour />
+
+        {/* IntegrateAppsOne */}
+        <IntegrateAppsOne />
+
+        {/* CounterUpOne */}
+        <CounterUpOne />
+
+        {/* DrivenSectionOne */}
+        <DrivenSectionOne />
+
+        {/* FooterFour */}
+        <FooterFour />
       </section>
     </AOSWrap>
   );

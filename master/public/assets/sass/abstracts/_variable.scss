@@ -1,32 +1,124 @@
 /* Font Family*/
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Vidaloka&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Vidaloka&display=swap");
 
 $colors: (
   "main": (
-    "50": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.9)),
-    "100": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.8)),
-    "200": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.7)),
-    "300": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.6)),
-    "400": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.5)),
-    "500": hsl(var(--main-h), var(--main-s), calc(var(--main-l) + (100% - var(--main-l)) * 0.4)),
-    "600": hsl(var(--main-h), var(--main-s), var(--main-l)), // main theme color
-    "700": hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.1)),
-    "800": hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.2)),
-    "900": hsl(var(--main-h), var(--main-s), calc(var(--main-l) - var(--main-l) * 0.3))
+    "50":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.9)
+      ),
+    "100":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.8)
+      ),
+    "200":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.7)
+      ),
+    "300":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.6)
+      ),
+    "400":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.5)
+      ),
+    "500":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) + (100% - var(--main-l)) * 0.4)
+      ),
+    "600": hsl(var(--main-h), var(--main-s), var(--main-l)),
+    // main theme color
+    "700":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) - var(--main-l) * 0.1)
+      ),
+    "800":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) - var(--main-l) * 0.2)
+      ),
+    "900":
+      hsl(
+        var(--main-h),
+        var(--main-s),
+        calc(var(--main-l) - var(--main-l) * 0.3)
+      ),
   ),
   "main-two": (
-    "50": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.9)),
-    "100": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.8)),
-    "200": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.7)),
-    "300": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.6)),
-    "400": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.5)),
-    "500": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.4)),
-    "600": hsl(var(--main-two-h), var(--main-two-s), var(--main-two-l)), // main-two theme color
-    "700": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.1)),
-    "800": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.2)),
-    "900": hsl(var(--main-two-h), var(--main-two-s), calc(var(--main-two-l) - var(--main-two-l) * 0.3))
+    "50":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.9)
+      ),
+    "100":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.8)
+      ),
+    "200":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.7)
+      ),
+    "300":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.6)
+      ),
+    "400":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.5)
+      ),
+    "500":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) + (100% - var(--main-two-l)) * 0.4)
+      ),
+    "600": hsl(var(--main-two-h), var(--main-two-s), var(--main-two-l)),
+    // main-two theme color
+    "700":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) - var(--main-two-l) * 0.1)
+      ),
+    "800":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) - var(--main-two-l) * 0.2)
+      ),
+    "900":
+      hsl(
+        var(--main-two-h),
+        var(--main-two-s),
+        calc(var(--main-two-l) - var(--main-two-l) * 0.3)
+      ),
   ),
-  
+
   "neutral": (
     "50": #f9fafb,
     "100": #f3f4f6,
@@ -44,7 +136,7 @@ $colors: (
 
 // Space
 $spaces: (
-  "05": #{rem(2px)}, 
+  "05": #{rem(2px)},
   "1": #{rem(4px)},
   "105": #{rem(6px)},
   "2": #{rem(8px)},
@@ -82,18 +174,42 @@ $font-sizes: (
 );
 
 /* ========================= Variable Css Start ======================== */
-:root {    
+:root {
   /* Font Family Variable */
   --heading-font: "Satoshi", sans-serif;
   --body-font: "Satoshi", sans-serif;
-  
+
   /* Font Size Variable Start */
-  --heading-one: clamp(2.125rem, -0.0733rem + 5.5vw, 4.4375rem); // Min:34px - Max: 72px
-  --heading-two: clamp(1.875rem, 0.7133rem + 2.8846vw, 3.75rem); // Min: 30px - Max: 60px
-  --heading-three: clamp(1.75rem, 0.3353rem + 2.1661vw, 3rem); // Min: 28px - Max: 48px
-  --heading-four: clamp(1.5rem, 0.5569rem + 1.444vw, 1.875rem); // Min: 24px - Max: 30px
-  --heading-five: clamp(1.125rem, 1.2rem + 0.722vw, 1.5rem); // Min: 18px - Max: 24px
-  --heading-six: clamp(1rem, 0.769rem + 0.6813vw, 1.25rem); // Min: 16px - Max-20px
+  --heading-one: clamp(
+    2.125rem,
+    -0.0733rem + 5.5vw,
+    4.4375rem
+  ); // Min:34px - Max: 72px
+  --heading-two: clamp(
+    1.875rem,
+    0.7133rem + 2.8846vw,
+    3.75rem
+  ); // Min: 30px - Max: 60px
+  --heading-three: clamp(
+    1.75rem,
+    0.3353rem + 2.1661vw,
+    3rem
+  ); // Min: 28px - Max: 48px
+  --heading-four: clamp(
+    1.5rem,
+    0.5569rem + 1.444vw,
+    1.875rem
+  ); // Min: 24px - Max: 30px
+  --heading-five: clamp(
+    1.125rem,
+    1.2rem + 0.722vw,
+    1.5rem
+  ); // Min: 18px - Max: 24px
+  --heading-six: clamp(
+    1rem,
+    0.769rem + 0.6813vw,
+    1.25rem
+  ); // Min: 16px - Max-20px
   /* Font Size End */
 
   /* template main color */
@@ -115,7 +231,8 @@ $font-sizes: (
   --spring-green-h: 144;
   --spring-green-s: 80%;
   --spring-green-l: 55%;
-  --spring-green: var(--spring-green-h) var(--spring-green-s) var(--spring-green-l);
+  --spring-green: var(--spring-green-h) var(--spring-green-s)
+    var(--spring-green-l);
 
   --app-landing-h: 184;
   --app-landing-s: 84%;
@@ -127,18 +244,197 @@ $font-sizes: (
   --black: 249 63% 15%;
   --body: 0 0% 43%;
   --orange: 18 100% 55%;
-  
-  --heading-color: var(--black);
-  --blue-color: #1351D8;
 
-  --translate-x-50: translateX(-50%); 
-  --translate-y-50: translateY(-50%); 
-    
+  --heading-color: var(--black);
+  --blue-color: #1351d8;
+
+  --translate-x-50: translateX(-50%);
+  --translate-y-50: translateY(-50%);
+
+  // home two
+  --urbanist_home-two: "Urbanist", serif;
+  --dm-serif_home-two: "DM Serif Display", serif;
+
+  --heading-one_home-two: clamp(
+    2.125rem,
+    -0.0733rem + 5.5vw,
+    4.375rem
+  ); // Min:34px - Max: 70px
+  --heading-two_home-two: clamp(
+    1.875rem,
+    0.7133rem + 2.8846vw,
+    3.125rem
+  ); // Min: 30px - Max: 50px
+  --heading-three_home-two: clamp(
+    1.75rem,
+    0.3353rem + 2.1661vw,
+    1.875rem
+  ); // Min: 28px - Max: 36px
+  --heading-four_home-two: clamp(
+    1.5rem,
+    0.5569rem + 1.444vw,
+    1.875rem
+  ); // Min: 24px - Max: 30px
+  --heading-five_home-two: clamp(
+    1.125rem,
+    1.2rem + 0.722vw,
+    1.5rem
+  ); // Min: 18px - Max: 24px
+  --heading-six_home-two: clamp(
+    1rem,
+    0.769rem + 0.6813vw,
+    1.25rem
+  ); // Min: 16px - Max-20px
+
+  --purple-h_home-two: 255;
+  --purple-s_home-two: 77%;
+  --purple-l-home-two: 57%;
+  --purple-home-two: var(--purple-h_home-two) var(--purple-s_home-two)
+    var(--purple-l-home-two);
+
+  --heading-color_home-two: #150e3d;
+
+  // Home 3
+  --heading-one_home-three: clamp(
+    2.125rem,
+    -0.0733rem + 5.5vw,
+    4.4375rem
+  ); // Min:34px - Max: 72px
+  --heading-two_home-three: clamp(
+    2rem,
+    0.3353rem + 2.1661vw,
+    3.5rem
+  ); // Min: 32px - Max: 56px
+  --heading-three_home-three: clamp(
+    1.875rem,
+    0.7133rem + 2.8846vw,
+    3.125rem
+  ); // Min: 30px - Max: 50px
+  --heading-four_home-three: clamp(
+    1.5rem,
+    0.5569rem + 1.444vw,
+    1.875rem
+  ); // Min: 24px - Max: 30px
+  --heading-five_home-three: clamp(
+    1.125rem,
+    1.2rem + 0.722vw,
+    1.5rem
+  ); // Min: 18px - Max: 24px
+  --heading-six_home-three: clamp(
+    1rem,
+    0.769rem + 0.6813vw,
+    1.25rem
+  ); // Min: 16px - Max-20px
+
+  --heading-color_home-three: #000000;
+  --bg-main-green_home-three: #06766e;
+
+  // home crm
+  --heading-one_home-crm: clamp(
+    2.25rem,
+    -0.0733rem + 5.5vw,
+    5.625rem
+  ); // Min:36px - Max: 90px
+  --heading-two_home-crm: clamp(
+    2rem,
+    0.3353rem + 2.1661vw,
+    3.5rem
+  ); // Min: 32px - Max: 56px
+  --heading-three_home-crm: clamp(
+    1.5rem,
+    0.7133rem + 2.8846vw,
+    1.75rem
+  ); // Min: 24px - Max: 28px
+  --heading-four_home-crm: clamp(
+    1.25rem,
+    1.2rem + 0.722vw,
+    1.5rem
+  ); // Min: 20px - Max: 24px
+  --heading-five_home-crm: clamp(
+    1.125rem,
+    0.769rem + 0.6813vw,
+    1.25rem
+  ); // Min: 18px - Max-20px
+  --heading-six_home-crm: clamp(
+    1rem,
+    0.769rem + 0.6813vw,
+    1.125rem
+  ); // Min: 16px - Max-18px
+
+  /* template main color */
+  --main-h_home-crm: 40;
+  --main-s_home-crm: 100%;
+  --main-l_home-crm: 54%;
+  --main_home-crm: var(--main-h_home-crm) var(--main-s_home-crm)
+    var(--main-l_home-crm);
+
+  /* template main two color */
+  --main-two-h_home-crm: 205;
+  --main-two-s_home-crm: 75%;
+  --main-two-l_home-crm: 11%;
+  --main-two_home-crm: var(--main-two-h_home-crm) var(--main-two-s_home-crm)
+    var(--main-two-l_home-crm);
+
+  --heading-color_home-crm: #072032;
+  --crm-color_home-crm: #256bfe;
+  --blue-color_home-crm: #1351d8;
+
+  --font-caveat_home-crm: "Caveat", cursive;
+  --font-montserrat-alternates_home-crm: "Montserrat Alternates", sans-serif;
+
+  // home five
+  --heading-one_home-five: clamp(
+    2.125rem,
+    -0.0733rem + 5.5vw,
+    4.375rem
+  ); // Min:34px - Max: 70px
+  --heading-two_home-five: clamp(
+    2rem,
+    0.3353rem + 2.1661vw,
+    3.5rem
+  ); // Min: 32px - Max: 56px
+  --heading-three_home-five: clamp(
+    1.5rem,
+    0.7133rem + 2.8846vw,
+    1.75rem
+  ); // Min: 24px - Max: 28px
+  --heading-four_home-five: clamp(
+    1.25rem,
+    1.2rem + 0.722vw,
+    1.5rem
+  ); // Min: 20px - Max: 24px
+  --heading-five_home-five: clamp(
+    1.125rem,
+    0.769rem + 0.6813vw,
+    1.25rem
+  ); // Min: 18px - Max-20px
+  --heading-six_home-five: clamp(
+    1rem,
+    0.769rem + 0.6813vw,
+    1.125rem
+  ); // Min: 16px - Max-18px
+
+  /* template main color */
+  --main-h_home-five: 184;
+  --main-s_home-five: 84%;
+  --main-l_home-five: 30%;
+  --main_home-five: var(--main-h_home-five) var(--main-s_home-five)
+    var(--main-l_home-five);
+
+  /* template main two color */
+  --main-two-h_home-five: 205;
+  --main-two-s_home-five: 75%;
+  --main-two-l_home-five: 11%;
+  --main-two_home-five: var(--main-two-h_home-five) var(--main-two-s_home-five)
+    var(--main-two-l_home-five);
+
+  --heading-color_home-five: #072032;
+
   // spacing
   @each $property, $value in $spaces {
     --size-#{$property}: #{$value};
   }
-  
+
   // Colors
   @each $color, $shades in $colors {
     @each $shade, $value in $shades {
@@ -149,6 +445,6 @@ $font-sizes: (
   // font sizes
   @each $property, $value in $font-sizes {
     --font-#{$property}: #{$value};
-  }  
+  }
 }
 /* ========================= Variable Css End ======================== */
