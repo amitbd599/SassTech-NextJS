@@ -97,8 +97,11 @@
   .bg-main-three {
     background-color: var(--bg-main-green);
   }
+  .bg-main-600 {
+    background-color: var(--main-600_home-five) !important;
+  }
   .btn-main {
-    background: var(--main-600);
+    background: var(--main-600_home-five);
     &-two {
       background-color: var(--main-two-600) !important;
       color: hsl(var(--white)) !important;
@@ -111,7 +114,7 @@
 
   .hover-style-two {
     .button__flair::before {
-      background: var(--main-600);
+      background: var(--main-600_home-five);
     }
   }
   .hover-style-one {

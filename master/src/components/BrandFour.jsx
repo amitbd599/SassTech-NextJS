@@ -51,7 +51,7 @@ const BrandFour = () => {
         >
           <h4 className='mb-0 fw-bold line-clamp-1 font-caveat'>
             Loved by next-gen B2B <span className='text-orange'>SaaS</span>{" "}
-            compnaies.....
+            companies.....
           </h4>
         </div>
         <div className='brand-three-slider swiper left-right-gradient gradient-width-200 position-relative'>
