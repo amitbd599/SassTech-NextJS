@@ -1,0 +1,28 @@
+import React from "react";
+
+const Breadcrumb = () => {
+  return (
+    <section className='breadcrumb section-bg-two mb-0'>
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-lg-8'>
+            <div className='text-center'>
+              <span className='tw-mb-4'>
+                <img
+                  src='assets/images/logo/favicon-two.png'
+                  alt='Favicon Two'
+                />
+              </span>
+              <h1 className='mb-0 splitTextStyleOne text-capitalize'>
+                {" "}
+                Pricing Package
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Breadcrumb;

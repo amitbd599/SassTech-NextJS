@@ -384,3 +384,16 @@
     }
   }
 }
+
+.breadcrumb {
+  -webkit-padding-before: 170px;
+  padding-block-start: 170px;
+  -webkit-padding-after: 170px;
+  padding-block-end: 170px;
+}
+
+.hover-style-three:hover,
+.hover-style-three:active {
+  color: var(--main-two-600) !important;
+  background: #fff !important;
+}
