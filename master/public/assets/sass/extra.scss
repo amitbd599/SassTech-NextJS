@@ -414,3 +414,7 @@
   .accordion-button[aria-expanded="true"]::before {
   border-color: #1351d8 !important;
 }
+
+.color-picker__color.active {
+  transform: scale(2);
+}
