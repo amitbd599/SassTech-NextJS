@@ -38,7 +38,7 @@ const RoadmapOne = () => {
                   <div className='tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap'>
                     <a
                       href='register.html'
-                      className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
+                      className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}
@@ -220,11 +220,10 @@ const RoadmapOne = () => {
         {/* Global Increase Start */}
         <div className='pt-120'>
           <h3 className='splitTextStyleOne fw-light tw-leading-104 tw-mb-14 text-center'>
-            <span className='d-inline-block '>We Makes Globally</span>
+            <span className='d-inline-block '>We Makes Globally</span>{" "}
             <span className='d-inline-block fw-semibold'>
-              {"  "}
               Growth &amp; Increase{" "}
-            </span>
+            </span>{" "}
             <span className='d-inline-block '> Revenue</span>
           </h3>
           <div className='d-flex flex-wrap justify-content-center' ref={ref}>

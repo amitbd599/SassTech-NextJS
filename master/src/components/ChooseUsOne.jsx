@@ -37,9 +37,8 @@ const ChooseUsOne = () => {
               <div className='max-w-672-px'>
                 <h3 className='fw-light tw-leading-104 cursor-big tw-mb-9 d-flex gap-2'>
                   <span className='splitTextStyleOne d-inline-block fw-medium'>
-                    <span className='fw-semibold'>SassTech</span>
-                    makes you a better elevating your team's wellness optimizing
-                    Business
+                    <span className='fw-semibold'>SassTech</span> makes you a
+                    better elevating your team's wellness optimizing Business{" "}
                     <span className='fw-semibold'> Growth.</span>
                   </span>
                 </h3>

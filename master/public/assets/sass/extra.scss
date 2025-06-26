@@ -405,7 +405,17 @@
 .hover-black:hover {
   background: #150e3e !important;
 }
+.hover-white {
+  transition: 0.2s linear !important;
+}
+.hover-white:hover {
+  background: #fff !important;
+  transition: 0.2s linear !important;
+}
 
+.hover-theme {
+  transition: 0.2s linear !important;
+}
 .hover-theme:hover {
   background: #1351d8 !important;
 }
@@ -417,4 +427,11 @@
 
 .color-picker__color.active {
   transform: scale(2);
+}
+
+svg.radial-progress circle.complete.circle_custom_1 {
+  stroke-dasharray: 219.9114857513;
+  stroke: #1351d8 !important;
+  transition: stroke-dashoffset 1.25s ease-out;
+  stroke-dashoffset: 48.3805px;
 }

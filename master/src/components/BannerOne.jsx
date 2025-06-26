@@ -13,11 +13,11 @@ const BannerOne = () => {
           <div className='col-lg-6'>
             <div className=''>
               <h1 className='splitTextStyleOne fw-light tw-leading-104'>
-                <span className='d-inline-block '>Transform </span>
-                <span className='d-inline-block fw-semibold'> Your </span>
-                <span className='d-inline-block fw-semibold'>Business</span>
-                <span className='d-inline-block fw-semibold'>Through</span>
-                <span className='d-inline-block fw-semibold'>Strategic</span>
+                <span className='d-inline-block '>Transform </span>{" "}
+                <span className='d-inline-block fw-semibold'> Your </span>{" "}
+                <span className='d-inline-block fw-semibold'>Business</span>{" "}
+                <span className='d-inline-block fw-semibold'>Through</span>{" "}
+                <span className='d-inline-block fw-semibold'>Strategic</span>{" "}
                 <span className='d-inline-block'>IT Solutions</span>
               </h1>
               <p className='text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne'>
@@ -32,7 +32,7 @@ const BannerOne = () => {
                 >
                   <a
                     href='register.html'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
                     data-block='button'
                   >
                     <span className='button__flair' />

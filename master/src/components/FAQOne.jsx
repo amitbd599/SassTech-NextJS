@@ -18,17 +18,17 @@ const FAQOne = () => {
               <h3 className='splitTextStyleOne fw-light tw-leading-104'>
                 <span className='d-inline-block fw-semibold'>
                   The Complete{" "}
-                </span>
-                <span className='d-inline-block'>Platform </span>
-                <span className='d-inline-block fw-semibold'>To </span>
-                <span className='d-inline-block fw-semibold'> Power </span>
-                <span className='d-inline-block fw-semibold'>Your </span>
+                </span>{" "}
+                <span className='d-inline-block'> Platform </span>{" "}
+                <span className='d-inline-block fw-semibold'>To </span>{" "}
+                <span className='d-inline-block fw-semibold'> Power </span>{" "}
+                <span className='d-inline-block fw-semibold'>Your </span>{" "}
                 <span className='d-inline-block fw-semibold'>Operations</span>
               </h3>
             </div>
             <a
               href='register.html'
-              className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
+              className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
               data-block='button'
             >
               <span className='button__flair' />

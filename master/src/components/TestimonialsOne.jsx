@@ -17,9 +17,9 @@ const TestimonialsOne = () => {
           </span>
           <h3 className='splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2'>
             <span className='d-inline-block fw-medium'>
-              <span className=''>What</span>
-              <span className='fw-semibold'> Our Client </span>
-              <span className=''> Say</span>
+              <span className=''>What</span>{" "}
+              <span className='fw-semibold'> Our Client </span>{" "}
+              <span className=''> Say</span>{" "}
               <span className='fw-semibold'>About Us</span>
             </span>
           </h3>

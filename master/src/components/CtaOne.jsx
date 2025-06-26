@@ -24,9 +24,8 @@ const CtaOne = () => {
               </span>
               <h3 className='splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2'>
                 <span className='d-inline-block fw-semibold'>
-                  <span className='fw-normal'>Have</span>A Project? Speak With
-                  Our
-                  <span className='fw-normal'> expert.</span>
+                  <span className='fw-normal'>Have</span> A Project? Speak With
+                  Our <span className='fw-normal'> expert.</span>
                 </span>
               </h3>
               <p className='text-neutral-600 tw-text-lg splitTextStyleOne'>
@@ -34,7 +33,7 @@ const CtaOne = () => {
               </p>
               <a
                 href='register.html'
-                className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10'
+                className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
