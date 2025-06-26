@@ -1,11 +1,11 @@
-import Breadcrumb from "@/components/Breadcrumb";
+import FaqTwo from "@/components/FaqTwo";
 import FooterThree from "@/components/FooterThree";
 import HeaderOne from "@/components/HeaderOne";
-import PricingPlanInner from "@/components/PricingPlanInner";
-import PricingPlanInnerThree from "@/components/PricingPlanInnerThree";
-import PricingPlanInnerTwo from "@/components/PricingPlanInnerTwo";
+import IntegratedAppsInner from "@/components/IntegratedAppsInner";
+import IntegrationFeaturesInner from "@/components/IntegrationFeaturesInner";
 import TaskManagementOne from "@/components/TaskManagementOne";
 import TopHeaderOne from "@/components/TopHeaderOne";
+import WorkProcessTwo from "@/components/WorkProcessTwo";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
@@ -28,17 +28,17 @@ const page = () => {
         {/* HeaderOne */}
         <HeaderOne />
 
-        {/* Breadcrumb */}
-        <Breadcrumb title={"Pricing Package"} />
+        {/* IntegratedAppsInner */}
+        <IntegratedAppsInner />
 
-        {/* PricingPlanInner */}
-        <PricingPlanInner />
+        {/* IntegrationFeaturesInner */}
+        <IntegrationFeaturesInner />
 
-        {/* PricingPlanInnerTwo */}
-        <PricingPlanInnerTwo />
+        {/* WorkProcessTwo */}
+        <WorkProcessTwo />
 
-        {/* PricingPlanInnerThree */}
-        <PricingPlanInnerThree />
+        {/* FaqTwo */}
+        <FaqTwo />
 
         {/* TaskManagementOne */}
         <TaskManagementOne />

@@ -1,9 +1,7 @@
-import Breadcrumb from "@/components/Breadcrumb";
+import FAQInner from "@/components/FAQInner";
+import FAQSearchBox from "@/components/FAQSearchBox";
 import FooterThree from "@/components/FooterThree";
 import HeaderOne from "@/components/HeaderOne";
-import PricingPlanInner from "@/components/PricingPlanInner";
-import PricingPlanInnerThree from "@/components/PricingPlanInnerThree";
-import PricingPlanInnerTwo from "@/components/PricingPlanInnerTwo";
 import TaskManagementOne from "@/components/TaskManagementOne";
 import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
@@ -28,17 +26,11 @@ const page = () => {
         {/* HeaderOne */}
         <HeaderOne />
 
-        {/* Breadcrumb */}
-        <Breadcrumb title={"Pricing Package"} />
+        {/* FAQSearchBox */}
+        <FAQSearchBox />
 
-        {/* PricingPlanInner */}
-        <PricingPlanInner />
-
-        {/* PricingPlanInnerTwo */}
-        <PricingPlanInnerTwo />
-
-        {/* PricingPlanInnerThree */}
-        <PricingPlanInnerThree />
+        {/* FAQInner */}
+        <FAQInner />
 
         {/* TaskManagementOne */}
         <TaskManagementOne />

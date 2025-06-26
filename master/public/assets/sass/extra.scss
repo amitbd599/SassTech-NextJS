@@ -401,3 +401,16 @@
 .max-w-840-px {
   max-width: 840px;
 }
+
+.hover-black:hover {
+  background: #150e3e !important;
+}
+
+.hover-theme:hover {
+  background: #1351d8 !important;
+}
+
+.accordion.arrow-bg-orange_border
+  .accordion-button[aria-expanded="true"]::before {
+  border-color: #1351d8 !important;
+}

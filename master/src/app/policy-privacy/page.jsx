@@ -1,9 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import FooterThree from "@/components/FooterThree";
 import HeaderOne from "@/components/HeaderOne";
-import PricingPlanInner from "@/components/PricingPlanInner";
-import PricingPlanInnerThree from "@/components/PricingPlanInnerThree";
-import PricingPlanInnerTwo from "@/components/PricingPlanInnerTwo";
+import PrivacyPolicyInner from "@/components/PrivacyPolicyInner";
 import TaskManagementOne from "@/components/TaskManagementOne";
 import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
@@ -29,16 +27,10 @@ const page = () => {
         <HeaderOne />
 
         {/* Breadcrumb */}
-        <Breadcrumb title={"Pricing Package"} />
+        <Breadcrumb title={"Sasstech is here to help you launch"} />
 
-        {/* PricingPlanInner */}
-        <PricingPlanInner />
-
-        {/* PricingPlanInnerTwo */}
-        <PricingPlanInnerTwo />
-
-        {/* PricingPlanInnerThree */}
-        <PricingPlanInnerThree />
+        {/* PrivacyPolicyInner */}
+        <PrivacyPolicyInner />
 
         {/* TaskManagementOne */}
         <TaskManagementOne />

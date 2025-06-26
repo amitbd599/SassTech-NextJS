@@ -1,6 +1,6 @@
 import React from "react";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({ title }) => {
   return (
     <section className='breadcrumb section-bg-two mb-0'>
       <div className='container'>
@@ -14,8 +14,7 @@ const Breadcrumb = () => {
                 />
               </span>
               <h1 className='mb-0 splitTextStyleOne text-capitalize'>
-                {" "}
-                Pricing Package
+                {title}
               </h1>
             </div>
           </div>
