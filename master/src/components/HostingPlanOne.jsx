@@ -74,7 +74,7 @@ const HostingPlanOne = () => {
             </div>
             <h2 className='splitTextStyleOne text-heading text-capitalize'>
               {" "}
-              Pick your perfect
+              Pick your perfect{" "}
               <span className='font-dm-serif fst-italic fw-normal'>
                 {" "}
                 web hosting{" "}
@@ -90,7 +90,7 @@ const HostingPlanOne = () => {
           >
             <a
               href='register.html'
-              className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
+              className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
               data-block='button'
             >
               <span className='button__flair' />
@@ -138,7 +138,7 @@ const HostingPlanOne = () => {
                     <div className='tw-mt-705'>
                       <a
                         href='javascript:void(0)'
-                        className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
+                        className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />

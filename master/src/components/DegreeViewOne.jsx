@@ -17,11 +17,11 @@ const DegreeViewOne = () => {
           </div>
           <h2 className='splitTextStyleOne text-heading text-capitalize'>
             {" "}
-            Get a 360-degree <br /> view of your
+            Get a 360-degree <br /> view of your{" "}
             <span className='font-dm-serif fst-italic fw-normal'>
               cloud
             </span>{" "}
-            spend
+            Spend
           </h2>
         </div>
         <div className='row gy-4'>
@@ -87,7 +87,7 @@ const DegreeViewOne = () => {
                 <div className='tw-mt-8'>
                   <a
                     href='pricing-plan.html'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white group-hover-text-main-two-600 hosting-plan-btn'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white group-hover-text-main-two-600 hosting-plan-btn'
                     data-block='button'
                   >
                     <span className='button__flair' />

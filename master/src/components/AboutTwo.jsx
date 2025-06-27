@@ -223,8 +223,9 @@ const AboutTwo = () => {
               <h2 className='splitTextStyleOne text-heading text-capitalize'>
                 Sasstech makes you a better
                 <span className='font-dm-serif fst-italic fw-normal'>
+                  {" "}
                   elevating
-                </span>
+                </span>{" "}
                 your team's
               </h2>
               <p className='splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg'>
@@ -322,7 +323,7 @@ const AboutTwo = () => {
               >
                 <Link
                   href='/pricing-plan'
-                  className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium'
+                  className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium'
                   data-block='button'
                 >
                   <span className='button__flair' />

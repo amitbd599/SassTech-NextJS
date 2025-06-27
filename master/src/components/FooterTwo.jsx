@@ -18,7 +18,7 @@ const FooterTwo = () => {
           <div className='' data-aos='fade-up' data-aos-duration={600}>
             <a
               href='javascript:void(0)'
-              className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium'
+              className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium'
               data-block='button'
             >
               <span className='button__flair' />

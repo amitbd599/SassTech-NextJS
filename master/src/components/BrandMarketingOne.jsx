@@ -58,7 +58,7 @@ const BrandMarketingOne = () => {
                   Grow your brand with sass
                   <span className='font-dm-serif fst-italic fw-normal'>
                     Websites +
-                  </span>
+                  </span>{" "}
                   Marketing.
                 </h2>
                 <p className='splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg'>
@@ -118,7 +118,7 @@ const BrandMarketingOne = () => {
                 >
                   <a
                     href='register.html'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium'
                     data-block='button'
                   >
                     <span className='button__flair' />

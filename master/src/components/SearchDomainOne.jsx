@@ -33,7 +33,7 @@ const SearchDomainOne = () => {
               id='pills-tab'
               role='tablist'
             >
-              <li className='background' />
+              <li className='background inner' />
               <li className='nav-item flex-grow-1' role='presentation'>
                 <button
                   className='nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 active'
@@ -96,7 +96,7 @@ const SearchDomainOne = () => {
                   </div>
                   <button
                     type='button'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
                     data-block='button'
                   >
                     <span className='button__flair' />
@@ -245,7 +245,7 @@ const SearchDomainOne = () => {
                   </div>
                   <button
                     type='submit'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
                     data-block='button'
                   >
                     <span className='button__flair' />

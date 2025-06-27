@@ -185,7 +185,7 @@ const SearchDomainTwo = () => {
                     </div>
                     <button
                       type='submit'
-                      className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
+                      className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
                       data-block='button'
                     >
                       <span className='button__flair' />

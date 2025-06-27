@@ -230,6 +230,10 @@
   height: 126%;
 }
 
+.home-two .btn-main {
+  background: #1d54f3 !important;
+}
+
 .home-three {
   .bg-main-three {
     background-color: #06766e !important;
@@ -406,11 +410,11 @@
   background: #150e3e !important;
 }
 .hover-white {
-  transition: 0.2s linear !important;
+  transition: 0.3s linear !important;
 }
 .hover-white:hover {
   background: #fff !important;
-  transition: 0.2s linear !important;
+  color: #150e3e !important;
 }
 
 .hover-theme {
@@ -418,6 +422,9 @@
 }
 .hover-theme:hover {
   background: #1351d8 !important;
+}
+.btn-main {
+  transition: all 0.2s linear !important;
 }
 
 .accordion.arrow-bg-orange_border
@@ -434,4 +441,12 @@ svg.radial-progress circle.complete.circle_custom_1 {
   stroke: #1351d8 !important;
   transition: stroke-dashoffset 1.25s ease-out;
   stroke-dashoffset: 48.3805px;
+}
+
+.background.inner {
+  background: transparent !important;
+}
+
+.hosting-plan-item:hover .hosting-plan-btn:hover {
+  color: #150e3e !important;
 }

@@ -26,8 +26,8 @@ const BannerTwo = () => {
                 <h1 className='splitTextStyleOne text-white text-capitalize tw-leading-none'>
                   Organized cloud &amp;
                   <span className='text-yellow font-dm-serif fst-italic fw-normal'>
-                    web hosting
-                  </span>
+                    web hosting{" "}
+                  </span>{" "}
                   for your business
                 </h1>
                 <p className='splitTextStyleOne text-neutral-300 tw-mt-8 max-w-388-px fw-medium'>
@@ -42,7 +42,7 @@ const BannerTwo = () => {
                 >
                   <a
                     href='register.html'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
+                    className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
                     data-block='button'
                   >
                     <span className='button__flair' />
