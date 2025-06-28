@@ -9,7 +9,7 @@ const FeaturesThree = () => {
         className='position-absolute tw-end-0 bottom-0 z-n1'
       />
       <div className='container'>
-        <div className='d-flex align-items-center justify-content-between tw-gap-6 tw-mb-12'>
+        <div className='d-block d-md-flex align-items-center justify-content-between tw-gap-6 tw-mb-12'>
           <div className='max-w-620-px'>
             <h2 className='splitTextStyleOne text-heading text-capitalize'>
               {" "}

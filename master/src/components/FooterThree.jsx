@@ -184,7 +184,7 @@ const FooterThree = () => {
                   </div>
                   <button
                     type='submit'
-                    className='btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 fw-semibold flex-shrink-0 hover--translate-y-1 active--translate-y-scale-9'
+                    className='hover-black btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 fw-semibold flex-shrink-0 hover--translate-y-1 active--translate-y-scale-9'
                     data-block='button'
                   >
                     <span className='button__flair' />

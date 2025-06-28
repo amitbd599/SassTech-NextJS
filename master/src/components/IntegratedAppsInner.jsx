@@ -53,7 +53,7 @@ const IntegratedAppsInner = () => {
                 >
                   <a
                     href='register.html'
-                    className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main hover-style-one'
+                    className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main hover-style-one'
                     data-block='button'
                   >
                     <span className='button__flair' />

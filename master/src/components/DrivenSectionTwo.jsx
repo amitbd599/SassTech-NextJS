@@ -10,7 +10,7 @@ const DrivenSectionTwo = () => {
             <h3 className='splitTextStyleOne text-heading text-capitalize text-capitalize'>
               Driven your business today next level by sasstech
             </h3>
-            <div className='d-flex align-items-center tw-gap-4 justify-content-center tw-mt-10'>
+            <div className='d-grid d-md-flex align-items-center tw-gap-4 justify-content-center tw-mt-10'>
               <a
                 href='register.html'
                 className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn btn-main hover-style-one'

@@ -10,7 +10,7 @@ const WebsiteOwnerOne = () => {
           className='position-absolute top-50 tw-start-50 translate-middle z-n1'
         />
         <div className='container'>
-          <div className='d-flex align-items-center justify-content-between tw-gap-6 tw-mb-12'>
+          <div className='d-block d-md-flex align-items-center justify-content-between tw-gap-6 tw-mb-12'>
             <div className='max-w-672-px'>
               <div
                 className='bg-neutral-200 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
@@ -32,7 +32,6 @@ const WebsiteOwnerOne = () => {
               </h2>
             </div>
             <div
-              className=''
               data-aos='fade-up'
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={800}

@@ -421,7 +421,7 @@ const BlogDetailsInner = () => {
                       <div className='col-sm-12'>
                         <button
                           type='submit'
-                          className='btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0 tw-px-13 tw-py-505 tw-mt-8'
+                          className='hover-black btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0 tw-px-13 tw-py-505 tw-mt-8'
                           data-block='button'
                         >
                           <span className='button__flair' />

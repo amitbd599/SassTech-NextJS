@@ -75,7 +75,7 @@ const ServicesDetailsInner = () => {
                 </span>
                 <a
                   href='tel:+(2)871382023'
-                  className='btn btn-main hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-py-505 rounded-pill fw-bold w-100'
+                  className='hover-white btn btn-main hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-py-505 rounded-pill fw-bold w-100'
                   data-block='button'
                 >
                   <span className='button__flair' />
@@ -121,7 +121,7 @@ const ServicesDetailsInner = () => {
                     typesetting, remaining essentially unchanged.
                   </p>
                 </div>
-                <div className='d-flex tw-gap-9'>
+                <div className='d-grid d-md-flex tw-gap-9'>
                   <div className='position-relative max-w-390-px w-100'>
                     <img
                       src='assets/images/thumbs/service-details-video-img.jpg'

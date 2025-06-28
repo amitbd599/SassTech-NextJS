@@ -41,7 +41,7 @@ const TaskManagementOne = () => {
             <div className='d-block'>
               <a
                 href='javascript:void(0)'
-                className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7'
+                className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7'
                 data-block='button'
               >
                 <span className='button__flair' />

@@ -242,7 +242,7 @@ const AboutTeamInner = () => {
         <div className='text-center tw-mt-13'>
           <a
             href='javascript:void(0)'
-            className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-8 tw-rounded-xl tw-py-505 fw-bold text-capitalize'
+            className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-8 tw-rounded-xl tw-py-505 fw-bold text-capitalize'
             data-block='button'
           >
             <span className='button__flair' />

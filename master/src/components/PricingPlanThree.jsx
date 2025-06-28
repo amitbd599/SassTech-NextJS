@@ -16,6 +16,10 @@ const PricingPlanThree = () => {
         settings: { slidesToShow: 2 },
       },
       {
+        breakpoint: 576,
+        settings: { slidesToShow: 1 },
+      },
+      {
         breakpoint: 300,
         settings: { slidesToShow: 1 },
       },

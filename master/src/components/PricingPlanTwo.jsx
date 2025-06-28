@@ -47,7 +47,7 @@ const PricingPlanTwo = () => {
                 </div>
                 <a
                   href='login.html'
-                  className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
+                  className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
                   <span className='button__flair' />
@@ -152,7 +152,7 @@ const PricingPlanTwo = () => {
                 </div>
                 <a
                   href='login.html'
-                  className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
+                  className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
                   <span className='button__flair' />
@@ -258,7 +258,7 @@ const PricingPlanTwo = () => {
                 </div>
                 <a
                   href='login.html'
-                  className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
+                  className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
                   <span className='button__flair' />

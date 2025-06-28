@@ -105,8 +105,8 @@ const TestimonialsOne = () => {
               <div className='tw-py-8 tw-px-4 text-center'>
                 <h6 className='tw-mb-2'>James anderson </h6>
                 <span className='text-neutral-600 fw-medium tw-text-sm'>
-                  <span className='fw-semibold text-main-600'>CEO -</span>
-                  and Founder
+                  <span className='fw-semibold text-main-600'>CEO - </span> and
+                  Founder
                 </span>
               </div>
             </div>

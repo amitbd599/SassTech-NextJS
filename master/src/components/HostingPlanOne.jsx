@@ -30,18 +30,21 @@ const HostingPlanOne = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
+          dots: false,
         },
       },
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
+          dots: false,
         },
       },
       {
         breakpoint: 300,
         settings: {
           slidesToShow: 1,
+          dots: false,
         },
       },
     ],
