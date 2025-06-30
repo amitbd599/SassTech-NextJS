@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CheckoutInner = () => {
@@ -231,14 +232,14 @@ const CheckoutInner = () => {
                   </div>
                 </div>
                 <div className='tw-mt-10'>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='hover-theme hover--translate-y-1 bg-crm active--translate-y-scale-9 btn button--stroke  tw-gap-5 group active--translate-y-2 px-xxl-5 px-xl-4 px-3 tw-py-405 fw-medium btn-main-two hover-style-two w-100'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Proceed to pay</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

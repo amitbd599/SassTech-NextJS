@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterThree = () => {
@@ -17,44 +18,44 @@ const FooterThree = () => {
                 </h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Partners
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Partners Program
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Affiliate Program
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Community
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       HR Partner Program
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -70,36 +71,36 @@ const FooterThree = () => {
                 </h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Company
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Customer Success
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Resources
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Talk an Expert
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -113,44 +114,44 @@ const FooterThree = () => {
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Software Development
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Cloud Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       AI Machine Learning
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Data Security
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-neutral-600 hover-text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9 fw-bold'
                     >
                       Software Development
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -161,12 +162,12 @@ const FooterThree = () => {
               data-aos-duration={900}
             >
               <div className='ps-xl-5'>
-                <a
-                  href='index.html'
+                <Link
+                  href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
                 >
                   <img src='assets/images/logo/logo-three.png' alt='' />
-                </a>
+                </Link>
                 <form
                   action='#'
                   className='d-flex flex-md-row flex-column tw-gap-5 form-submit'
@@ -196,13 +197,13 @@ const FooterThree = () => {
                 </form>
                 <p className='text-heading fw-semibold tw-mt-9'>
                   By subscribing, you're accept{" "}
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='text-heading text-decoration-underline hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'
                   >
                     {" "}
                     Privacy Policy
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -217,39 +218,39 @@ const FooterThree = () => {
             <div className='d-flex align-items-center justify-content-between tw-gap-4 flex-wrap'>
               <p className='text-heading text-line-1 fw-semibold'>
                 © {new Date().getFullYear()}{" "}
-                <a
-                  href='https://themeforest.net/user/wowtheme7'
+                <Link
+                  href='https://themeforest.net/user/webnextpro'
                   className='fw-bold text-gradient-teal hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   WowTheme7
-                </a>
+                </Link>
                 - IT Services. All rights reserved.
               </p>
               <div className='d-flex align-items-center tw-gap-6'>
-                <a
-                  href='javascript:void(0)'
+                <Link
+                  href='#'
                   className='text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   Faqs
-                </a>
-                <a
-                  href='javascript:void(0)'
+                </Link>
+                <Link
+                  href='#'
                   className='text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   Setting
-                </a>
-                <a
-                  href='javascript:void(0)'
+                </Link>
+                <Link
+                  href='#'
                   className='text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   Privacy
-                </a>
-                <a
-                  href='javascript:void(0)'
+                </Link>
+                <Link
+                  href='#'
                   className='text-neutral-600 fw-semibold hover-text-heading hover-text-neutral-900 hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>

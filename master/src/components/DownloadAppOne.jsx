@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const DownloadAppOne = () => {
@@ -81,14 +82,14 @@ const DownloadAppOne = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={1200}
               >
-                <a
-                  href='register.html'
+                <Link
+                  href='/register'
                   className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-505 fw-semibold common-shadow-inset-one'
                   data-block='button'
                 >
                   <span className='button__flair' />
                   <span className='button__label'>Download app now</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

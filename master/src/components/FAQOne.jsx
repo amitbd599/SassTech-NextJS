@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FAQOne = () => {
@@ -26,14 +27,14 @@ const FAQOne = () => {
                 <span className='d-inline-block fw-semibold'>Operations</span>
               </h3>
             </div>
-            <a
-              href='register.html'
+            <Link
+              href='/register'
               className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
               data-block='button'
             >
               <span className='button__flair' />
               <span className='button__label'>Sign up Now</span>
-            </a>
+            </Link>
           </div>
         </div>
         <div className='row gy-4'>

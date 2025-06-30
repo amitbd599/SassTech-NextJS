@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ContactInner = () => {
@@ -162,36 +163,36 @@ const ContactInner = () => {
                       <h6 className='tw-mb-4'>Social</h6>
                       <ul className='d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6'>
                         <li>
-                          <a
+                          <Link
                             href='https://www.facebook.com'
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-facebook-logo' />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href='https://www.twitter.com'
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-x-logo' />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href='https://www.instagram.com'
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-instagram-logo' />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href='https://www.youtube.com'
                             className='tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                           >
                             <i className='ph ph-youtube-logo' />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>

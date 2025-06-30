@@ -1,5 +1,6 @@
 "use client";
 import PriceRangeFilter from "@/helper/PriceRangeFilter";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const ShopInner = () => {
@@ -431,13 +432,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img1.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -459,14 +460,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -488,9 +489,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Smart wireless headphone
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -499,13 +500,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img2.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -527,14 +528,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -556,9 +557,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Go pro hero action camera
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -567,13 +568,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img3.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -595,14 +596,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -624,9 +625,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Colorful apple Ipad
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -635,13 +636,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img4.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -663,14 +664,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -692,9 +693,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Humidifiler white grow
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -703,13 +704,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img5.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -731,14 +732,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -760,9 +761,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Apple Iphone 16 promax
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -771,13 +772,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img6.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -799,14 +800,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -828,9 +829,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Go pro hero action camera
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -839,13 +840,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img7.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -867,14 +868,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -896,9 +897,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Apple smartwatch series
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -907,13 +908,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img8.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -935,14 +936,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -964,9 +965,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Instax pro camera hero
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -975,13 +976,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img9.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -1003,14 +1004,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -1032,9 +1033,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Macbook m1 cheap pro
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1043,13 +1044,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img10.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -1071,14 +1072,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -1100,9 +1101,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           VISION RAC Micro Oven&nbsp;
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1111,13 +1112,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img11.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -1139,14 +1140,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -1168,9 +1169,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Folding Keayboard display
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1179,13 +1180,13 @@ const ShopInner = () => {
                 <div className='col-md-4 col-sm-6 col-xs-6'>
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <a href='shop-details.html' className='d-block'>
+                      <Link href='/shop-details' className='d-block'>
                         <img
                           src='assets/images/thumbs/product-img12.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
-                      </a>
+                      </Link>
                       <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
                         <button
                           type='button'
@@ -1207,14 +1208,14 @@ const ShopInner = () => {
                         </button>
                       </div>
                       <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
                           data-block='button'
                         >
                           <span className='button__flair' />
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className='product-item__content text-center tw-px-2'>
@@ -1236,9 +1237,9 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <a href='shop-details.html' className=''>
+                        <Link href='/shop-details' className=''>
                           Logitech Mouse Havit
-                        </a>
+                        </Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AboutBannerInner = () => {
@@ -18,22 +19,22 @@ const AboutBannerInner = () => {
                       SassTech is here to help you launch your project!
                     </h1>
                     <div className='d-flex align-items-center tw-gap-4 justify-content-center tw-mt-12 flex-wrap'>
-                      <a
-                        href='register.html'
+                      <Link
+                        href='/register'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn btn-main hover-style-one'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>get started trial</span>
-                      </a>
-                      <a
-                        href='register.html'
+                      </Link>
+                      <Link
+                        href='/register'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main-two hover-style-two'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>get started trial</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

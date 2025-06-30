@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SearchDomainTwo = () => {
@@ -24,12 +25,12 @@ const SearchDomainTwo = () => {
                   <h5 className='tw-mb-6 line-clamp-2'>
                     Launching a website is easier with AI
                   </h5>
-                  <a
-                    href='register.html'
+                  <Link
+                    href='/register'
                     className='fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow'
                   >
                     Build your website today
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -46,12 +47,12 @@ const SearchDomainTwo = () => {
                   <h5 className='tw-mb-6 line-clamp-2'>
                     Transfer your Domain Today
                   </h5>
-                  <a
-                    href='register.html'
+                  <Link
+                    href='/register'
                     className='fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow'
                   >
                     Transfer domain
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

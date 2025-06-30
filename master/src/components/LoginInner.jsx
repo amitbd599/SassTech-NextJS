@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const LoginInner = () => {
@@ -57,12 +58,12 @@ const LoginInner = () => {
                   </label>
                 </div>
               </div>
-              <a
-                href='javascript:void(0)'
+              <Link
+                href='#'
                 className='hover-underline text-danger fw-semibold hover--translate-y-1 active-scale-09'
               >
                 Forgot Password?
-              </a>
+              </Link>
             </div>
             <div className=''>
               <button
@@ -77,12 +78,12 @@ const LoginInner = () => {
           </form>
           <div className='form-check-label text-neutral-600 fw-semibold tw-mt-405 text-center'>
             <span>Are you new here?</span>
-            <a
-              href='register.html'
+            <Link
+              href='/register'
               className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'
             >
               Create an account
-            </a>
+            </Link>
           </div>
         </div>
       </div>

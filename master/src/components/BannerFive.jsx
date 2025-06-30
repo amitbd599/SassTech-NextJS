@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BannerFive = () => {
@@ -36,7 +37,7 @@ const BannerFive = () => {
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}
                     >
-                      <a
+                      <Link
                         href='https://play.google.com/store/apps'
                         className='hover--translate-y-1 active--translate-y-scale-9 tw-rounded-2xl common-shadow-twentyEight'
                       >
@@ -44,14 +45,14 @@ const BannerFive = () => {
                           src='assets/images/icons/store-two1.png'
                           alt='App Store'
                         />
-                      </a>
+                      </Link>
                     </div>
                     <div
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}
                     >
-                      <a
+                      <Link
                         href='https://www.apple.com/app-store'
                         className='hover--translate-y-1 active--translate-y-scale-9 tw-rounded-2xl common-shadow-twentyEight'
                       >
@@ -59,7 +60,7 @@ const BannerFive = () => {
                           src='assets/images/icons/store-two2.png'
                           alt='Google Store'
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

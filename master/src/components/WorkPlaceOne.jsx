@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const WorkPlaceOne = () => {
@@ -47,9 +48,9 @@ const WorkPlaceOne = () => {
               {/* Sidebar Start */}
               <div className='bg-neutral-100 tw-rounded-2xl tw-p-4 max-w-330-px flex-shrink-0'>
                 <div className='tw-ps-4 tw-pt-2 tw-mb-10 tw-pb-10'>
-                  <a href='index.html' className=''>
+                  <Link href='/'>
                     <img src='assets/images/logo/logo-two.png' alt='Logo' />
-                  </a>
+                  </Link>
                 </div>
                 <div className=''>
                   <div

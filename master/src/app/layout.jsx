@@ -4,27 +4,18 @@ import RouteScrollToTop from "@/helper/RouteScrollToTop";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./font.css";
 import "./globals.scss";
 
 export const metadata = {
-  title: "Charifund | Nonprofit & Fundraising Charity NEXT JS Template",
-  description: "Nonprofit & Fundraising Charity NEXT JS Template.",
+  title:
+    "SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template",
+  description: "IT Solution, Sass and Multipurpose NEXT JS Template.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <head>
-        {/* <link rel='stylesheet' href='/assets/css/bootstrap.min.css' />
-        // <link rel='stylesheet' href='/assets/css/aos.css' />
-        <link rel='stylesheet' href='/assets/css/satoshi.css' /> */}
-        {/* <link rel='stylesheet' href='/assets/css/swiper-bundle.min.css' /> */}
-        {/* <link rel='stylesheet' href='/assets/css/main.css' /> */}
-        <link rel='stylesheet' href='/assets/css/aos.css' />
-        <link rel='stylesheet' href='/assets/css/satoshi.css' />
-      </head>
       <body suppressHydrationWarning={true}>
         <InitializeAOS />
         <RouteScrollToTop />

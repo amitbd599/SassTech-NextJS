@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CtaOne = () => {
@@ -31,8 +32,8 @@ const CtaOne = () => {
               <p className='text-neutral-600 tw-text-lg splitTextStyleOne'>
                 Leave your contacts and get a free consultation from
               </p>
-              <a
-                href='register.html'
+              <Link
+                href='/register'
                 className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
@@ -41,7 +42,7 @@ const CtaOne = () => {
               >
                 <span className='button__flair' />
                 <span className='button__label'>Get Started Today</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

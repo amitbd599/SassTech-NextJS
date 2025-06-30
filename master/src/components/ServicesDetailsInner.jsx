@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ServicesDetailsInner = () => {
@@ -7,60 +8,60 @@ const ServicesDetailsInner = () => {
         <div className='row gy-4'>
           <div className='col-xl-4 pe-lg-4'>
             <div className='d-flex flex-column tw-gap-4'>
-              <a
-                href='service.html'
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Cargo Domestic Service
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
-              <a
-                href='service.html'
+              </Link>
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Air Freight Services
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
-              <a
-                href='service.html'
+              </Link>
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Intermodal Shipping
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
-              <a
-                href='service.html'
+              </Link>
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Freeze product Shipping
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
-              <a
-                href='service.html'
+              </Link>
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Hot Shot Trucking
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
-              <a
-                href='service.html'
+              </Link>
+              <Link
+                href='/service'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Priority Transportation
                 <span className='tw-px-205 tw-py-3 text-neutral-600 bg-white-1 group-hover-text-white tw-duration-300 d-flex'>
                   <i className='ph ph-arrow-right' />
                 </span>
-              </a>
+              </Link>
             </div>
             <div className='tw-py-10 tw-px-7 text-center bg-main-two-600 tw-mt-11'>
               <span className='tw-w-92-px tw-h-84-px d-inline-flex justify-content-center align-items-center tw-text-9 text-white bg-white-01 tw-rounded-sm'>

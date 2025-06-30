@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const DegreeViewOne = () => {
@@ -77,22 +78,22 @@ const DegreeViewOne = () => {
                   <span className='tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl'>
                     <i className='ph-bold ph-magnifying-glass' />
                   </span>
-                  <a
-                    href='pricing-plan.html'
+                  <Link
+                    href='/pricing-plan'
                     className='fw-bold tw-text-lg text-heading hover-underline max-w-278-px'
                   >
                     Helps your website search ranking with https
-                  </a>
+                  </Link>
                 </div>
                 <div className='tw-mt-8'>
-                  <a
-                    href='pricing-plan.html'
+                  <Link
+                    href='/pricing-plan'
                     className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white group-hover-text-main-two-600 hosting-plan-btn'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -118,12 +119,12 @@ const DegreeViewOne = () => {
                   where your website lives in the world, to where your files and
                   data are securely find and manage it all in one place.
                 </p>
-                <a
-                  href='pricing-plan.html'
+                <Link
+                  href='/pricing-plan'
                   className='fw-bold tw-text-lg text-heading text-decoration-underline tw-mt-11 hover-text-main-600'
                 >
                   Pick your Domain Today
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import Link from "next/link";
 const RoadmapOne = () => {
   const { ref, inView } = useInView({
     threshold: 0,
@@ -36,8 +37,8 @@ const RoadmapOne = () => {
                     critical.
                   </p>
                   <div className='tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap'>
-                    <a
-                      href='register.html'
+                    <Link
+                      href='/register'
                       className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
@@ -46,7 +47,7 @@ const RoadmapOne = () => {
                     >
                       <span className='button__flair' />
                       <span className='button__label'>Get Started</span>
-                    </a>
+                    </Link>
                     <div
                       className=''
                       data-aos='fade-up'

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PricingPlanInnerThree = () => {
@@ -113,8 +114,8 @@ const PricingPlanInnerThree = () => {
                   </div>
                 </div>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -125,7 +126,7 @@ const PricingPlanInnerThree = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                   <span className='text-neutral-600 tw-mt-3 text-center d-block fw-medium'>
                     No credit card required
                   </span>
@@ -222,8 +223,8 @@ const PricingPlanInnerThree = () => {
                   </div>
                 </div>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -234,7 +235,7 @@ const PricingPlanInnerThree = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                   <span className='text-neutral-600 tw-mt-3 text-center d-block fw-medium'>
                     No credit card required
                   </span>
@@ -331,8 +332,8 @@ const PricingPlanInnerThree = () => {
                   </div>
                 </div>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -343,7 +344,7 @@ const PricingPlanInnerThree = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                   <span className='text-neutral-600 tw-mt-3 text-center d-block fw-medium'>
                     No credit card required
                   </span>

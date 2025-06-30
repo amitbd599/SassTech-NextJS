@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FeaturesFour = () => {
@@ -33,12 +34,12 @@ const FeaturesFour = () => {
                   <p className='text-neutral-600 tw-text-lg fw-medium'>
                     Sassly-CRM in the past allowing you to
                   </p>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none'
                   >
                     Transfer domain
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/features-four-thumb101.png'
                     alt='Thumbnail'
@@ -64,12 +65,12 @@ const FeaturesFour = () => {
                   <p className='text-neutral-600 tw-text-lg fw-medium'>
                     Sassly-CRM in the past allowing you to
                   </p>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none'
                   >
                     Transfer domain
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/features-four-thumb2.png'
                     alt='Thumbnail'
@@ -90,12 +91,12 @@ const FeaturesFour = () => {
                   <p className='text-neutral-600 tw-text-lg fw-medium'>
                     Sassly-CRM in the past allowing you to
                   </p>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none'
                   >
                     Transfer domain
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/features-four-thumb3.png'
                     alt='Thumbnail'
@@ -116,12 +117,12 @@ const FeaturesFour = () => {
                   <p className='text-neutral-600 tw-text-lg fw-medium'>
                     Sassly-CRM in the past allowing you to
                   </p>
-                  <a
-                    href='javascript:void(0)'
+                  <Link
+                    href='#'
                     className='hover--translate-y-1 active--translate-y-scale-9 text-crm fw-bold tw-text-base text-blue text-decoration-underline tw-mt-12 hover-underline-none'
                   >
                     Transfer domain
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/features-four-thumb4.png'
                     alt='Thumbnail'

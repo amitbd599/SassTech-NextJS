@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import Slider from "react-slick";
 
 const ShowCaseOne = () => {
@@ -72,8 +73,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -81,25 +82,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Mobile Application Development
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>
@@ -112,8 +113,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -121,25 +122,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Cloud Computing System
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>
@@ -152,8 +153,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -161,25 +162,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Mobile Application Development
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>
@@ -192,8 +193,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -201,25 +202,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Creative UI/UX Designing
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>
@@ -232,8 +233,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -241,25 +242,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Mobile Application Development
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>
@@ -272,8 +273,8 @@ const ShowCaseOne = () => {
           >
             <div className='group-item'>
               <div className='position-relative'>
-                <a
-                  href='project-details.html'
+                <Link
+                  href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
                   <img
@@ -281,25 +282,25 @@ const ShowCaseOne = () => {
                     alt='Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
-                <a
-                  href='project-details.html'
+                </Link>
+                <Link
+                  href='/project-details'
                   className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1'
                 >
                   <i className='ph-bold ph-arrow-up-right' />
-                </a>
+                </Link>
               </div>
               <div className='tw-mt-8'>
                 <span className='tw-text-base fw-medium text-white'>
                   Excellent Performance
                 </span>
                 <h5 className='text-white tw-mt-1'>
-                  <a
-                    href='project-details.html'
+                  <Link
+                    href='/project-details'
                     className='hover-text-main-600 text-white line-clamp-1 hover--translate-y-1'
                   >
                     Cloud Computing System
-                  </a>
+                  </Link>
                 </h5>
               </div>
             </div>

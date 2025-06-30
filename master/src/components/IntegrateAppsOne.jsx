@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import Link from "next/link";
 
 const IntegrateAppsOne = () => {
   const { ref, inView } = useInView({
@@ -71,14 +72,14 @@ const IntegrateAppsOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={900}
                 >
-                  <a
-                    href='pricing-plan.html'
+                  <Link
+                    href='/pricing-plan'
                     className='hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>See all Integrations</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

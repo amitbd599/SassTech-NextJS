@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterFour = () => {
@@ -7,14 +8,14 @@ const FooterFour = () => {
         <div className='container'>
           <div className='d-flex tw-gap-6 border-top border-bottom d-flex justify-content-between flex-lg-nowrap flex-wrap'>
             <div className='tw-pt-100-px tw-pb-80-px'>
-              <a
-                href='index.html'
+              <Link
+                href='/'
                 className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
               >
                 <img src='assets/images/logo/logo-four.png' alt='' />
-              </a>
+              </Link>
               <p className='max-w-250-px tw-text-lg text-neutral-600'>
-                Build a modern and creative website with crealand
+                Build a modern and creative website with cropland
               </p>
               <div className='tw-mt-6 d-flex flex-column gap-4'>
                 <div className='d-flex align-items-center tw-gap-205'>
@@ -48,44 +49,44 @@ const FooterFour = () => {
                 </h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Overview
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Features
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='contact.html'
+                    <Link
+                      href='/contact'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Solutions
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Tutorials
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -100,44 +101,44 @@ const FooterFour = () => {
                 </h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Partners
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Partners Program
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='contact.html'
+                    <Link
+                      href='/contact'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Affiliate Program
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Community
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text-heading hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       HR Partner Program
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -182,9 +183,9 @@ const FooterFour = () => {
             <div className='d-flex align-items-center justify-content-between tw-gap-4 flex-wrap'>
               <p className='fw-semibold text-heading'>
                 Copyright © {new Date().getFullYear()} by{" "}
-                <a href='index.html' className='text-blue hover-underline'>
-                  wowtheme7
-                </a>{" "}
+                <Link href='/' className='text-blue hover-underline'>
+                  webnextpro
+                </Link>{" "}
                 . All Rights Reserved
               </p>
               <div className='d-flex align-items-center tw-gap-305'>

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useRef } from "react";
 import Slider from "react-slick";
 
@@ -91,14 +92,14 @@ const HostingPlanOne = () => {
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}
           >
-            <a
-              href='register.html'
+            <Link
+              href='/register'
               className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
               data-block='button'
             >
               <span className='button__flair' />
               <span className='button__label'>Clients Area</span>
-            </a>
+            </Link>
           </div>
         </div>
         <div className='position-relative'>
@@ -139,14 +140,14 @@ const HostingPlanOne = () => {
                       </div>
                     </div>
                     <div className='tw-mt-705'>
-                      <a
-                        href='javascript:void(0)'
+                      <Link
+                        href='#'
                         className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>Learn more</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -184,14 +185,14 @@ const HostingPlanOne = () => {
                       </div>
                     </div>
                     <div className='tw-mt-705'>
-                      <a
-                        href='javascript:void(0)'
+                      <Link
+                        href='#'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>Learn more</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -229,14 +230,14 @@ const HostingPlanOne = () => {
                       </div>
                     </div>
                     <div className='tw-mt-705'>
-                      <a
-                        href='javascript:void(0)'
+                      <Link
+                        href='#'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>Learn more</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -274,14 +275,14 @@ const HostingPlanOne = () => {
                       </div>
                     </div>
                     <div className='tw-mt-705'>
-                      <a
-                        href='javascript:void(0)'
+                      <Link
+                        href='#'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>Learn more</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -319,14 +320,14 @@ const HostingPlanOne = () => {
                       </div>
                     </div>
                     <div className='tw-mt-705'>
-                      <a
-                        href='javascript:void(0)'
+                      <Link
+                        href='#'
                         className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn'
                         data-block='button'
                       >
                         <span className='button__flair' />
                         <span className='button__label'>Learn more</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

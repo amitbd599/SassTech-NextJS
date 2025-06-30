@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const RegisterInner = () => {
@@ -124,12 +125,12 @@ const RegisterInner = () => {
           </form>
           <div className='form-check-label text-neutral-600 fw-semibold tw-mt-405 text-center'>
             <span>Already have an account?</span>
-            <a
-              href='login.html'
+            <Link
+              href='/login'
               className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'
             >
               Login
-            </a>
+            </Link>
           </div>
         </div>
       </div>

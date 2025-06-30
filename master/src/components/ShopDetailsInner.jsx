@@ -1,5 +1,6 @@
 "use client";
 import ShopGallery from "@/helper/ShopGallery";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const ShopDetailsInner = () => {
@@ -201,8 +202,8 @@ const ShopDetailsInner = () => {
                         </div>
                       </div>
                       <div className='tw-my-8 d-flex align-items-center tw-gap-6 flex-wrap'>
-                        <a
-                          href='cart.html'
+                        <Link
+                          href='/cart'
                           className='btn btn-main hover-black hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 fw-medium flex-shrink-0 hover--translate-y-1 active--translate-y-scale-9 rounded-pill tw-py-5 max-w-420-px w-100'
                           data-block='button'
                         >
@@ -211,7 +212,7 @@ const ShopDetailsInner = () => {
                             <i className='ph ph-basket' />
                           </span>
                           <span className='button__label'>Add To Cart</span>
-                        </a>
+                        </Link>
                         <button
                           type='button'
                           className='tw-w-15 tw-h-15 bg-white common-shadow-fifteen d-flex justify-content-center align-items-center tw-text-2xl rounded-circle hover-bg-main-600 hover-text-white tw-duration-300'

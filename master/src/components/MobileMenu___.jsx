@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MobileMenu = () => {
@@ -11,19 +12,19 @@ const MobileMenu = () => {
           <i className='ph ph-x' />
         </button>
         <div className='mobile-menu__inner'>
-          <a href='index.html' className='mobile-menu__logo'>
+          <Link href='/' className='mobile-menu__logo'>
             <img src='assets/images/logo/logo.png' alt='Logo' />
-          </a>
+          </Link>
           <div className='mobile-menu__menu'>
             {/* Nav menu Start */}
             <ul className='nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8'>
               <li className='nav-menu__item has-submenu position-relative activePage'>
-                <a
-                  href='javascript:void(0)'
+                <Link
+                  href='#'
                   className='nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100'
                 >
                   Home
-                </a>
+                </Link>
                 <ul className='nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99'>
                   <li className='nav-menu__item activePage'>
                     <a

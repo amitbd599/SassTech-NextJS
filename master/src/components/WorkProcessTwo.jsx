@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const WorkProcessTwo = () => {
@@ -27,13 +28,13 @@ const WorkProcessTwo = () => {
                 Web hosting provides everything idea online. From where your of
                 more on
               </p>
-              <a
-                href='intigration-details.html'
+              <Link
+                href='/intigration-details'
                 className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline group-hover-text-white tw-transition tw-duration-200'
               >
                 See integration
                 <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-xl-3 col-lg-4 col-sm-6'>
@@ -48,13 +49,13 @@ const WorkProcessTwo = () => {
                 Web hosting provides everything idea online. From where your of
                 more on
               </p>
-              <a
-                href='intigration-details.html'
+              <Link
+                href='/intigration-details'
                 className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline group-hover-text-white tw-transition tw-duration-200'
               >
                 See integration
                 <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-xl-3 col-lg-4 col-sm-6'>
@@ -69,13 +70,13 @@ const WorkProcessTwo = () => {
                 Web hosting provides everything idea online. From where your of
                 more on
               </p>
-              <a
-                href='intigration-details.html'
+              <Link
+                href='/intigration-details'
                 className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline group-hover-text-white tw-transition tw-duration-200'
               >
                 See integration
                 <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
           <div className='col-xl-3 col-lg-4 col-sm-6'>
@@ -90,13 +91,13 @@ const WorkProcessTwo = () => {
                 Web hosting provides everything idea online. From where your of
                 more on
               </p>
-              <a
-                href='intigration-details.html'
+              <Link
+                href='/intigration-details'
                 className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline group-hover-text-white tw-transition tw-duration-200'
               >
                 See integration
                 <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

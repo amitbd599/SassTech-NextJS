@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterTwo = () => {
@@ -16,14 +17,14 @@ const FooterTwo = () => {
             </h2>
           </div>
           <div className='' data-aos='fade-up' data-aos-duration={600}>
-            <a
-              href='javascript:void(0)'
+            <Link
+              href='#'
               className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium'
               data-block='button'
             >
               <span className='button__flair' />
               <span className='button__label'>Get Started Today</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -33,41 +34,41 @@ const FooterTwo = () => {
           <div className='row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
             <div className='col' data-aos='fade-up' data-aos-duration={600}>
               <div className=''>
-                <a
-                  href='index.html'
+                <Link
+                  href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
                 >
                   <img src='assets/images/logo/logo-white.png' alt='' />
-                </a>
+                </Link>
                 <p className='text-white max-w-330-px tw-text-lg'>
                   A new way to make the payments easy, reliable and 100% secure.
                   claritatem itamconse quat. Exerci tation ullamcorper.
                 </p>
                 <div className='d-flex align-items-center tw-gap-305 tw-mt-8'>
-                  <a
+                  <Link
                     href='https://www.facebook.com'
                     className='tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-facebook-logo' />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='https://www.facebook.com'
                     className='tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-twitter-logo' />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='https://www.facebook.com'
                     className='tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-linkedin-logo' />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='https://www.facebook.com'
                     className='tw-w-9 tw-h-9 bg-white tw-rounded-lg tw-text-lg d-flex justify-content-center align-items-center text-neutral-500 hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-instagram-logo' />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -76,68 +77,68 @@ const FooterTwo = () => {
                 <h5 className='fw-medium text-white tw-mb-8'>Shopping</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Buy a Domain
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Websites
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='contact.html'
+                    <Link
+                      href='/contact'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Business Email
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       WordPress
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Hosting
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Web Security
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Logo
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Generator
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -147,68 +148,68 @@ const FooterTwo = () => {
                 <h5 className='fw-medium text-white tw-mb-8'>Information</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Reviews
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Affiliate program
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Referral program
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Roadmap
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Wall of fame
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       System status
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Sitemap
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -218,52 +219,52 @@ const FooterTwo = () => {
                 <h5 className='fw-medium text-white tw-mb-8'>Company</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       About Hostinger
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Our technology
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Newsroom
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Career
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Student discount
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -273,60 +274,60 @@ const FooterTwo = () => {
                 <h5 className='fw-medium text-white tw-mb-8'>Resource</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Webmail
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       ICANN Confirmation
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Designers &amp; Developers
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Redeem Code
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Product Catalog
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Customer Testimonials
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Business Name Generator
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -341,46 +342,46 @@ const FooterTwo = () => {
             <div className='d-flex align-items-center justify-content-between tw-gap-4 flex-wrap'>
               <p className='text--white text-line-1 fw-normal'>
                 Copyright @ {new Date().getFullYear()}{" "}
-                <a
-                  href='https://themeforest.net/user/wowtheme7'
+                <Link
+                  href='https://themeforest.net/user/webnextpro'
                   className='fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
                   WowTheme7{" "}
-                </a>{" "}
+                </Link>{" "}
                 All Rights Reserved
               </p>
               <ul className='d-flex align-items-center tw-gap-4'>
                 <li>
-                  <a
+                  <Link
                     href='javascript:void(0)'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Faqs
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href='javascript:void(0)'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Setting
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href='javascript:void(0)'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Privacy
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href='javascript:void(0)'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

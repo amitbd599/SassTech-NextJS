@@ -84,8 +84,8 @@ const HeaderFive = () => {
           <nav className='d-flex align-items-center justify-content-between'>
             {/* Logo Start */}
             <div className='logo'>
-              <a
-                href='index.html'
+              <Link
+                href='/'
                 className='link hover--translate-y-1 active--translate-y-scale-9'
               >
                 <img
@@ -93,7 +93,7 @@ const HeaderFive = () => {
                   alt='Logo'
                   className='max-w-200-px'
                 />
-              </a>
+              </Link>
             </div>
             {/* Logo End  */}
             {/* Menu Start  */}
@@ -157,14 +157,14 @@ const HeaderFive = () => {
             {/* Menu End  */}
             {/* Header Right start */}
             <div className='d-flex align-items-center tw-gap-6'>
-              <a
-                href='register.html'
+              <Link
+                href='/register'
                 className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4 fw-semibold common-shadow-inset-one'
                 data-block='button'
               >
                 <span className='button__flair' />
                 <span className='button__label'>Sign Up Now</span>
-              </a>
+              </Link>
               <button
                 onClick={handleMobileMenu}
                 type='button'

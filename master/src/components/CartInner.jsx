@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const CartInner = () => {
@@ -44,8 +45,8 @@ const CartInner = () => {
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <div className='d-flex align-items-center tw-gap-4 group-item'>
                             <div className='position-relative max-w-74-px tw-h-84-px w-100'>
-                              <a
-                                href='shop-details.html'
+                              <Link
+                                href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
                                 <img
@@ -53,7 +54,7 @@ const CartInner = () => {
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
-                              </a>
+                              </Link>
                               <button
                                 type='button'
                                 className='text-danger tw-text-xl hover-scale-14 position-absolute top-0 tw-end-0 tw-duration-300 tw--mt-8-px tw--me-8-px delete-button'
@@ -61,12 +62,12 @@ const CartInner = () => {
                                 <i className='ph-fill ph-x-circle' />
                               </button>
                             </div>
-                            <a
-                              href='shop-details.html'
+                            <Link
+                              href='/shop-details'
                               className='fw-bold tw-text-lg text-heading hover-text-main-600 line-clamp-1'
                             >
                               Apple Watch
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
@@ -88,8 +89,8 @@ const CartInner = () => {
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <div className='d-flex align-items-center tw-gap-4 group-item'>
                             <div className='position-relative max-w-74-px tw-h-84-px w-100'>
-                              <a
-                                href='shop-details.html'
+                              <Link
+                                href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
                                 <img
@@ -97,7 +98,7 @@ const CartInner = () => {
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
-                              </a>
+                              </Link>
                               <button
                                 type='button'
                                 className='text-danger tw-text-xl hover-scale-14 position-absolute top-0 tw-end-0 tw-duration-300 tw--mt-8-px tw--me-8-px delete-button'
@@ -105,12 +106,12 @@ const CartInner = () => {
                                 <i className='ph-fill ph-x-circle' />
                               </button>
                             </div>
-                            <a
-                              href='shop-details.html'
+                            <Link
+                              href='/shop-details'
                               className='fw-bold tw-text-lg text-heading hover-text-main-600 line-clamp-1'
                             >
                               Sumsang Hand Set
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
@@ -132,8 +133,8 @@ const CartInner = () => {
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <div className='d-flex align-items-center tw-gap-4 group-item'>
                             <div className='position-relative max-w-74-px tw-h-84-px w-100'>
-                              <a
-                                href='shop-details.html'
+                              <Link
+                                href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
                                 <img
@@ -141,7 +142,7 @@ const CartInner = () => {
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
-                              </a>
+                              </Link>
                               <button
                                 type='button'
                                 className='text-danger tw-text-xl hover-scale-14 position-absolute top-0 tw-end-0 tw-duration-300 tw--mt-8-px tw--me-8-px delete-button'
@@ -149,12 +150,12 @@ const CartInner = () => {
                                 <i className='ph-fill ph-x-circle' />
                               </button>
                             </div>
-                            <a
-                              href='shop-details.html'
+                            <Link
+                              href='/shop-details'
                               className='fw-bold tw-text-lg text-heading hover-text-main-600 line-clamp-1'
                             >
                               Tata Brand Car
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
@@ -176,8 +177,8 @@ const CartInner = () => {
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <div className='d-flex align-items-center tw-gap-4 group-item'>
                             <div className='position-relative max-w-74-px tw-h-84-px w-100'>
-                              <a
-                                href='shop-details.html'
+                              <Link
+                                href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
                                 <img
@@ -185,7 +186,7 @@ const CartInner = () => {
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
-                              </a>
+                              </Link>
                               <button
                                 type='button'
                                 className='text-danger tw-text-xl hover-scale-14 position-absolute top-0 tw-end-0 tw-duration-300 tw--mt-8-px tw--me-8-px delete-button'
@@ -193,12 +194,12 @@ const CartInner = () => {
                                 <i className='ph-fill ph-x-circle' />
                               </button>
                             </div>
-                            <a
-                              href='shop-details.html'
+                            <Link
+                              href='/shop-details'
                               className='fw-bold tw-text-lg text-heading hover-text-main-600 line-clamp-1'
                             >
                               Sumsang Hand Set
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
@@ -320,12 +321,12 @@ const CartInner = () => {
                     </div>
                   </div>
                   <div className='tw-mt-6'>
-                    <a
-                      href='checkout.html'
+                    <Link
+                      href='/checkout'
                       className='tw-rounded-md tw-py-3 tw-px-6 bg-neutral-200 text-heading fw-bold w-100 text-center hover-bg-main-600 hover-text-white active-scale-094 tw-duration-200'
                     >
                       Calculate Shipping
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className='border border-neutral-200 tw-p-5 tw-mt-10'>
@@ -351,14 +352,14 @@ const CartInner = () => {
                     </div>
                   </div>
                   <div className='tw-mt-6'>
-                    <a
-                      href='checkout.html'
+                    <Link
+                      href='/checkout'
                       className='hover-theme hover--translate-y-1 bg-crm active--translate-y-scale-9 btn button--stroke  tw-gap-5 group active--translate-y-2 px-xxl-5 px-xl-4 px-3 tw-py-405 fw-medium btn-main-two hover-style-two w-100'
                       data-block='button'
                     >
                       <span className='button__flair' />
                       <span className='button__label'>Proceed to checkout</span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

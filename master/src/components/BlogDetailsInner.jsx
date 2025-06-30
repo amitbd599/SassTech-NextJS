@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogDetailsInner = () => {
@@ -8,8 +9,8 @@ const BlogDetailsInner = () => {
           <div className='col-lg-8'>
             <div data-aos='fade-up' data-aos-duration={800}>
               <div className='position-relative'>
-                <a
-                  href='blog-details.html'
+                <Link
+                  href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
                   <img
@@ -17,7 +18,7 @@ const BlogDetailsInner = () => {
                     alt=''
                     className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                   />
-                </a>
+                </Link>
                 <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
                   24 Feb
                 </h6>
@@ -207,30 +208,30 @@ const BlogDetailsInner = () => {
                       Tag:
                     </span>
                     <div className='d-flex align-items-center flex-wrap tw-gap-3'>
-                      <a
-                        href='blog.html'
+                      <Link
+                        href='/blog'
                         className='tw-px-5 tw-py-2 border border-neutral-200 hover-bg-main-600 hover-border-main-600 hover-text-white text-main-two-600 tw-text-sm text-uppercase fw-medium'
                       >
                         Business
-                      </a>
-                      <a
-                        href='blog.html'
+                      </Link>
+                      <Link
+                        href='/blog'
                         className='tw-px-5 tw-py-2 border border-neutral-200 hover-bg-main-600 hover-border-main-600 hover-text-white text-main-two-600 tw-text-sm text-uppercase fw-medium'
                       >
                         Design
-                      </a>
-                      <a
-                        href='blog.html'
+                      </Link>
+                      <Link
+                        href='/blog'
                         className='tw-px-5 tw-py-2 border border-neutral-200 hover-bg-main-600 hover-border-main-600 hover-text-white text-main-two-600 tw-text-sm text-uppercase fw-medium'
                       >
                         apps
-                      </a>
-                      <a
-                        href='blog.html'
+                      </Link>
+                      <Link
+                        href='/blog'
                         className='tw-px-5 tw-py-2 border border-neutral-200 hover-bg-main-600 hover-border-main-600 hover-text-white text-main-two-600 tw-text-sm text-uppercase fw-medium'
                       >
                         data
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className='d-flex align-items-start tw-gap-5'>
@@ -239,36 +240,36 @@ const BlogDetailsInner = () => {
                     </span>
                     <ul className='d-flex align-items-center tw-gap-3 justify-content-center'>
                       <li>
-                        <a
+                        <Link
                           href='https://www.facebook.com'
                           className='tw-w-10 tw-h-10 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-neutral-100 hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                         >
                           <i className='ph-bold ph-facebook-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href='https://www.twitter.com'
                           className='tw-w-10 tw-h-10 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-neutral-100 hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                         >
                           <i className='ph-bold ph-x-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href='https://www.instagram.com'
                           className='tw-w-10 tw-h-10 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-neutral-100 hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                         >
                           <i className='ph-bold ph-instagram-logo' />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
+                        <Link
                           href='https://www.youtube.com'
                           className='tw-w-10 tw-h-10 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-neutral-100 hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                         >
                           <i className='ph-bold ph-youtube-logo' />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -461,36 +462,36 @@ const BlogDetailsInner = () => {
                 </p>
                 <ul className='d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6'>
                   <li>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='tw-w-11 tw-h-11 border border-neutral-200 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                     >
                       <i className='ph ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='tw-w-11 tw-h-11 border border-neutral-200 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                     >
                       <i className='ph ph-x-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.instagram.com'
                       className='tw-w-11 tw-h-11 border border-neutral-200 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                     >
                       <i className='ph ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.youtube.com'
                       className='tw-w-11 tw-h-11 border border-neutral-200 rounded-0 text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200'
                     >
                       <i className='ph ph-youtube-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -526,8 +527,8 @@ const BlogDetailsInner = () => {
                 </h5>
                 <div className='d-flex flex-column tw-gap-8'>
                   <div className='d-flex align-items-center tw-gap-6'>
-                    <a
-                      href='blog-details.html'
+                    <Link
+                      href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
                       <img
@@ -535,7 +536,7 @@ const BlogDetailsInner = () => {
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
-                    </a>
+                    </Link>
                     <div className=''>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
@@ -546,18 +547,18 @@ const BlogDetailsInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-mt-2'>
-                        <a
-                          href='blog-details.html'
+                        <Link
+                          href='/blog-details'
                           className='tw-text-base line-clamp-2 text-main-two-600 hover-text-main-600 splitTextStyleOne'
                         >
                           Budget Issues Force The Our To Become
-                        </a>
+                        </Link>
                       </h6>
                     </div>
                   </div>
                   <div className='d-flex align-items-center tw-gap-6'>
-                    <a
-                      href='blog-details.html'
+                    <Link
+                      href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
                       <img
@@ -565,7 +566,7 @@ const BlogDetailsInner = () => {
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
-                    </a>
+                    </Link>
                     <div className=''>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
@@ -576,18 +577,18 @@ const BlogDetailsInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-mt-2'>
-                        <a
-                          href='blog-details.html'
+                        <Link
+                          href='/blog-details'
                           className='tw-text-base line-clamp-2 text-main-two-600 hover-text-main-600 splitTextStyleOne'
                         >
                           The Best Products That Shape Fashion
-                        </a>
+                        </Link>
                       </h6>
                     </div>
                   </div>
                   <div className='d-flex align-items-center tw-gap-6'>
-                    <a
-                      href='blog-details.html'
+                    <Link
+                      href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
                       <img
@@ -595,7 +596,7 @@ const BlogDetailsInner = () => {
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
-                    </a>
+                    </Link>
                     <div className=''>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
@@ -606,12 +607,12 @@ const BlogDetailsInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-mt-2'>
-                        <a
-                          href='blog-details.html'
+                        <Link
+                          href='/blog-details'
                           className='tw-text-base line-clamp-2 text-main-two-600 hover-text-main-600 splitTextStyleOne'
                         >
                           The Best Products That Shape Fashion
-                        </a>
+                        </Link>
                       </h6>
                     </div>
                   </div>
@@ -626,42 +627,42 @@ const BlogDetailsInner = () => {
                   Catagories
                 </h5>
                 <div className='d-flex flex-column tw-gap-5'>
-                  <a
-                    href='blog.html'
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-medium d-flex align-items-center justify-content-between'
                   >
                     Mobile Set
                     <span className='text-main-two-600 group-hover-text-white tw-duration-300 d-flex'>
                       03
                     </span>
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-medium d-flex align-items-center justify-content-between'
                   >
                     Mobile Set
                     <span className='text-main-two-600 group-hover-text-white tw-duration-300 d-flex'>
                       03
                     </span>
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-medium d-flex align-items-center justify-content-between'
                   >
                     Mobile Set
                     <span className='text-main-two-600 group-hover-text-white tw-duration-300 d-flex'>
                       03
                     </span>
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-medium d-flex align-items-center justify-content-between'
                   >
                     Mobile Set
                     <span className='text-main-two-600 group-hover-text-white tw-duration-300 d-flex'>
                       03
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div
@@ -673,54 +674,54 @@ const BlogDetailsInner = () => {
                   Populer Tags
                 </h5>
                 <div className='d-flex tw-gap-3 flex-wrap'>
-                  <a
-                    href='blog.html'
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Tourist
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Traveling
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Cave
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Sky Dive
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     hill Climb
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Oppos
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     landing
-                  </a>
-                  <a
-                    href='blog.html'
+                  </Link>
+                  <Link
+                    href='/blog'
                     className='bg-white tw-py-4 tw-px-6 text-main-two-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block'
                   >
                     Oppos
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PricingPlanTwo = () => {
@@ -45,8 +46,8 @@ const PricingPlanTwo = () => {
                     </h2>
                   </div>
                 </div>
-                <a
-                  href='login.html'
+                <Link
+                  href='/login'
                   className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
@@ -54,7 +55,7 @@ const PricingPlanTwo = () => {
                   <div className='d-flex align-items-center tw-gap-2 z-1'>
                     <span className='button__label'>Start Free Trial</span>
                   </div>
-                </a>
+                </Link>
                 <span className='text-heading tw-mt-3 text-center d-block fw-medium'>
                   Renews at $9.88/month
                 </span>
@@ -150,8 +151,8 @@ const PricingPlanTwo = () => {
                     </h2>
                   </div>
                 </div>
-                <a
-                  href='login.html'
+                <Link
+                  href='/login'
                   className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
@@ -159,7 +160,7 @@ const PricingPlanTwo = () => {
                   <div className='d-flex align-items-center tw-gap-2 z-1'>
                     <span className='button__label'>Start Free Trial</span>
                   </div>
-                </a>
+                </Link>
                 <span className='text-heading tw-mt-3 text-center d-block fw-medium'>
                   Renews at $9.88/month
                 </span>
@@ -256,8 +257,8 @@ const PricingPlanTwo = () => {
                     </h2>
                   </div>
                 </div>
-                <a
-                  href='login.html'
+                <Link
+                  href='/login'
                   className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold'
                   data-block='button'
                 >
@@ -265,7 +266,7 @@ const PricingPlanTwo = () => {
                   <div className='d-flex align-items-center tw-gap-2 z-1'>
                     <span className='button__label'>Start Free Trial</span>
                   </div>
-                </a>
+                </Link>
                 <span className='text-heading tw-mt-3 text-center d-block fw-medium'>
                   Renews at $9.88/month
                 </span>

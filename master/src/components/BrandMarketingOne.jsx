@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BrandMarketingOne = () => {
@@ -116,14 +117,14 @@ const BrandMarketingOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={900}
                 >
-                  <a
-                    href='register.html'
+                  <Link
+                    href='/register'
                     className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

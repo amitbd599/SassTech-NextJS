@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AboutTeamInner = () => {
@@ -29,36 +30,36 @@ const AboutTeamInner = () => {
                 />
                 <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
                   <li>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.instagram.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.pinterest.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -85,36 +86,36 @@ const AboutTeamInner = () => {
                 />
                 <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
                   <li>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.instagram.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.pinterest.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -141,36 +142,36 @@ const AboutTeamInner = () => {
                 />
                 <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
                   <li>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.instagram.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.pinterest.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -197,36 +198,36 @@ const AboutTeamInner = () => {
                 />
                 <ul className='list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column '>
                   <li>
-                    <a
+                    <Link
                       href='https://www.facebook.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-facebook-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.twitter.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-twitter-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.instagram.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-instagram-logo' />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       href='https://www.pinterest.com'
                       className='tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center'
                     >
                       <i className='ph-fill ph-pinterest-logo' />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -240,8 +241,8 @@ const AboutTeamInner = () => {
           </div>
         </div>
         <div className='text-center tw-mt-13'>
-          <a
-            href='javascript:void(0)'
+          <Link
+            href='#'
             className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-8 tw-rounded-xl tw-py-505 fw-bold text-capitalize'
             data-block='button'
           >
@@ -249,7 +250,7 @@ const AboutTeamInner = () => {
             <div className='d-flex align-items-center tw-gap-2 z-1'>
               <span className='button__label'>all team members</span>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

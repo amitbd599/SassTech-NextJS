@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BannerFour = () => {
@@ -49,22 +50,22 @@ const BannerFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={800}
             >
-              <a
-                href='javascript:void(0)'
+              <Link
+                href='#'
                 className='flex-grow-1 banner_four_btn hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold'
                 data-block='button'
               >
                 <span className='button__flair' />
                 <span className='button__label'>Schedule a Demo</span>
-              </a>
-              <a
-                href='javascript:void(0)'
+              </Link>
+              <Link
+                href='#'
                 className='flex-grow-1 banner_four_btn_outline hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white'
                 data-block='button'
               >
                 <span className='button__flair' />
                 <span className='button__label'>Contact Sales</span>
-              </a>
+              </Link>
             </div>
             <div className='tw-mt-132-px'>
               <ul

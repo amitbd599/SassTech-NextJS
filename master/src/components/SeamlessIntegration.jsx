@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const SeamlessIntegration = () => {
@@ -30,13 +31,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -54,13 +55,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -78,13 +79,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -102,13 +103,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -126,13 +127,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -150,13 +151,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -174,13 +175,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
@@ -198,13 +199,13 @@ const SeamlessIntegration = () => {
                   Build online communities with effective audience communication
                   with various track
                 </p>
-                <a
-                  href='intigration-details.html'
+                <Link
+                  href='/intigration-details'
                   className='fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline'
                 >
                   See integration
                   <i className='ph-bold d-inline-flex tw-leading-none ph-arrow-right' />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

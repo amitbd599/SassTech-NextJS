@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PricingPlanInnerTwo = () => {
@@ -44,8 +45,8 @@ const PricingPlanInnerTwo = () => {
                   Smart Pricing for good services
                 </p>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -56,7 +57,7 @@ const PricingPlanInnerTwo = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className='tw-mt-12'>
                   <h5 className='tw-mb-9 group-hover-text-white tw-transition tw-duration-200'>
@@ -143,8 +144,8 @@ const PricingPlanInnerTwo = () => {
                   Smart Pricing for good services
                 </p>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -155,7 +156,7 @@ const PricingPlanInnerTwo = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className='tw-mt-12'>
                   <h5 className='tw-mb-9 group-hover-text-white tw-transition tw-duration-200'>
@@ -242,8 +243,8 @@ const PricingPlanInnerTwo = () => {
                   Smart Pricing for good services
                 </p>
                 <div className='tw-mt-10'>
-                  <a
-                    href='login.html'
+                  <Link
+                    href='/login'
                     className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-3xl tw-py-6 fw-bold'
                     data-block='button'
                   >
@@ -254,7 +255,7 @@ const PricingPlanInnerTwo = () => {
                         <i className='ph-bold ph-arrow-up-right' />
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className='tw-mt-12'>
                   <h5 className='tw-mb-9 group-hover-text-white tw-transition tw-duration-200'>

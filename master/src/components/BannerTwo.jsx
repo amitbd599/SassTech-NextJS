@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BannerTwo = () => {
@@ -40,14 +41,14 @@ const BannerTwo = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
                 >
-                  <a
-                    href='register.html'
+                  <Link
+                    href='/register'
                     className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Clients Area</span>
-                  </a>
+                  </Link>
                   <p
                     className='text-neutral-300 max-w-388-px fw-medium'
                     data-aos='fade-up'

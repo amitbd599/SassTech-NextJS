@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import CountUp from "react-countup";
 const BannerOne = () => {
   return (
@@ -30,14 +31,14 @@ const BannerOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
                 >
-                  <a
-                    href='register.html'
+                  <Link
+                    href='/register'
                     className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill'
                     data-block='button'
                   >
                     <span className='button__flair' />
                     <span className='button__label'>Get Started</span>
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className=''

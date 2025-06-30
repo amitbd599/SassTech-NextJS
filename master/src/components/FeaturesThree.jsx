@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FeaturesThree = () => {
@@ -68,28 +69,28 @@ const FeaturesThree = () => {
                     </button>
                     <ul className='dropdown-menu border-0 min-w-max tw-p-4 common-shadow-eight'>
                       <li className='p-0'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
                         >
                           Action
-                        </a>
+                        </Link>
                       </li>
                       <li className='p-0'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
                         >
                           Another action
-                        </a>
+                        </Link>
                       </li>
                       <li className='p-0'>
-                        <a
-                          href='javascript:void(0)'
+                        <Link
+                          href='#'
                           className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
                         >
                           Something else here
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>

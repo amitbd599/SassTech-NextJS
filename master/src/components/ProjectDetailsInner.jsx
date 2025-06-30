@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ProjectDetailsInner = () => {
@@ -21,8 +22,8 @@ const ProjectDetailsInner = () => {
                 consequunture
               </p>
             </div>
-            <a
-              href='https://themeforest.net/user/wowtheme7'
+            <Link
+              href='https://themeforest.net/user/webnextpro'
               className='hover-black btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-3 group active--translate-y-2 tw-rounded-lg tw-px-13 tw-py-505 tw-mt-14'
               data-block='button'
             >
@@ -31,7 +32,7 @@ const ProjectDetailsInner = () => {
               <span className='text-white tw-text-lg position-relative group-hover-text-white tw-duration-500'>
                 <i className='ph ph-caret-right' />
               </span>
-            </a>
+            </Link>
           </div>
           <div className='col-lg-3'>
             <div className='bg-neutral-200 tw-p-54-px d-flex flex-column tw-gap-56-px'>
@@ -49,12 +50,12 @@ const ProjectDetailsInner = () => {
               </div>
               <div className=''>
                 <h6 className='tw-mb-3 fw-semibold'>Website</h6>
-                <a
-                  href='https://themeforest.net6ser/wowtheme7'
+                <Link
+                  href='https://themeforest.net6ser/webnextpro'
                   className='text-main-600 text-decoration-underline'
                 >
                   WowTheme7.Com
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -210,60 +211,60 @@ const ProjectDetailsInner = () => {
           <div className='row gy-4'>
             <div className='col-sm-6'>
               <div className=''>
-                <a href='project.html' className='w-100 h-100'>
+                <Link href='/project' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/project-details-img3.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='tw-mt-12'>
-                  <a
-                    href='project.html'
+                  <Link
+                    href='/project'
                     className='text-neutral-600 hover-text-main-600 d-inline-flex align-items-center tw-gap-2 fw-semibold'
                   >
                     <span className='tw-text-lg d-flex'>
                       <i className='ph ph-caret-left' />
                     </span>
                     Prev
-                  </a>
+                  </Link>
                   <h5 className='tw-mt-6'>
-                    <a
-                      href='project.html'
+                    <Link
+                      href='/project'
                       className='line-clamp-1 hover-underline'
                     >
                       Business Website Design
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>
             </div>
             <div className='col-sm-6'>
               <div className=''>
-                <a href='project.html' className='w-100 h-100'>
+                <Link href='/project' className='w-100 h-100'>
                   <img
                     src='assets/images/thumbs/project-details-img4.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
-                </a>
+                </Link>
                 <div className='tw-mt-12 text-end'>
-                  <a
-                    href='project.html'
+                  <Link
+                    href='/project'
                     className='text-neutral-600 hover-text-main-600 d-inline-flex align-items-center tw-gap-2 fw-semibold'
                   >
                     Next
                     <span className='tw-text-lg d-flex'>
                       <i className='ph ph-caret-right' />
                     </span>
-                  </a>
+                  </Link>
                   <h5 className='tw-mt-6'>
-                    <a
-                      href='project.html'
+                    <Link
+                      href='/project'
                       className='line-clamp-1 hover-underline'
                     >
                       Mobile Application Design
-                    </a>
+                    </Link>
                   </h5>
                 </div>
               </div>

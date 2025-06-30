@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const OfferOne = () => {
@@ -37,12 +38,12 @@ const OfferOne = () => {
                     {" "}
                     IT Management Service
                   </h4>
-                  <a
-                    href='service-details.html'
+                  <Link
+                    href='/service-details'
                     className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-arrow-up-right' />
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/offer-img1.png'
                     alt='Image'
@@ -65,12 +66,12 @@ const OfferOne = () => {
                       WowCommerce System Development
                     </span>
                   </h4>
-                  <a
-                    href='service-details.html'
+                  <Link
+                    href='/service-details'
                     className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-pink-light tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-arrow-up-right' />
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/offer-img2.png'
                     alt='Image'
@@ -94,12 +95,12 @@ const OfferOne = () => {
                 {" "}
                 Website Design &amp; Development
               </h4>
-              <a
-                href='service-details.html'
+              <Link
+                href='/service-details'
                 className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle text-white tw-text-2xl bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
               >
                 <i className='ph-bold ph-arrow-up-right' />
-              </a>
+              </Link>
               <img
                 src='assets/images/thumbs/offer-img3.png'
                 alt='Image'
@@ -123,12 +124,12 @@ const OfferOne = () => {
                     {" "}
                     CRM Software Solution
                   </h4>
-                  <a
-                    href='service-details.html'
+                  <Link
+                    href='/service-details'
                     className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-arrow-up-right' />
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/offer-img4.png'
                     alt='Image'
@@ -151,12 +152,12 @@ const OfferOne = () => {
                       WowCommerce System Development
                     </span>
                   </h4>
-                  <a
-                    href='service-details.html'
+                  <Link
+                    href='/service-details'
                     className='tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-paste tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9'
                   >
                     <i className='ph-bold ph-arrow-up-right' />
-                  </a>
+                  </Link>
                   <img
                     src='assets/images/thumbs/offer-img5.png'
                     alt='Image'

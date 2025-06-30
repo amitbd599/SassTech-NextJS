@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const PricingPlanOne = () => {
@@ -112,12 +113,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}
@@ -282,12 +283,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}
@@ -452,12 +453,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}
@@ -632,12 +633,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}
@@ -802,12 +803,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}
@@ -972,12 +973,12 @@ const PricingPlanOne = () => {
                         +2 months free
                       </span>
                     </div>
-                    <a
-                      href='pricing-plan.html'
+                    <Link
+                      href='/pricing-plan'
                       className='text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9'
                     >
                       See Plan &amp; Pricing
-                    </a>
+                    </Link>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='text-heading tw-mt-3'>
                         Renews at <span className='text-main-600'>$9.88</span>{" "}

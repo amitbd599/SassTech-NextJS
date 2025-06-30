@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AutomationOne = () => {
@@ -84,8 +85,8 @@ const AutomationOne = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
               >
-                <a
-                  href='javascript:void(0)'
+                <Link
+                  href='#'
                   className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold'
                   data-block='button'
                 >
@@ -99,7 +100,7 @@ const AutomationOne = () => {
                       />
                     </span>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

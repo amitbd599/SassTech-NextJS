@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterOne = () => {
@@ -112,12 +113,12 @@ const FooterOne = () => {
               data-aos-duration={600}
             >
               <div className=''>
-                <a
-                  href='index.html'
+                <Link
+                  href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
                 >
                   <img src='assets/images/logo/logo-white.png' alt='' />
-                </a>
+                </Link>
                 <form
                   action='#'
                   className='d-flex flex-md-row flex-column tw-gap-5 form-submit'
@@ -165,44 +166,44 @@ const FooterOne = () => {
                 <h5 className='fw-medium text--white tw-mb-8'>My account</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Forum Support
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Help &amp; FAQ
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='contact.html'
+                    <Link
+                      href='/contact'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Pricing and plans
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Cookies Policy
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -216,52 +217,52 @@ const FooterOne = () => {
                 <h5 className='fw-medium text--white tw-mb-8'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       It Consultation{" "}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Cloud Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       AI Machine Learning
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Data Security
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Software Development
-                    </a>
+                    </Link>
                   </li>
                   <li className='mb-0'>
-                    <a
-                      href='javascript:void(0)'
+                    <Link
+                      href='#'
                       className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                     >
                       Cyber Security
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -318,10 +319,10 @@ const FooterOne = () => {
               <p className='text--white text-line-1 fw-normal'>
                 © {new Date().getFullYear()}{" "}
                 <a
-                  href='https://themeforest.net/user/wowtheme7'
+                  href='https://themeforest.net/user/webnextpro'
                   className='fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9'
                 >
-                  WowTheme7
+                  Webnextpro
                 </a>
                 - IT Services. All rights reserved.
               </p>

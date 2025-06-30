@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BlogOne = () => {
@@ -11,14 +12,14 @@ const BlogOne = () => {
               Insights to help you do what you do better, faster and more
               profitably.
             </h6>
-            <a
-              href='register.html'
+            <Link
+              href='/register'
               className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4'
               data-block='button'
             >
               <span className='button__flair' />
               <span className='button__label'>Sign Up Now</span>
-            </a>
+            </Link>
           </div>
           {/* Blog items start */}
           <div className='row gy-4'>
@@ -29,8 +30,8 @@ const BlogOne = () => {
               data-aos-duration={200}
             >
               <div className='group-item'>
-                <a
-                  href='blog-details.html'
+                <Link
+                  href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
                   <img
@@ -38,7 +39,7 @@ const BlogOne = () => {
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
+                </Link>
                 <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
                   <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
                     02 Apr 2025
@@ -48,22 +49,22 @@ const BlogOne = () => {
                   </span>
                 </div>
                 <h5 className='tw-mt-4'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1'
                   >
                     15 Best AI Apps for Android to Make Life Easier
-                  </a>
+                  </Link>
                 </h5>
-                <a
-                  href='blog-details.html'
+                <Link
+                  href='/blog-details'
                   className='text-main-600 fw-medium tw-text-lg hover--translate-y-1'
                 >
                   Learn More
                   <span className='d-inline-flex tw-text-sm'>
                     <i className='ph-bold ph-arrow-up-right' />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -73,8 +74,8 @@ const BlogOne = () => {
               data-aos-duration={400}
             >
               <div className='group-item'>
-                <a
-                  href='blog-details.html'
+                <Link
+                  href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
                   <img
@@ -82,7 +83,7 @@ const BlogOne = () => {
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
-                </a>
+                </Link>
                 <div className='tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap'>
                   <span className='text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base'>
                     02 Apr 2025
@@ -92,23 +93,23 @@ const BlogOne = () => {
                   </span>
                 </div>
                 <h5 className='tw-mt-4'>
-                  <a
-                    href='blog-details.html'
+                  <Link
+                    href='/blog-details'
                     className='hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1'
                   >
                     15 Best man-made intelligence Applications for Android to
                     Make Life More straightforward
-                  </a>
+                  </Link>
                 </h5>
-                <a
-                  href='blog-details.html'
+                <Link
+                  href='/blog-details'
                   className='text-main-600 fw-medium tw-text-lg hover--translate-y-1'
                 >
                   Learn More
                   <span className='d-inline-flex tw-text-sm'>
                     <i className='ph-bold ph-arrow-up-right' />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
