@@ -7,11 +7,28 @@ import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export const metadata = {
-  title:
-    "SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template",
-  description: "IT Solution, Sass and Multipurpose NEXT JS Template.",
-};
+export async function generateMetadata() {
+  return {
+    title: "CheckOut | SassTech - Saas Software and IT Solution",
+    description:
+      "Learn more about our SaaS software, team, features, and IT solutions.",
+    openGraph: {
+      title: "About | SassTech",
+      description:
+        "Learn more about our SaaS software, team, features, and IT solutions.",
+      url: "https://yourdomain.com/about",
+      type: "website",
+      images: [
+        {
+          url: "https://yourdomain.com/images/about-og.jpg",
+          width: 1200,
+          height: 630,
+          alt: "About SassTech",
+        },
+      ],
+    },
+  };
+}
 
 const page = () => {
   return (

@@ -7,7 +7,6 @@ import CtaOne from "@/components/CtaOne";
 import FAQOne from "@/components/FAQOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
-import MobileMenu from "@/components/MobileMenu___";
 import OfferOne from "@/components/OfferOne";
 import RoadmapOne from "@/components/RoadmapOne";
 import ShowCaseOne from "@/components/ShowCaseOne";

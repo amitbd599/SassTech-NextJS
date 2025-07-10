@@ -8,13 +8,18 @@ const HeaderOne = () => {
   const [scroll, setScroll] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
   useEffect(() => {
-    window.onscroll = () => {
+    const handleScroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
-      } else if (window.pageYOffset > 150) {
+      } else {
         setScroll(true);
       }
-      return () => (window.onscroll = null);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -75,34 +80,34 @@ const HeaderOne = () => {
 
   return (
     <>
-      <div className="overlay"></div>
+      <div className='overlay'></div>
       <div className={`side-overlay ${mobileMenu && "active"}`}></div>
       <header
         className={`header bg-white transition-all ${
           scroll && "fixed-header"
         } `}
       >
-        <div className="container container-two">
-          <nav className="d-flex align-items-center justify-content-between">
+        <div className='container container-two'>
+          <nav className='d-flex align-items-center justify-content-between'>
             {/* Logo Start */}
-            <div className="logo">
+            <div className='logo'>
               <Link
-                href="/"
-                className="link hover--translate-y-1 active--translate-y-scale-9"
+                href='/'
+                className='link hover--translate-y-1 active--translate-y-scale-9'
               >
                 <img
-                  src="assets/images/logo/logo.png"
-                  alt="Logo"
-                  className="max-w-200-px"
+                  src='assets/images/logo/logo.png'
+                  alt='Logo'
+                  className='max-w-200-px'
                 />
               </Link>
             </div>
             {/* Logo End  */}
             {/* Menu Start  */}
 
-            <div className="header-menu d-lg-block d-none">
+            <div className='header-menu d-lg-block d-none'>
               {/* Nav menu Start */}
-              <ul className="nav-menu d-lg-flex align-items-center tw-gap-7">
+              <ul className='nav-menu d-lg-flex align-items-center tw-gap-7'>
                 {MENU.map((item) => {
                   const active = itemIsActive(item, pathname);
 
@@ -117,15 +122,15 @@ const HeaderOne = () => {
                     >
                       {item.children ? (
                         <Link
-                          href="#"
-                          className="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"
+                          href='#'
+                          className='nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100'
                         >
                           {item.label}
                         </Link>
                       ) : (
                         <Link
                           href={item.href}
-                          className="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100"
+                          className='nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100'
                         >
                           {item.label}
                         </Link>
@@ -133,7 +138,7 @@ const HeaderOne = () => {
 
                       {/* Sub‑menu */}
                       {item.children && (
-                        <ul className="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                        <ul className='nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99'>
                           {item.children.map((sub) => (
                             <li
                               key={sub.href}
@@ -143,7 +148,7 @@ const HeaderOne = () => {
                             >
                               <Link
                                 href={sub.href}
-                                className="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
                               >
                                 {sub.label}
                               </Link>
@@ -159,21 +164,21 @@ const HeaderOne = () => {
             </div>
             {/* Menu End  */}
             {/* Header Right start */}
-            <div className="d-flex align-items-center tw-gap-6">
+            <div className='d-flex align-items-center tw-gap-6'>
               <Link
-                href="/register"
-                className="hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4 fw-semibold"
-                data-block="button"
+                href='/register'
+                className='hover-theme hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4 fw-semibold'
+                data-block='button'
               >
-                <span className="button__flair" />
-                <span className="button__label">Sign Up Now</span>
+                <span className='button__flair' />
+                <span className='button__label'>Sign Up Now</span>
               </Link>
               <button
                 onClick={handleMobileMenu}
-                type="button"
-                className="toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9"
+                type='button'
+                className='toggle-mobileMenu leading-none d-lg-none text-neutral-800 tw-text-9'
               >
-                <i className="ph ph-list" />
+                <i className='ph ph-list' />
               </button>
             </div>
             {/* Header Right End  */}
@@ -190,18 +195,18 @@ const HeaderOne = () => {
         >
           <button
             onClick={handleMobileMenu}
-            type="button"
-            className="close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white"
+            type='button'
+            className='close-button position-absolute tw-end-0 top-0 tw-me-2 tw-mt-2 tw-w-605 tw-h-605 rounded-circle d-flex justify-content-center align-items-center text-neutral-900 bg-neutral-200 hover-bg-neutral-900 hover-text-white'
           >
-            <i className="ph ph-x" />
+            <i className='ph ph-x' />
           </button>
-          <div className="mobile-menu__inner">
-            <Link href="/" className="mobile-menu__logo">
-              <img src="assets/images/logo/logo.png" alt="Logo" />
+          <div className='mobile-menu__inner'>
+            <Link href='/' className='mobile-menu__logo'>
+              <img src='assets/images/logo/logo.png' alt='Logo' />
             </Link>
 
-            <div className="mobile-menu__menu">
-              <ul className="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+            <div className='mobile-menu__menu'>
+              <ul className='nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8'>
                 {MENU.map((item, idx) => {
                   const active = itemIsActive(item);
                   const open = idx === openIndex || active;
@@ -215,16 +220,16 @@ const HeaderOne = () => {
                     >
                       {item.children ? (
                         <button
-                          type="button"
+                          type='button'
                           onClick={() => setOpenIndex(open ? -1 : idx)}
-                          className="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100 text-start bg-transparent border-0"
+                          className='nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100 text-start bg-transparent border-0'
                         >
                           {item.label}
                         </button>
                       ) : (
                         <Link
                           href={item.href}
-                          className="nav-menu__link  text-heading tw-py-9 fw-semibold w-100"
+                          className='nav-menu__link  text-heading tw-py-9 fw-semibold w-100'
                         >
                           {item.label}
                         </Link>
@@ -246,7 +251,7 @@ const HeaderOne = () => {
                             >
                               <Link
                                 href={sub.href}
-                                className="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded"
+                                className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
                               >
                                 {sub.label}
                               </Link>
@@ -260,12 +265,12 @@ const HeaderOne = () => {
               </ul>
             </div>
             <Link
-              href="/"
-              className="btn btn-main-two hover-style-two button--stroke d-sm-none d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-8 rounded-pill tw-mt-6"
-              data-block="button"
+              href='/'
+              className='btn btn-main-two hover-style-two button--stroke d-sm-none d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-8 rounded-pill tw-mt-6'
+              data-block='button'
             >
-              <span className="button__flair" />
-              <span className="button__label">Sign Up Now</span>
+              <span className='button__flair' />
+              <span className='button__label'>Sign Up Now</span>
             </Link>
           </div>
         </div>

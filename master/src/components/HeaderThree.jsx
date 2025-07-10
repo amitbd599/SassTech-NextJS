@@ -8,13 +8,18 @@ const HeaderThree = () => {
   const [scroll, setScroll] = useState(false);
   let [mobileMenu, setMobileMenu] = useState(false);
   useEffect(() => {
-    window.onscroll = () => {
+    const handleScroll = () => {
       if (window.pageYOffset < 150) {
         setScroll(false);
-      } else if (window.pageYOffset > 150) {
+      } else {
         setScroll(true);
       }
-      return () => (window.onscroll = null);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
