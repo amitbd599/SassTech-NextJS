@@ -1,7 +1,46 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const ServicesDetailsInner = () => {
+  const accordionData = [
+    {
+      title: "What is Sassly?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "Why should I choose Sassly?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "Can I upgrade to a different plan at a later time?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What’s the cost of additional users?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What’s the commitment?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What languages does Sassly AI support?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+  ];
+
+  const [openIndex, setOpenIndex] = useState(1); // default open second item
+
+  const toggleAccordion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
   return (
     <section className='service-details py-120'>
       <div className='container'>
@@ -235,214 +274,39 @@ const ServicesDetailsInner = () => {
                     </div>
                   </div>
                 </div>
-                <div
-                  className='accordion common-accordion style-two arrow-bg-orange_border'
-                  id='accordionExample'
-                >
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseTwo'
-                        aria-expanded='false'
-                        aria-controls='collapseTwo'
-                      >
-                        What is Sassly?
-                      </button>
-                    </h5>
+                <div className='accordion common-accordion style-two arrow-bg-orange_border'>
+                  {accordionData.map((item, index) => (
                     <div
-                      id='collapseTwo'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
+                      key={index}
+                      className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
+                      data-aos='fade-up'
+                      data-aos-anchor-placement='top-bottom'
+                      data-aos-duration={800}
                     >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
+                      <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
+                        <button
+                          className={`accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 ${
+                            openIndex === index ? "" : "collapsed"
+                          }`}
+                          type='button'
+                          onClick={() => toggleAccordion(index)}
+                          aria-expanded={openIndex === index}
+                        >
+                          {item.title}
+                        </button>
+                      </h5>
+
+                      {openIndex === index && (
+                        <div className='accordion-collapse show'>
+                          <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
+                            <p className='text-neutral-500 tw-leading-212'>
+                              {item.content}
+                            </p>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseOne'
-                        aria-expanded='true'
-                        aria-controls='collapseOne'
-                      >
-                        Why should I choose Sassly?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseOne'
-                      className='accordion-collapse collapse show'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseThree'
-                        aria-expanded='false'
-                        aria-controls='collapseThree'
-                      >
-                        Can I upgrade to a different plan at a later time?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseThree'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseFour'
-                        aria-expanded='false'
-                        aria-controls='collapseFour'
-                      >
-                        What’s the cost of additional users?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseFour'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseFive'
-                        aria-expanded='false'
-                        aria-controls='collapseFive'
-                      >
-                        What’s the commitment?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseFive'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseSix'
-                        aria-expanded='false'
-                        aria-controls='collapseSix'
-                      >
-                        What languages does Sassly AI support?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseSix'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>

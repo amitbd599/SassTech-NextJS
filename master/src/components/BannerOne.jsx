@@ -1,7 +1,15 @@
 "use client";
 import Link from "next/link";
+import { useState } from "react";
 import CountUp from "react-countup";
 const BannerOne = () => {
+  const [activeTab, setActiveTab] = useState("Daily");
+
+  const tabs = [
+    { id: "Daily", label: "Daily", amount: 4820 },
+    { id: "Weekly", label: "Weekly", amount: 2445 },
+    { id: "Monthly", label: "Monthly", amount: 8221 },
+  ];
   return (
     <section className='banner tw-py-80-px overflow-hidden section-bg-three position-relative'>
       <img
@@ -139,101 +147,43 @@ const BannerOne = () => {
                   alt=''
                   className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
                 />
-                <div className=''>
-                  <div className='tab-content' id='pills-tabContent'>
-                    <div
-                      className='tab-pane fade show active'
-                      id='pills-Daily'
-                      role='tabpanel'
-                      aria-labelledby='pills-Daily-tab'
-                      tabIndex={0}
-                    >
-                      <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
-                        Revenue
-                      </span>
-                      <h5 className='tw-mb-6 counter'>
-                        $<CountUp delay={0} start={0} end={4820} />
-                        .00
-                      </h5>
-                    </div>
-                    <div
-                      className='tab-pane fade'
-                      id='pills-Weekly'
-                      role='tabpanel'
-                      aria-labelledby='pills-Weekly-tab'
-                      tabIndex={0}
-                    >
-                      <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
-                        Revenue
-                      </span>
-                      <h5 className='tw-mb-6 counter'>
-                        $<CountUp delay={0} start={0} end={2445} />
-                        .00
-                      </h5>
-                    </div>
-                    <div
-                      className='tab-pane fade'
-                      id='pills-Monthly'
-                      role='tabpanel'
-                      aria-labelledby='pills-Monthly-tab'
-                      tabIndex={0}
-                    >
-                      <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
-                        Revenue
-                      </span>
-                      <h5 className='tw-mb-6 counter'>
-                        $<CountUp delay={0} start={0} end={8221} />
-                        .00
-                      </h5>
-                    </div>
+                <div>
+                  {/* Tab Content */}
+                  <div className='tab-content'>
+                    {tabs.map((tab) => (
+                      <div
+                        key={tab.id}
+                        className={`tab-pane fade ${
+                          activeTab === tab.id ? "show active" : ""
+                        }`}
+                      >
+                        <span className='tw-text-sm text-neutral-500 tw-mb-1 text-uppercase'>
+                          Revenue
+                        </span>
+                        <h5 className='tw-mb-6 counter'>
+                          $
+                          <CountUp delay={0} start={0} end={tab.amount} />
+                          .00
+                        </h5>
+                      </div>
+                    ))}
                   </div>
-                  <ul
-                    className='nav nav-pills common-tab d-flex align-items-center tw-gap-205'
-                    id='pills-tab'
-                    role='tablist'
-                  >
-                    <li className='nav-item' role='presentation'>
-                      <button
-                        className='nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0 active'
-                        id='pills-Daily-tab'
-                        data-bs-toggle='pill'
-                        data-bs-target='#pills-Daily'
-                        type='button'
-                        role='tab'
-                        aria-controls='pills-Daily'
-                        aria-selected='true'
-                      >
-                        Daily
-                      </button>
-                    </li>
-                    <li className='nav-item' role='presentation'>
-                      <button
-                        className='nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0'
-                        id='pills-Weekly-tab'
-                        data-bs-toggle='pill'
-                        data-bs-target='#pills-Weekly'
-                        type='button'
-                        role='tab'
-                        aria-controls='pills-Weekly'
-                        aria-selected='false'
-                      >
-                        Weekly
-                      </button>
-                    </li>
-                    <li className='nav-item' role='presentation'>
-                      <button
-                        className='nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0'
-                        id='pills-Monthly-tab'
-                        data-bs-toggle='pill'
-                        data-bs-target='#pills-Monthly'
-                        type='button'
-                        role='tab'
-                        aria-controls='pills-Monthly'
-                        aria-selected='false'
-                      >
-                        Monthly
-                      </button>
-                    </li>
+
+                  {/* Tab Buttons */}
+                  <ul className='nav nav-pills common-tab d-flex align-items-center tw-gap-205'>
+                    {tabs.map((tab) => (
+                      <li className='nav-item' key={tab.id}>
+                        <button
+                          className={`nav-link bg-transparent hover--translate-y-1 tw-transition-all tw-duration-300 text-neutral-500 tw-text-sm fw-medium p-0 ${
+                            activeTab === tab.id ? "active" : ""
+                          }`}
+                          onClick={() => setActiveTab(tab.id)}
+                          type='button'
+                        >
+                          {tab.label}
+                        </button>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className=''>

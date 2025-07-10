@@ -1,7 +1,28 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const FeaturesThree = () => {
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const items = [
+    { label: "Action", href: "#" },
+    { label: "Another action", href: "#" },
+    { label: "Something else here", href: "#" },
+  ];
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <section className='features-three py-120 position-relative z-1'>
       <img
@@ -58,41 +79,30 @@ const FeaturesThree = () => {
               <div className='bg-white tw-rounded-lg common-shadow-twelve tw-py-5 tw-px-6'>
                 <div className='d-flex align-items-center justify-content-between'>
                   <span className='fw-bold tw-text-sm'>Labels</span>
-                  <div className='dropdown'>
+                  <div className='dropdown' ref={dropdownRef}>
                     <button
                       type='button'
                       className='text-neutral-400'
-                      data-bs-toggle='dropdown'
-                      aria-expanded='false'
+                      onClick={() => setOpen(!open)}
+                      aria-expanded={open}
                     >
                       <i className='ph-fill ph-dots-three-outline' />
                     </button>
-                    <ul className='dropdown-menu border-0 min-w-max tw-p-4 common-shadow-eight'>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Action
-                        </Link>
-                      </li>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Another action
-                        </Link>
-                      </li>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Something else here
-                        </Link>
-                      </li>
-                    </ul>
+
+                    {open && (
+                      <ul className='dropdown-menu border-0 min-w-max tw-p-4 common-shadow-eight show'>
+                        {items.map((item, index) => (
+                          <li className='p-0' key={index}>
+                            <Link
+                              href={item.href}
+                              className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
                 <div className='tw-mt-7'>

@@ -1,6 +1,8 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const ProductTabsInner = () => {
+  const [activeTab, setActiveTab] = useState(1);
   return (
     <section className='py-120 section-bg-two'>
       <div className='container'>
@@ -12,56 +14,40 @@ const ProductTabsInner = () => {
           >
             <li className='nav-item' role='presentation'>
               <button
-                className='nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg active'
-                id='pills-ProductDetails-tab'
-                data-bs-toggle='pill'
-                data-bs-target='#pills-ProductDetails'
-                type='button'
-                role='tab'
-                aria-controls='pills-ProductDetails'
-                aria-selected='true'
+                className={`nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg ${
+                  activeTab === 1 && "active"
+                } `}
+                onClick={() => setActiveTab(1)}
               >
                 Product Details
               </button>
             </li>
             <li className='nav-item' role='presentation'>
               <button
-                className='nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg'
-                id='pills-additionalInformation-tab'
-                data-bs-toggle='pill'
-                data-bs-target='#pills-additionalInformation'
-                type='button'
-                role='tab'
-                aria-controls='pills-additionalInformation'
-                aria-selected='false'
+                className={`nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg ${
+                  activeTab === 2 && "active"
+                } `}
+                onClick={() => setActiveTab(2)}
               >
                 additional Information
               </button>
             </li>
             <li className='nav-item' role='presentation'>
               <button
-                className='nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg'
-                id='pills-Review-tab'
-                data-bs-toggle='pill'
-                data-bs-target='#pills-Review'
-                type='button'
-                role='tab'
-                aria-controls='pills-Review'
-                aria-selected='false'
+                className={`nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg ${
+                  activeTab === 3 && "active"
+                } `}
+                onClick={() => setActiveTab(3)}
               >
                 Review (09)
               </button>
             </li>
             <li className='nav-item' role='presentation'>
               <button
-                className='nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg'
-                id='pills-faq-tab'
-                data-bs-toggle='pill'
-                data-bs-target='#pills-faq'
-                type='button'
-                role='tab'
-                aria-controls='pills-faq'
-                aria-selected='false'
+                className={`nav-link tw-px-6 tw-py-3 bg-white text-heading fw-bold tw-text-sm border border-white text-uppercase tw-rounded-lg ${
+                  activeTab === 4 && "active"
+                } `}
+                onClick={() => setActiveTab(4)}
               >
                 faq
               </button>
@@ -69,11 +55,7 @@ const ProductTabsInner = () => {
           </ul>
           <div className='tab-content' id='pills-tabContent'>
             <div
-              className='tab-pane fade show active'
-              id='pills-ProductDetails'
-              role='tabpanel'
-              aria-labelledby='pills-ProductDetails-tab'
-              tabIndex={0}
+              className={`tab-pane fade show ${activeTab === 1 && "active"}  `}
             >
               <div className=''>
                 <div className=''>
@@ -195,11 +177,7 @@ const ProductTabsInner = () => {
               </div>
             </div>
             <div
-              className='tab-pane fade'
-              id='pills-additionalInformation'
-              role='tabpanel'
-              aria-labelledby='pills-additionalInformation-tab'
-              tabIndex={0}
+              className={`tab-pane fade show ${activeTab === 2 && "active"}  `}
             >
               <div className=''>
                 <div className=''>
@@ -321,11 +299,7 @@ const ProductTabsInner = () => {
               </div>
             </div>
             <div
-              className='tab-pane fade'
-              id='pills-Review'
-              role='tabpanel'
-              aria-labelledby='pills-Review-tab'
-              tabIndex={0}
+              className={`tab-pane fade show ${activeTab === 3 && "active"}  `}
             >
               <div className=''>
                 <div className=''>
@@ -447,11 +421,7 @@ const ProductTabsInner = () => {
               </div>
             </div>
             <div
-              className='tab-pane fade'
-              id='pills-faq'
-              role='tabpanel'
-              aria-labelledby='pills-faq-tab'
-              tabIndex={0}
+              className={`tab-pane fade show ${activeTab === 4 && "active"}  `}
             >
               <div className=''>
                 <div className=''>

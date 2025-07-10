@@ -1,6 +1,18 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const SearchDomainOne = () => {
+  const [activeTab, setActiveTab] = useState("FindNewDomain");
+  const tabs = [
+    {
+      id: "FindNewDomain",
+      label: "Find New Domain",
+    },
+    {
+      id: "GeneratedomainusingAI",
+      label: "Generate domain using AI",
+    },
+  ];
   return (
     <section
       className='search-domain position-relative z-1 tw--mt-170-px'
@@ -30,38 +42,29 @@ const SearchDomainOne = () => {
           >
             <ul
               className='animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex border border-neutral-200 rounded-pill tw-mb-6'
-              id='pills-tab'
               role='tablist'
             >
               <li className='background inner' />
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 active'
-                  id='pills-FindNewDomain-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-FindNewDomain'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-FindNewDomain'
-                  aria-selected='true'
+
+              {tabs.map((tab) => (
+                <li
+                  className='nav-item flex-grow-1'
+                  role='presentation'
+                  key={tab.id}
                 >
-                  Find New Domain
-                </button>
-              </li>
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1'
-                  id='pills-GeneratedomainusingAI-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-GeneratedomainusingAI'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-GeneratedomainusingAI'
-                  aria-selected='false'
-                >
-                  Generate domain using AI
-                </button>
-              </li>
+                  <button
+                    type='button'
+                    className={`nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 ${
+                      activeTab === tab.id ? "active" : ""
+                    }`}
+                    onClick={() => setActiveTab(tab.id)}
+                    role='tab'
+                    aria-selected={activeTab === tab.id}
+                  >
+                    {tab.label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
           <div className='tab-content' id='pills-tabContent'>

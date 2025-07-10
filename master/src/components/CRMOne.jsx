@@ -1,6 +1,28 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const CRMOne = () => {
+  const [openIndex, setOpenIndex] = useState(1);
+  const accordionData = [
+    {
+      title: "Automate everything",
+      content:
+        "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
+      image: "assets/images/thumbs/faq-thumb2.png",
+    },
+    {
+      title: "Deploy AI",
+      content:
+        "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
+      image: "assets/images/thumbs/faq-thumb1.png",
+    },
+    {
+      title: "Powerful reporting",
+      content:
+        "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
+      image: "assets/images/thumbs/faq-thumb3.png",
+    },
+  ];
   return (
     <section className='about-four-three position-relative z-1 overflow-hidden'>
       <div className='gradient-bg-top-bottom pb-120 tw-mx-48-px'>
@@ -26,109 +48,40 @@ const CRMOne = () => {
                     leaving pen
                   </p>
                 </div>
-                <div
-                  className='accordion common-accordion'
-                  id='accordionExampleTwo'
-                >
-                  <div
-                    className='accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header'>
-                      <button
-                        className='accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseTwoo'
-                        aria-expanded='false'
-                        aria-controls='collapseTwoo'
-                        data-img='assets/images/thumbs/faq-thumb2.png'
-                      >
-                        Automate everything
-                      </button>
-                    </h5>
+                <div className='accordion common-accordion'>
+                  {accordionData.map((item, index) => (
                     <div
-                      id='collapseTwoo'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExampleTwo'
+                      key={index}
+                      className='accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6'
+                      data-aos='fade-up'
+                      data-aos-anchor-placement='top-bottom'
+                      data-aos-duration={800}
                     >
-                      <div className='accordion-body ps-0 pt-0 pe-0 tw-pb-6'>
-                        <p className='text-neutral-500'>
-                          ERP provides a complete leave management system for
-                          your HR. Upcoming holidays and remaining leave
-                          balances.
-                        </p>
-                      </div>
+                      <h5 className='accordion-header'>
+                        <button
+                          className={`accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 ${
+                            openIndex === index ? "" : "collapsed"
+                          }`}
+                          type='button'
+                          onClick={() =>
+                            setOpenIndex(openIndex === index ? null : index)
+                          }
+                          aria-expanded={openIndex === index}
+                          data-img={item.image}
+                        >
+                          {item.title}
+                        </button>
+                      </h5>
+
+                      {openIndex === index && (
+                        <div className='accordion-collapse show'>
+                          <div className='accordion-body ps-0 pt-0 pe-0 tw-pb-6'>
+                            <p className='text-neutral-500'>{item.content}</p>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header'>
-                      <button
-                        className='accordion-button tw-py-6 shadow-none px-0 bg-transparent h5'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseOnee'
-                        aria-expanded='true'
-                        aria-controls='collapseOnee'
-                        data-img='assets/images/thumbs/faq-thumb1.png'
-                      >
-                        Deploy AI
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseOnee'
-                      className='accordion-collapse collapse show'
-                      data-bs-parent='#accordionExampleTwo'
-                    >
-                      <div className='accordion-body ps-0 pt-0 pe-0 tw-pb-6'>
-                        <p className='text-neutral-500'>
-                          ERP provides a complete leave management system for
-                          your HR. Upcoming holidays and remaining leave
-                          balances.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-px-40-px tw-rounded-xl bg-white border-0 tw-mb-6'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header'>
-                      <button
-                        className='accordion-button tw-py-6 shadow-none px-0 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseThreee'
-                        aria-expanded='false'
-                        aria-controls='collapseThreee'
-                        data-img='assets/images/thumbs/faq-thumb3.png'
-                      >
-                        Powerful reporting
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseThreee'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExampleTwo'
-                    >
-                      <div className='accordion-body ps-0 pt-0 pe-0 tw-pb-6'>
-                        <p className='text-neutral-500'>
-                          ERP provides a complete leave management system for
-                          your HR. Upcoming holidays and remaining leave
-                          balances.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>

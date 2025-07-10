@@ -1,7 +1,11 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const PricingPlanOne = () => {
+  const [activeTab, setActiveTab] = useState("Monthly");
+
+  const tabs = ["Monthly", "Annually"];
   return (
     <section className='pricing-plan py-120'>
       <div className='container'>
@@ -33,37 +37,25 @@ const PricingPlanOne = () => {
           >
             <ul
               className='animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex bg-white common-shadow-four tw-p-1 rounded-pill mb-0 tw-mt-7'
-              id='pills-tabTwo'
               role='tablist'
             >
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1 active'
-                  id='pills-Monthly-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-Monthly'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-Monthly'
-                  aria-selected='true'
+              {tabs.map((tab) => (
+                <li
+                  className='nav-item flex-grow-1'
+                  role='presentation'
+                  key={tab}
                 >
-                  Monthly
-                </button>
-              </li>
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1'
-                  id='pills-Annually-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-Annually'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-Annually'
-                  aria-selected='false'
-                >
-                  Annually
-                </button>
-              </li>
+                  <button
+                    className={`nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1 ${
+                      activeTab === tab ? "active" : ""
+                    }`}
+                    type='button'
+                    onClick={() => setActiveTab(tab)}
+                  >
+                    {tab}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
