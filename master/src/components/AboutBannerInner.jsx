@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +12,9 @@ const AboutBannerInner = () => {
               <div className='row justify-content-center'>
                 <div className='col-xxl-6 col-xl-7 col-sm-8'>
                   <div className='text-center'>
-                    <img
+                    <Image
+                      width={52}
+                      height={32}
                       src='assets/images/logo/favicon-two.png'
                       alt='Favicon'
                     />
@@ -41,84 +44,108 @@ const AboutBannerInner = () => {
               </div>
               <div className=''>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown one'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img1.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 two'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img2.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown three'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img3.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 four'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img4.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown five'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img5.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 six'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img6.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown seven'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img7.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 eight'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img8.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown nine'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img9.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 ten'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img10.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown eleven'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img11.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'
                   />
                 </div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 twelve'>
-                  <img
+                  <Image
+                    width={105}
+                    height={109}
                     src='assets/images/thumbs/about-banner-img12.png'
                     alt='Image'
                     className='tw-rounded-3xl w-100 h-100 object-fit-cover'

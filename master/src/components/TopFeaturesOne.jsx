@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
 const TopFeaturesOne = () => {
@@ -8,7 +9,12 @@ const TopFeaturesOne = () => {
           <Marquee>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
               <span>
-                <img src='assets/images/icons/chart-icon.svg' alt='' />
+                <Image
+                  width={18}
+                  height={17}
+                  src='assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
                 Perfect solution for success
@@ -16,7 +22,12 @@ const TopFeaturesOne = () => {
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
               <span>
-                <img src='assets/images/icons/chart-icon.svg' alt='' />
+                <Image
+                  width={18}
+                  height={17}
+                  src='assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
                 Excellence in tailored IT Srvices
@@ -24,7 +35,12 @@ const TopFeaturesOne = () => {
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
               <span>
-                <img src='assets/images/icons/chart-icon.svg' alt='' />
+                <Image
+                  width={18}
+                  height={17}
+                  src='assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
                 Elevate your brand sasstech
@@ -32,7 +48,12 @@ const TopFeaturesOne = () => {
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
               <span>
-                <img src='assets/images/icons/chart-icon.svg' alt='' />
+                <Image
+                  width={18}
+                  height={17}
+                  src='assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
                 Achieve business golas solution
@@ -40,7 +61,12 @@ const TopFeaturesOne = () => {
             </div>
             <div className='d-flex align-items-center tw-gap-4 px-5'>
               <span>
-                <img src='assets/images/icons/chart-icon.svg' alt='' />
+                <Image
+                  width={18}
+                  height={17}
+                  src='assets/images/icons/chart-icon.svg'
+                  alt='Sasstech Next JS'
+                />
               </span>
               <span className='text-heading fw-medium tw-text-base'>
                 Innnovation in every presence

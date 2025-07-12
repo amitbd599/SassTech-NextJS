@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -95,13 +96,16 @@ const HeaderOne = () => {
                 href='/'
                 className='link hover--translate-y-1 active--translate-y-scale-9'
               >
-                <img
+                <Image
                   src='assets/images/logo/logo.png'
                   alt='Logo'
                   className='max-w-200-px'
+                  width={150}
+                  height={30}
                 />
               </Link>
             </div>
+
             {/* Logo End  */}
             {/* Menu Start  */}
 
@@ -202,7 +206,12 @@ const HeaderOne = () => {
           </button>
           <div className='mobile-menu__inner'>
             <Link href='/' className='mobile-menu__logo'>
-              <img src='assets/images/logo/logo.png' alt='Logo' />
+              <Image
+                width={150}
+                height={30}
+                src='assets/images/logo/logo.png'
+                alt='Logo'
+              />
             </Link>
 
             <div className='mobile-menu__menu'>

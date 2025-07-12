@@ -353,7 +353,7 @@ const FooterTwo = () => {
               <ul className='d-flex align-items-center tw-gap-4'>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Faqs
@@ -361,7 +361,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Setting
@@ -369,7 +369,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Privacy
@@ -377,7 +377,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Contact

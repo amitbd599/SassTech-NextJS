@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const TaskManagementOne = () => {
@@ -5,19 +6,25 @@ const TaskManagementOne = () => {
     <section className='task-management bg-pink-more-light-half drag-rotate-element-section bg-pink-more-light-half'>
       <div className='container'>
         <div className='text-end tw--mb-40-px position-relative z-2'>
-          <img
+          <Image
+            width={150}
+            height={164}
             src='assets/images/thumbs/laptop-man.png'
             alt='Image'
             className='tw-me-84-px'
           />
         </div>
         <div className='bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1'>
-          <img
+          <Image
+            width={1290}
+            height={596}
             src='assets/images/shapes/hill-shape.png'
             alt='Hill Shape'
             className='position-absolute w-100 h-100 top-0 tw-start-0 z-n1'
           />
-          <img
+          <Image
+            width={210}
+            height={220}
             src='assets/images/thumbs/task-management-img.png'
             alt='Image'
             className='position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none'
@@ -40,7 +47,7 @@ const TaskManagementOne = () => {
             </h3>
             <div className='d-block'>
               <a
-                href='javascript:void(0)'
+                href='#'
                 className=' hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7'
                 data-block='button'
               >
@@ -53,7 +60,7 @@ const TaskManagementOne = () => {
             <div className='d-none'>
               <div className='d-flex align-items-center tw-gap-4 justify-content-center flex-wrap'>
                 <a
-                  href='javascript:void(0)'
+                  href='#'
                   className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7'
                   data-block='button'
                 >
@@ -63,7 +70,7 @@ const TaskManagementOne = () => {
                   </div>
                 </a>
                 <a
-                  href='javascript:void(0)'
+                  href='#'
                   className='hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7'
                   data-block='button'
                 >

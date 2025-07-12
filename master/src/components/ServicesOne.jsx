@@ -89,7 +89,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -128,7 +128,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -167,7 +167,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -206,7 +206,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -245,7 +245,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More

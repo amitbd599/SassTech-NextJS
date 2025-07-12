@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -32,9 +33,11 @@ const FAQOne = () => {
   ];
   return (
     <section className='faq py-120 position-relative z-1 overflow-hidden'>
-      <img
+      <Image
+        width={1919}
+        height={1032}
         src='assets/images/shapes/faq-bg.png'
-        alt=''
+        alt='tech'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
       <div className='container'>
@@ -111,26 +114,34 @@ const FAQOne = () => {
           <div className='col-lg-7'>
             <div className='position-relative tw-pb-8 tw-ps-12 h-100'>
               <div className='bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px'>
-                <img
+                <Image
+                  width={805}
+                  height={543}
                   src='assets/images/thumbs/faq-thumb1.png'
                   id='faqImage'
                   alt='Image'
                   className='w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300'
                 />
               </div>
-              <img
+              <Image
+                width={155}
+                height={61}
                 src='assets/images/thumbs/faq-img-1.png'
-                alt=''
+                alt='tech'
                 className='position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px'
               />
-              <img
+              <Image
+                width={177}
+                height={158}
                 src='assets/images/thumbs/faq-img-2.png'
-                alt=''
+                alt='tech'
                 className='position-absolute bottom-0 tw-end-0 tw--me-32-px'
               />
-              <img
+              <Image
+                width={244}
+                height={205}
                 src='assets/images/thumbs/faq-img-3.png'
-                alt=''
+                alt='tech'
                 className='position-absolute bottom-0 tw-start-0 tw--ms-24-px'
               />
             </div>

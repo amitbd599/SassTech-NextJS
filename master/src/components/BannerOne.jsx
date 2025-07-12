@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import CountUp from "react-countup";
@@ -12,7 +13,9 @@ const BannerOne = () => {
   ];
   return (
     <section className='banner tw-py-80-px overflow-hidden section-bg-three position-relative'>
-      <img
+      <Image
+        width={803}
+        height={786}
         src='assets/images/shapes/sqaure_shape.png'
         alt='Shape'
         className='position-absolute top-0 tw-end-0 tw-me-12-percent'
@@ -57,21 +60,27 @@ const BannerOne = () => {
                   <div className='d-flex align-items-center tw-gap-4'>
                     <div className='d-flex align-items-center'>
                       <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2'>
-                        <img
+                        <Image
+                          width={35}
+                          height={35}
                           src='assets/images/thumbs/client-img1.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
                         />
                       </div>
                       <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1'>
-                        <img
+                        <Image
+                          width={35}
+                          height={35}
                           src='assets/images/thumbs/client-img2.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
                         />
                       </div>
                       <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px'>
-                        <img
+                        <Image
+                          width={35}
+                          height={35}
                           src='assets/images/thumbs/client-img3.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
@@ -93,9 +102,11 @@ const BannerOne = () => {
           <div className='col-lg-6'>
             <div className='tw-ps-98-px position-relative tw-pb-8'>
               <div className='position-relative z-1'>
-                <img
+                <Image
+                  width={481}
+                  height={617}
                   src='assets/images/thumbs/banner-img.png'
-                  alt=''
+                  alt='Sasstech Next JS'
                   data-aos='zoom-in'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={1000}
@@ -106,19 +117,31 @@ const BannerOne = () => {
                 <div className='d-inline-flex align-items-center tw-gap-1 bg-green tw-py-05 tw-px-3 rounded-pill position-absolute top-0 tw-end-0 tw--mt-12-px tw--me-12-px'>
                   <span className='text-white fw-bold tw-text-sm'>4.9</span>
                   <span className='text-white d-flex'>
-                    <img src='assets/images/icons/star.svg' alt='' />
+                    <Image
+                      width={14}
+                      height={13}
+                      src='assets/images/icons/star.svg'
+                      alt='Sasstech Next JS'
+                    />
                   </span>
                 </div>
-                <img
+                <Image
+                  width={100}
+                  height={18}
                   src='assets/images/icons/ratings.svg'
-                  alt=''
+                  alt='Sasstech Next JS'
                   className=''
                 />
                 <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
                   <span className='tw-text-lg text-heading fw-semibold'>
                     Trust pilot
                   </span>
-                  <img src='assets/images/icons/verified-icon.svg' alt='' />
+                  <Image
+                    width={20}
+                    height={20}
+                    src='assets/images/icons/verified-icon.svg'
+                    alt='Sasstech Next JS'
+                  />
                 </div>
               </div>
               {/* Review */}
@@ -142,9 +165,11 @@ const BannerOne = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
               >
-                <img
+                <Image
+                  width={69}
+                  height={64}
                   src='assets/images/shapes/revenue-shape.png'
-                  alt=''
+                  alt='Sasstech Next JS'
                   className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
                 />
                 <div>
@@ -186,8 +211,13 @@ const BannerOne = () => {
                     ))}
                   </ul>
                 </div>
-                <div className=''>
-                  <img src='assets/images/thumbs/revenue-chart.png' alt='' />
+                <div>
+                  <Image
+                    width={102}
+                    height={102}
+                    src='assets/images/thumbs/revenue-chart.png'
+                    alt='Sasstech Next JS'
+                  />
                 </div>
               </div>
               {/* Revenue */}

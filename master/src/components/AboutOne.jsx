@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import Image from "next/image";
 const AboutOne = () => {
   const { ref, inView } = useInView({
     threshold: 0,
@@ -22,7 +23,12 @@ const AboutOne = () => {
                     <div className='bg-main-600 tw-rounded-3xl tw-p-8 text-center h-100 d-flex flex-column justify-content-center align-items-center'>
                       <h3 className='text-white d-inline-flex align-items-center tw-gap-3 tw-mb-9'>
                         <span className='d-flex'>
-                          <img src='assets/images/icons/arrow-up.svg' alt='' />
+                          <Image
+                            width={22}
+                            height={38}
+                            src='assets/images/icons/arrow-up.svg'
+                            alt='tech'
+                          />
                         </span>
                         {inView && (
                           <span>
@@ -42,9 +48,11 @@ const AboutOne = () => {
                     data-aos-duration={800}
                   >
                     <div className='bg-main-two-600 tw-rounded-3xl tw-h-300-px d-flex flex-column justify-content-center align-items-center position-relative'>
-                      <img
+                      <Image
+                        width={277}
+                        height={326}
                         src='assets/images/thumbs/model.png'
-                        alt=''
+                        alt='tech'
                         className='position-absolute tw-start-50 bottom-0 tw-translate-x-50'
                       />
                     </div>
@@ -154,9 +162,11 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
+                      <Image
+                        width={54}
+                        height={54}
                         src='assets/images/icons/about-icon1.svg'
-                        alt=''
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>
@@ -176,9 +186,11 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
+                      <Image
+                        width={42}
+                        height={42}
                         src='assets/images/icons/about-icon2.svg'
-                        alt=''
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>
@@ -198,9 +210,11 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
+                      <Image
+                        width={40}
+                        height={40}
                         src='assets/images/icons/about-icon3.svg'
-                        alt=''
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>

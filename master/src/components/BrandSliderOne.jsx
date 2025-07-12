@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick";
 
 const BrandSliderOne = () => {
@@ -52,10 +53,11 @@ const BrandSliderOne = () => {
             data-aos-duration={600}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img1.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -66,10 +68,11 @@ const BrandSliderOne = () => {
             data-aos-duration={700}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img2.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -80,10 +83,11 @@ const BrandSliderOne = () => {
             data-aos-duration={800}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img3.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -94,10 +98,11 @@ const BrandSliderOne = () => {
             data-aos-duration={600}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img4.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -108,10 +113,11 @@ const BrandSliderOne = () => {
             data-aos-duration={700}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img5.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -122,10 +128,11 @@ const BrandSliderOne = () => {
             data-aos-duration={800}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img6.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -136,10 +143,11 @@ const BrandSliderOne = () => {
             data-aos-duration={600}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img7.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>
@@ -150,10 +158,11 @@ const BrandSliderOne = () => {
             data-aos-duration={700}
           >
             <div className='text-center'>
-              <img
+              <Image
+                width={150}
+                height={25}
                 src='assets/images/thumbs/brand-img3.png'
                 alt='Logo'
-                className=''
               />
             </div>
           </div>

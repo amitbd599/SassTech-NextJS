@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -34,7 +35,9 @@ const BlogOne = () => {
                   href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
-                  <img
+                  <Image
+                    width={582}
+                    height={319}
                     src='assets/images/thumbs/blog-img1.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
@@ -78,7 +81,9 @@ const BlogOne = () => {
                   href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
-                  <img
+                  <Image
+                    width={582}
+                    height={319}
                     src='assets/images/thumbs/blog-img2.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'

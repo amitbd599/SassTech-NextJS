@@ -105,7 +105,7 @@ const RegisterInner = () => {
                   I agree to sassly
                 </label>
                 <a
-                  href='javascript:void(0)'
+                  href='#'
                   className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'
                 >
                   Terms of Service.

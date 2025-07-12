@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -166,7 +167,12 @@ const FooterThree = () => {
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
                 >
-                  <img src='assets/images/logo/logo-three.png' alt='' />
+                  <Image
+                    width={150}
+                    height={30}
+                    src='assets/images/logo/logo-three.png'
+                    alt='tech'
+                  />
                 </Link>
                 <form
                   action='#'

@@ -1,3 +1,4 @@
+import Script from "next/script";
 import InitializeAOS from "@/helper/InitializeAOS";
 import PhosphorIconsLoader from "@/helper/PhosphorIconsLoader";
 import RouteScrollToTop from "@/helper/RouteScrollToTop";
@@ -31,7 +32,10 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <script src='/assets/js/boostrap.bundle.min.js'></script>
+        <Script
+          src='/assets/js/boostrap.bundle.min.js'
+          strategy='afterInteractive'
+        />
       </body>
     </html>
   );

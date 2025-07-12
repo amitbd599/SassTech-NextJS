@@ -208,7 +208,7 @@ const SearchDomainOne = () => {
                 >
                   Already bought a domain?
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='fw-bold text-decoration-underline text-heading hover-text-main-600'
                   >
                     Transfer it?
@@ -357,7 +357,7 @@ const SearchDomainOne = () => {
                 >
                   Already bought a domain?
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='fw-bold text-decoration-underline text-heading hover-text-main-600'
                   >
                     Transfer it?

@@ -15,6 +15,7 @@ import TopFeaturesOne from "@/components/TopFeaturesOne";
 import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
+import Image from "next/image";
 
 export const metadata = {
   title:
@@ -66,7 +67,9 @@ const page = () => {
 
       {/* Wrapper two section */}
       <div className='position-relative z-1'>
-        <img
+        <Image
+          width={1919}
+          height={845}
           src='assets/images/shapes/shape-image.png'
           alt='Shape'
           className='position-absolute w-100 tw-start-0 bottom-0 z-n1'

@@ -44,56 +44,56 @@ const ShopInner = () => {
                 </h5>
                 <div className='d-flex flex-column tw-gap-6'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Brochures &amp; Catalogues
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Business Cards
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Calendars printing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Design Online
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Flyers Design
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Folded Leaflets
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     t-shirt printing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
@@ -332,49 +332,49 @@ const ShopInner = () => {
                 </h5>
                 <div className='d-flex tw-gap-3 flex-wrap'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Sweat Shirt
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Banner design
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Business Card
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     landing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Tryptich Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Cap
