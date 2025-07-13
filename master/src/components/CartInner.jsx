@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -49,7 +50,9 @@ const CartInner = () => {
                                 href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
-                                <img
+                                <Image
+                                  width={72}
+                                  height={72}
                                   src='assets/images/thumbs/cart-img1.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
@@ -93,7 +96,9 @@ const CartInner = () => {
                                 href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
-                                <img
+                                <Image
+                                  width={46}
+                                  height={71}
                                   src='assets/images/thumbs/cart-img2.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
@@ -137,7 +142,9 @@ const CartInner = () => {
                                 href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
-                                <img
+                                <Image
+                                  width={74}
+                                  height={80}
                                   src='assets/images/thumbs/cart-img3.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
@@ -181,7 +188,9 @@ const CartInner = () => {
                                 href='/shop-details'
                                 className='d-flex justify-content-center align-items-center position-relative d-block'
                               >
-                                <img
+                                <Image
+                                  width={50}
+                                  height={78}
                                   src='assets/images/thumbs/cart-img4.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -75,7 +76,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={600}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={9}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
@@ -120,7 +123,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -129,7 +134,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -140,7 +147,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -151,7 +160,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -162,7 +173,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -173,7 +186,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -184,7 +199,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -195,7 +212,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -204,7 +223,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -215,7 +236,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -245,7 +268,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={700}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={91}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
@@ -290,7 +315,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -299,7 +326,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -310,7 +339,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -321,7 +352,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -332,7 +365,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -343,7 +378,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -354,7 +391,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -365,7 +404,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -374,7 +415,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -385,7 +428,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -415,7 +460,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={800}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={91}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
@@ -460,7 +507,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -469,7 +518,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -480,7 +531,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -491,7 +544,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -502,7 +557,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -513,7 +570,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -524,7 +583,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -535,7 +596,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -544,7 +607,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -555,7 +620,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -595,7 +662,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={600}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={91}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
@@ -640,7 +709,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -649,7 +720,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -660,7 +733,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -671,7 +746,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -682,7 +759,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -693,7 +772,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -704,7 +785,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -715,7 +798,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -724,7 +809,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -735,7 +822,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -765,7 +854,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={700}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={91}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
@@ -810,7 +901,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -819,7 +912,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -830,7 +925,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -841,7 +938,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -852,7 +951,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -863,7 +964,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -874,7 +977,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -885,7 +990,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -894,7 +1001,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -905,7 +1014,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -935,7 +1046,9 @@ const PricingPlanOne = () => {
                 data-aos-duration={800}
               >
                 <div className='pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600'>
-                  <img
+                  <Image
+                    width={114}
+                    height={91}
                     src='assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
@@ -980,7 +1093,9 @@ const PricingPlanOne = () => {
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -989,7 +1104,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -1000,7 +1117,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
@@ -1011,7 +1130,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={14}
+                              height={16}
                               src='assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
@@ -1022,7 +1143,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={17}
                               src='assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
@@ -1033,7 +1156,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={18}
                               src='assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
@@ -1044,7 +1169,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
@@ -1055,7 +1182,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={19}
+                              height={19}
                               src='assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
@@ -1064,7 +1193,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={18}
+                              height={22}
                               src='assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
@@ -1075,7 +1206,9 @@ const PricingPlanOne = () => {
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
                           <span className=''>
-                            <img
+                            <Image
+                              width={16}
+                              height={18}
                               src='assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />

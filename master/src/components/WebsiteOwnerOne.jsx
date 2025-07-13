@@ -1,10 +1,13 @@
+import Image from "next/image";
 import React from "react";
 
 const WebsiteOwnerOne = () => {
   return (
     <section className='overflow-hidden gradient-bg-four'>
       <div className='website-owner pb-120 position-relative z-1'>
-        <img
+        <Image
+          width={1446}
+          height={1179}
           src='assets/images/shapes/moon-shape.png'
           alt='Moon Shape'
           className='position-absolute top-50 tw-start-50 translate-middle z-n1'
@@ -54,7 +57,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={103}
+                        height={41}
                         src='assets/images/thumbs/website-owner-img1.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -83,7 +88,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -98,7 +108,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={80}
+                        height={25}
                         src='assets/images/thumbs/website-owner-img2.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -124,7 +136,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -143,7 +160,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={120}
+                        height={38}
                         src='assets/images/thumbs/website-owner-img3.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -170,7 +189,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -185,7 +209,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={129}
+                        height={35}
                         src='assets/images/thumbs/website-owner-img4.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -213,7 +239,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -232,7 +263,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={88}
+                        height={24}
                         src='assets/images/thumbs/website-owner-img5.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -261,7 +294,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -276,7 +314,9 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
+                      <Image
+                        width={83}
+                        height={46}
                         src='assets/images/thumbs/website-owner-img6.png'
                         alt='Logo'
                         className='animate__flipInY'
@@ -302,7 +342,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>

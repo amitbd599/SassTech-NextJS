@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Breadcrumb = ({ title }) => {
@@ -8,7 +9,9 @@ const Breadcrumb = ({ title }) => {
           <div className='col-lg-8'>
             <div className='text-center'>
               <span className='tw-mb-4'>
-                <img
+                <Image
+                  width={52}
+                  height={32}
                   src='assets/images/logo/favicon-two.png'
                   alt='Favicon Two'
                 />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -34,7 +35,9 @@ const DegreeViewOne = () => {
               data-aos-duration={600}
             >
               <div className='tw-rounded-3xl overflow-hidden flex-shrink-0'>
-                <img
+                <Image
+                  width={357}
+                  height={398}
                   src='assets/images/thumbs/degree-view-img1.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
@@ -62,7 +65,9 @@ const DegreeViewOne = () => {
               data-aos-duration={700}
             >
               <div className='tw-rounded-3xl overflow-hidden flex-shrink-0'>
-                <img
+                <Image
+                  width={357}
+                  height={300}
                   src='assets/images/thumbs/degree-view-img2.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
@@ -106,7 +111,9 @@ const DegreeViewOne = () => {
           >
             <div className='d-flex common-shadow-eight tw-rounded-3xl bg-white border border-neutral-100 flex-column h-100'>
               <div className='tw-rounded-3xl overflow-hidden flex-shrink-0'>
-                <img
+                <Image
+                  width={426}
+                  height={340}
                   src='assets/images/thumbs/degree-view-img3.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'

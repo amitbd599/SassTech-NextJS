@@ -1,10 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const BannerTwo = () => {
   return (
     <section className='banner-two position-relative z-1 gradient-bg-two'>
-      <img
+      <Image
+        width={1920}
+        height={195}
         src='assets/images/shapes/cloud-shape.png'
         alt='Cloud Shape'
         className='position-absolute bottom-0 tw-start-0 w-100 z-n1'
@@ -63,7 +66,9 @@ const BannerTwo = () => {
             </div>
             <div className='col-lg-6'>
               <div className='banner-two-thumb'>
-                <img
+                <Image
+                  width={931}
+                  height={602}
                   src='assets/images/thumbs/banner-two-img.png'
                   alt='Image'
                   data-aos='zoom-in'

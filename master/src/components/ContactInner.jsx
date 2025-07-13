@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +12,9 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
+                    <Image
+                      width={56}
+                      height={85}
                       src='assets/images/icons/contact-icon1.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
@@ -30,7 +33,9 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
+                    <Image
+                      width={71}
+                      height={71}
                       src='assets/images/icons/contact-icon2.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
@@ -58,7 +63,9 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
+                    <Image
+                      width={78}
+                      height={68}
                       src='assets/images/icons/contact-icon3.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'

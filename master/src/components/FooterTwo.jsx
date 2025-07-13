@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -38,7 +39,12 @@ const FooterTwo = () => {
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
                 >
-                  <img src='assets/images/logo/logo-white.png' alt='' />
+                  <Image
+                    width={149}
+                    height={30}
+                    src='assets/images/logo/logo-white.png'
+                    alt=''
+                  />
                 </Link>
                 <p className='text-white max-w-330-px tw-text-lg'>
                   A new way to make the payments easy, reliable and 100% secure.

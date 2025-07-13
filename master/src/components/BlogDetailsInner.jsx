@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,9 +14,11 @@ const BlogDetailsInner = () => {
                   href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
-                  <img
+                  <Image
+                    width={884}
+                    height={507}
                     src='assets/images/thumbs/blog-page-img1.png'
-                    alt=''
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                   />
                 </Link>
@@ -98,7 +101,12 @@ const BlogDetailsInner = () => {
                       </span>
                     </div>
                     <span className=''>
-                      <img src='assets/images/icons/quate-blog.svg' alt='' />
+                      <Image
+                        width={42}
+                        height={30}
+                        src='assets/images/icons/quate-blog.svg'
+                        alt='tech'
+                      />
                     </span>
                   </div>
                 </div>
@@ -156,9 +164,11 @@ const BlogDetailsInner = () => {
                       </li>
                     </ul>
                     <div className='h-100'>
-                      <img
+                      <Image
+                        width={306}
+                        height={256}
                         src='assets/images/thumbs/invest-img.png'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
@@ -172,18 +182,22 @@ const BlogDetailsInner = () => {
                   <div className='row gy-4'>
                     <div className='col-sm-6'>
                       <div className=''>
-                        <img
+                        <Image
+                          width={430}
+                          height={430}
                           src='assets/images/thumbs/blog-details-img1.png'
-                          alt=''
+                          alt='tech'
                           className='w-100 h-100 object-fit-cover'
                         />
                       </div>
                     </div>
                     <div className='col-sm-6'>
                       <div className=''>
-                        <img
+                        <Image
+                          width={430}
+                          height={430}
                           src='assets/images/thumbs/blog-details-img2.png'
-                          alt=''
+                          alt='tech'
                           className='w-100 h-100 object-fit-cover'
                         />
                       </div>
@@ -283,9 +297,11 @@ const BlogDetailsInner = () => {
                 >
                   <div className='d-flex align-items-start tw-gap-42-px'>
                     <div className='tw-w-75-px tw-h-75-px rounded-circle overflow-hidden flex-shrink-0'>
-                      <img
+                      <Image
+                        width={72}
+                        height={72}
                         src='assets/images/thumbs/comment-img1.jpg'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
@@ -303,7 +319,12 @@ const BlogDetailsInner = () => {
                           type='button'
                           className='hover-scale-2 tw-duration-500 flex-shrink-0'
                         >
-                          <img src='assets/images/icons/reply.svg' alt='' />
+                          <Image
+                            width={29}
+                            height={22}
+                            src='assets/images/icons/reply.svg'
+                            alt='tech'
+                          />
                         </button>
                       </div>
                       <p className='text-neutral-600 tw-mt-3'>
@@ -318,9 +339,11 @@ const BlogDetailsInner = () => {
                   </div>
                   <div className='d-flex align-items-start tw-gap-42-px tw-mt-10 tw-ms-106-px'>
                     <div className='tw-w-75-px tw-h-75-px rounded-circle overflow-hidden flex-shrink-0'>
-                      <img
+                      <Image
+                        width={72}
+                        height={72}
                         src='assets/images/thumbs/comment-img2.png'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
@@ -338,7 +361,12 @@ const BlogDetailsInner = () => {
                           type='button'
                           className='hover-scale-2 tw-duration-500 flex-shrink-0'
                         >
-                          <img src='assets/images/icons/reply.svg' alt='' />
+                          <Image
+                            width={29}
+                            height={22}
+                            src='assets/images/icons/reply.svg'
+                            alt='tech'
+                          />
                         </button>
                       </div>
                       <p className='text-neutral-600 tw-mt-3'>
@@ -444,9 +472,11 @@ const BlogDetailsInner = () => {
                 data-aos-duration={800}
               >
                 <div className='tw-w-95-px tw-h-95-px rounded-circle d-inline-flex'>
-                  <img
+                  <Image
+                    width={102}
+                    height={102}
                     src='assets/images/thumbs/blogger.png'
-                    alt=''
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </div>
@@ -531,9 +561,11 @@ const BlogDetailsInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
+                      <Image
+                        width={108}
+                        height={86}
                         src='assets/images/thumbs/recent-post-img1.png'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
@@ -561,9 +593,11 @@ const BlogDetailsInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
+                      <Image
+                        width={108}
+                        height={86}
                         src='assets/images/thumbs/recent-post-img2.png'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
@@ -591,9 +625,11 @@ const BlogDetailsInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
+                      <Image
+                        width={108}
+                        height={86}
                         src='assets/images/thumbs/recent-post-img3.png'
-                        alt=''
+                        alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>

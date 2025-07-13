@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,7 +6,9 @@ const SearchDomainTwo = () => {
   return (
     <section className='search-domain-two pt-120 tw-pb-10 position-relative z-1'>
       <div className='max-w-1524-px mx-auto tw-pt-5'>
-        <img
+        <Image
+          width={1523}
+          height={1045}
           src='assets/images/shapes/border-square.png'
           alt='Borders'
           className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
@@ -15,7 +18,9 @@ const SearchDomainTwo = () => {
             <div className='col-sm-6'>
               <div className='max-w-444-px mx-auto text-center'>
                 <div className='common-shadow-eight tw-py-7 tw-px-705 tw-rounded-xl overflow-hidden'>
-                  <img
+                  <Image
+                    width={381}
+                    height={291}
                     src='assets/images/thumbs/search-domain-img2.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
@@ -37,7 +42,9 @@ const SearchDomainTwo = () => {
             <div className='col-sm-6'>
               <div className='max-w-444-px mx-auto text-center'>
                 <div className='common-shadow-eight tw-py-7 tw-px-705 tw-rounded-xl overflow-hidden'>
-                  <img
+                  <Image
+                    width={400}
+                    height={290}
                     src='assets/images/thumbs/search-domain-img1.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
@@ -68,7 +75,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.xyz'
                   >
-                    <img
+                    <Image
+                      width={75}
+                      height={50}
                       src='assets/images/thumbs/search-domain-two-img1.png'
                       alt='Logo'
                       className='animate__wobble'
@@ -82,7 +91,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.shop'
                   >
-                    <img
+                    <Image
+                      width={82}
+                      height={47}
                       src='assets/images/thumbs/search-domain-two-img2.png'
                       alt='Logo'
                       className='animate__wobble'
@@ -96,7 +107,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.icu'
                   >
-                    <img
+                    <Image
+                      width={92}
+                      height={44}
                       src='assets/images/thumbs/search-domain-two-img3.png'
                       alt='Logo'
                       className='animate__wobble'
@@ -110,7 +123,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.site'
                   >
-                    <img
+                    <Image
+                      width={74}
+                      height={58}
                       src='assets/images/thumbs/search-domain-two-img4.png'
                       alt='Logo'
                       className='animate__wobble'
@@ -124,7 +139,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.in'
                   >
-                    <img
+                    <Image
+                      width={61}
+                      height={56}
                       src='assets/images/thumbs/search-domain-two-img5.png'
                       alt='Logo'
                       className='animate__wobble'
@@ -138,7 +155,9 @@ const SearchDomainTwo = () => {
                     className='domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item'
                     data-domain='.gives'
                   >
-                    <img
+                    <Image
+                      width={91}
+                      height={58}
                       src='assets/images/thumbs/search-domain-two-img6.png'
                       alt='Logo'
                       className='animate__wobble'

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const SearchDomainOne = () => {
@@ -20,7 +21,9 @@ const SearchDomainOne = () => {
       data-aos-anchor-placement='top-bottom'
       data-aos-duration={800}
     >
-      <img
+      <Image
+        width={247}
+        height={220}
         src='assets/images/shapes/hand-thumb.png'
         alt='Hand thumb'
         className='hand-thumb left-right-animation position-absolute tw-start-0 top-0 tw-mt-15'
@@ -118,7 +121,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start'
                       data-domain='.com'
                     >
-                      <img
+                      <Image
+                        width={70}
+                        height={30}
                         src='assets/images/thumbs/domain-img1.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -135,7 +140,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.cloud'
                     >
-                      <img
+                      <Image
+                        width={74}
+                        height={32}
                         src='assets/images/thumbs/domain-img2.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -152,7 +159,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.shop'
                     >
-                      <img
+                      <Image
+                        width={67}
+                        height={29}
                         src='assets/images/thumbs/domain-img3.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -169,7 +178,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.online'
                     >
-                      <img
+                      <Image
+                        width={85}
+                        height={29}
                         src='assets/images/thumbs/domain-img4.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -186,7 +197,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.info'
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={26}
                         src='assets/images/thumbs/domain-img5.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -267,7 +280,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start'
                       data-domain='.com'
                     >
-                      <img
+                      <Image
+                        width={70}
+                        height={30}
                         src='assets/images/thumbs/domain-img1.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -284,7 +299,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.cloud'
                     >
-                      <img
+                      <Image
+                        width={74}
+                        height={32}
                         src='assets/images/thumbs/domain-img2.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -301,7 +318,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.shop'
                     >
-                      <img
+                      <Image
+                        width={67}
+                        height={29}
                         src='assets/images/thumbs/domain-img3.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -318,7 +337,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.online'
                     >
-                      <img
+                      <Image
+                        width={85}
+                        height={29}
                         src='assets/images/thumbs/domain-img4.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -335,7 +356,9 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.info'
                     >
-                      <img
+                      <Image
+                        width={50}
+                        height={26}
                         src='assets/images/thumbs/domain-img5.png'
                         alt='Domain Logo'
                         className='animate__wobble'
@@ -376,10 +399,21 @@ const SearchDomainOne = () => {
           <span className=''>
             Our Customers say <span className='fw-bold tw-ms-2'>Great</span>{" "}
           </span>
-          <img src='assets/images/icons/ratings.svg' alt='' className='' />
+          <Image
+            width={100}
+            height={18}
+            src='assets/images/icons/ratings.svg'
+            alt=''
+            className=''
+          />
           <span className=''>4.1 out of 5 based on 16,158 reviews</span>
           <div className='d-flex align-items-center tw-gap-05'>
-            <img src='assets/images/icons/trustpilot-star.svg' alt='' />
+            <Image
+              width={19}
+              height={18}
+              src='assets/images/icons/trustpilot-star.svg'
+              alt=''
+            />
             <span className='fw-bold'>Trustpilot</span>
           </div>
         </div>
