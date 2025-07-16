@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const AboutFeaturesOne = () => {
@@ -31,8 +32,10 @@ const AboutFeaturesOne = () => {
           >
             <div className='tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100'>
               <span className='tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11'>
-                <img
-                  src='assets/images/icons/about-features-two-icon1.svg'
+                <Image
+                  width={41}
+                  height={41}
+                  src='/assets/images/icons/about-features-two-icon1.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -53,8 +56,10 @@ const AboutFeaturesOne = () => {
           >
             <div className='tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100'>
               <span className='tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11'>
-                <img
-                  src='assets/images/icons/about-features-two-icon2.svg'
+                <Image
+                  width={41}
+                  height={45}
+                  src='/assets/images/icons/about-features-two-icon2.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -75,8 +80,10 @@ const AboutFeaturesOne = () => {
           >
             <div className='tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100'>
               <span className='tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11'>
-                <img
-                  src='assets/images/icons/about-features-two-icon3.svg'
+                <Image
+                  width={45}
+                  height={45}
+                  src='/assets/images/icons/about-features-two-icon3.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -97,8 +104,10 @@ const AboutFeaturesOne = () => {
           >
             <div className='tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100'>
               <span className='tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11'>
-                <img
-                  src='assets/images/icons/about-features-two-icon4.svg'
+                <Image
+                  width={46}
+                  height={46}
+                  src='/assets/images/icons/about-features-two-icon4.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />

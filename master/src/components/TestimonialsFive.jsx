@@ -67,7 +67,7 @@ const TestimonialsFive = () => {
                       <Image
                         width={100}
                         height={18}
-                        src='assets/images/icons/ratings.svg'
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -97,7 +97,7 @@ const TestimonialsFive = () => {
                       <Image
                         width={100}
                         height={18}
-                        src='assets/images/icons/ratings.svg'
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -127,7 +127,7 @@ const TestimonialsFive = () => {
                       <Image
                         width={100}
                         height={18}
-                        src='assets/images/icons/ratings.svg'
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -157,7 +157,7 @@ const TestimonialsFive = () => {
                       <Image
                         width={100}
                         height={18}
-                        src='assets/images/icons/ratings.svg'
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>

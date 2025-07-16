@@ -36,7 +36,7 @@ const PricingPlanInnerTwo = () => {
               <Image
                 width={158}
                 height={169}
-                src='assets/images/shapes/half-moon-shape.png'
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
@@ -137,7 +137,7 @@ const PricingPlanInnerTwo = () => {
               <Image
                 width={158}
                 height={169}
-                src='assets/images/shapes/half-moon-shape.png'
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
@@ -238,7 +238,7 @@ const PricingPlanInnerTwo = () => {
               <Image
                 width={158}
                 height={169}
-                src='assets/images/shapes/half-moon-shape.png'
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />

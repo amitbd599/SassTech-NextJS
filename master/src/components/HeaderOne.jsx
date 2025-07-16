@@ -97,7 +97,7 @@ const HeaderOne = () => {
                 className='link hover--translate-y-1 active--translate-y-scale-9'
               >
                 <Image
-                  src='assets/images/logo/logo.png'
+                  src='/assets/images/logo/logo.png'
                   alt='Logo'
                   className='max-w-200-px'
                   width={150}
@@ -209,7 +209,7 @@ const HeaderOne = () => {
               <Image
                 width={150}
                 height={30}
-                src='assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.png'
                 alt='Logo'
               />
             </Link>

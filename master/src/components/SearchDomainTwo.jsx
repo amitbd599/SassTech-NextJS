@@ -9,7 +9,7 @@ const SearchDomainTwo = () => {
         <Image
           width={1523}
           height={1045}
-          src='assets/images/shapes/border-square.png'
+          src='/assets/images/shapes/border-square.png'
           alt='Borders'
           className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
         />
@@ -21,7 +21,7 @@ const SearchDomainTwo = () => {
                   <Image
                     width={381}
                     height={291}
-                    src='assets/images/thumbs/search-domain-img2.png'
+                    src='/assets/images/thumbs/search-domain-img2.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -45,7 +45,7 @@ const SearchDomainTwo = () => {
                   <Image
                     width={400}
                     height={290}
-                    src='assets/images/thumbs/search-domain-img1.png'
+                    src='/assets/images/thumbs/search-domain-img1.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -78,7 +78,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={75}
                       height={50}
-                      src='assets/images/thumbs/search-domain-two-img1.png'
+                      src='/assets/images/thumbs/search-domain-two-img1.png'
                       alt='Logo'
                       className='animate__wobble'
                     />
@@ -94,7 +94,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={82}
                       height={47}
-                      src='assets/images/thumbs/search-domain-two-img2.png'
+                      src='/assets/images/thumbs/search-domain-two-img2.png'
                       alt='Logo'
                       className='animate__wobble'
                     />
@@ -110,7 +110,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={92}
                       height={44}
-                      src='assets/images/thumbs/search-domain-two-img3.png'
+                      src='/assets/images/thumbs/search-domain-two-img3.png'
                       alt='Logo'
                       className='animate__wobble'
                     />
@@ -126,7 +126,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={74}
                       height={58}
-                      src='assets/images/thumbs/search-domain-two-img4.png'
+                      src='/assets/images/thumbs/search-domain-two-img4.png'
                       alt='Logo'
                       className='animate__wobble'
                     />
@@ -142,7 +142,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={61}
                       height={56}
-                      src='assets/images/thumbs/search-domain-two-img5.png'
+                      src='/assets/images/thumbs/search-domain-two-img5.png'
                       alt='Logo'
                       className='animate__wobble'
                     />
@@ -158,7 +158,7 @@ const SearchDomainTwo = () => {
                     <Image
                       width={91}
                       height={58}
-                      src='assets/images/thumbs/search-domain-two-img6.png'
+                      src='/assets/images/thumbs/search-domain-two-img6.png'
                       alt='Logo'
                       className='animate__wobble'
                     />

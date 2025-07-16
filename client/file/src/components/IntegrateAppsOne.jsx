@@ -2,6 +2,7 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import Link from "next/link";
+import Image from "next/image";
 
 const IntegrateAppsOne = () => {
   const { ref, inView } = useInView({
@@ -9,8 +10,10 @@ const IntegrateAppsOne = () => {
   });
   return (
     <section className='pt-120 pb-120 overflow-hidden position-relative'>
-      <img
-        src='assets/images/bg/mash-gradient-bg6.png'
+      <Image
+        width={1918}
+        height={862}
+        src='/assets/images/bg/mash-gradient-bg6.png'
         alt='Gradient BG'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
@@ -23,22 +26,28 @@ const IntegrateAppsOne = () => {
             data-aos-duration={2000}
           >
             <div className='position-relative tw-p-12 text-center'>
-              <img
-                src='assets/images/shapes/rounded-circle.png'
+              <Image
+                width={486}
+                height={487}
+                src='/assets/images/shapes/rounded-circle.png'
                 alt='Bg Round'
               />
-              <img
-                src='assets/images/shapes/round-icons-big.png'
+              <Image
+                width={517}
+                height={591}
+                src='/assets/images/shapes/round-icons-big.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-right'
               />
-              <img
-                src='assets/images/shapes/round-icons-small.png'
+              <Image
+                width={488}
+                height={496}
+                src='/assets/images/shapes/round-icons-small.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-left'
               />
               <div className='position-absolute top-50 start-50 translate-middle'>
-                <h3 className=''>
+                <h3>
                   {inView && (
                     <span className='counter'>
                       <CountUp delay={0} start={0} end={2} />
@@ -51,7 +60,7 @@ const IntegrateAppsOne = () => {
             </div>
           </div>
           <div className='col-xl-6'>
-            <div className=''>
+            <div>
               <div className='text-start mx-auto tw-mb-12'>
                 <div className='tw-mb-10'>
                   <h4 className='tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange'>

@@ -1,11 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const AboutFour = () => {
   return (
     <section className='about-four-two py-120 position-relative z-1 overflow-hidden'>
-      <img
-        src='assets/images/bg/mash-gradient-bg3.png'
+      <Image
+        width={419}
+        height={640}
+        src='/assets/images/bg/mash-gradient-bg3.png'
         alt='Gradient'
         className='position-absolute tw-start-0 top-0 z-n1'
       />
@@ -14,20 +17,26 @@ const AboutFour = () => {
           <div className='col-lg-6'>
             <div className='position-relative'>
               <div className='tw-ps-14 position-relative'>
-                <img
-                  src='assets/images/thumbs/about-four-two-thumb.png'
+                <Image
+                  width={602}
+                  height={599}
+                  src='/assets/images/thumbs/about-four-two-thumb.png'
                   alt='Thumb'
                   className='w-100'
                 />
               </div>
               <div className='position-absolute bottom-0 tw-start-0 d-flex w-100 justify-content-between align-items-end'>
-                <img
-                  src='assets/images/thumbs/about-four-thumb-2.png'
+                <Image
+                  width={221}
+                  height={200}
+                  src='/assets/images/thumbs/about-four-thumb-2.png'
                   alt='Thumb'
                   className='d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown'
                 />
-                <img
-                  src='assets/images/thumbs/robot-img.png'
+                <Image
+                  width={83}
+                  height={83}
+                  src='/assets/images/thumbs/robot-img.png'
                   alt='Thumb'
                   className='d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1'
                 />

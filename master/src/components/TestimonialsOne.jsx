@@ -9,7 +9,7 @@ const TestimonialsOne = () => {
       <Image
         width={1919}
         height={1032}
-        src='assets/images/shapes/faq-bg.png'
+        src='/assets/images/shapes/faq-bg.png'
         alt='tech'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
@@ -38,7 +38,7 @@ const TestimonialsOne = () => {
                 <Image
                   width={300}
                   height={380}
-                  src='assets/images/thumbs/testimonials-img1.png'
+                  src='/assets/images/thumbs/testimonials-img1.png'
                   alt='Image'
                 />
               </div>
@@ -58,7 +58,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={100}
                     height={18}
-                    src='assets/images/icons/ratings.svg'
+                    src='/assets/images/icons/ratings.svg'
                     alt='tech'
                   />
                 </span>
@@ -76,7 +76,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={84}
                     height={84}
-                    src='assets/images/thumbs/testimonials-short-img1.png'
+                    src='/assets/images/thumbs/testimonials-short-img1.png'
                     alt='Image'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -105,7 +105,7 @@ const TestimonialsOne = () => {
                 <Image
                   width={300}
                   height={380}
-                  src='assets/images/thumbs/testimonials-img3.png'
+                  src='/assets/images/thumbs/testimonials-img3.png'
                   alt='Image'
                 />
               </div>
@@ -123,7 +123,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={100}
                     height={18}
-                    src='assets/images/icons/ratings.svg'
+                    src='/assets/images/icons/ratings.svg'
                     alt='tech'
                   />
                 </span>
@@ -141,7 +141,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={84}
                     height={84}
-                    src='assets/images/thumbs/testimonials-short-img3.png'
+                    src='/assets/images/thumbs/testimonials-short-img3.png'
                     alt='Image'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -168,7 +168,7 @@ const TestimonialsOne = () => {
                 <Image
                   width={299}
                   height={378}
-                  src='assets/images/thumbs/testimonials-img2.png'
+                  src='/assets/images/thumbs/testimonials-img2.png'
                   alt='Image'
                 />
               </div>
@@ -188,7 +188,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={100}
                     height={18}
-                    src='assets/images/icons/ratings.svg'
+                    src='/assets/images/icons/ratings.svg'
                     alt='tech'
                   />
                 </span>
@@ -206,7 +206,7 @@ const TestimonialsOne = () => {
                   <Image
                     width={84}
                     height={84}
-                    src='assets/images/thumbs/testimonials-short-img2.png'
+                    src='/assets/images/thumbs/testimonials-short-img2.png'
                     alt='Image'
                     className='w-100 h-100 object-fit-cover'
                   />

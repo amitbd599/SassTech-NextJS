@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick/lib/slider";
 
 const TestimonialsFive = () => {
@@ -49,22 +50,24 @@ const TestimonialsFive = () => {
           Trusted CRM tools by the happy users
         </h2>
       </div>
-      <div className=''>
+      <div>
         <div className='swiper testimonials-five-slider'>
           <Slider {...settings} className='swiper-wrapper'>
             <div className='swiper-slide px-3'>
-              <div className=''>
+              <div>
                 <div className='common-shadow-ten tw-rounded-2xl tw-p-60-px bg-white h-100 animation-item'>
                   <div className='d-flex align-items-center justify-content-between'>
-                    <div className=''>
+                    <div>
                       <h5 className='tw-mb-2 text-capitalize'>william camel</h5>
                       <span className='text-neutral-500 fw-medium'>
                         Head of Design at Zazoo{" "}
                       </span>
                     </div>
-                    <div className=''>
-                      <img
-                        src='assets/images/icons/ratings.svg'
+                    <div>
+                      <Image
+                        width={100}
+                        height={18}
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -81,18 +84,20 @@ const TestimonialsFive = () => {
               </div>
             </div>
             <div className='swiper-slide px-3'>
-              <div className=''>
+              <div>
                 <div className='common-shadow-ten tw-rounded-2xl tw-p-60-px bg-white h-100 animation-item'>
                   <div className='d-flex align-items-center justify-content-between'>
-                    <div className=''>
+                    <div>
                       <h5 className='tw-mb-2 text-capitalize'>Robiul Hasan</h5>
                       <span className='text-neutral-500 fw-medium'>
                         Head of Design at Zazoo{" "}
                       </span>
                     </div>
-                    <div className=''>
-                      <img
-                        src='assets/images/icons/ratings.svg'
+                    <div>
+                      <Image
+                        width={100}
+                        height={18}
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -109,18 +114,20 @@ const TestimonialsFive = () => {
               </div>
             </div>
             <div className='swiper-slide px-3'>
-              <div className=''>
+              <div>
                 <div className='common-shadow-ten tw-rounded-2xl tw-p-60-px bg-white h-100 animation-item'>
                   <div className='d-flex align-items-center justify-content-between'>
-                    <div className=''>
+                    <div>
                       <h5 className='tw-mb-2 text-capitalize'>John Doe</h5>
                       <span className='text-neutral-500 fw-medium'>
                         Head of Design at Zazoo{" "}
                       </span>
                     </div>
-                    <div className=''>
-                      <img
-                        src='assets/images/icons/ratings.svg'
+                    <div>
+                      <Image
+                        width={100}
+                        height={18}
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>
@@ -137,18 +144,20 @@ const TestimonialsFive = () => {
               </div>
             </div>
             <div className='swiper-slide px-3'>
-              <div className=''>
+              <div>
                 <div className='common-shadow-ten tw-rounded-2xl tw-p-60-px bg-white h-100 animation-item'>
                   <div className='d-flex align-items-center justify-content-between'>
-                    <div className=''>
+                    <div>
                       <h5 className='tw-mb-2 text-capitalize'>John Smith</h5>
                       <span className='text-neutral-500 fw-medium'>
                         Head of Design at Zazoo{" "}
                       </span>
                     </div>
-                    <div className=''>
-                      <img
-                        src='assets/images/icons/ratings.svg'
+                    <div>
+                      <Image
+                        width={100}
+                        height={18}
+                        src='/assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
                     </div>

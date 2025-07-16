@@ -37,7 +37,7 @@ const BannerFour = () => {
       <Image
         width={1920}
         height={1012}
-        src='assets/images/bg/mash-gradient-bg1.png'
+        src='/assets/images/bg/mash-gradient-bg1.png'
         alt='Cloud Shape'
         className='position-absolute top-0 tw-start-0 w-100 z-n1 banner-gradient-bg'
       />

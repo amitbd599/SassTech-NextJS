@@ -53,7 +53,7 @@ const CartInner = () => {
                                 <Image
                                   width={72}
                                   height={72}
-                                  src='assets/images/thumbs/cart-img1.png'
+                                  src='/assets/images/thumbs/cart-img1.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
@@ -99,7 +99,7 @@ const CartInner = () => {
                                 <Image
                                   width={46}
                                   height={71}
-                                  src='assets/images/thumbs/cart-img2.png'
+                                  src='/assets/images/thumbs/cart-img2.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
@@ -145,7 +145,7 @@ const CartInner = () => {
                                 <Image
                                   width={74}
                                   height={80}
-                                  src='assets/images/thumbs/cart-img3.png'
+                                  src='/assets/images/thumbs/cart-img3.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />
@@ -191,7 +191,7 @@ const CartInner = () => {
                                 <Image
                                   width={50}
                                   height={78}
-                                  src='assets/images/thumbs/cart-img4.png'
+                                  src='/assets/images/thumbs/cart-img4.png'
                                   alt='Thumb'
                                   className='group-hover-item-scale-12 tw-duration-300'
                                 />

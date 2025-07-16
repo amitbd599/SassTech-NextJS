@@ -13,7 +13,7 @@ const OfferTwo = () => {
                   <Image
                     width={523}
                     height={652}
-                    src='assets/images/thumbs/offer-five-thumb.png'
+                    src='/assets/images/thumbs/offer-five-thumb.png'
                     alt='Thumbnail'
                     className='w-100'
                   />
@@ -45,7 +45,7 @@ const OfferTwo = () => {
                         <Image
                           width={43}
                           height={43}
-                          src='assets/images/icons/offer-five-icon1.png'
+                          src='/assets/images/icons/offer-five-icon1.png'
                           alt='icon'
                         />
                       </div>
@@ -64,7 +64,7 @@ const OfferTwo = () => {
                         <Image
                           width={45}
                           height={45}
-                          src='assets/images/icons/offer-five-icon2.png'
+                          src='/assets/images/icons/offer-five-icon2.png'
                           alt='icon'
                         />
                       </div>

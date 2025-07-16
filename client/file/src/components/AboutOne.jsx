@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import Image from "next/image";
 const AboutOne = () => {
   const { ref, inView } = useInView({
     threshold: 0,
@@ -22,7 +23,12 @@ const AboutOne = () => {
                     <div className='bg-main-600 tw-rounded-3xl tw-p-8 text-center h-100 d-flex flex-column justify-content-center align-items-center'>
                       <h3 className='text-white d-inline-flex align-items-center tw-gap-3 tw-mb-9'>
                         <span className='d-flex'>
-                          <img src='assets/images/icons/arrow-up.svg' alt='' />
+                          <Image
+                            width={22}
+                            height={38}
+                            src='/assets/images/icons/arrow-up.svg'
+                            alt='tech'
+                          />
                         </span>
                         {inView && (
                           <span>
@@ -42,9 +48,11 @@ const AboutOne = () => {
                     data-aos-duration={800}
                   >
                     <div className='bg-main-two-600 tw-rounded-3xl tw-h-300-px d-flex flex-column justify-content-center align-items-center position-relative'>
-                      <img
-                        src='assets/images/thumbs/model.png'
-                        alt=''
+                      <Image
+                        width={277}
+                        height={326}
+                        src='/assets/images/thumbs/model.png'
+                        alt='tech'
                         className='position-absolute tw-start-50 bottom-0 tw-translate-x-50'
                       />
                     </div>
@@ -52,8 +60,8 @@ const AboutOne = () => {
                       <span className='bg-neutral-200 tw-w-10 tw-h-10 tw-rounded-xl d-flex justify-content-center align-items-center text-neutral-500'>
                         <i className='ph-bold ph-smiley' />
                       </span>
-                      <div className=''>
-                        <h6 className=''>
+                      <div>
+                        <h6>
                           {inView && (
                             <span>
                               <CountUp delay={0} start={0} end={99} />%
@@ -154,13 +162,15 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
-                        src='assets/images/icons/about-icon1.svg'
-                        alt=''
+                      <Image
+                        width={54}
+                        height={54}
+                        src='/assets/images/icons/about-icon1.svg'
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Innovation at our core</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for
@@ -176,13 +186,15 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
-                        src='assets/images/icons/about-icon2.svg'
-                        alt=''
+                      <Image
+                        width={42}
+                        height={42}
+                        src='/assets/images/icons/about-icon2.svg'
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Simplifying complexity</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for
@@ -198,13 +210,15 @@ const AboutOne = () => {
                     data-aos-duration={600}
                   >
                     <span className='tw-w-14 d-flex justify-content-center align-items-center'>
-                      <img
-                        src='assets/images/icons/about-icon3.svg'
-                        alt=''
+                      <Image
+                        width={40}
+                        height={40}
+                        src='/assets/images/icons/about-icon3.svg'
+                        alt='tech'
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Empowering growth.</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for

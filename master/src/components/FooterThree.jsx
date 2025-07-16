@@ -170,7 +170,7 @@ const FooterThree = () => {
                   <Image
                     width={150}
                     height={30}
-                    src='assets/images/logo/logo-three.png'
+                    src='/assets/images/logo/logo-three.png'
                     alt='tech'
                   />
                 </Link>

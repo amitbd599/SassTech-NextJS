@@ -35,7 +35,7 @@ const AboutFeaturesOne = () => {
                 <Image
                   width={41}
                   height={41}
-                  src='assets/images/icons/about-features-two-icon1.svg'
+                  src='/assets/images/icons/about-features-two-icon1.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -59,7 +59,7 @@ const AboutFeaturesOne = () => {
                 <Image
                   width={41}
                   height={45}
-                  src='assets/images/icons/about-features-two-icon2.svg'
+                  src='/assets/images/icons/about-features-two-icon2.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -83,7 +83,7 @@ const AboutFeaturesOne = () => {
                 <Image
                   width={45}
                   height={45}
-                  src='assets/images/icons/about-features-two-icon3.svg'
+                  src='/assets/images/icons/about-features-two-icon3.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />
@@ -107,7 +107,7 @@ const AboutFeaturesOne = () => {
                 <Image
                   width={46}
                   height={46}
-                  src='assets/images/icons/about-features-two-icon4.svg'
+                  src='/assets/images/icons/about-features-two-icon4.svg'
                   alt='Icon'
                   className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                 />

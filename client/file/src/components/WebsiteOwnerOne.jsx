@@ -1,11 +1,14 @@
+import Image from "next/image";
 import React from "react";
 
 const WebsiteOwnerOne = () => {
   return (
     <section className='overflow-hidden gradient-bg-four'>
       <div className='website-owner pb-120 position-relative z-1'>
-        <img
-          src='assets/images/shapes/moon-shape.png'
+        <Image
+          width={1446}
+          height={1179}
+          src='/assets/images/shapes/moon-shape.png'
           alt='Moon Shape'
           className='position-absolute top-50 tw-start-50 translate-middle z-n1'
         />
@@ -54,13 +57,15 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img1.png'
+                      <Image
+                        width={103}
+                        height={41}
+                        src='/assets/images/thumbs/website-owner-img1.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -70,7 +75,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -83,7 +88,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -98,20 +108,22 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img2.png'
+                      <Image
+                        width={80}
+                        height={25}
+                        src='/assets/images/thumbs/website-owner-img2.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -124,7 +136,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -143,13 +160,15 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img3.png'
+                      <Image
+                        width={120}
+                        height={38}
+                        src='/assets/images/thumbs/website-owner-img3.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co-founders
@@ -157,7 +176,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -170,7 +189,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -185,13 +209,15 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img4.png'
+                      <Image
+                        width={129}
+                        height={35}
+                        src='/assets/images/thumbs/website-owner-img4.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -200,7 +226,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -213,7 +239,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -232,13 +263,15 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img5.png'
+                      <Image
+                        width={88}
+                        height={24}
+                        src='/assets/images/thumbs/website-owner-img5.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -248,7 +281,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -261,7 +294,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -276,20 +314,22 @@ const WebsiteOwnerOne = () => {
                 >
                   <div className='common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item'>
                     <span className='tw-mb-5'>
-                      <img
-                        src='assets/images/thumbs/website-owner-img6.png'
+                      <Image
+                        width={83}
+                        height={46}
+                        src='/assets/images/thumbs/website-owner-img6.png'
                         alt='Logo'
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our compa
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -302,7 +342,12 @@ const WebsiteOwnerOne = () => {
                             4.9
                           </span>
                           <span className='text-white d-flex'>
-                            <img src='assets/images/icons/star.svg' alt='' />
+                            <Image
+                              width={14}
+                              height={13}
+                              src='/assets/images/icons/star.svg'
+                              alt=''
+                            />
                           </span>
                         </div>
                       </div>
@@ -319,7 +364,7 @@ const WebsiteOwnerOne = () => {
             data-aos-duration={900}
           >
             <a
-              href='javascript:void(0)'
+              href='#'
               className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium'
               data-block='button'
             >

@@ -18,7 +18,7 @@ const BlogInner = () => {
                     <Image
                       width={884}
                       height={507}
-                      src='assets/images/thumbs/blog-page-img1.png'
+                      src='/assets/images/thumbs/blog-page-img1.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -77,7 +77,7 @@ const BlogInner = () => {
                       <Image
                         width={44}
                         height={9}
-                        src='assets/images/icons/arrow-long.svg'
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
                       />
                     </span>
@@ -93,7 +93,7 @@ const BlogInner = () => {
                     <Image
                       width={884}
                       height={507}
-                      src='assets/images/thumbs/blog-page-img2.png'
+                      src='/assets/images/thumbs/blog-page-img2.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -152,7 +152,7 @@ const BlogInner = () => {
                       <Image
                         width={44}
                         height={9}
-                        src='assets/images/icons/arrow-long.svg'
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
                       />
                     </span>
@@ -168,7 +168,7 @@ const BlogInner = () => {
                     <Image
                       width={884}
                       height={507}
-                      src='assets/images/thumbs/blog-page-img3.png'
+                      src='/assets/images/thumbs/blog-page-img3.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -227,7 +227,7 @@ const BlogInner = () => {
                       <Image
                         width={44}
                         height={9}
-                        src='assets/images/icons/arrow-long.svg'
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
                       />
                     </span>
@@ -248,7 +248,7 @@ const BlogInner = () => {
                   <Image
                     width={884}
                     height={507}
-                    src='assets/images/thumbs/blogger.png'
+                    src='/assets/images/thumbs/blogger.png'
                     alt=''
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -337,7 +337,7 @@ const BlogInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img1.png'
+                        src='/assets/images/thumbs/recent-post-img1.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
@@ -369,7 +369,7 @@ const BlogInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img2.png'
+                        src='/assets/images/thumbs/recent-post-img2.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
@@ -401,7 +401,7 @@ const BlogInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img3.png'
+                        src='/assets/images/thumbs/recent-post-img3.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />

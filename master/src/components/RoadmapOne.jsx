@@ -22,7 +22,7 @@ const RoadmapOne = () => {
                   <Image
                     width={100}
                     height={82}
-                    src='assets/images/shapes/curve-arrow-white.png'
+                    src='/assets/images/shapes/curve-arrow-white.png'
                     alt='Arrow'
                     className='position-absolute top-0 tw-end-0 animate__wobble__two'
                   />
@@ -62,7 +62,7 @@ const RoadmapOne = () => {
                             <Image
                               width={35}
                               height={35}
-                              src='assets/images/thumbs/client-img1.png'
+                              src='/assets/images/thumbs/client-img1.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -71,7 +71,7 @@ const RoadmapOne = () => {
                             <Image
                               width={35}
                               height={35}
-                              src='assets/images/thumbs/client-img2.png'
+                              src='/assets/images/thumbs/client-img2.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -80,7 +80,7 @@ const RoadmapOne = () => {
                             <Image
                               width={35}
                               height={35}
-                              src='assets/images/thumbs/client-img3.png'
+                              src='/assets/images/thumbs/client-img3.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -116,7 +116,7 @@ const RoadmapOne = () => {
                     <Image
                       width={40}
                       height={40}
-                      src='assets/images/icons/roadmap-icon1.svg'
+                      src='/assets/images/icons/roadmap-icon1.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -131,7 +131,7 @@ const RoadmapOne = () => {
                     <Image
                       width={36}
                       height={44}
-                      src='assets/images/icons/roadmap-icon2.svg'
+                      src='/assets/images/icons/roadmap-icon2.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -146,7 +146,7 @@ const RoadmapOne = () => {
                     <Image
                       width={41}
                       height={41}
-                      src='assets/images/icons/roadmap-icon3.svg'
+                      src='/assets/images/icons/roadmap-icon3.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -161,7 +161,7 @@ const RoadmapOne = () => {
                     <Image
                       width={34}
                       height={34}
-                      src='assets/images/icons/roadmap-icon4.svg'
+                      src='/assets/images/icons/roadmap-icon4.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -176,7 +176,7 @@ const RoadmapOne = () => {
                     <Image
                       width={37}
                       height={37}
-                      src='assets/images/icons/roadmap-icon5.svg'
+                      src='/assets/images/icons/roadmap-icon5.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -191,7 +191,7 @@ const RoadmapOne = () => {
                     <Image
                       width={39}
                       height={39}
-                      src='assets/images/icons/roadmap-icon6.svg'
+                      src='/assets/images/icons/roadmap-icon6.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -206,7 +206,7 @@ const RoadmapOne = () => {
                     <Image
                       width={40}
                       height={40}
-                      src='assets/images/icons/roadmap-icon7.svg'
+                      src='/assets/images/icons/roadmap-icon7.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -221,7 +221,7 @@ const RoadmapOne = () => {
                     <Image
                       width={52}
                       height={52}
-                      src='assets/images/icons/roadmap-icon8.svg'
+                      src='/assets/images/icons/roadmap-icon8.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -237,7 +237,7 @@ const RoadmapOne = () => {
             <Image
               width={1441}
               height={130}
-              src='assets/images/shapes/curve-line.png'
+              src='/assets/images/shapes/curve-line.png'
               alt='tech'
               className='w-100'
             />
@@ -277,7 +277,7 @@ const RoadmapOne = () => {
                 <Image
                   width={22}
                   height={38}
-                  src='assets/images/icons/arrow-up-green.svg'
+                  src='/assets/images/icons/arrow-up-green.svg'
                   alt='tech'
                 />
                 {inView && (

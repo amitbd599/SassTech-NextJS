@@ -1,11 +1,35 @@
+"use client";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const FeaturesThree = () => {
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  const items = [
+    { label: "Action", href: "#" },
+    { label: "Another action", href: "#" },
+    { label: "Something else here", href: "#" },
+  ];
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <section className='features-three py-120 position-relative z-1'>
-      <img
-        src='assets/images/shapes/gradient-blue-yellow.png'
+      <Image
+        width={272}
+        height={640}
+        src='/assets/images/shapes/gradient-blue-yellow.png'
         alt='Gradient'
         className='position-absolute tw-end-0 bottom-0 z-n1'
       />
@@ -23,7 +47,6 @@ const FeaturesThree = () => {
             </h2>
           </div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}
@@ -58,41 +81,30 @@ const FeaturesThree = () => {
               <div className='bg-white tw-rounded-lg common-shadow-twelve tw-py-5 tw-px-6'>
                 <div className='d-flex align-items-center justify-content-between'>
                   <span className='fw-bold tw-text-sm'>Labels</span>
-                  <div className='dropdown'>
+                  <div className='dropdown' ref={dropdownRef}>
                     <button
                       type='button'
                       className='text-neutral-400'
-                      data-bs-toggle='dropdown'
-                      aria-expanded='false'
+                      onClick={() => setOpen(!open)}
+                      aria-expanded={open}
                     >
                       <i className='ph-fill ph-dots-three-outline' />
                     </button>
-                    <ul className='dropdown-menu border-0 min-w-max tw-p-4 common-shadow-eight'>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Action
-                        </Link>
-                      </li>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Another action
-                        </Link>
-                      </li>
-                      <li className='p-0'>
-                        <Link
-                          href='#'
-                          className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
-                        >
-                          Something else here
-                        </Link>
-                      </li>
-                    </ul>
+
+                    {open && (
+                      <ul className='dropdown-menu border-0 min-w-max tw-p-4 common-shadow-eight show'>
+                        {items.map((item, index) => (
+                          <li className='p-0' key={index}>
+                            <Link
+                              href={item.href}
+                              className='nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded'
+                            >
+                              {item.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 </div>
                 <div className='tw-mt-7'>
@@ -162,22 +174,28 @@ const FeaturesThree = () => {
                 <div className='d-flex align-items-center tw-gap-2'>
                   <div className='d-flex align-items-center'>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2 border border-white border-3'>
-                      <img
-                        src='assets/images/thumbs/client-img1.png'
+                      <Image
+                        width={35}
+                        height={35}
+                        src='/assets/images/thumbs/client-img1.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1 border border-white border-3'>
-                      <img
-                        src='assets/images/thumbs/client-img2.png'
+                      <Image
+                        width={35}
+                        height={35}
+                        src='/assets/images/thumbs/client-img2.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px border border-white border-3'>
-                      <img
-                        src='assets/images/thumbs/client-img3.png'
+                      <Image
+                        width={35}
+                        height={35}
+                        src='/assets/images/thumbs/client-img3.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -187,7 +205,7 @@ const FeaturesThree = () => {
                     + 15 people
                   </span>
                 </div>
-                <div className=''>
+                <div>
                   <input type='file' id='uploadPhoto' hidden={true} />
                   <label
                     htmlFor='uploadPhoto'
@@ -213,8 +231,10 @@ const FeaturesThree = () => {
                       Asynchronous Meetings
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
-                        src='assets/images/icons/features-three-icon1.svg'
+                      <Image
+                        width={48}
+                        height={48}
+                        src='/assets/images/icons/features-three-icon1.svg'
                         alt='Icon'
                       />
                     </span>
@@ -232,8 +252,10 @@ const FeaturesThree = () => {
                       Monitoring your Time
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
-                        src='assets/images/icons/features-three-icon2.svg'
+                      <Image
+                        width={48}
+                        height={48}
+                        src='/assets/images/icons/features-three-icon2.svg'
                         alt='Icon'
                       />
                     </span>
@@ -260,8 +282,10 @@ const FeaturesThree = () => {
                       built-in Automation
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
-                        src='assets/images/icons/features-three-icon3.svg'
+                      <Image
+                        width={50}
+                        height={50}
+                        src='/assets/images/icons/features-three-icon3.svg'
                         alt='Icon'
                       />
                     </span>
@@ -279,8 +303,10 @@ const FeaturesThree = () => {
                       Remote-Friendly Collaboration
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
-                        src='assets/images/icons/features-three-icon4.svg'
+                      <Image
+                        width={46}
+                        height={46}
+                        src='/assets/images/icons/features-three-icon4.svg'
                         alt='Icon'
                       />
                     </span>

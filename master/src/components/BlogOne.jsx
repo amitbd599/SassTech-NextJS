@@ -38,7 +38,7 @@ const BlogOne = () => {
                   <Image
                     width={582}
                     height={319}
-                    src='assets/images/thumbs/blog-img1.png'
+                    src='/assets/images/thumbs/blog-img1.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
@@ -84,7 +84,7 @@ const BlogOne = () => {
                   <Image
                     width={582}
                     height={319}
-                    src='assets/images/thumbs/blog-img2.png'
+                    src='/assets/images/thumbs/blog-img2.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />

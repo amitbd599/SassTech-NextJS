@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -19,7 +20,12 @@ const WorkProcessTwo = () => {
           <div className='col-xl-3 col-lg-4 col-sm-6'>
             <div className='bg-white tw-py-12 tw-px-9 text-start hover-common-shadow-sixteen tw-rounded-2xl group group-item bg-hover-app-landing tw-transition tw-duration-200 h-100'>
               <span className='tw-mb-8'>
-                <img src='assets/images/icons/seamless-icon1.png' alt='Icon' />
+                <Image
+                  width={100}
+                  height={100}
+                  src='/assets/images/icons/seamless-icon1.png'
+                  alt='Icon'
+                />
               </span>
               <h6 className='tw-mb-10 group-hover-text-white tw-transition tw-duration-200'>
                 Hubspot Contacts Sync
@@ -40,7 +46,12 @@ const WorkProcessTwo = () => {
           <div className='col-xl-3 col-lg-4 col-sm-6'>
             <div className='bg-white tw-py-12 tw-px-9 text-start hover-common-shadow-sixteen tw-rounded-2xl group group-item bg-hover-app-landing tw-transition tw-duration-200 h-100'>
               <span className='tw-mb-8'>
-                <img src='assets/images/icons/seamless-icon6.png' alt='Icon' />
+                <Image
+                  width={100}
+                  height={100}
+                  src='/assets/images/icons/seamless-icon6.png'
+                  alt='Icon'
+                />
               </span>
               <h6 className='tw-mb-10 group-hover-text-white tw-transition tw-duration-200'>
                 Github integration
@@ -61,7 +72,12 @@ const WorkProcessTwo = () => {
           <div className='col-xl-3 col-lg-4 col-sm-6'>
             <div className='bg-white tw-py-12 tw-px-9 text-start hover-common-shadow-sixteen tw-rounded-2xl group group-item bg-hover-app-landing tw-transition tw-duration-200 h-100'>
               <span className='tw-mb-8'>
-                <img src='assets/images/icons/seamless-icon2.png' alt='Icon' />
+                <Image
+                  width={100}
+                  height={100}
+                  src='/assets/images/icons/seamless-icon2.png'
+                  alt='Icon'
+                />
               </span>
               <h6 className='tw-mb-10 group-hover-text-white tw-transition tw-duration-200'>
                 Spotify Online Platform
@@ -82,7 +98,12 @@ const WorkProcessTwo = () => {
           <div className='col-xl-3 col-lg-4 col-sm-6'>
             <div className='bg-white tw-py-12 tw-px-9 text-start hover-common-shadow-sixteen tw-rounded-2xl group group-item bg-hover-app-landing tw-transition tw-duration-200 h-100'>
               <span className='tw-mb-8'>
-                <img src='assets/images/icons/seamless-icon3.png' alt='Icon' />
+                <Image
+                  width={100}
+                  height={100}
+                  src='/assets/images/icons/seamless-icon3.png'
+                  alt='Icon'
+                />
               </span>
               <h6 className='tw-mb-10 group-hover-text-white tw-transition tw-duration-200'>
                 Dropbox Streaming

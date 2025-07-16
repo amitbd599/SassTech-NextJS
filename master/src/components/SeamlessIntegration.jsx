@@ -23,7 +23,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon1.png'
+                    src='/assets/images/icons/seamless-icon1.png'
                     alt='Icon'
                   />
                 </span>
@@ -49,7 +49,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon2.png'
+                    src='/assets/images/icons/seamless-icon2.png'
                     alt='Icon'
                   />
                 </span>
@@ -75,7 +75,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon3.png'
+                    src='/assets/images/icons/seamless-icon3.png'
                     alt='Icon'
                   />
                 </span>
@@ -101,7 +101,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon4.png'
+                    src='/assets/images/icons/seamless-icon4.png'
                     alt='Icon'
                   />
                 </span>
@@ -127,7 +127,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon5.png'
+                    src='/assets/images/icons/seamless-icon5.png'
                     alt='Icon'
                   />
                 </span>
@@ -153,7 +153,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon6.png'
+                    src='/assets/images/icons/seamless-icon6.png'
                     alt='Icon'
                   />
                 </span>
@@ -179,7 +179,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon7.png'
+                    src='/assets/images/icons/seamless-icon7.png'
                     alt='Icon'
                   />
                 </span>
@@ -205,7 +205,7 @@ const SeamlessIntegration = () => {
                   <Image
                     width={100}
                     height={100}
-                    src='assets/images/icons/seamless-icon8.png'
+                    src='/assets/images/icons/seamless-icon8.png'
                     alt='Icon'
                   />
                 </span>

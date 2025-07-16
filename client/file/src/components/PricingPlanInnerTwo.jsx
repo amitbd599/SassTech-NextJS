@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -32,12 +33,14 @@ const PricingPlanInnerTwo = () => {
             data-aos-duration={600}
           >
             <div className='tw-rounded-3xl overflow-hidden bg-white bg-hover-crm group group-item tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative'>
-              <img
-                src='assets/images/shapes/half-moon-shape.png'
+              <Image
+                width={158}
+                height={169}
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>
@@ -131,12 +134,14 @@ const PricingPlanInnerTwo = () => {
             data-aos-duration={800}
           >
             <div className='tw-rounded-3xl overflow-hidden bg-white bg-hover-crm group group-item tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative'>
-              <img
-                src='assets/images/shapes/half-moon-shape.png'
+              <Image
+                width={158}
+                height={169}
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>
@@ -230,12 +235,14 @@ const PricingPlanInnerTwo = () => {
             data-aos-duration={900}
           >
             <div className='tw-rounded-3xl overflow-hidden bg-white bg-hover-crm group group-item tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative'>
-              <img
-                src='assets/images/shapes/half-moon-shape.png'
+              <Image
+                width={158}
+                height={169}
+                src='/assets/images/shapes/half-moon-shape.png'
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>

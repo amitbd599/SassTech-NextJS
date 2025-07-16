@@ -38,7 +38,7 @@ const DegreeViewOne = () => {
                 <Image
                   width={357}
                   height={398}
-                  src='assets/images/thumbs/degree-view-img1.png'
+                  src='/assets/images/thumbs/degree-view-img1.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -68,7 +68,7 @@ const DegreeViewOne = () => {
                 <Image
                   width={357}
                   height={300}
-                  src='assets/images/thumbs/degree-view-img2.png'
+                  src='/assets/images/thumbs/degree-view-img2.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -114,7 +114,7 @@ const DegreeViewOne = () => {
                 <Image
                   width={426}
                   height={340}
-                  src='assets/images/thumbs/degree-view-img3.png'
+                  src='/assets/images/thumbs/degree-view-img3.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />

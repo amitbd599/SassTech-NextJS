@@ -17,7 +17,7 @@ const BlogDetailsInner = () => {
                   <Image
                     width={884}
                     height={507}
-                    src='assets/images/thumbs/blog-page-img1.png'
+                    src='/assets/images/thumbs/blog-page-img1.png'
                     alt='tech'
                     className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                   />
@@ -104,7 +104,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={42}
                         height={30}
-                        src='assets/images/icons/quate-blog.svg'
+                        src='/assets/images/icons/quate-blog.svg'
                         alt='tech'
                       />
                     </span>
@@ -167,7 +167,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={306}
                         height={256}
-                        src='assets/images/thumbs/invest-img.png'
+                        src='/assets/images/thumbs/invest-img.png'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -185,7 +185,7 @@ const BlogDetailsInner = () => {
                         <Image
                           width={430}
                           height={430}
-                          src='assets/images/thumbs/blog-details-img1.png'
+                          src='/assets/images/thumbs/blog-details-img1.png'
                           alt='tech'
                           className='w-100 h-100 object-fit-cover'
                         />
@@ -196,7 +196,7 @@ const BlogDetailsInner = () => {
                         <Image
                           width={430}
                           height={430}
-                          src='assets/images/thumbs/blog-details-img2.png'
+                          src='/assets/images/thumbs/blog-details-img2.png'
                           alt='tech'
                           className='w-100 h-100 object-fit-cover'
                         />
@@ -300,7 +300,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={72}
                         height={72}
-                        src='assets/images/thumbs/comment-img1.jpg'
+                        src='/assets/images/thumbs/comment-img1.jpg'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -322,7 +322,7 @@ const BlogDetailsInner = () => {
                           <Image
                             width={29}
                             height={22}
-                            src='assets/images/icons/reply.svg'
+                            src='/assets/images/icons/reply.svg'
                             alt='tech'
                           />
                         </button>
@@ -342,7 +342,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={72}
                         height={72}
-                        src='assets/images/thumbs/comment-img2.png'
+                        src='/assets/images/thumbs/comment-img2.png'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -364,7 +364,7 @@ const BlogDetailsInner = () => {
                           <Image
                             width={29}
                             height={22}
-                            src='assets/images/icons/reply.svg'
+                            src='/assets/images/icons/reply.svg'
                             alt='tech'
                           />
                         </button>
@@ -475,7 +475,7 @@ const BlogDetailsInner = () => {
                   <Image
                     width={102}
                     height={102}
-                    src='assets/images/thumbs/blogger.png'
+                    src='/assets/images/thumbs/blogger.png'
                     alt='tech'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -564,7 +564,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img1.png'
+                        src='/assets/images/thumbs/recent-post-img1.png'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
@@ -596,7 +596,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img2.png'
+                        src='/assets/images/thumbs/recent-post-img2.png'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
@@ -628,7 +628,7 @@ const BlogDetailsInner = () => {
                       <Image
                         width={108}
                         height={86}
-                        src='assets/images/thumbs/recent-post-img3.png'
+                        src='/assets/images/thumbs/recent-post-img3.png'
                         alt='tech'
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />

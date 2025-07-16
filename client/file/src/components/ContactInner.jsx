@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,8 +12,10 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
-                      src='assets/images/icons/contact-icon1.svg'
+                    <Image
+                      width={56}
+                      height={85}
+                      src='/assets/images/icons/contact-icon1.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />
@@ -30,8 +33,10 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
-                      src='assets/images/icons/contact-icon2.svg'
+                    <Image
+                      width={71}
+                      height={71}
+                      src='/assets/images/icons/contact-icon2.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />
@@ -58,8 +63,10 @@ const ContactInner = () => {
               <div className='col-lg-4 col-sm-6'>
                 <div className='bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100'>
                   <span className='tw-mb-705'>
-                    <img
-                      src='assets/images/icons/contact-icon3.svg'
+                    <Image
+                      width={78}
+                      height={68}
+                      src='/assets/images/icons/contact-icon3.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />
@@ -92,7 +99,7 @@ const ContactInner = () => {
           <div className='row gy-5'>
             <div className='col-lg-6'>
               <div className='pe-xl-5 pe-lg-4'>
-                <div className=''>
+                <div>
                   <span className='splitTextStyleTwo tw-text-xl fw-bold fst-italic text-decoration-underline text-main-600 tw-mb-305'>
                     Get In Touch
                   </span>
@@ -108,7 +115,7 @@ const ContactInner = () => {
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-map-pin' />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Location</h6>
                       <p className='text-neutral-600'>
                         55 Main street, 2nd block, Melbourne, Australia
@@ -119,7 +126,7 @@ const ContactInner = () => {
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-phone' />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Phone</h6>
                       <a
                         href='tel:+1(368)5678954'
@@ -139,7 +146,7 @@ const ContactInner = () => {
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-envelope-simple' />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Location</h6>
                       <a
                         href='mailto:wiatechinfo@gmail.com'
@@ -159,7 +166,7 @@ const ContactInner = () => {
                     <span className='tw-text-3xl text-main-600 d-flex'>
                       <i className='ph-bold ph-share-network' />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Social</h6>
                       <ul className='d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6'>
                         <li>
@@ -255,7 +262,7 @@ const ContactInner = () => {
                       <i className='ph-bold ph-note-pencil' />
                     </span>
                   </div>
-                  <div className=''>
+                  <div>
                     <button
                       type='submit'
                       className='hover-black btn btn-main hover--translate-y-1 active--translate-y-scale-9 hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0'

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRef } from "react";
 import Slider from "react-slick/lib/slider";
 
@@ -18,15 +19,17 @@ const TestimonialsFour = () => {
   };
   return (
     <section className='testimonials-four py-120 position-relative z-1'>
-      <img
-        src='assets/images/bg/mash-gradient-bg5.png'
+      <Image
+        width={1920}
+        height={787}
+        src='/assets/images/bg/mash-gradient-bg5.png'
         alt='Gradient BG'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
       <div className='container'>
         <div className='row gy-5'>
           <div className='col-lg-6'>
-            <div className=''>
+            <div>
               <div className='tw-mb-10'>
                 <h4 className='tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm'>
                   with the world's favorite CRM
@@ -43,12 +46,14 @@ const TestimonialsFour = () => {
               <div className='tw-mt-12 d-flex align-items-center tw-gap-405 flex-sm-nowrap flex-wrap'>
                 <div className='tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4'>
                   <span>
-                    <img
-                      src='assets/images/icons/testimonials-four-icon1.png'
+                    <Image
+                      width={59}
+                      height={59}
+                      src='/assets/images/icons/testimonials-four-icon1.png'
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='d-flex align-items-center tw-gap-05'>
                       <span className='text-orange tw-text-lg'>
                         <i className='ph-fill ph-star' />
@@ -76,12 +81,14 @@ const TestimonialsFour = () => {
                 </div>
                 <div className='tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4'>
                   <span>
-                    <img
-                      src='assets/images/icons/testimonials-four-icon2.png'
+                    <Image
+                      width={64}
+                      height={61}
+                      src='/assets/images/icons/testimonials-four-icon2.png'
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='d-flex align-items-center tw-gap-05'>
                       <span className='text-green tw-text-lg'>
                         <i className='ph-fill ph-star' />
@@ -117,8 +124,10 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
-                          src='assets/images/thumbs/website-owner-img1.png'
+                        <Image
+                          width={103}
+                          height={41}
+                          src='/assets/images/thumbs/website-owner-img1.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -132,13 +141,15 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
-                              src='assets/images/thumbs/testimonials-short-img1.png'
+                            <Image
+                              width={84}
+                              height={84}
+                              src='/assets/images/thumbs/testimonials-short-img1.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>Robiul Hasan</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -146,11 +157,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
-                          <img
-                            src='assets/images/icons/ratings.svg'
+                        <div>
+                          <Image
+                            width={100}
+                            height={18}
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>
@@ -161,8 +173,10 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
-                          src='assets/images/thumbs/website-owner-img2.png'
+                        <Image
+                          width={80}
+                          height={25}
+                          src='/assets/images/thumbs/website-owner-img2.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -176,13 +190,15 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
-                              src='assets/images/thumbs/testimonials-short-img2.png'
+                            <Image
+                              width={84}
+                              height={84}
+                              src='/assets/images/thumbs/testimonials-short-img2.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>John Doe</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -190,11 +206,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
-                          <img
-                            src='assets/images/icons/ratings.svg'
+                        <div>
+                          <Image
+                            width={100}
+                            height={18}
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>
@@ -205,8 +222,10 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
-                          src='assets/images/thumbs/website-owner-img3.png'
+                        <Image
+                          width={120}
+                          height={38}
+                          src='/assets/images/thumbs/website-owner-img3.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -220,13 +239,15 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
-                              src='assets/images/thumbs/testimonials-short-img3.png'
+                            <Image
+                              width={84}
+                              height={84}
+                              src='/assets/images/thumbs/testimonials-short-img3.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>James anderson</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -234,11 +255,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
-                          <img
-                            src='assets/images/icons/ratings.svg'
+                        <div>
+                          <Image
+                            width={100}
+                            height={18}
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>

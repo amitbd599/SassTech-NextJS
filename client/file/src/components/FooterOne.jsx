@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -16,7 +17,12 @@ const FooterOne = () => {
                 data-aos-duration={600}
               >
                 <h3 className='h1 text-white tw-mb-0 fw-medium d-inline-flex align-items-center tw-gap-4 flex-shrink-0'>
-                  <img src='assets/images/icons/arrow-up-main.svg' alt='' />
+                  <Image
+                    width={22}
+                    height={38}
+                    src='/assets/images/icons/arrow-up-main.svg'
+                    alt='tech'
+                  />
                   88%
                 </h3>
                 <p className='text-neutral-300 max-w-194-px '>
@@ -70,7 +76,6 @@ const FooterOne = () => {
               </ul>
               <div className='d-flex align-items-center justify-content-center tw-gap-405'>
                 <div
-                  className=''
                   data-aos='fade-up'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
@@ -79,11 +84,15 @@ const FooterOne = () => {
                     href='https://play.google.com/store/apps'
                     className='hover--translate-y-1 active--translate-y-scale-9'
                   >
-                    <img src='assets/images/icons/store1.png' alt='' />
+                    <Image
+                      width={167}
+                      height={51}
+                      src='/assets/images/icons/store1.png'
+                      alt='tech'
+                    />
                   </a>
                 </div>
                 <div
-                  className=''
                   data-aos='fade-up'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
@@ -92,14 +101,24 @@ const FooterOne = () => {
                     href='https://www.apple.com/app-store'
                     className='hover--translate-y-1 active--translate-y-scale-9'
                   >
-                    <img src='assets/images/icons/store2.png' alt='' />
+                    <Image
+                      width={167}
+                      height={51}
+                      src='/assets/images/icons/store2.png'
+                      alt='tech'
+                    />
                   </a>
                 </div>
               </div>
             </div>
           </div>
           <div className='flex-shrink-0 gradient-overlay d-md-block d-none'>
-            <img src='assets/images/thumbs/footer-img.png' alt='' />
+            <Image
+              width={314}
+              height={298}
+              src='/assets/images/thumbs/footer-img.png'
+              alt='tech'
+            />
           </div>
         </div>
       </div>
@@ -112,12 +131,17 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <Link
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
                 >
-                  <img src='assets/images/logo/logo-white.png' alt='' />
+                  <Image
+                    width={149}
+                    height={30}
+                    src='/assets/images/logo/logo-white.png'
+                    alt='tech'
+                  />
                 </Link>
                 <form
                   action='#'
@@ -128,7 +152,6 @@ const FooterOne = () => {
                       type='email'
                       className='tw-h-14 tw-rounded-lg bg-white-08 tw-ps-12 border border-neutral-700 focus-border-main-600 text-white focus-outline-0 w-100 tw-pe-6'
                       placeholder='Email Address'
-                      required=''
                     />
                     <span className='text-white tw-text-lg position-absolute top-50 tw-start-0 tw--translate-y-50 tw-ms-5 d-flex'>
                       <i className='ph ph-envelope-simple' />
@@ -147,13 +170,14 @@ const FooterOne = () => {
                   </button>
                 </form>
                 <p className='text-neutral-500 fw-semibold tw-mt-9'>
-                  By subscribing, you're accept
-                  <a
-                    href='javascript:void(0)'
+                  By subscribing, you're accept{" "}
+                  <Link
+                    href='#'
                     className='text-white text-decoration-underline hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'
                   >
+                    {" "}
                     Privacy Policy
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -162,7 +186,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>My account</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -213,7 +237,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={1000}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -272,13 +296,18 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={1200}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>Locations</h5>
                 <div className='d-flex align-items-center tw-gap-5'>
                   <span className='d-flex tw-text-3xl text-main-600'>
-                    <img src='assets/images/icons/map.svg' alt='' />
+                    <Image
+                      width={20}
+                      height={20}
+                      src='/assets/images/icons/map.svg'
+                      alt='tech'
+                    />
                   </span>
-                  <div className=''>
+                  <div>
                     <p className='text-neutral-400 d-block mb-1'>
                       55 Main Street, 2nd block Malborne, Australia
                     </p>
@@ -295,9 +324,14 @@ const FooterOne = () => {
                 </a>
                 <div className='d-flex align-items-center tw-gap-5 tw-mt-2'>
                   <span className='d-flex tw-text-3xl text-main-600'>
-                    <img src='assets/images/icons/phone.svg' alt='' />
+                    <Image
+                      width={22}
+                      height={22}
+                      src='/assets/images/icons/phone.svg'
+                      alt='tech'
+                    />
                   </span>
-                  <div className=''>
+                  <div>
                     <a
                       href='tel:+880(123)45688'
                       className='d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'

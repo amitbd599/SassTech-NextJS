@@ -1,11 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const BannerThree = () => {
   return (
     <section className='banner-three gradient-bg-five position-relative z-1 overflow-hidden'>
-      <img
-        src='assets/images/shapes/cloud-sky.png'
+      <Image
+        width={1033}
+        height={800}
+        src='/assets/images/shapes/cloud-sky.png'
         alt='Cloud Shape'
         className='position-absolute top-50 tw-end-0 left-right-scale-animation d-sm-block d-none z-n1'
       />
@@ -14,10 +17,11 @@ const BannerThree = () => {
           <div className='col-lg-6'>
             <div className='banner-three-content max-w-570-px'>
               <h1 className='splitTextStyleOne text-white text-capitalize tw-leading-none'>
-                Simplify task
+                Simplify task{" "}
                 <span className='text-gradient-teal font-dm-serif fst-italic fw-normal'>
-                  management
-                </span>
+                  {" "}
+                  management{" "}
+                </span>{" "}
                 and prioritize work
               </h1>
               <p className='splitTextStyleOne text-white tw-text-lg tw-mt-8'>
@@ -40,8 +44,10 @@ const BannerThree = () => {
                   <div className='d-flex align-items-center tw-gap-2 z-1'>
                     <span className='button__label'>Start Free Trial</span>
                     <span className='icon'>
-                      <img
-                        src='assets/images/icons/download-cloud-icon.png'
+                      <Image
+                        width={18}
+                        height={16}
+                        src='/assets/images/icons/download-cloud-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -76,8 +82,10 @@ const BannerThree = () => {
           </div>
           <div className='col-lg-6'>
             <div className='banner-three-thumb position-lg-absolute tw-end-0 bottom-0 max-w-58-percent'>
-              <img
-                src='assets/images/thumbs/banner-three-img.png'
+              <Image
+                width={988}
+                height={738}
+                src='/assets/images/thumbs/banner-three-img.png'
                 alt='Thumb'
               />
             </div>

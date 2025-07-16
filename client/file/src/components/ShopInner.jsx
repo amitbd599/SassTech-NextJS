@@ -1,5 +1,6 @@
 "use client";
 import PriceRangeFilter from "@/helper/PriceRangeFilter";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -44,56 +45,56 @@ const ShopInner = () => {
                 </h5>
                 <div className='d-flex flex-column tw-gap-6'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Brochures &amp; Catalogues
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Business Cards
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Calendars printing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Design Online
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Flyers Design
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     Folded Leaflets
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
                     t-shirt printing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='d-flex align-items-center tw-gap-4 fw-medium text-heading hover-text-main-600'
                   >
                     <i className='ph-bold ph-caret-left' />
@@ -332,49 +333,49 @@ const ShopInner = () => {
                 </h5>
                 <div className='d-flex tw-gap-3 flex-wrap'>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Sweat Shirt
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Banner design
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Business Card
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     landing
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Tryptich Brochure
                   </a>
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='bg-white tw-py-105 tw-px-4 border border-neutral-200 rounded-pill text-neutral-600 hover-text-white hover-bg-main-600 tw-text-sm fw-medium text-center d-inline-block active-scale-09 text-capitalize flex-grow-1 tw-duration-200'
                   >
                     Cap
@@ -384,7 +385,7 @@ const ShopInner = () => {
             </div>
           </div>
           <div className='col-lg-8'>
-            <div className=''>
+            <div>
               {/* Top List Grid start */}
               <div className='border tw-rounded-lg border-neutral-200 tw-p-5 d-flex align-items-center justify-content-between flex-wrap tw-gap-4 tw-mb-6'>
                 <div className='text-heading fw-bold'>
@@ -433,8 +434,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img1.png'
+                        <Image
+                          width={210}
+                          height={212}
+                          src='/assets/images/thumbs/product-img1.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -489,7 +492,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Smart wireless headphone
                         </Link>
                       </h6>
@@ -501,8 +504,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img2.png'
+                        <Image
+                          width={198}
+                          height={201}
+                          src='/assets/images/thumbs/product-img2.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -557,7 +562,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Go pro hero action camera
                         </Link>
                       </h6>
@@ -569,8 +574,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img3.png'
+                        <Image
+                          width={111}
+                          height={177}
+                          src='/assets/images/thumbs/product-img3.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -625,9 +632,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Colorful apple Ipad
-                        </Link>
+                        <Link href='/shop-details'>Colorful apple Ipad</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -637,8 +642,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img4.png'
+                        <Image
+                          width={188}
+                          height={190}
+                          src='/assets/images/thumbs/product-img4.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -693,9 +700,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Humidifiler white grow
-                        </Link>
+                        <Link href='/shop-details'>Humidifiler white grow</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -705,8 +710,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img5.png'
+                        <Image
+                          width={196}
+                          height={198}
+                          src='/assets/images/thumbs/product-img5.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -761,9 +768,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Apple Iphone 16 promax
-                        </Link>
+                        <Link href='/shop-details'>Apple Iphone 16 promax</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -773,8 +778,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img6.png'
+                        <Image
+                          width={136}
+                          height={165}
+                          src='/assets/images/thumbs/product-img6.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -829,7 +836,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Go pro hero action camera
                         </Link>
                       </h6>
@@ -841,8 +848,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img7.png'
+                        <Image
+                          width={200}
+                          height={202}
+                          src='/assets/images/thumbs/product-img7.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -897,7 +906,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Apple smartwatch series
                         </Link>
                       </h6>
@@ -909,8 +918,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img8.png'
+                        <Image
+                          width={150}
+                          height={152}
+                          src='/assets/images/thumbs/product-img8.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -965,9 +976,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Instax pro camera hero
-                        </Link>
+                        <Link href='/shop-details'>Instax pro camera hero</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -977,8 +986,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img9.png'
+                        <Image
+                          width={159}
+                          height={160}
+                          src='/assets/images/thumbs/product-img9.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1033,9 +1044,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Macbook m1 cheap pro
-                        </Link>
+                        <Link href='/shop-details'>Macbook m1 cheap pro</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1045,8 +1054,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img10.png'
+                        <Image
+                          width={200}
+                          height={202}
+                          src='/assets/images/thumbs/product-img10.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1101,7 +1112,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           VISION RAC Micro Oven&nbsp;
                         </Link>
                       </h6>
@@ -1113,8 +1124,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img11.png'
+                        <Image
+                          width={200}
+                          height={202}
+                          src='/assets/images/thumbs/product-img11.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1169,7 +1182,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Folding Keayboard display
                         </Link>
                       </h6>
@@ -1181,8 +1194,10 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
-                          src='assets/images/thumbs/product-img12.png'
+                        <Image
+                          width={200}
+                          height={220}
+                          src='/assets/images/thumbs/product-img12.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1237,9 +1252,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Logitech Mouse Havit
-                        </Link>
+                        <Link href='/shop-details'>Logitech Mouse Havit</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>

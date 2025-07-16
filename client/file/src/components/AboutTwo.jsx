@@ -1,10 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 const AboutTwo = () => {
   return (
     <section className='about-two py-120 position-relative z-1 overflow-hidden'>
-      <img
-        src='assets/images/shapes/squre-box-shape.png'
+      <Image
+        width={119}
+        height={116}
+        src='/assets/images/shapes/squre-box-shape.png'
         alt='Square shape'
         className='position-absolute top-50 tw-start-0 tw-ms-128-px animate__wobble__two z-n1 d-lg-block d-none'
       />
@@ -16,11 +19,13 @@ const AboutTwo = () => {
               className='tw-rounded-lg background-img tw-px-7 bg-img position-relative max-w-570-px'
               style={{
                 backgroundImage:
-                  "url('assets/images/thumbs/about-two-img-bg.png')",
+                  "url('/assets/images/thumbs/about-two-img-bg.png')",
               }}
             >
-              <img
-                src='assets/images/shapes/finger-shape.png'
+              <Image
+                width={51}
+                height={62}
+                src='/assets/images/shapes/finger-shape.png'
                 alt='Shape'
                 className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
               />
@@ -31,8 +36,10 @@ const AboutTwo = () => {
                     <Marquee direction='down'>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -40,8 +47,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={279}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -49,8 +58,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -58,8 +69,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -67,8 +80,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={280}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -76,8 +91,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -85,8 +102,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -94,8 +113,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={280}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -103,8 +124,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -120,8 +143,10 @@ const AboutTwo = () => {
                     <Marquee direction='up'>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -129,8 +154,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={280}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -138,8 +165,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -147,8 +176,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -156,8 +187,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={280}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -165,8 +198,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -174,8 +209,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img1.png'
+                          <Image
+                            width={224}
+                            height={284}
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -183,8 +220,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img2.png'
+                          <Image
+                            width={224}
+                            height={280}
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -192,8 +231,10 @@ const AboutTwo = () => {
                       </div>
                       <div className='swiper-slide_inner my-4 '>
                         <div className='tw-rounded-2xl overflow-hidden'>
-                          <img
-                            src='assets/images/thumbs/about-slide-img3.png'
+                          <Image
+                            width={224}
+                            height={258}
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -209,7 +250,7 @@ const AboutTwo = () => {
           {/* About two thumbs slider End */}
           {/* About two content start */}
           <div className='col-lg-7 ps-lg-5'>
-            <div className=''>
+            <div>
               <div
                 className='bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
                 data-aos='fade-up'
@@ -308,8 +349,10 @@ const AboutTwo = () => {
                     </span>
                   </div>
                   <div className='tw-ms-205 left-right-animation d-sm-flex d-none'>
-                    <img
-                      src='assets/images/shapes/curve-arrow-two.png'
+                    <Image
+                      width={73}
+                      height={102}
+                      src='/assets/images/shapes/curve-arrow-two.png'
                       alt=''
                     />
                   </div>

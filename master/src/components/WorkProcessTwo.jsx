@@ -23,7 +23,7 @@ const WorkProcessTwo = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='assets/images/icons/seamless-icon1.png'
+                  src='/assets/images/icons/seamless-icon1.png'
                   alt='Icon'
                 />
               </span>
@@ -49,7 +49,7 @@ const WorkProcessTwo = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='assets/images/icons/seamless-icon6.png'
+                  src='/assets/images/icons/seamless-icon6.png'
                   alt='Icon'
                 />
               </span>
@@ -75,7 +75,7 @@ const WorkProcessTwo = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='assets/images/icons/seamless-icon2.png'
+                  src='/assets/images/icons/seamless-icon2.png'
                   alt='Icon'
                 />
               </span>
@@ -101,7 +101,7 @@ const WorkProcessTwo = () => {
                 <Image
                   width={100}
                   height={100}
-                  src='assets/images/icons/seamless-icon3.png'
+                  src='/assets/images/icons/seamless-icon3.png'
                   alt='Icon'
                 />
               </span>

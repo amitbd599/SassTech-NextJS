@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -18,8 +19,10 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
-                    src='assets/images/thumbs/product-img1.png'
+                  <Image
+                    width={210}
+                    height={212}
+                    src='/assets/images/thumbs/product-img1.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -74,9 +77,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Smart wireless headphone
-                  </Link>
+                  <Link href='/shop-detail'>Smart wireless headphone</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -86,8 +87,10 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
-                    src='assets/images/thumbs/product-img2.png'
+                  <Image
+                    width={198}
+                    height={201}
+                    src='/assets/images/thumbs/product-img2.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -142,9 +145,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Go pro hero action camera
-                  </Link>
+                  <Link href='/shop-detail'>Go pro hero action camera</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -154,8 +155,10 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
-                    src='assets/images/thumbs/product-img3.png'
+                  <Image
+                    width={111}
+                    height={177}
+                    src='/assets/images/thumbs/product-img3.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -210,9 +213,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Colorful apple Ipad
-                  </Link>
+                  <Link href='/shop-detail'>Colorful apple Ipad</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -222,8 +223,10 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
-                    src='assets/images/thumbs/product-img4.png'
+                  <Image
+                    width={188}
+                    height={190}
+                    src='/assets/images/thumbs/product-img4.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -278,9 +281,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Humidifiler white grow
-                  </Link>
+                  <Link href='/shop-detail'>Humidifiler white grow</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>

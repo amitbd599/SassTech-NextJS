@@ -30,7 +30,7 @@ const CRMOne = () => {
         <Image
           width={281}
           height={640}
-          src='assets/images/bg/mash-gradient-bg4.png'
+          src='/assets/images/bg/mash-gradient-bg4.png'
           alt='Gradient'
           className='position-absolute tw-end-0 bottom-100 z-n1'
         />
@@ -94,7 +94,7 @@ const CRMOne = () => {
                   <Image
                     width={563}
                     height={699}
-                    src='assets/images/thumbs/about-four-three-thumb1.png'
+                    src='/assets/images/thumbs/about-four-three-thumb1.png'
                     alt='Thumb'
                     className='w-100'
                   />
@@ -103,14 +103,14 @@ const CRMOne = () => {
                   <Image
                     width={250}
                     height={113}
-                    src='assets/images/thumbs/about-four-three-thumb2.png'
+                    src='/assets/images/thumbs/about-four-three-thumb2.png'
                     alt='Thumb'
                     className='common-shadow-twentyFour tw-rounded-2xl tw-mb-4 animated-upDown'
                   />
                   <Image
                     width={83}
                     height={83}
-                    src='assets/images/thumbs/robot-img.png'
+                    src='/assets/images/thumbs/robot-img.png'
                     alt='Thumb'
                     className='d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1'
                   />

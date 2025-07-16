@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -44,8 +45,10 @@ const OfferOne = () => {
                   >
                     <i className='ph-bold ph-arrow-up-right' />
                   </Link>
-                  <img
-                    src='assets/images/thumbs/offer-img1.png'
+                  <Image
+                    width={447}
+                    height={170}
+                    src='/assets/images/thumbs/offer-img1.png'
                     alt='Image'
                     className='tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1'
                   />
@@ -72,8 +75,10 @@ const OfferOne = () => {
                   >
                     <i className='ph-bold ph-arrow-up-right' />
                   </Link>
-                  <img
-                    src='assets/images/thumbs/offer-img2.png'
+                  <Image
+                    width={438}
+                    height={219}
+                    src='/assets/images/thumbs/offer-img2.png'
                     alt='Image'
                     className='tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1'
                   />
@@ -101,8 +106,10 @@ const OfferOne = () => {
               >
                 <i className='ph-bold ph-arrow-up-right' />
               </Link>
-              <img
-                src='assets/images/thumbs/offer-img3.png'
+              <Image
+                width={419}
+                height={373}
+                src='/assets/images/thumbs/offer-img3.png'
                 alt='Image'
                 className='tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1 tw-mx-4 tw-mb-12 d-md-block d-none'
               />
@@ -130,8 +137,10 @@ const OfferOne = () => {
                   >
                     <i className='ph-bold ph-arrow-up-right' />
                   </Link>
-                  <img
-                    src='assets/images/thumbs/offer-img4.png'
+                  <Image
+                    width={327}
+                    height={281}
+                    src='/assets/images/thumbs/offer-img4.png'
                     alt='Image'
                     className='tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1'
                   />
@@ -158,8 +167,10 @@ const OfferOne = () => {
                   >
                     <i className='ph-bold ph-arrow-up-right' />
                   </Link>
-                  <img
-                    src='assets/images/thumbs/offer-img5.png'
+                  <Image
+                    width={447}
+                    height={222}
+                    src='/assets/images/thumbs/offer-img5.png'
                     alt='Image'
                     className='tw-duration-300 position-absolute bottom-0 tw-end-0 z-n1'
                   />

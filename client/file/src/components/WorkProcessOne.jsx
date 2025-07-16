@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const WorkProcessOne = () => {
@@ -61,8 +62,10 @@ const WorkProcessOne = () => {
               </div>
             </div>
             <div className='d-flex flex-column justify-content-end'>
-              <img
-                src='assets/images/thumbs/work-process-five-thumb.png'
+              <Image
+                width={524}
+                height={583}
+                src='/assets/images/thumbs/work-process-five-thumb.png'
                 alt='Thumbnail'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'

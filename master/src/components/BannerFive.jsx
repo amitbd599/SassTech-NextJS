@@ -9,7 +9,7 @@ const BannerFive = () => {
         <Image
           width={1833}
           height={675}
-          src='assets/images/shapes/wave-line-shadow.png'
+          src='/assets/images/shapes/wave-line-shadow.png'
           alt='Wave Line shape'
           className='position-absolute tw-start-0 w-100 bottom-0 z-n1 pb-120'
         />
@@ -47,7 +47,7 @@ const BannerFive = () => {
                         <Image
                           width={198}
                           height={63}
-                          src='assets/images/icons/store-two1.png'
+                          src='/assets/images/icons/store-two1.png'
                           alt='App Store'
                         />
                       </Link>
@@ -64,7 +64,7 @@ const BannerFive = () => {
                         <Image
                           width={199}
                           height={62}
-                          src='assets/images/icons/store-two2.png'
+                          src='/assets/images/icons/store-two2.png'
                           alt='Google Store'
                         />
                       </Link>
@@ -75,7 +75,7 @@ const BannerFive = () => {
                   <Image
                     width={1176}
                     height={716}
-                    src='assets/images/thumbs/banner-five-thumb.png'
+                    src='/assets/images/thumbs/banner-five-thumb.png'
                     alt='Thumbnail'
                     data-aos='zoom-in'
                     data-aos-anchor-placement='top-bottom'

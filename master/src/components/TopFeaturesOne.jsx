@@ -12,7 +12,7 @@ const TopFeaturesOne = () => {
                 <Image
                   width={18}
                   height={17}
-                  src='assets/images/icons/chart-icon.svg'
+                  src='/assets/images/icons/chart-icon.svg'
                   alt='Sasstech Next JS'
                 />
               </span>
@@ -25,7 +25,7 @@ const TopFeaturesOne = () => {
                 <Image
                   width={18}
                   height={17}
-                  src='assets/images/icons/chart-icon.svg'
+                  src='/assets/images/icons/chart-icon.svg'
                   alt='Sasstech Next JS'
                 />
               </span>
@@ -38,7 +38,7 @@ const TopFeaturesOne = () => {
                 <Image
                   width={18}
                   height={17}
-                  src='assets/images/icons/chart-icon.svg'
+                  src='/assets/images/icons/chart-icon.svg'
                   alt='Sasstech Next JS'
                 />
               </span>
@@ -51,7 +51,7 @@ const TopFeaturesOne = () => {
                 <Image
                   width={18}
                   height={17}
-                  src='assets/images/icons/chart-icon.svg'
+                  src='/assets/images/icons/chart-icon.svg'
                   alt='Sasstech Next JS'
                 />
               </span>
@@ -64,7 +64,7 @@ const TopFeaturesOne = () => {
                 <Image
                   width={18}
                   height={17}
-                  src='assets/images/icons/chart-icon.svg'
+                  src='/assets/images/icons/chart-icon.svg'
                   alt='Sasstech Next JS'
                 />
               </span>

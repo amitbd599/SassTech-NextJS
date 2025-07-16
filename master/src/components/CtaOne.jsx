@@ -13,13 +13,13 @@ const CtaOne = () => {
                 <Image
                   width={581}
                   height={563}
-                  src='assets/images/thumbs/model-img.png'
+                  src='/assets/images/thumbs/model-img.png'
                   alt='Model'
                 />
                 <Image
                   width={190}
                   height={86}
-                  src='assets/images/shapes/arrow-right-curve.png'
+                  src='/assets/images/shapes/arrow-right-curve.png'
                   alt='Arrow shape'
                   className='position-absolute top-0 tw-end-0 tw-mt-160-px animate__wobble__two'
                 />

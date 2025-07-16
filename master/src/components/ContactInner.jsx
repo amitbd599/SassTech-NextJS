@@ -15,7 +15,7 @@ const ContactInner = () => {
                     <Image
                       width={56}
                       height={85}
-                      src='assets/images/icons/contact-icon1.svg'
+                      src='/assets/images/icons/contact-icon1.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />
@@ -36,7 +36,7 @@ const ContactInner = () => {
                     <Image
                       width={71}
                       height={71}
-                      src='assets/images/icons/contact-icon2.svg'
+                      src='/assets/images/icons/contact-icon2.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />
@@ -66,7 +66,7 @@ const ContactInner = () => {
                     <Image
                       width={78}
                       height={68}
-                      src='assets/images/icons/contact-icon3.svg'
+                      src='/assets/images/icons/contact-icon3.svg'
                       alt='Icon'
                       className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                     />

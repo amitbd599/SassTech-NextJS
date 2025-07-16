@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick/lib/slider";
 
 const PricingPlanThree = () => {
@@ -54,8 +55,10 @@ const PricingPlanThree = () => {
                   $129.<span className='tw-text-xl'>99</span>
                 </h3>
                 <span className='tw-w-16 tw-h-16 bg-main-50 tw-rounded-md d-flex justify-content-center align-items-center group-hover-bg-main-600 tw-duration-200 flex-shrink-0'>
-                  <img
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                  <Image
+                    width={26}
+                    height={27}
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />
@@ -83,8 +86,10 @@ const PricingPlanThree = () => {
                   $329.<span className='tw-text-xl'>99</span>
                 </h3>
                 <span className='tw-w-16 tw-h-16 bg-main-50 tw-rounded-md d-flex justify-content-center align-items-center group-hover-bg-main-600 tw-duration-200 flex-shrink-0'>
-                  <img
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                  <Image
+                    width={26}
+                    height={27}
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />
@@ -112,8 +117,10 @@ const PricingPlanThree = () => {
                   $629.<span className='tw-text-xl'>99</span>
                 </h3>
                 <span className='tw-w-16 tw-h-16 bg-main-50 tw-rounded-md d-flex justify-content-center align-items-center group-hover-bg-main-600 tw-duration-200 flex-shrink-0'>
-                  <img
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                  <Image
+                    width={26}
+                    height={27}
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />

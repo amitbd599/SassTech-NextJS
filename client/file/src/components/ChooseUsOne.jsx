@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ChooseUsOne = () => {
@@ -10,22 +11,44 @@ const ChooseUsOne = () => {
               className='tw-ps-8 position-relative z-1 overflow-hidden'
               id='box-wrapper'
             >
-              <img
-                src='assets/images/thumbs/choose-us-img.png'
+              <Image
+                width={488}
+                height={624}
+                src='/assets/images/thumbs/choose-us-img.png'
                 alt='Image'
                 className='w-100 h-100 object-fit-cover tw-rounded-3xl'
               />
               <div className='bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 tw-mt-705 z-1'>
-                <img src='assets/images/thumbs/choose-us-icon1.png' alt='' />
+                <Image
+                  width={47}
+                  height={71}
+                  src='/assets/images/thumbs/choose-us-icon1.png'
+                  alt='tech'
+                />
               </div>
               <div className='bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-end-0 top-0 tw-mt-705 z-1 tw-me-14'>
-                <img src='assets/images/thumbs/choose-us-icon2.png' alt='' />
+                <Image
+                  width={67}
+                  height={70}
+                  src='/assets/images/thumbs/choose-us-icon2.png'
+                  alt='tech'
+                />
               </div>
               <div className='bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-start-0 top-0 z-1 tw-mt-194-px tw-ms-148-px'>
-                <img src='assets/images/thumbs/choose-us-icon3.png' alt='' />
+                <Image
+                  width={70}
+                  height={70}
+                  src='/assets/images/thumbs/choose-us-icon3.png'
+                  alt='tech'
+                />
               </div>
               <div className='bg-white max-w-150-px tw-h-150-px w-100 d-flex justify-content-center align-items-center tw-rounded-xl common-shadow-four box position-absolute tw-end-0 bottom-0 tw-me-90-px z-1 tw-mb-148-px'>
-                <img src='assets/images/thumbs/choose-us-icon4.png' alt='' />
+                <Image
+                  width={68}
+                  height={58}
+                  src='/assets/images/thumbs/choose-us-icon4.png'
+                  alt='tech'
+                />
               </div>
             </div>
           </div>

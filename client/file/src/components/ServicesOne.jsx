@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick";
 
 const ServicesOne = () => {
@@ -22,13 +23,17 @@ const ServicesOne = () => {
   };
   return (
     <section className='services py-120 position-relative z-1 gradient-bg-two'>
-      <img
-        src='assets/images/shapes/rope-shape.png'
+      <Image
+        width={87}
+        height={97}
+        src='/assets/images/shapes/rope-shape.png'
         alt='Rope'
         className='position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1'
       />
-      <img
-        src='assets/images/shapes/matherboard-shape.png'
+      <Image
+        width={719}
+        height={565}
+        src='/assets/images/shapes/matherboard-shape.png'
         alt='Shape'
         className='position-absolute top-0 tw-start-0 tw-mt-160-px tw-ms-128-px d-lg-block d-none z-n1 opacity-1'
       />
@@ -69,13 +74,15 @@ const ServicesOne = () => {
               <div className='square-bg-shape position-relative tw-rounded-2xl z-1 animation-item  tw-h-424-px'>
                 <div className='service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200'>
                   <span className='tw-mb-13 group-hover-item-text-invert'>
-                    <img
-                      src='assets/images/icons/service-icon1.svg'
+                    <Image
+                      width={55}
+                      height={55}
+                      src='/assets/images/icons/service-icon1.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -89,7 +96,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -108,13 +115,15 @@ const ServicesOne = () => {
               <div className='square-bg-shape position-relative tw-rounded-2xl z-1 animation-item  tw-h-424-px'>
                 <div className='service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200'>
                   <span className='tw-mb-13 group-hover-item-text-invert'>
-                    <img
-                      src='assets/images/icons/service-icon2.svg'
+                    <Image
+                      width={54}
+                      height={54}
+                      src='/assets/images/icons/service-icon2.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -128,7 +137,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -147,13 +156,15 @@ const ServicesOne = () => {
               <div className='square-bg-shape position-relative tw-rounded-2xl z-1 animation-item  tw-h-424-px'>
                 <div className='service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200'>
                   <span className='tw-mb-13 group-hover-item-text-invert'>
-                    <img
-                      src='assets/images/icons/service-icon3.svg'
+                    <Image
+                      width={53}
+                      height={48}
+                      src='/assets/images/icons/service-icon3.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -167,7 +178,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -186,13 +197,15 @@ const ServicesOne = () => {
               <div className='square-bg-shape position-relative tw-rounded-2xl z-1 animation-item  tw-h-424-px'>
                 <div className='service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200'>
                   <span className='tw-mb-13 group-hover-item-text-invert'>
-                    <img
-                      src='assets/images/icons/service-icon4.svg'
+                    <Image
+                      width={57}
+                      height={51}
+                      src='/assets/images/icons/service-icon4.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -206,7 +219,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More
@@ -225,13 +238,15 @@ const ServicesOne = () => {
               <div className='square-bg-shape position-relative tw-rounded-2xl z-1 animation-item  tw-h-424-px'>
                 <div className='service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200'>
                   <span className='tw-mb-13 group-hover-item-text-invert'>
-                    <img
-                      src='assets/images/icons/service-icon3.svg'
+                    <Image
+                      width={53}
+                      height={48}
+                      src='/assets/images/icons/service-icon3.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -245,7 +260,7 @@ const ServicesOne = () => {
                       where your website
                     </p>
                     <a
-                      href='javascript:void(0)'
+                      href='#'
                       className='d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0'
                     >
                       Learn More

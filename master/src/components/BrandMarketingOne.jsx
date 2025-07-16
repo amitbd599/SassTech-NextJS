@@ -14,7 +14,7 @@ const BrandMarketingOne = () => {
                   <Image
                     width={544}
                     height={608}
-                    src='assets/images/thumbs/brand-marketing-img.png'
+                    src='/assets/images/thumbs/brand-marketing-img.png'
                     alt='Image'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -22,7 +22,7 @@ const BrandMarketingOne = () => {
                 <Image
                   width={51}
                   height={62}
-                  src='assets/images/shapes/finger-shape.png'
+                  src='/assets/images/shapes/finger-shape.png'
                   alt='Shape'
                   className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
                 />
@@ -34,7 +34,7 @@ const BrandMarketingOne = () => {
                       <Image
                         width={14}
                         height={13}
-                        src='assets/images/icons/star.svg'
+                        src='/assets/images/icons/star.svg'
                         alt=''
                       />
                     </span>
@@ -42,7 +42,7 @@ const BrandMarketingOne = () => {
                   <Image
                     width={100}
                     height={18}
-                    src='assets/images/icons/ratings.svg'
+                    src='/assets/images/icons/ratings.svg'
                     alt=''
                   />
                   <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
@@ -52,7 +52,7 @@ const BrandMarketingOne = () => {
                     <Image
                       width={20}
                       height={20}
-                      src='assets/images/icons/verified-icon.svg'
+                      src='/assets/images/icons/verified-icon.svg'
                       alt=''
                     />
                   </div>

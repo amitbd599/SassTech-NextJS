@@ -16,7 +16,7 @@ const BannerOne = () => {
       <Image
         width={803}
         height={786}
-        src='assets/images/shapes/sqaure_shape.png'
+        src='/assets/images/shapes/sqaure_shape.png'
         alt='Shape'
         className='position-absolute top-0 tw-end-0 tw-me-12-percent'
       />
@@ -62,7 +62,7 @@ const BannerOne = () => {
                         <Image
                           width={35}
                           height={35}
-                          src='assets/images/thumbs/client-img1.png'
+                          src='/assets/images/thumbs/client-img1.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
                         />
@@ -71,7 +71,7 @@ const BannerOne = () => {
                         <Image
                           width={35}
                           height={35}
-                          src='assets/images/thumbs/client-img2.png'
+                          src='/assets/images/thumbs/client-img2.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
                         />
@@ -80,7 +80,7 @@ const BannerOne = () => {
                         <Image
                           width={35}
                           height={35}
-                          src='assets/images/thumbs/client-img3.png'
+                          src='/assets/images/thumbs/client-img3.png'
                           alt='Client Image'
                           className='w-100 h-100 object-fit-cover'
                         />
@@ -104,7 +104,7 @@ const BannerOne = () => {
                 <Image
                   width={481}
                   height={617}
-                  src='assets/images/thumbs/banner-img.png'
+                  src='/assets/images/thumbs/banner-img.png'
                   alt='Sasstech Next JS'
                   data-aos='zoom-in'
                   data-aos-anchor-placement='top-bottom'
@@ -119,7 +119,7 @@ const BannerOne = () => {
                     <Image
                       width={14}
                       height={13}
-                      src='assets/images/icons/star.svg'
+                      src='/assets/images/icons/star.svg'
                       alt='Sasstech Next JS'
                     />
                   </span>
@@ -127,7 +127,7 @@ const BannerOne = () => {
                 <Image
                   width={100}
                   height={18}
-                  src='assets/images/icons/ratings.svg'
+                  src='/assets/images/icons/ratings.svg'
                   alt='Sasstech Next JS'
                 />
                 <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
@@ -137,7 +137,7 @@ const BannerOne = () => {
                   <Image
                     width={20}
                     height={20}
-                    src='assets/images/icons/verified-icon.svg'
+                    src='/assets/images/icons/verified-icon.svg'
                     alt='Sasstech Next JS'
                   />
                 </div>
@@ -166,7 +166,7 @@ const BannerOne = () => {
                 <Image
                   width={69}
                   height={64}
-                  src='assets/images/shapes/revenue-shape.png'
+                  src='/assets/images/shapes/revenue-shape.png'
                   alt='Sasstech Next JS'
                   className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
                 />
@@ -213,7 +213,7 @@ const BannerOne = () => {
                   <Image
                     width={102}
                     height={102}
-                    src='assets/images/thumbs/revenue-chart.png'
+                    src='/assets/images/thumbs/revenue-chart.png'
                     alt='Sasstech Next JS'
                   />
                 </div>

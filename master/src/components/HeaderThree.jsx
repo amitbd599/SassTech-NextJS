@@ -99,7 +99,7 @@ const HeaderThree = () => {
                   <Image
                     width={150}
                     height={30}
-                    src='assets/images/logo/logo-white-two.png'
+                    src='/assets/images/logo/logo-white-two.png'
                     alt='Logo'
                     className='max-w-200-px'
                   />
@@ -224,7 +224,7 @@ const HeaderThree = () => {
               <Image
                 width={150}
                 height={30}
-                src='assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.png'
                 alt='Logo'
               />
             </Link>

@@ -43,7 +43,7 @@ const AutomationOne = () => {
                   <Image
                     width={22}
                     height={22}
-                    src='assets/images/icons/check-star.png'
+                    src='/assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
                   />
@@ -60,7 +60,7 @@ const AutomationOne = () => {
                   <Image
                     width={22}
                     height={22}
-                    src='assets/images/icons/check-star.png'
+                    src='/assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
                   />
@@ -77,7 +77,7 @@ const AutomationOne = () => {
                   <Image
                     width={22}
                     height={22}
-                    src='assets/images/icons/check-star.png'
+                    src='/assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
                   />
@@ -104,7 +104,7 @@ const AutomationOne = () => {
                       <Image
                         width={18}
                         height={16}
-                        src='assets/images/icons/download-cloud-icon.png'
+                        src='/assets/images/icons/download-cloud-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -118,7 +118,7 @@ const AutomationOne = () => {
               <Image
                 width={876}
                 height={758}
-                src='assets/images/thumbs/automation-thumb.png'
+                src='/assets/images/thumbs/automation-thumb.png'
                 alt='Thumb'
               />
             </div>

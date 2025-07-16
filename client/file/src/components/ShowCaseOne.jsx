@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import Slider from "react-slick";
 
@@ -58,7 +59,7 @@ const ShowCaseOne = () => {
         <h3 className='fw-light tw-leading-104 tw-mb-9 text-white'>
           <span className='splitTextStyleOne d-inline-block fw-medium'>
             <span className='fw-semibold'>Comprehensive IT Solution </span>{" "}
-            <span className=''> Growth</span>{" "}
+            <span> Growth</span>{" "}
             <span className='fw-semibold'>&amp; Efficiency</span>
           </span>
         </h3>
@@ -77,9 +78,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img1.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={513}
+                    src='/assets/images/thumbs/show-case-img1.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
@@ -117,9 +120,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img2.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={514}
+                    src='/assets/images/thumbs/show-case-img2.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
@@ -157,9 +162,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img3.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={514}
+                    src='/assets/images/thumbs/show-case-img3.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
@@ -197,9 +204,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img4.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={514}
+                    src='/assets/images/thumbs/show-case-img4.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
@@ -237,9 +246,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img3.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={514}
+                    src='/assets/images/thumbs/show-case-img3.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>
@@ -277,9 +288,11 @@ const ShowCaseOne = () => {
                   href='/project-details'
                   className='w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px'
                 >
-                  <img
-                    src='assets/images/thumbs/show-case-img2.png'
-                    alt='Image'
+                  <Image
+                    width={590}
+                    height={514}
+                    src='/assets/images/thumbs/show-case-img2.png'
+                    alt='tech'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
                 </Link>

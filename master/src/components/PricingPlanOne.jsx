@@ -79,7 +79,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={9}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
@@ -126,7 +126,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -137,7 +137,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -150,7 +150,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -163,7 +163,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -176,7 +176,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -189,7 +189,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -202,7 +202,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -215,7 +215,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -226,7 +226,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -239,7 +239,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -271,7 +271,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={91}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
                   />
@@ -318,7 +318,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -329,7 +329,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -342,7 +342,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -355,7 +355,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -368,7 +368,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -381,7 +381,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -394,7 +394,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -407,7 +407,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -418,7 +418,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -431,7 +431,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -463,7 +463,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={91}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
@@ -510,7 +510,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -521,7 +521,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -534,7 +534,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -547,7 +547,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -560,7 +560,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -573,7 +573,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -586,7 +586,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -599,7 +599,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -610,7 +610,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -623,7 +623,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -665,7 +665,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={91}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
@@ -712,7 +712,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -723,7 +723,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -736,7 +736,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -749,7 +749,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -762,7 +762,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -775,7 +775,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -788,7 +788,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -801,7 +801,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -812,7 +812,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -825,7 +825,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -857,7 +857,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={91}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
                   />
@@ -904,7 +904,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -915,7 +915,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -928,7 +928,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -941,7 +941,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -954,7 +954,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -967,7 +967,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -980,7 +980,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -993,7 +993,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -1004,7 +1004,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -1017,7 +1017,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -1049,7 +1049,7 @@ const PricingPlanOne = () => {
                   <Image
                     width={114}
                     height={91}
-                    src='assets/images/shapes/arrow-curve-main.png'
+                    src='/assets/images/shapes/arrow-curve-main.png'
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
@@ -1096,7 +1096,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -1107,7 +1107,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -1120,7 +1120,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>
@@ -1133,7 +1133,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={14}
                               height={16}
-                              src='assets/images/icons/pricing-icon4.svg'
+                              src='/assets/images/icons/pricing-icon4.svg'
                               alt=''
                             />
                           </span>
@@ -1146,7 +1146,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={17}
-                              src='assets/images/icons/pricing-icon5.svg'
+                              src='/assets/images/icons/pricing-icon5.svg'
                               alt=''
                             />
                           </span>
@@ -1159,7 +1159,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={18}
-                              src='assets/images/icons/pricing-icon6.svg'
+                              src='/assets/images/icons/pricing-icon6.svg'
                               alt=''
                             />
                           </span>
@@ -1172,7 +1172,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon7.svg'
+                              src='/assets/images/icons/pricing-icon7.svg'
                               alt=''
                             />
                           </span>
@@ -1185,7 +1185,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={19}
                               height={19}
-                              src='assets/images/icons/pricing-icon1.svg'
+                              src='/assets/images/icons/pricing-icon1.svg'
                               alt=''
                             />
                           </span>
@@ -1196,7 +1196,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={18}
                               height={22}
-                              src='assets/images/icons/pricing-icon2.svg'
+                              src='/assets/images/icons/pricing-icon2.svg'
                               alt=''
                             />
                           </span>
@@ -1209,7 +1209,7 @@ const PricingPlanOne = () => {
                             <Image
                               width={16}
                               height={18}
-                              src='assets/images/icons/pricing-icon3.svg'
+                              src='/assets/images/icons/pricing-icon3.svg'
                               alt=''
                             />
                           </span>

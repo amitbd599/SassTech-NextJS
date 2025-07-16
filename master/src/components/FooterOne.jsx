@@ -20,7 +20,7 @@ const FooterOne = () => {
                   <Image
                     width={22}
                     height={38}
-                    src='assets/images/icons/arrow-up-main.svg'
+                    src='/assets/images/icons/arrow-up-main.svg'
                     alt='tech'
                   />
                   88%
@@ -87,7 +87,7 @@ const FooterOne = () => {
                     <Image
                       width={167}
                       height={51}
-                      src='assets/images/icons/store1.png'
+                      src='/assets/images/icons/store1.png'
                       alt='tech'
                     />
                   </a>
@@ -104,7 +104,7 @@ const FooterOne = () => {
                     <Image
                       width={167}
                       height={51}
-                      src='assets/images/icons/store2.png'
+                      src='/assets/images/icons/store2.png'
                       alt='tech'
                     />
                   </a>
@@ -116,7 +116,7 @@ const FooterOne = () => {
             <Image
               width={314}
               height={298}
-              src='assets/images/thumbs/footer-img.png'
+              src='/assets/images/thumbs/footer-img.png'
               alt='tech'
             />
           </div>
@@ -139,7 +139,7 @@ const FooterOne = () => {
                   <Image
                     width={149}
                     height={30}
-                    src='assets/images/logo/logo-white.png'
+                    src='/assets/images/logo/logo-white.png'
                     alt='tech'
                   />
                 </Link>
@@ -303,7 +303,7 @@ const FooterOne = () => {
                     <Image
                       width={20}
                       height={20}
-                      src='assets/images/icons/map.svg'
+                      src='/assets/images/icons/map.svg'
                       alt='tech'
                     />
                   </span>
@@ -327,7 +327,7 @@ const FooterOne = () => {
                     <Image
                       width={22}
                       height={22}
-                      src='assets/images/icons/phone.svg'
+                      src='/assets/images/icons/phone.svg'
                       alt='tech'
                     />
                   </span>

@@ -51,7 +51,7 @@ const FooterFive = () => {
                   <Image
                     width={150}
                     height={30}
-                    src='assets/images/logo/logo-four.png'
+                    src='/assets/images/logo/logo-four.png'
                     alt=''
                   />
                 </Link>
@@ -64,7 +64,7 @@ const FooterFive = () => {
                       <Image
                         width={22}
                         height={22}
-                        src='assets/images/icons/phone-icon.png'
+                        src='/assets/images/icons/phone-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -77,7 +77,7 @@ const FooterFive = () => {
                       <Image
                         width={20}
                         height={20}
-                        src='assets/images/icons/message-icon.png'
+                        src='/assets/images/icons/message-icon.png'
                         alt='Icon'
                       />
                     </span>

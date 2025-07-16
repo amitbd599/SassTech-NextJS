@@ -1,6 +1,8 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const PrivacyPolicyInner = () => {
+  const [activeTab, setActiveTab] = useState(1);
   return (
     <section className='privacy-policy py-120'>
       <div className='container'>
@@ -16,122 +18,82 @@ const PrivacyPolicyInner = () => {
                     aria-orientation='vertical'
                   >
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md active'
-                      id='v-pills-home-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-home'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-home'
-                      aria-selected='true'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 1 && "active"
+                      } `}
+                      onClick={() => setActiveTab(1)}
                     >
                       Bookings &amp; Prices
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-profile-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-profile'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-profile'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 2 && "active"
+                      } `}
+                      onClick={() => setActiveTab(2)}
                     >
                       Payments, Refunds &amp; Credits
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-disabled-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-disabled'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-disabled'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 3 && "active"
+                      } `}
+                      onClick={() => setActiveTab(3)}
                     >
                       Changes
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-messages-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-messages'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-messages'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 4 && "active"
+                      } `}
+                      onClick={() => setActiveTab(4)}
                     >
                       Cancellations
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-settings-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-settings'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-settings'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 5 && "active"
+                      } `}
+                      onClick={() => setActiveTab(5)}
                     >
                       Included Services
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-TripOperation-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-TripOperation'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-TripOperation'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 6 && "active"
+                      } `}
+                      onClick={() => setActiveTab(6)}
                     >
                       Trip Operation
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-Participation-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-Participation'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-Participation'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 7 && "active"
+                      } `}
+                      onClick={() => setActiveTab(7)}
                     >
                       Participation
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-Passports-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-Passports'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-Passports'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 8 && "active"
+                      } `}
+                      onClick={() => setActiveTab(8)}
                     >
                       Passports, Visas &amp; Entry Require
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-Information-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-Information'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-Information'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 9 && "active"
+                      } `}
+                      onClick={() => setActiveTab(9)}
                     >
                       Your Information &amp; Privacy
                     </button>
                     <button
-                      className='nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md'
-                      id='v-pills-Miscellanea-tab'
-                      data-bs-toggle='pill'
-                      data-bs-target='#v-pills-Miscellanea'
-                      type='button'
-                      role='tab'
-                      aria-controls='v-pills-Miscellanea'
-                      aria-selected='false'
+                      className={`nav-link tw-px-8 tw-py-5 text-neutral-500 fw-semibold text-start w-100 tw-rounded-md ${
+                        activeTab === 10 && "active"
+                      } `}
+                      onClick={() => setActiveTab(10)}
                     >
                       Miscellanea
                     </button>
@@ -141,15 +103,13 @@ const PrivacyPolicyInner = () => {
               <div className='col-md-8'>
                 <div className='tab-content ps-lg-5' id='v-pills-tabContent'>
                   <div
-                    className='tab-pane fade show active'
-                    id='v-pills-home'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-home-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 1 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -203,27 +163,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -238,15 +190,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-profile'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-profile-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 2 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -300,27 +250,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -335,15 +277,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-disabled'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-disabled-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 3 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -397,27 +337,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -432,15 +364,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-messages'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-messages-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 4 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -494,27 +424,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -529,15 +451,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-settings'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-settings-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 5 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -591,27 +511,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -626,15 +538,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-TripOperation'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-TripOperation-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 6 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -688,27 +598,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -723,15 +625,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-Participation'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-Participation-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 7 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -785,27 +685,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -820,15 +712,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-Passports'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-Passports-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 8 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -882,27 +772,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -917,15 +799,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-Information'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-Information-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 9 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -979,27 +859,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -1014,15 +886,13 @@ const PrivacyPolicyInner = () => {
                     </div>
                   </div>
                   <div
-                    className='tab-pane fade'
-                    id='v-pills-Miscellanea'
-                    role='tabpanel'
-                    aria-labelledby='v-pills-Miscellanea-tab'
-                    tabIndex={0}
+                    className={`tab-pane fade show ${
+                      activeTab === 10 && "active"
+                    } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -1076,27 +946,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>

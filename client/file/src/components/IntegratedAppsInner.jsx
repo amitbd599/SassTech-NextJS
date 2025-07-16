@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,22 +14,28 @@ const IntegratedAppsInner = () => {
             data-aos-duration={2000}
           >
             <div className='position-relative tw-p-12 text-center'>
-              <img
-                src='assets/images/shapes/rounded-circle.png'
+              <Image
+                width={486}
+                height={487}
+                src='/assets/images/shapes/rounded-circle.png'
                 alt='Bg Round'
               />
-              <img
-                src='assets/images/shapes/round-icons-big.png'
+              <Image
+                width={517}
+                height={591}
+                src='/assets/images/shapes/round-icons-big.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-right'
               />
-              <img
-                src='assets/images/shapes/round-icons-small.png'
+              <Image
+                width={488}
+                height={496}
+                src='/assets/images/shapes/round-icons-small.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-left'
               />
               <div className='position-absolute top-50 start-50 translate-middle'>
-                <h3 className=''>
+                <h3>
                   <span className='counter'>2</span>k+
                 </h3>
                 <span className='text-heading'>Integration</span>
@@ -36,7 +43,7 @@ const IntegratedAppsInner = () => {
             </div>
           </div>
           <div className='col-xl-6'>
-            <div className=''>
+            <div>
               <div className='text-start mx-auto tw-mb-12'>
                 <h3 className='splitTextStyleOne text-heading text-capitalize max-w-532-px'>
                   Integrated apps can create seamless workflows

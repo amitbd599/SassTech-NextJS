@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -36,19 +37,19 @@ const ProjectDetailsInner = () => {
           </div>
           <div className='col-lg-3'>
             <div className='bg-neutral-200 tw-p-54-px d-flex flex-column tw-gap-56-px'>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Clients</h6>
                 <span className='text-neutral-600'>Design Studio In USA </span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Project Type</h6>
                 <span className='text-neutral-600'>Digital Product Design</span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Date</h6>
                 <span className='text-neutral-600'>25 October 2023</span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Website</h6>
                 <Link
                   href='https://themeforest.net6ser/webnextpro'
@@ -64,8 +65,10 @@ const ProjectDetailsInner = () => {
           <div className='row gy-4'>
             <div className='col-sm-4'>
               <div className='h-100'>
-                <img
-                  src='assets/images/thumbs/project-details-img1.png'
+                <Image
+                  width={390}
+                  height={500}
+                  src='/assets/images/thumbs/project-details-img1.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -73,8 +76,10 @@ const ProjectDetailsInner = () => {
             </div>
             <div className='col-sm-8'>
               <div className='h-100'>
-                <img
-                  src='assets/images/thumbs/project-details-img2.png'
+                <Image
+                  width={807}
+                  height={500}
+                  src='/assets/images/thumbs/project-details-img2.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -210,10 +215,12 @@ const ProjectDetailsInner = () => {
         <div className='tw-mt-80-px '>
           <div className='row gy-4'>
             <div className='col-sm-6'>
-              <div className=''>
+              <div>
                 <Link href='/project' className='w-100 h-100'>
-                  <img
-                    src='assets/images/thumbs/project-details-img3.png'
+                  <Image
+                    width={599}
+                    height={500}
+                    src='/assets/images/thumbs/project-details-img3.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -240,10 +247,12 @@ const ProjectDetailsInner = () => {
               </div>
             </div>
             <div className='col-sm-6'>
-              <div className=''>
+              <div>
                 <Link href='/project' className='w-100 h-100'>
-                  <img
-                    src='assets/images/thumbs/project-details-img4.png'
+                  <Image
+                    width={599}
+                    height={500}
+                    src='/assets/images/thumbs/project-details-img4.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />

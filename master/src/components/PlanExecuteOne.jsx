@@ -59,7 +59,7 @@ const PlanExecuteOne = () => {
                     <Image
                       width={376}
                       height={394}
-                      src='assets/images/thumbs/plan-execute-img1.png'
+                      src='/assets/images/thumbs/plan-execute-img1.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -84,7 +84,7 @@ const PlanExecuteOne = () => {
                     <Image
                       width={390}
                       height={394}
-                      src='assets/images/thumbs/plan-execute-img3.png'
+                      src='/assets/images/thumbs/plan-execute-img3.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -109,7 +109,7 @@ const PlanExecuteOne = () => {
                     <Image
                       width={388}
                       height={394}
-                      src='assets/images/thumbs/plan-execute-img2.png'
+                      src='/assets/images/thumbs/plan-execute-img2.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -134,7 +134,7 @@ const PlanExecuteOne = () => {
                     <Image
                       width={371}
                       height={395}
-                      src='assets/images/thumbs/plan-execute-img4.png'
+                      src='/assets/images/thumbs/plan-execute-img4.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -159,7 +159,7 @@ const PlanExecuteOne = () => {
                     <Image
                       width={390}
                       height={394}
-                      src='assets/images/thumbs/plan-execute-img3.png'
+                      src='/assets/images/thumbs/plan-execute-img3.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />

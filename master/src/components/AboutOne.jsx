@@ -26,7 +26,7 @@ const AboutOne = () => {
                           <Image
                             width={22}
                             height={38}
-                            src='assets/images/icons/arrow-up.svg'
+                            src='/assets/images/icons/arrow-up.svg'
                             alt='tech'
                           />
                         </span>
@@ -51,7 +51,7 @@ const AboutOne = () => {
                       <Image
                         width={277}
                         height={326}
-                        src='assets/images/thumbs/model.png'
+                        src='/assets/images/thumbs/model.png'
                         alt='tech'
                         className='position-absolute tw-start-50 bottom-0 tw-translate-x-50'
                       />
@@ -165,7 +165,7 @@ const AboutOne = () => {
                       <Image
                         width={54}
                         height={54}
-                        src='assets/images/icons/about-icon1.svg'
+                        src='/assets/images/icons/about-icon1.svg'
                         alt='tech'
                         className=' animate__bounce'
                       />
@@ -189,7 +189,7 @@ const AboutOne = () => {
                       <Image
                         width={42}
                         height={42}
-                        src='assets/images/icons/about-icon2.svg'
+                        src='/assets/images/icons/about-icon2.svg'
                         alt='tech'
                         className=' animate__bounce'
                       />
@@ -213,7 +213,7 @@ const AboutOne = () => {
                       <Image
                         width={40}
                         height={40}
-                        src='assets/images/icons/about-icon3.svg'
+                        src='/assets/images/icons/about-icon3.svg'
                         alt='tech'
                         className=' animate__bounce'
                       />

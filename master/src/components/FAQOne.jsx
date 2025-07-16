@@ -36,7 +36,7 @@ const FAQOne = () => {
       <Image
         width={1919}
         height={1032}
-        src='assets/images/shapes/faq-bg.png'
+        src='/assets/images/shapes/faq-bg.png'
         alt='tech'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
@@ -117,7 +117,7 @@ const FAQOne = () => {
                 <Image
                   width={805}
                   height={543}
-                  src='assets/images/thumbs/faq-thumb1.png'
+                  src='/assets/images/thumbs/faq-thumb1.png'
                   id='faqImage'
                   alt='Image'
                   className='w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300'
@@ -126,21 +126,21 @@ const FAQOne = () => {
               <Image
                 width={155}
                 height={61}
-                src='assets/images/thumbs/faq-img-1.png'
+                src='/assets/images/thumbs/faq-img-1.png'
                 alt='tech'
                 className='position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px'
               />
               <Image
                 width={177}
                 height={158}
-                src='assets/images/thumbs/faq-img-2.png'
+                src='/assets/images/thumbs/faq-img-2.png'
                 alt='tech'
                 className='position-absolute bottom-0 tw-end-0 tw--me-32-px'
               />
               <Image
                 width={244}
                 height={205}
-                src='assets/images/thumbs/faq-img-3.png'
+                src='/assets/images/thumbs/faq-img-3.png'
                 alt='tech'
                 className='position-absolute bottom-0 tw-start-0 tw--ms-24-px'
               />

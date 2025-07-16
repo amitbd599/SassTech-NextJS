@@ -2,6 +2,7 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import Link from "next/link";
+import Image from "next/image";
 const RoadmapOne = () => {
   const { ref, inView } = useInView({
     threshold: 0,
@@ -18,8 +19,10 @@ const RoadmapOne = () => {
             <div className='d-flex flex-xl-nowrap flex-wrap tw-gap-126-px'>
               <div className='max-w-432-px w-100 flex-shrink-0' ref={ref}>
                 <div className='pt-120 tw-pb-9 position-relative'>
-                  <img
-                    src='assets/images/shapes/curve-arrow-white.png'
+                  <Image
+                    width={100}
+                    height={82}
+                    src='/assets/images/shapes/curve-arrow-white.png'
                     alt='Arrow'
                     className='position-absolute top-0 tw-end-0 animate__wobble__two'
                   />
@@ -49,7 +52,6 @@ const RoadmapOne = () => {
                       <span className='button__label'>Get Started</span>
                     </Link>
                     <div
-                      className=''
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}
@@ -57,22 +59,28 @@ const RoadmapOne = () => {
                       <div className='d-flex align-items-center tw-gap-4'>
                         <div className='d-flex align-items-center'>
                           <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2'>
-                            <img
-                              src='assets/images/thumbs/client-img1.png'
+                            <Image
+                              width={35}
+                              height={35}
+                              src='/assets/images/thumbs/client-img1.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
                           <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1'>
-                            <img
-                              src='assets/images/thumbs/client-img2.png'
+                            <Image
+                              width={35}
+                              height={35}
+                              src='/assets/images/thumbs/client-img2.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
                           <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px'>
-                            <img
-                              src='assets/images/thumbs/client-img3.png'
+                            <Image
+                              width={35}
+                              height={35}
+                              src='/assets/images/thumbs/client-img3.png'
                               alt='Client Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -105,8 +113,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       01
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon1.svg'
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/assets/images/icons/roadmap-icon1.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -118,8 +128,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       02
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon2.svg'
+                    <Image
+                      width={36}
+                      height={44}
+                      src='/assets/images/icons/roadmap-icon2.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -131,8 +143,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       03
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon3.svg'
+                    <Image
+                      width={41}
+                      height={41}
+                      src='/assets/images/icons/roadmap-icon3.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -144,8 +158,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       04
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon4.svg'
+                    <Image
+                      width={34}
+                      height={34}
+                      src='/assets/images/icons/roadmap-icon4.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -157,8 +173,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       05
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon5.svg'
+                    <Image
+                      width={37}
+                      height={37}
+                      src='/assets/images/icons/roadmap-icon5.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -170,8 +188,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       06
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon6.svg'
+                    <Image
+                      width={39}
+                      height={39}
+                      src='/assets/images/icons/roadmap-icon6.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -183,8 +203,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       07
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon7.svg'
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/assets/images/icons/roadmap-icon7.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -196,8 +218,10 @@ const RoadmapOne = () => {
                     <span className='tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2'>
                       08
                     </span>
-                    <img
-                      src='assets/images/icons/roadmap-icon8.svg'
+                    <Image
+                      width={52}
+                      height={52}
+                      src='/assets/images/icons/roadmap-icon8.svg'
                       alt='Icon'
                       className='animate__swing'
                     />
@@ -210,9 +234,11 @@ const RoadmapOne = () => {
             </div>
           </div>
           <div className='tw-pb-9'>
-            <img
-              src='assets/images/shapes/curve-line.png'
-              alt=''
+            <Image
+              width={1441}
+              height={130}
+              src='/assets/images/shapes/curve-line.png'
+              alt='tech'
               className='w-100'
             />
           </div>
@@ -248,7 +274,12 @@ const RoadmapOne = () => {
               data-aos-duration={600}
             >
               <h3 className='h1 counter text-white tw-mb-4 fw-medium d-inline-flex align-items-center tw-gap-4'>
-                <img src='assets/images/icons/arrow-up-green.svg' alt='' />
+                <Image
+                  width={22}
+                  height={38}
+                  src='/assets/images/icons/arrow-up-green.svg'
+                  alt='tech'
+                />
                 {inView && (
                   <span>
                     <CountUp delay={0} start={0} end={88} />%

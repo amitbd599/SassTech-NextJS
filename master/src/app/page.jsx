@@ -70,7 +70,7 @@ const page = () => {
         <Image
           width={1919}
           height={845}
-          src='assets/images/shapes/shape-image.png'
+          src='/assets/images/shapes/shape-image.png'
           alt='Shape'
           className='position-absolute w-100 tw-start-0 bottom-0 z-n1'
         />

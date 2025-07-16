@@ -9,7 +9,7 @@ const TaskManagementOne = () => {
           <Image
             width={150}
             height={164}
-            src='assets/images/thumbs/laptop-man.png'
+            src='/assets/images/thumbs/laptop-man.png'
             alt='Image'
             className='tw-me-84-px'
           />
@@ -18,14 +18,14 @@ const TaskManagementOne = () => {
           <Image
             width={1290}
             height={596}
-            src='assets/images/shapes/hill-shape.png'
+            src='/assets/images/shapes/hill-shape.png'
             alt='Hill Shape'
             className='position-absolute w-100 h-100 top-0 tw-start-0 z-n1'
           />
           <Image
             width={210}
             height={220}
-            src='assets/images/thumbs/task-management-img.png'
+            src='/assets/images/thumbs/task-management-img.png'
             alt='Image'
             className='position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none'
           />

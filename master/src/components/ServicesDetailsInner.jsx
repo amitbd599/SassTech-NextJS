@@ -49,7 +49,7 @@ const ServicesDetailsInner = () => {
           <div className='col-xl-4 pe-lg-4'>
             <div className='d-flex flex-column tw-gap-4'>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Cargo Domestic Service
@@ -58,7 +58,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Air Freight Services
@@ -67,7 +67,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Intermodal Shipping
@@ -76,7 +76,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Freeze product Shipping
@@ -85,7 +85,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Hot Shot Trucking
@@ -94,7 +94,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Priority Transportation
@@ -130,7 +130,7 @@ const ServicesDetailsInner = () => {
               <Image
                 width={846}
                 height={473}
-                src='assets/images/thumbs/service-details-img.png'
+                src='/assets/images/thumbs/service-details-img.png'
                 alt='Thumb'
               />
               <div className='tw-mt-8 d-flex flex-column tw-gap-12'>
@@ -169,7 +169,7 @@ const ServicesDetailsInner = () => {
                     <Image
                       width={392}
                       height={273}
-                      src='assets/images/thumbs/service-details-video-img.jpg'
+                      src='/assets/images/thumbs/service-details-video-img.jpg'
                       alt='Thumb'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -253,7 +253,7 @@ const ServicesDetailsInner = () => {
                       <Image
                         width={518}
                         height={218}
-                        src='assets/images/thumbs/service-details-img1.jpg'
+                        src='/assets/images/thumbs/service-details-img1.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -262,7 +262,7 @@ const ServicesDetailsInner = () => {
                       <Image
                         width={300}
                         height={218}
-                        src='assets/images/thumbs/service-details-img2.jpg'
+                        src='/assets/images/thumbs/service-details-img2.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -271,7 +271,7 @@ const ServicesDetailsInner = () => {
                       <Image
                         width={300}
                         height={273}
-                        src='assets/images/thumbs/service-details-img3.jpg'
+                        src='/assets/images/thumbs/service-details-img3.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -280,7 +280,7 @@ const ServicesDetailsInner = () => {
                       <Image
                         width={520}
                         height={273}
-                        src='assets/images/thumbs/service-details-img4.jpg'
+                        src='/assets/images/thumbs/service-details-img4.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick";
 
 const PlanExecuteOne = () => {
@@ -55,8 +56,10 @@ const PlanExecuteOne = () => {
               >
                 <div className='plan-execute-item'>
                   <div className='tw-rounded-2xl overflow-hidden'>
-                    <img
-                      src='assets/images/thumbs/plan-execute-img1.png'
+                    <Image
+                      width={376}
+                      height={394}
+                      src='/assets/images/thumbs/plan-execute-img1.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -78,8 +81,10 @@ const PlanExecuteOne = () => {
               >
                 <div className='plan-execute-item'>
                   <div className='tw-rounded-2xl overflow-hidden'>
-                    <img
-                      src='assets/images/thumbs/plan-execute-img3.png'
+                    <Image
+                      width={390}
+                      height={394}
+                      src='/assets/images/thumbs/plan-execute-img3.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -101,8 +106,10 @@ const PlanExecuteOne = () => {
               >
                 <div className='plan-execute-item'>
                   <div className='tw-rounded-2xl overflow-hidden'>
-                    <img
-                      src='assets/images/thumbs/plan-execute-img2.png'
+                    <Image
+                      width={388}
+                      height={394}
+                      src='/assets/images/thumbs/plan-execute-img2.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -124,8 +131,10 @@ const PlanExecuteOne = () => {
               >
                 <div className='plan-execute-item'>
                   <div className='tw-rounded-2xl overflow-hidden'>
-                    <img
-                      src='assets/images/thumbs/plan-execute-img4.png'
+                    <Image
+                      width={371}
+                      height={395}
+                      src='/assets/images/thumbs/plan-execute-img4.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -147,8 +156,10 @@ const PlanExecuteOne = () => {
               >
                 <div className='plan-execute-item'>
                   <div className='tw-rounded-2xl overflow-hidden'>
-                    <img
-                      src='assets/images/thumbs/plan-execute-img3.png'
+                    <Image
+                      width={390}
+                      height={394}
+                      src='/assets/images/thumbs/plan-execute-img3.png'
                       alt='thumbnail'
                       className='w-100 h-100 object-fit-cover'
                     />

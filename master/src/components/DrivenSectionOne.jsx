@@ -10,7 +10,7 @@ const DrivenSectionOne = () => {
           <Image
             width={1290}
             height={590}
-            src='assets/images/thumbs/driven-img.png'
+            src='/assets/images/thumbs/driven-img.png'
             alt='Thumb'
           />
           <div className='max-w-780-px text-center mx-auto'>

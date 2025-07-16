@@ -56,14 +56,14 @@ const HostingPlanOne = () => {
       <Image
         width={1920}
         height={1017}
-        src='assets/images/shapes/wave-shape.png'
+        src='/assets/images/shapes/wave-shape.png'
         alt='Shape'
         className='position-absolute w-100 h-100 top-0 tw-start-0 z-n1'
       />
       <Image
         width={155}
         height={201}
-        src='assets/images/shapes/dots-circle-round.png'
+        src='/assets/images/shapes/dots-circle-round.png'
         alt='Shape'
         className='position-absolute bottom-0 tw-start-0 tw-ms-80-px scale-animation d-lg-block d-none'
       />
@@ -122,7 +122,7 @@ const HostingPlanOne = () => {
                         <Image
                           width={70}
                           height={70}
-                          src='assets/images/icons/hosting-plan-icon1.png'
+                          src='/assets/images/icons/hosting-plan-icon1.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -169,7 +169,7 @@ const HostingPlanOne = () => {
                         <Image
                           width={81}
                           height={81}
-                          src='assets/images/icons/hosting-plan-icon2.png'
+                          src='/assets/images/icons/hosting-plan-icon2.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -216,7 +216,7 @@ const HostingPlanOne = () => {
                         <Image
                           width={80}
                           height={60}
-                          src='assets/images/icons/hosting-plan-icon3.png'
+                          src='/assets/images/icons/hosting-plan-icon3.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -263,7 +263,7 @@ const HostingPlanOne = () => {
                         <Image
                           width={74}
                           height={75}
-                          src='assets/images/icons/hosting-plan-icon4.png'
+                          src='/assets/images/icons/hosting-plan-icon4.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -310,7 +310,7 @@ const HostingPlanOne = () => {
                         <Image
                           width={81}
                           height={81}
-                          src='assets/images/icons/hosting-plan-icon2.png'
+                          src='/assets/images/icons/hosting-plan-icon2.png'
                           alt='Icon'
                           className='animate__swing'
                         />

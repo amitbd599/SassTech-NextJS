@@ -1,6 +1,19 @@
-import React from "react";
+"use client";
+import Image from "next/image";
+import React, { useState } from "react";
 
 const SearchDomainOne = () => {
+  const [activeTab, setActiveTab] = useState("FindNewDomain");
+  const tabs = [
+    {
+      id: "FindNewDomain",
+      label: "Find New Domain",
+    },
+    {
+      id: "GeneratedomainusingAI",
+      label: "Generate domain using AI",
+    },
+  ];
   return (
     <section
       className='search-domain position-relative z-1 tw--mt-170-px'
@@ -8,8 +21,10 @@ const SearchDomainOne = () => {
       data-aos-anchor-placement='top-bottom'
       data-aos-duration={800}
     >
-      <img
-        src='assets/images/shapes/hand-thumb.png'
+      <Image
+        width={247}
+        height={220}
+        src='/assets/images/shapes/hand-thumb.png'
         alt='Hand thumb'
         className='hand-thumb left-right-animation position-absolute tw-start-0 top-0 tw-mt-15'
       />
@@ -30,38 +45,29 @@ const SearchDomainOne = () => {
           >
             <ul
               className='animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex border border-neutral-200 rounded-pill tw-mb-6'
-              id='pills-tab'
               role='tablist'
             >
               <li className='background inner' />
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 active'
-                  id='pills-FindNewDomain-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-FindNewDomain'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-FindNewDomain'
-                  aria-selected='true'
+
+              {tabs.map((tab) => (
+                <li
+                  className='nav-item flex-grow-1'
+                  role='presentation'
+                  key={tab.id}
                 >
-                  Find New Domain
-                </button>
-              </li>
-              <li className='nav-item flex-grow-1' role='presentation'>
-                <button
-                  className='nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1'
-                  id='pills-GeneratedomainusingAI-tab'
-                  data-bs-toggle='pill'
-                  data-bs-target='#pills-GeneratedomainusingAI'
-                  type='button'
-                  role='tab'
-                  aria-controls='pills-GeneratedomainusingAI'
-                  aria-selected='false'
-                >
-                  Generate domain using AI
-                </button>
-              </li>
+                  <button
+                    type='button'
+                    className={`nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 ${
+                      activeTab === tab.id ? "active" : ""
+                    }`}
+                    onClick={() => setActiveTab(tab.id)}
+                    role='tab'
+                    aria-selected={activeTab === tab.id}
+                  >
+                    {tab.label}
+                  </button>
+                </li>
+              ))}
             </ul>
           </div>
           <div className='tab-content' id='pills-tabContent'>
@@ -115,8 +121,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start'
                       data-domain='.com'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img1.png'
+                      <Image
+                        width={70}
+                        height={30}
+                        src='/assets/images/thumbs/domain-img1.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -132,8 +140,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.cloud'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img2.png'
+                      <Image
+                        width={74}
+                        height={32}
+                        src='/assets/images/thumbs/domain-img2.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -149,8 +159,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.shop'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img3.png'
+                      <Image
+                        width={67}
+                        height={29}
+                        src='/assets/images/thumbs/domain-img3.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -166,8 +178,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.online'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img4.png'
+                      <Image
+                        width={85}
+                        height={29}
+                        src='/assets/images/thumbs/domain-img4.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -183,8 +197,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.info'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img5.png'
+                      <Image
+                        width={50}
+                        height={26}
+                        src='/assets/images/thumbs/domain-img5.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -205,7 +221,7 @@ const SearchDomainOne = () => {
                 >
                   Already bought a domain?
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='fw-bold text-decoration-underline text-heading hover-text-main-600'
                   >
                     Transfer it?
@@ -264,8 +280,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start'
                       data-domain='.com'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img1.png'
+                      <Image
+                        width={70}
+                        height={30}
+                        src='/assets/images/thumbs/domain-img1.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -281,8 +299,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.cloud'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img2.png'
+                      <Image
+                        width={74}
+                        height={32}
+                        src='/assets/images/thumbs/domain-img2.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -298,8 +318,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.shop'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img3.png'
+                      <Image
+                        width={67}
+                        height={29}
+                        src='/assets/images/thumbs/domain-img3.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -315,8 +337,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.online'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img4.png'
+                      <Image
+                        width={85}
+                        height={29}
+                        src='/assets/images/thumbs/domain-img4.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -332,8 +356,10 @@ const SearchDomainOne = () => {
                       className='domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end'
                       data-domain='.info'
                     >
-                      <img
-                        src='assets/images/thumbs/domain-img5.png'
+                      <Image
+                        width={50}
+                        height={26}
+                        src='/assets/images/thumbs/domain-img5.png'
                         alt='Domain Logo'
                         className='animate__wobble'
                       />
@@ -354,7 +380,7 @@ const SearchDomainOne = () => {
                 >
                   Already bought a domain?
                   <a
-                    href='javascript:void(0)'
+                    href='#'
                     className='fw-bold text-decoration-underline text-heading hover-text-main-600'
                   >
                     Transfer it?
@@ -370,13 +396,23 @@ const SearchDomainOne = () => {
           data-aos-anchor-placement='top-bottom'
           data-aos-duration={800}
         >
-          <span className=''>
+          <span>
             Our Customers say <span className='fw-bold tw-ms-2'>Great</span>{" "}
           </span>
-          <img src='assets/images/icons/ratings.svg' alt='' className='' />
-          <span className=''>4.1 out of 5 based on 16,158 reviews</span>
+          <Image
+            width={100}
+            height={18}
+            src='/assets/images/icons/ratings.svg'
+            alt=''
+          />
+          <span>4.1 out of 5 based on 16,158 reviews</span>
           <div className='d-flex align-items-center tw-gap-05'>
-            <img src='assets/images/icons/trustpilot-star.svg' alt='' />
+            <Image
+              width={19}
+              height={18}
+              src='/assets/images/icons/trustpilot-star.svg'
+              alt=''
+            />
             <span className='fw-bold'>Trustpilot</span>
           </div>
         </div>

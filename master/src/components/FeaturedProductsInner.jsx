@@ -22,7 +22,7 @@ const FeaturedProductsInner = () => {
                   <Image
                     width={210}
                     height={212}
-                    src='assets/images/thumbs/product-img1.png'
+                    src='/assets/images/thumbs/product-img1.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -90,7 +90,7 @@ const FeaturedProductsInner = () => {
                   <Image
                     width={198}
                     height={201}
-                    src='assets/images/thumbs/product-img2.png'
+                    src='/assets/images/thumbs/product-img2.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -158,7 +158,7 @@ const FeaturedProductsInner = () => {
                   <Image
                     width={111}
                     height={177}
-                    src='assets/images/thumbs/product-img3.png'
+                    src='/assets/images/thumbs/product-img3.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />
@@ -226,7 +226,7 @@ const FeaturedProductsInner = () => {
                   <Image
                     width={188}
                     height={190}
-                    src='assets/images/thumbs/product-img4.png'
+                    src='/assets/images/thumbs/product-img4.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
                   />

@@ -68,7 +68,7 @@ const ProjectDetailsInner = () => {
                 <Image
                   width={390}
                   height={500}
-                  src='assets/images/thumbs/project-details-img1.png'
+                  src='/assets/images/thumbs/project-details-img1.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -79,7 +79,7 @@ const ProjectDetailsInner = () => {
                 <Image
                   width={807}
                   height={500}
-                  src='assets/images/thumbs/project-details-img2.png'
+                  src='/assets/images/thumbs/project-details-img2.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
                 />
@@ -220,7 +220,7 @@ const ProjectDetailsInner = () => {
                   <Image
                     width={599}
                     height={500}
-                    src='assets/images/thumbs/project-details-img3.png'
+                    src='/assets/images/thumbs/project-details-img3.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -252,7 +252,7 @@ const ProjectDetailsInner = () => {
                   <Image
                     width={599}
                     height={500}
-                    src='assets/images/thumbs/project-details-img4.png'
+                    src='/assets/images/thumbs/project-details-img4.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
                   />

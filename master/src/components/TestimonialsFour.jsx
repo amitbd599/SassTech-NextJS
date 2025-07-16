@@ -22,7 +22,7 @@ const TestimonialsFour = () => {
       <Image
         width={1920}
         height={787}
-        src='assets/images/bg/mash-gradient-bg5.png'
+        src='/assets/images/bg/mash-gradient-bg5.png'
         alt='Gradient BG'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
       />
@@ -49,7 +49,7 @@ const TestimonialsFour = () => {
                     <Image
                       width={59}
                       height={59}
-                      src='assets/images/icons/testimonials-four-icon1.png'
+                      src='/assets/images/icons/testimonials-four-icon1.png'
                       alt='Icon'
                     />
                   </span>
@@ -84,7 +84,7 @@ const TestimonialsFour = () => {
                     <Image
                       width={64}
                       height={61}
-                      src='assets/images/icons/testimonials-four-icon2.png'
+                      src='/assets/images/icons/testimonials-four-icon2.png'
                       alt='Icon'
                     />
                   </span>
@@ -127,7 +127,7 @@ const TestimonialsFour = () => {
                         <Image
                           width={103}
                           height={41}
-                          src='assets/images/thumbs/website-owner-img1.png'
+                          src='/assets/images/thumbs/website-owner-img1.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -144,7 +144,7 @@ const TestimonialsFour = () => {
                             <Image
                               width={84}
                               height={84}
-                              src='assets/images/thumbs/testimonials-short-img1.png'
+                              src='/assets/images/thumbs/testimonials-short-img1.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -161,7 +161,7 @@ const TestimonialsFour = () => {
                           <Image
                             width={100}
                             height={18}
-                            src='assets/images/icons/ratings.svg'
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
                           />
                         </div>
@@ -176,7 +176,7 @@ const TestimonialsFour = () => {
                         <Image
                           width={80}
                           height={25}
-                          src='assets/images/thumbs/website-owner-img2.png'
+                          src='/assets/images/thumbs/website-owner-img2.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -193,7 +193,7 @@ const TestimonialsFour = () => {
                             <Image
                               width={84}
                               height={84}
-                              src='assets/images/thumbs/testimonials-short-img2.png'
+                              src='/assets/images/thumbs/testimonials-short-img2.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -210,7 +210,7 @@ const TestimonialsFour = () => {
                           <Image
                             width={100}
                             height={18}
-                            src='assets/images/icons/ratings.svg'
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
                           />
                         </div>
@@ -225,7 +225,7 @@ const TestimonialsFour = () => {
                         <Image
                           width={120}
                           height={38}
-                          src='assets/images/thumbs/website-owner-img3.png'
+                          src='/assets/images/thumbs/website-owner-img3.png'
                           alt='Logo'
                           className='animate__flipInY'
                         />
@@ -242,7 +242,7 @@ const TestimonialsFour = () => {
                             <Image
                               width={84}
                               height={84}
-                              src='assets/images/thumbs/testimonials-short-img3.png'
+                              src='/assets/images/thumbs/testimonials-short-img3.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
                             />
@@ -259,7 +259,7 @@ const TestimonialsFour = () => {
                           <Image
                             width={100}
                             height={18}
-                            src='assets/images/icons/ratings.svg'
+                            src='/assets/images/icons/ratings.svg'
                             alt='Rating'
                           />
                         </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -47,16 +48,23 @@ const FooterFive = () => {
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
                 >
-                  <img src='assets/images/logo/logo-four.png' alt='' />
+                  <Image
+                    width={150}
+                    height={30}
+                    src='/assets/images/logo/logo-four.png'
+                    alt=''
+                  />
                 </Link>
                 <p className='max-w-250-px tw-text-lg text-neutral-600'>
                   Build a modern and creative website with crealand
                 </p>
                 <div className='tw-mt-6 d-flex flex-column gap-4'>
                   <div className='d-flex align-items-center tw-gap-205'>
-                    <span className=''>
-                      <img
-                        src='assets/images/icons/phone-icon.png'
+                    <span>
+                      <Image
+                        width={22}
+                        height={22}
+                        src='/assets/images/icons/phone-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -65,9 +73,11 @@ const FooterFive = () => {
                     </span>
                   </div>
                   <div className='d-flex align-items-center tw-gap-205'>
-                    <span className=''>
-                      <img
-                        src='assets/images/icons/message-icon.png'
+                    <span>
+                      <Image
+                        width={20}
+                        height={20}
+                        src='/assets/images/icons/message-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -81,7 +91,7 @@ const FooterFive = () => {
                 <div className='tw-w-1-px h-100 bg-neutral-200' />
               </div>
               <div className='tw-pt-100-px tw-pb-80-px'>
-                <div className=''>
+                <div>
                   <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                     Our Location
                   </h5>
@@ -133,7 +143,7 @@ const FooterFive = () => {
                 <div className='tw-w-1-px h-100 bg-neutral-200' />
               </div>
               <div className='tw-pt-100-px tw-pb-80-px'>
-                <div className=''>
+                <div>
                   <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                     Contact info
                   </h5>
@@ -185,7 +195,7 @@ const FooterFive = () => {
                 <div className='tw-w-1-px h-100 bg-neutral-200' />
               </div>
               <div className='tw-pt-100-px tw-pb-80-px'>
-                <div className=''>
+                <div>
                   <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                     Newsletter
                   </h5>

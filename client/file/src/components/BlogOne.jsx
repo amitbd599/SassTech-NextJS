@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +9,7 @@ const BlogOne = () => {
         <div className='bg-white common-shadow-five py-120 tw-px-90-px'>
           <span className='line w-0 tw-h-2 bg-main-600 tw-mb-4' />
           <div className='d-flex align-items-center justify-content-between tw-mb-12'>
-            <h6 className=''>
+            <h6>
               Insights to help you do what you do better, faster and more
               profitably.
             </h6>
@@ -34,8 +35,10 @@ const BlogOne = () => {
                   href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
-                  <img
-                    src='assets/images/thumbs/blog-img1.png'
+                  <Image
+                    width={582}
+                    height={319}
+                    src='/assets/images/thumbs/blog-img1.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />
@@ -78,8 +81,10 @@ const BlogOne = () => {
                   href='/blog-details'
                   className='w-100 h-100 overflow-hidden'
                 >
-                  <img
-                    src='assets/images/thumbs/blog-img2.png'
+                  <Image
+                    width={582}
+                    height={319}
+                    src='/assets/images/thumbs/blog-img2.png'
                     alt='Blog Image'
                     className='w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300'
                   />

@@ -56,7 +56,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img1.png'
+                src='/assets/images/thumbs/brand-img1.png'
                 alt='Logo'
               />
             </div>
@@ -71,7 +71,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img2.png'
+                src='/assets/images/thumbs/brand-img2.png'
                 alt='Logo'
               />
             </div>
@@ -86,7 +86,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img3.png'
+                src='/assets/images/thumbs/brand-img3.png'
                 alt='Logo'
               />
             </div>
@@ -101,7 +101,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img4.png'
+                src='/assets/images/thumbs/brand-img4.png'
                 alt='Logo'
               />
             </div>
@@ -116,7 +116,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img5.png'
+                src='/assets/images/thumbs/brand-img5.png'
                 alt='Logo'
               />
             </div>
@@ -131,7 +131,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img6.png'
+                src='/assets/images/thumbs/brand-img6.png'
                 alt='Logo'
               />
             </div>
@@ -146,7 +146,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img7.png'
+                src='/assets/images/thumbs/brand-img7.png'
                 alt='Logo'
               />
             </div>
@@ -161,7 +161,7 @@ const BrandSliderOne = () => {
               <Image
                 width={150}
                 height={25}
-                src='assets/images/thumbs/brand-img3.png'
+                src='/assets/images/thumbs/brand-img3.png'
                 alt='Logo'
               />
             </div>

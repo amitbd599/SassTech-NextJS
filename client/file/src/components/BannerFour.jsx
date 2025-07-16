@@ -1,11 +1,43 @@
+"use client";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const BannerFour = () => {
+  const [activeTab, setActiveTab] = useState("data");
+  const tabs = [
+    {
+      id: "data",
+      label: "data",
+      img: "/assets/images/thumbs/banner-dashboard.png",
+    },
+    {
+      id: "Automation",
+      label: "Automation",
+      img: "/assets/images/thumbs/banner-dashboard_2.png",
+    },
+    {
+      id: "Pipeline",
+      label: "Pipeline",
+      img: "/assets/images/thumbs/banner-dashboard.png",
+    },
+    {
+      id: "Productivity",
+      label: "Productivity",
+      img: "/assets/images/thumbs/banner-dashboard_2.png",
+    },
+    {
+      id: "Reporting",
+      label: "Reporting",
+      img: "/assets/images/thumbs/banner-dashboard.png",
+    },
+  ];
   return (
     <section className='banner-two position-relative z-1 pb-0'>
-      <img
-        src='assets/images/bg/mash-gradient-bg1.png'
+      <Image
+        width={1920}
+        height={1012}
+        src='/assets/images/bg/mash-gradient-bg1.png'
         alt='Cloud Shape'
         className='position-absolute top-0 tw-start-0 w-100 z-n1 banner-gradient-bg'
       />
@@ -15,7 +47,7 @@ const BannerFour = () => {
             <span className='text-capitalize font-caveat fw-bold tw-mb-6 h3'>
               With the world's favorite CRM
             </span>
-            <div className=''>
+            <div>
               <div className='position-relative d-inline-block'>
                 <h1 className='splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205'>
                   {" "}
@@ -68,177 +100,55 @@ const BannerFour = () => {
               </Link>
             </div>
             <div className='tw-mt-132-px'>
+              {/* Tab Buttons */}
               <ul
                 className='nav nav-pills d-inline-flex flex-wrap align-items-center tw-mb-8 tw-gap-4 active-bg-blue active-text-white'
-                id='pills-tab'
-                role='tablist'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
               >
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative active'
-                    id='pills-data-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-data'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-data'
-                    aria-selected='true'
-                  >
-                    data
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative'
-                    id='pills-Automation-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-Automation'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-Automation'
-                    aria-selected='false'
-                  >
-                    Automation
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative'
-                    id='pills-Pipeline-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-Pipeline'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-Pipeline'
-                    aria-selected='false'
-                  >
-                    Pipeline
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative'
-                    id='pills-Productivity-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-Productivity'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-Productivity'
-                    aria-selected='false'
-                  >
-                    Productivity
-                  </button>
-                </li>
-                <li className='nav-item' role='presentation'>
-                  <button
-                    className='nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative'
-                    id='pills-Reporting-tab'
-                    data-bs-toggle='pill'
-                    data-bs-target='#pills-Reporting'
-                    type='button'
-                    role='tab'
-                    aria-controls='pills-Reporting'
-                    aria-selected='false'
-                  >
-                    Reporting
-                  </button>
-                </li>
+                {tabs.map((tab) => (
+                  <li className='nav-item' key={tab.id}>
+                    <button
+                      className={`nav-link tw-py-105 text-capitalize tw-px-5 common-shadow-twentyThree bg-white text-heading fw-medium tw-text-base tw-rounded-md active-triangle-arrow position-relative ${
+                        activeTab === tab.id ? "active" : ""
+                      }`}
+                      onClick={() => setActiveTab(tab.id)}
+                      type='button'
+                    >
+                      {tab.label}
+                    </button>
+                  </li>
+                ))}
               </ul>
+
+              {/* Tab Content */}
               <div
                 className='tab-content'
-                id='pills-tabContent'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={1000}
               >
-                <div
-                  className='tab-pane fade show active'
-                  id='pills-data'
-                  role='tabpanel'
-                  aria-labelledby='pills-data-tab'
-                  tabIndex={0}
-                >
-                  <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
-                    <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                      <img
-                        src='assets/images/thumbs/banner-dashboard.png'
-                        alt='Dashboard Thumb'
-                        className='w-100 h-100'
-                      />
+                {tabs.map((tab) => (
+                  <div
+                    key={tab.id}
+                    className={`tab-pane fade ${
+                      activeTab === tab.id ? "show active" : ""
+                    }`}
+                  >
+                    <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
+                      <div className='common-shadow-twentyTwo tw-rounded-xl'>
+                        <Image
+                          width={1290}
+                          height={726}
+                          src={tab.img}
+                          alt='Dashboard Thumb'
+                          className='w-100 h-100'
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  className='tab-pane fade'
-                  id='pills-Automation'
-                  role='tabpanel'
-                  aria-labelledby='pills-Automation-tab'
-                  tabIndex={0}
-                >
-                  <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
-                    <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                      <img
-                        src='assets/images/thumbs/banner-dashboard.png'
-                        alt='Dashboard Thumb'
-                        className='w-100 h-100'
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className='tab-pane fade'
-                  id='pills-Pipeline'
-                  role='tabpanel'
-                  aria-labelledby='pills-Pipeline-tab'
-                  tabIndex={0}
-                >
-                  <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
-                    <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                      <img
-                        src='assets/images/thumbs/banner-dashboard.png'
-                        alt='Dashboard Thumb'
-                        className='w-100 h-100'
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className='tab-pane fade'
-                  id='pills-Productivity'
-                  role='tabpanel'
-                  aria-labelledby='pills-Productivity-tab'
-                  tabIndex={0}
-                >
-                  <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
-                    <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                      <img
-                        src='assets/images/thumbs/banner-dashboard.png'
-                        alt='Dashboard Thumb'
-                        className='w-100 h-100'
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className='tab-pane fade'
-                  id='pills-Reporting'
-                  role='tabpanel'
-                  aria-labelledby='pills-Reporting-tab'
-                  tabIndex={0}
-                >
-                  <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
-                    <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                      <img
-                        src='assets/images/thumbs/banner-dashboard.png'
-                        alt='Dashboard Thumb'
-                        className='w-100 h-100'
-                      />
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

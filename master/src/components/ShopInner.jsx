@@ -437,7 +437,7 @@ const ShopInner = () => {
                         <Image
                           width={210}
                           height={212}
-                          src='assets/images/thumbs/product-img1.png'
+                          src='/assets/images/thumbs/product-img1.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -507,7 +507,7 @@ const ShopInner = () => {
                         <Image
                           width={198}
                           height={201}
-                          src='assets/images/thumbs/product-img2.png'
+                          src='/assets/images/thumbs/product-img2.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -577,7 +577,7 @@ const ShopInner = () => {
                         <Image
                           width={111}
                           height={177}
-                          src='assets/images/thumbs/product-img3.png'
+                          src='/assets/images/thumbs/product-img3.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -645,7 +645,7 @@ const ShopInner = () => {
                         <Image
                           width={188}
                           height={190}
-                          src='assets/images/thumbs/product-img4.png'
+                          src='/assets/images/thumbs/product-img4.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -713,7 +713,7 @@ const ShopInner = () => {
                         <Image
                           width={196}
                           height={198}
-                          src='assets/images/thumbs/product-img5.png'
+                          src='/assets/images/thumbs/product-img5.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -781,7 +781,7 @@ const ShopInner = () => {
                         <Image
                           width={136}
                           height={165}
-                          src='assets/images/thumbs/product-img6.png'
+                          src='/assets/images/thumbs/product-img6.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -851,7 +851,7 @@ const ShopInner = () => {
                         <Image
                           width={200}
                           height={202}
-                          src='assets/images/thumbs/product-img7.png'
+                          src='/assets/images/thumbs/product-img7.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -921,7 +921,7 @@ const ShopInner = () => {
                         <Image
                           width={150}
                           height={152}
-                          src='assets/images/thumbs/product-img8.png'
+                          src='/assets/images/thumbs/product-img8.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -989,7 +989,7 @@ const ShopInner = () => {
                         <Image
                           width={159}
                           height={160}
-                          src='assets/images/thumbs/product-img9.png'
+                          src='/assets/images/thumbs/product-img9.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1057,7 +1057,7 @@ const ShopInner = () => {
                         <Image
                           width={200}
                           height={202}
-                          src='assets/images/thumbs/product-img10.png'
+                          src='/assets/images/thumbs/product-img10.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1127,7 +1127,7 @@ const ShopInner = () => {
                         <Image
                           width={200}
                           height={202}
-                          src='assets/images/thumbs/product-img11.png'
+                          src='/assets/images/thumbs/product-img11.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />
@@ -1197,7 +1197,7 @@ const ShopInner = () => {
                         <Image
                           width={200}
                           height={220}
-                          src='assets/images/thumbs/product-img12.png'
+                          src='/assets/images/thumbs/product-img12.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
                         />

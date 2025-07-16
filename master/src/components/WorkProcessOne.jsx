@@ -65,7 +65,7 @@ const WorkProcessOne = () => {
               <Image
                 width={524}
                 height={583}
-                src='assets/images/thumbs/work-process-five-thumb.png'
+                src='/assets/images/thumbs/work-process-five-thumb.png'
                 alt='Thumbnail'
                 data-aos='fade-up'
                 data-aos-anchor-placement='top-bottom'

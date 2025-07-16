@@ -19,7 +19,7 @@ const AppIntegrationBreadcrumb = () => {
             <Image
               width={1287}
               height={550}
-              src='assets/images/shapes/net-shape.png'
+              src='/assets/images/shapes/net-shape.png'
               alt='Net Shape'
               data-aos='zoom-in'
               data-aos-duration={1500}
@@ -30,7 +30,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={88}
                 height={88}
-                src='assets/images/thumbs/distraction-icon1.png'
+                src='/assets/images/thumbs/distraction-icon1.png'
                 alt='Icon Image'
               />
             </div>
@@ -38,7 +38,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={104}
                 height={104}
-                src='assets/images/thumbs/distraction-icon2.png'
+                src='/assets/images/thumbs/distraction-icon2.png'
                 alt='Icon Image'
               />
             </div>
@@ -46,7 +46,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={88}
                 height={88}
-                src='assets/images/thumbs/distraction-icon3.png'
+                src='/assets/images/thumbs/distraction-icon3.png'
                 alt='Icon Image'
               />
             </div>
@@ -54,7 +54,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={94}
                 height={94}
-                src='assets/images/thumbs/distraction-icon4.png'
+                src='/assets/images/thumbs/distraction-icon4.png'
                 alt='Icon Image'
               />
             </div>
@@ -62,7 +62,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={88}
                 height={88}
-                src='assets/images/thumbs/distraction-icon5.png'
+                src='/assets/images/thumbs/distraction-icon5.png'
                 alt='Icon Image'
               />
             </div>
@@ -70,7 +70,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={88}
                 height={88}
-                src='assets/images/thumbs/distraction-icon6.png'
+                src='/assets/images/thumbs/distraction-icon6.png'
                 alt='Icon Image'
               />
             </div>
@@ -78,7 +78,7 @@ const AppIntegrationBreadcrumb = () => {
               <Image
                 width={94}
                 height={94}
-                src='assets/images/thumbs/distraction-icon7.png'
+                src='/assets/images/thumbs/distraction-icon7.png'
                 alt='Icon Image'
               />
             </div>

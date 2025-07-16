@@ -27,7 +27,7 @@ const AboutTeamInner = () => {
                 <Image
                   width={328}
                   height={432}
-                  src='assets/images/thumbs/about-team-img1.jpg'
+                  src='/assets/images/thumbs/about-team-img1.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -85,7 +85,7 @@ const AboutTeamInner = () => {
                 <Image
                   width={328}
                   height={432}
-                  src='assets/images/thumbs/about-team-img2.jpg'
+                  src='/assets/images/thumbs/about-team-img2.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -143,7 +143,7 @@ const AboutTeamInner = () => {
                 <Image
                   width={328}
                   height={432}
-                  src='assets/images/thumbs/about-team-img3.jpg'
+                  src='/assets/images/thumbs/about-team-img3.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -201,7 +201,7 @@ const AboutTeamInner = () => {
                 <Image
                   width={328}
                   height={432}
-                  src='assets/images/thumbs/about-team-img4.jpg'
+                  src='/assets/images/thumbs/about-team-img4.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />

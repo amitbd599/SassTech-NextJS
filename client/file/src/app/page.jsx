@@ -7,7 +7,6 @@ import CtaOne from "@/components/CtaOne";
 import FAQOne from "@/components/FAQOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
-import MobileMenu from "@/components/MobileMenu___";
 import OfferOne from "@/components/OfferOne";
 import RoadmapOne from "@/components/RoadmapOne";
 import ShowCaseOne from "@/components/ShowCaseOne";
@@ -16,12 +15,30 @@ import TopFeaturesOne from "@/components/TopFeaturesOne";
 import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
+import Image from "next/image";
 
-export const metadata = {
-  title:
-    "SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template",
-  description: "IT Solution, Sass and Multipurpose NEXT JS Template.",
-};
+export async function generateMetadata() {
+  return {
+    title: "Home | SassTech - Saas Software and IT Solution",
+    description:
+      "Learn more about our SaaS software, team, features, and IT solutions.",
+    openGraph: {
+      title: "Home | SassTech",
+      description:
+        "Learn more about our SaaS software, team, features, and IT solutions.",
+      url: "https://nextjs.sasstech.webnextpro.com/about",
+      type: "website",
+      images: [
+        {
+          url: "https://nextjs.sasstech.webnextpro.com/images/about-og.jpg",
+          width: 1200,
+          height: 630,
+          alt: "About SassTech",
+        },
+      ],
+    },
+  };
+}
 
 const page = () => {
   return (
@@ -67,8 +84,10 @@ const page = () => {
 
       {/* Wrapper two section */}
       <div className='position-relative z-1'>
-        <img
-          src='assets/images/shapes/shape-image.png'
+        <Image
+          width={1919}
+          height={845}
+          src='/assets/images/shapes/shape-image.png'
           alt='Shape'
           className='position-absolute w-100 tw-start-0 bottom-0 z-n1'
         />

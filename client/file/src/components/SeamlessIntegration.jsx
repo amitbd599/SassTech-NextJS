@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -19,8 +20,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon1.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon1.png'
                     alt='Icon'
                   />
                 </span>
@@ -43,8 +46,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon2.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon2.png'
                     alt='Icon'
                   />
                 </span>
@@ -67,8 +72,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon3.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon3.png'
                     alt='Icon'
                   />
                 </span>
@@ -91,8 +98,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon4.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon4.png'
                     alt='Icon'
                   />
                 </span>
@@ -115,8 +124,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon5.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon5.png'
                     alt='Icon'
                   />
                 </span>
@@ -139,8 +150,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon6.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon6.png'
                     alt='Icon'
                   />
                 </span>
@@ -163,8 +176,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon7.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon7.png'
                     alt='Icon'
                   />
                 </span>
@@ -187,8 +202,10 @@ const SeamlessIntegration = () => {
             <div className='col-xl-3 col-md-4 col-sm-6 col-xs-6'>
               <div className='bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl'>
                 <span className='tw-mb-8'>
-                  <img
-                    src='assets/images/icons/seamless-icon8.png'
+                  <Image
+                    width={100}
+                    height={100}
+                    src='/assets/images/icons/seamless-icon8.png'
                     alt='Icon'
                   />
                 </span>

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 import Slider from "react-slick";
@@ -52,13 +53,17 @@ const HostingPlanOne = () => {
   };
   return (
     <section className='hosting-plan tw-pt-224-px pb-120 position-relative z-1 overflow-hidden'>
-      <img
-        src='assets/images/shapes/wave-shape.png'
+      <Image
+        width={1920}
+        height={1017}
+        src='/assets/images/shapes/wave-shape.png'
         alt='Shape'
         className='position-absolute w-100 h-100 top-0 tw-start-0 z-n1'
       />
-      <img
-        src='assets/images/shapes/dots-circle-round.png'
+      <Image
+        width={155}
+        height={201}
+        src='/assets/images/shapes/dots-circle-round.png'
         alt='Shape'
         className='position-absolute bottom-0 tw-start-0 tw-ms-80-px scale-animation d-lg-block d-none'
       />
@@ -87,7 +92,6 @@ const HostingPlanOne = () => {
             </h2>
           </div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}
@@ -113,10 +117,12 @@ const HostingPlanOne = () => {
                   data-aos-duration={600}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
-                        <img
-                          src='assets/images/icons/hosting-plan-icon1.png'
+                    <div>
+                      <span>
+                        <Image
+                          width={70}
+                          height={70}
+                          src='/assets/images/icons/hosting-plan-icon1.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -158,10 +164,12 @@ const HostingPlanOne = () => {
                   data-aos-duration={700}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
-                        <img
-                          src='assets/images/icons/hosting-plan-icon2.png'
+                    <div>
+                      <span>
+                        <Image
+                          width={81}
+                          height={81}
+                          src='/assets/images/icons/hosting-plan-icon2.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -203,10 +211,12 @@ const HostingPlanOne = () => {
                   data-aos-duration={800}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
-                        <img
-                          src='assets/images/icons/hosting-plan-icon3.png'
+                    <div>
+                      <span>
+                        <Image
+                          width={80}
+                          height={60}
+                          src='/assets/images/icons/hosting-plan-icon3.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -248,10 +258,12 @@ const HostingPlanOne = () => {
                   data-aos-duration={900}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
-                        <img
-                          src='assets/images/icons/hosting-plan-icon4.png'
+                    <div>
+                      <span>
+                        <Image
+                          width={74}
+                          height={75}
+                          src='/assets/images/icons/hosting-plan-icon4.png'
                           alt='Icon'
                           className='animate__swing'
                         />
@@ -293,10 +305,12 @@ const HostingPlanOne = () => {
                   data-aos-duration={1000}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
-                        <img
-                          src='assets/images/icons/hosting-plan-icon2.png'
+                    <div>
+                      <span>
+                        <Image
+                          width={81}
+                          height={81}
+                          src='/assets/images/icons/hosting-plan-icon2.png'
                           alt='Icon'
                           className='animate__swing'
                         />

@@ -23,7 +23,7 @@ const TestimonialsThree = () => {
               <Image
                 width={413}
                 height={415}
-                src='assets/images/thumbs/testimonials-three-thumbs.png'
+                src='/assets/images/thumbs/testimonials-three-thumbs.png'
                 alt='Testimonials Thumb'
                 data-aos='zoom-in'
                 data-aos-duration={800}
@@ -43,7 +43,7 @@ const TestimonialsThree = () => {
                         <Image
                           width={100}
                           height={18}
-                          src='assets/images/icons/ratings.svg'
+                          src='/assets/images/icons/ratings.svg'
                           alt=''
                         />
                       </span>
@@ -59,7 +59,7 @@ const TestimonialsThree = () => {
                           <Image
                             width={70}
                             height={71}
-                            src='assets/images/thumbs/client-img.png'
+                            src='/assets/images/thumbs/client-img.png'
                             alt='Client Thumb'
                           />
                         </div>
@@ -86,7 +86,7 @@ const TestimonialsThree = () => {
                         <Image
                           width={100}
                           height={18}
-                          src='assets/images/icons/ratings.svg'
+                          src='/assets/images/icons/ratings.svg'
                           alt=''
                         />
                       </span>
@@ -102,7 +102,7 @@ const TestimonialsThree = () => {
                           <Image
                             width={70}
                             height={71}
-                            src='assets/images/thumbs/client-img.png'
+                            src='/assets/images/thumbs/client-img.png'
                             alt='Client Thumb'
                           />
                         </div>

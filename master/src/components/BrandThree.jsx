@@ -43,7 +43,7 @@ const BrandThree = () => {
                 <Image
                   width={105}
                   height={34}
-                  src='assets/images/thumbs/brand-three-img1.png'
+                  src='/assets/images/thumbs/brand-three-img1.png'
                   alt='Logo'
                 />
               </div>
@@ -58,7 +58,7 @@ const BrandThree = () => {
                 <Image
                   width={105}
                   height={34}
-                  src='assets/images/thumbs/brand-three-img2.png'
+                  src='/assets/images/thumbs/brand-three-img2.png'
                   alt='Logo'
                 />
               </div>
@@ -73,7 +73,7 @@ const BrandThree = () => {
                 <Image
                   width={105}
                   height={34}
-                  src='assets/images/thumbs/brand-three-img3.png'
+                  src='/assets/images/thumbs/brand-three-img3.png'
                   alt='Logo'
                 />
               </div>
@@ -88,7 +88,7 @@ const BrandThree = () => {
                 <Image
                   width={75}
                   height={26}
-                  src='assets/images/thumbs/brand-three-img4.png'
+                  src='/assets/images/thumbs/brand-three-img4.png'
                   alt='Logo'
                 />
               </div>
@@ -103,7 +103,7 @@ const BrandThree = () => {
                 <Image
                   width={83}
                   height={24}
-                  src='assets/images/thumbs/brand-three-img5.png'
+                  src='/assets/images/thumbs/brand-three-img5.png'
                   alt='Logo'
                 />
               </div>
@@ -118,7 +118,7 @@ const BrandThree = () => {
                 <Image
                   width={121}
                   height={34}
-                  src='assets/images/thumbs/brand-three-img6.png'
+                  src='/assets/images/thumbs/brand-three-img6.png'
                   alt='Logo'
                 />
               </div>
@@ -133,7 +133,7 @@ const BrandThree = () => {
                 <Image
                   width={90}
                   height={22}
-                  src='assets/images/thumbs/brand-three-img7.png'
+                  src='/assets/images/thumbs/brand-three-img7.png'
                   alt='Logo'
                 />
               </div>
@@ -148,7 +148,7 @@ const BrandThree = () => {
                 <Image
                   width={83}
                   height={24}
-                  src='assets/images/thumbs/brand-three-img5.png'
+                  src='/assets/images/thumbs/brand-three-img5.png'
                   alt='Logo'
                 />
               </div>

@@ -26,14 +26,14 @@ const ServicesOne = () => {
       <Image
         width={87}
         height={97}
-        src='assets/images/shapes/rope-shape.png'
+        src='/assets/images/shapes/rope-shape.png'
         alt='Rope'
         className='position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1'
       />
       <Image
         width={719}
         height={565}
-        src='assets/images/shapes/matherboard-shape.png'
+        src='/assets/images/shapes/matherboard-shape.png'
         alt='Shape'
         className='position-absolute top-0 tw-start-0 tw-mt-160-px tw-ms-128-px d-lg-block d-none z-n1 opacity-1'
       />
@@ -77,7 +77,7 @@ const ServicesOne = () => {
                     <Image
                       width={55}
                       height={55}
-                      src='assets/images/icons/service-icon1.svg'
+                      src='/assets/images/icons/service-icon1.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
@@ -118,7 +118,7 @@ const ServicesOne = () => {
                     <Image
                       width={54}
                       height={54}
-                      src='assets/images/icons/service-icon2.svg'
+                      src='/assets/images/icons/service-icon2.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
@@ -159,7 +159,7 @@ const ServicesOne = () => {
                     <Image
                       width={53}
                       height={48}
-                      src='assets/images/icons/service-icon3.svg'
+                      src='/assets/images/icons/service-icon3.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
@@ -200,7 +200,7 @@ const ServicesOne = () => {
                     <Image
                       width={57}
                       height={51}
-                      src='assets/images/icons/service-icon4.svg'
+                      src='/assets/images/icons/service-icon4.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />
@@ -241,7 +241,7 @@ const ServicesOne = () => {
                     <Image
                       width={53}
                       height={48}
-                      src='assets/images/icons/service-icon3.svg'
+                      src='/assets/images/icons/service-icon3.svg'
                       alt='Icon'
                       className='animate__heartBeat'
                     />

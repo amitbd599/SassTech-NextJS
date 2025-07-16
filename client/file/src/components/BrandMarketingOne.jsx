@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -10,14 +11,18 @@ const BrandMarketingOne = () => {
             <div className='col-md-6'>
               <div className='ps-5 position-relative pe-lg-5 tw-pb-4 h-100'>
                 <div className='tw-rounded-28-px overflow-hidden h-100'>
-                  <img
-                    src='assets/images/thumbs/brand-marketing-img.png'
+                  <Image
+                    width={544}
+                    height={608}
+                    src='/assets/images/thumbs/brand-marketing-img.png'
                     alt='Image'
                     className='w-100 h-100 object-fit-cover'
                   />
                 </div>
-                <img
-                  src='assets/images/shapes/finger-shape.png'
+                <Image
+                  width={51}
+                  height={62}
+                  src='/assets/images/shapes/finger-shape.png'
                   alt='Shape'
                   className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
                 />
@@ -26,25 +31,36 @@ const BrandMarketingOne = () => {
                   <div className='d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill position-absolute top-0 tw-end-0 tw--mt-12-px tw--me-12-px'>
                     <span className='text-white fw-bold tw-text-sm'>4.9</span>
                     <span className='text-white d-flex'>
-                      <img src='assets/images/icons/star.svg' alt='' />
+                      <Image
+                        width={14}
+                        height={13}
+                        src='/assets/images/icons/star.svg'
+                        alt=''
+                      />
                     </span>
                   </div>
-                  <img
-                    src='assets/images/icons/ratings.svg'
+                  <Image
+                    width={100}
+                    height={18}
+                    src='/assets/images/icons/ratings.svg'
                     alt=''
-                    className=''
                   />
                   <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
                     <span className='tw-text-lg text-heading fw-semibold'>
                       Trust pilot
                     </span>
-                    <img src='assets/images/icons/verified-icon.svg' alt='' />
+                    <Image
+                      width={20}
+                      height={20}
+                      src='/assets/images/icons/verified-icon.svg'
+                      alt=''
+                    />
                   </div>
                 </div>
               </div>
             </div>
             <div className='col-md-6'>
-              <div className=''>
+              <div>
                 <div
                   className='bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
                   data-aos='fade-up'

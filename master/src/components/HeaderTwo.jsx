@@ -101,7 +101,7 @@ const HeaderTwo = () => {
                   <Image
                     width={149}
                     height={30}
-                    src='assets/images/logo/logo.png'
+                    src='/assets/images/logo/logo.png'
                     alt='Logo'
                     className='max-w-200-px'
                   />
@@ -219,7 +219,7 @@ const HeaderTwo = () => {
               <Image
                 width={149}
                 height={30}
-                src='assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.png'
                 alt='Logo'
               />
             </Link>

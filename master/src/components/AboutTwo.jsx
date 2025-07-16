@@ -7,7 +7,7 @@ const AboutTwo = () => {
       <Image
         width={119}
         height={116}
-        src='assets/images/shapes/squre-box-shape.png'
+        src='/assets/images/shapes/squre-box-shape.png'
         alt='Square shape'
         className='position-absolute top-50 tw-start-0 tw-ms-128-px animate__wobble__two z-n1 d-lg-block d-none'
       />
@@ -19,13 +19,13 @@ const AboutTwo = () => {
               className='tw-rounded-lg background-img tw-px-7 bg-img position-relative max-w-570-px'
               style={{
                 backgroundImage:
-                  "url('assets/images/thumbs/about-two-img-bg.png')",
+                  "url('/assets/images/thumbs/about-two-img-bg.png')",
               }}
             >
               <Image
                 width={51}
                 height={62}
-                src='assets/images/shapes/finger-shape.png'
+                src='/assets/images/shapes/finger-shape.png'
                 alt='Shape'
                 className='flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1'
               />
@@ -39,7 +39,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -50,7 +50,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={279}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -61,7 +61,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -72,7 +72,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -83,7 +83,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={280}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -94,7 +94,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -105,7 +105,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -116,7 +116,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={280}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -127,7 +127,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -146,7 +146,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -157,7 +157,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={280}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -168,7 +168,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -179,7 +179,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -190,7 +190,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={280}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -201,7 +201,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -212,7 +212,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={284}
-                            src='assets/images/thumbs/about-slide-img1.png'
+                            src='/assets/images/thumbs/about-slide-img1.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -223,7 +223,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={280}
-                            src='assets/images/thumbs/about-slide-img2.png'
+                            src='/assets/images/thumbs/about-slide-img2.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -234,7 +234,7 @@ const AboutTwo = () => {
                           <Image
                             width={224}
                             height={258}
-                            src='assets/images/thumbs/about-slide-img3.png'
+                            src='/assets/images/thumbs/about-slide-img3.png'
                             alt='Image'
                             className='w-100 h-100 object-fit-cover'
                           />
@@ -352,7 +352,7 @@ const AboutTwo = () => {
                     <Image
                       width={73}
                       height={102}
-                      src='assets/images/shapes/curve-arrow-two.png'
+                      src='/assets/images/shapes/curve-arrow-two.png'
                       alt=''
                     />
                   </div>

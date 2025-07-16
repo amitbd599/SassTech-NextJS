@@ -29,7 +29,7 @@ const FeaturesThree = () => {
       <Image
         width={272}
         height={640}
-        src='assets/images/shapes/gradient-blue-yellow.png'
+        src='/assets/images/shapes/gradient-blue-yellow.png'
         alt='Gradient'
         className='position-absolute tw-end-0 bottom-0 z-n1'
       />
@@ -177,7 +177,7 @@ const FeaturesThree = () => {
                       <Image
                         width={35}
                         height={35}
-                        src='assets/images/thumbs/client-img1.png'
+                        src='/assets/images/thumbs/client-img1.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -186,7 +186,7 @@ const FeaturesThree = () => {
                       <Image
                         width={35}
                         height={35}
-                        src='assets/images/thumbs/client-img2.png'
+                        src='/assets/images/thumbs/client-img2.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -195,7 +195,7 @@ const FeaturesThree = () => {
                       <Image
                         width={35}
                         height={35}
-                        src='assets/images/thumbs/client-img3.png'
+                        src='/assets/images/thumbs/client-img3.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
@@ -234,7 +234,7 @@ const FeaturesThree = () => {
                       <Image
                         width={48}
                         height={48}
-                        src='assets/images/icons/features-three-icon1.svg'
+                        src='/assets/images/icons/features-three-icon1.svg'
                         alt='Icon'
                       />
                     </span>
@@ -255,7 +255,7 @@ const FeaturesThree = () => {
                       <Image
                         width={48}
                         height={48}
-                        src='assets/images/icons/features-three-icon2.svg'
+                        src='/assets/images/icons/features-three-icon2.svg'
                         alt='Icon'
                       />
                     </span>
@@ -285,7 +285,7 @@ const FeaturesThree = () => {
                       <Image
                         width={50}
                         height={50}
-                        src='assets/images/icons/features-three-icon3.svg'
+                        src='/assets/images/icons/features-three-icon3.svg'
                         alt='Icon'
                       />
                     </span>
@@ -306,7 +306,7 @@ const FeaturesThree = () => {
                       <Image
                         width={46}
                         height={46}
-                        src='assets/images/icons/features-three-icon4.svg'
+                        src='/assets/images/icons/features-three-icon4.svg'
                         alt='Icon'
                       />
                     </span>

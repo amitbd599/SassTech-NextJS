@@ -10,7 +10,7 @@ const WorkPlaceOne = () => {
       <Image
         width={1920}
         height={1175}
-        src='assets/images/shapes/curve-way.png'
+        src='/assets/images/shapes/curve-way.png'
         alt='Shape'
         className='position-absolute tw-start-0 bottom-0 z-n1 w-100'
       />
@@ -47,7 +47,7 @@ const WorkPlaceOne = () => {
         >
           <div
             className='background-img bg-img tw-rounded-2xl bg-position-top-center'
-            data-background-image='assets/images/shapes/dashboard-screen.png'
+            data-background-image='/assets/images/shapes/dashboard-screen.png'
           >
             <div className='tw-p-7 tw-pt-16 d-flex tw-gap-13 flex-lg-row flex-column'>
               {/* Sidebar Start */}
@@ -57,7 +57,7 @@ const WorkPlaceOne = () => {
                     <Image
                       width={120}
                       height={30}
-                      src='assets/images/logo/logo-two.png'
+                      src='/assets/images/logo/logo-two.png'
                       alt='Logo'
                     />
                   </Link>
@@ -79,7 +79,7 @@ const WorkPlaceOne = () => {
                         <Image
                           width={19}
                           height={19}
-                          src='assets/images/icons/workplace-tab-icon1.svg'
+                          src='/assets/images/icons/workplace-tab-icon1.svg'
                           alt='Icon'
                         />
                       </span>
@@ -95,7 +95,7 @@ const WorkPlaceOne = () => {
                         <Image
                           width={20}
                           height={22}
-                          src='assets/images/icons/workplace-tab-icon2.svg'
+                          src='/assets/images/icons/workplace-tab-icon2.svg'
                           alt='Icon'
                         />
                       </span>
@@ -111,7 +111,7 @@ const WorkPlaceOne = () => {
                         <Image
                           width={22}
                           height={22}
-                          src='assets/images/icons/workplace-tab-icon3.svg'
+                          src='/assets/images/icons/workplace-tab-icon3.svg'
                           alt='Icon'
                         />
                       </span>
@@ -127,7 +127,7 @@ const WorkPlaceOne = () => {
                         <Image
                           width={23}
                           height={23}
-                          src='assets/images/icons/workplace-tab-icon4.svg'
+                          src='/assets/images/icons/workplace-tab-icon4.svg'
                           alt='Icon'
                         />
                       </span>
@@ -143,7 +143,7 @@ const WorkPlaceOne = () => {
                         <Image
                           width={26}
                           height={26}
-                          src='assets/images/icons/workplace-tab-icon5.svg'
+                          src='/assets/images/icons/workplace-tab-icon5.svg'
                           alt='Icon'
                         />
                       </span>
@@ -165,7 +165,7 @@ const WorkPlaceOne = () => {
                       <Image
                         width={826}
                         height={618}
-                        src='assets/images/thumbs/workplace-tab-thumb.png'
+                        src='/assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
                       />
@@ -180,7 +180,7 @@ const WorkPlaceOne = () => {
                       <Image
                         width={826}
                         height={618}
-                        src='assets/images/thumbs/workplace-tab-thumb.png'
+                        src='/assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
                       />
@@ -195,7 +195,7 @@ const WorkPlaceOne = () => {
                       <Image
                         width={826}
                         height={618}
-                        src='assets/images/thumbs/workplace-tab-thumb.png'
+                        src='/assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
                       />
@@ -210,7 +210,7 @@ const WorkPlaceOne = () => {
                       <Image
                         width={826}
                         height={618}
-                        src='assets/images/thumbs/workplace-tab-thumb.png'
+                        src='/assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
                       />
@@ -225,7 +225,7 @@ const WorkPlaceOne = () => {
                       <Image
                         width={826}
                         height={618}
-                        src='assets/images/thumbs/workplace-tab-thumb.png'
+                        src='/assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
                       />

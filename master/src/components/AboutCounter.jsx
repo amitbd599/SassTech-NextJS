@@ -15,7 +15,7 @@ const AboutCounter = () => {
             <Image
               width={48}
               height={48}
-              src='assets/images/icons/sparkle.png'
+              src='/assets/images/icons/sparkle.png'
               alt='Icon'
             />
           </div>

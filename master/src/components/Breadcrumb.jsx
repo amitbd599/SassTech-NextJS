@@ -12,7 +12,7 @@ const Breadcrumb = ({ title }) => {
                 <Image
                   width={52}
                   height={32}
-                  src='assets/images/logo/favicon-two.png'
+                  src='/assets/images/logo/favicon-two.png'
                   alt='Favicon Two'
                 />
               </span>

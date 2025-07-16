@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +13,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>
                   Collaborate
                 </h5>
@@ -65,7 +66,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={700}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>
                   My account
                 </h5>
@@ -110,7 +111,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -166,7 +167,12 @@ const FooterThree = () => {
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
                 >
-                  <img src='assets/images/logo/logo-three.png' alt='' />
+                  <Image
+                    width={150}
+                    height={30}
+                    src='/assets/images/logo/logo-three.png'
+                    alt='tech'
+                  />
                 </Link>
                 <form
                   action='#'

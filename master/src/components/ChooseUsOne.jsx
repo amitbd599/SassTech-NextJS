@@ -14,7 +14,7 @@ const ChooseUsOne = () => {
               <Image
                 width={488}
                 height={624}
-                src='assets/images/thumbs/choose-us-img.png'
+                src='/assets/images/thumbs/choose-us-img.png'
                 alt='Image'
                 className='w-100 h-100 object-fit-cover tw-rounded-3xl'
               />
@@ -22,7 +22,7 @@ const ChooseUsOne = () => {
                 <Image
                   width={47}
                   height={71}
-                  src='assets/images/thumbs/choose-us-icon1.png'
+                  src='/assets/images/thumbs/choose-us-icon1.png'
                   alt='tech'
                 />
               </div>
@@ -30,7 +30,7 @@ const ChooseUsOne = () => {
                 <Image
                   width={67}
                   height={70}
-                  src='assets/images/thumbs/choose-us-icon2.png'
+                  src='/assets/images/thumbs/choose-us-icon2.png'
                   alt='tech'
                 />
               </div>
@@ -38,7 +38,7 @@ const ChooseUsOne = () => {
                 <Image
                   width={70}
                   height={70}
-                  src='assets/images/thumbs/choose-us-icon3.png'
+                  src='/assets/images/thumbs/choose-us-icon3.png'
                   alt='tech'
                 />
               </div>
@@ -46,7 +46,7 @@ const ChooseUsOne = () => {
                 <Image
                   width={68}
                   height={58}
-                  src='assets/images/thumbs/choose-us-icon4.png'
+                  src='/assets/images/thumbs/choose-us-icon4.png'
                   alt='tech'
                 />
               </div>

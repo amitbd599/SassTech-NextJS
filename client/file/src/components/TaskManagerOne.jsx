@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const TaskManagerOne = () => {
@@ -12,8 +13,10 @@ const TaskManagerOne = () => {
             data-aos-duration={800}
           >
             <div className='task-manager__thumb tw--ms-110-px'>
-              <img
-                src='assets/images/thumbs/task-manager-thumb.png'
+              <Image
+                width={751}
+                height={731}
+                src='/assets/images/thumbs/task-manager-thumb.png'
                 alt='Thumb'
               />
             </div>
@@ -51,12 +54,14 @@ const TaskManagerOne = () => {
                   data-aos-duration={600}
                 >
                   <span className='tw-mt-105 animate__wobble'>
-                    <img
-                      src='assets/images/icons/task-manager-icon1.svg'
+                    <Image
+                      width={38}
+                      height={38}
+                      src='/assets/images/icons/task-manager-icon1.svg'
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <h5 className='tw-mb-6'>Automate Task Creation</h5>
                     <p className='text-neutral-600 max-w-432-px'>
                       In today's competitive business, the demand for efficient
@@ -71,12 +76,14 @@ const TaskManagerOne = () => {
                   data-aos-duration={800}
                 >
                   <span className='tw-mt-105 animate__wobble'>
-                    <img
-                      src='assets/images/icons/task-manager-icon2.svg'
+                    <Image
+                      width={40}
+                      height={40}
+                      src='/assets/images/icons/task-manager-icon2.svg'
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <h5 className='tw-mb-6'>Simplify your daily routines</h5>
                     <p className='text-neutral-600 max-w-432-px'>
                       In today's competitive business, the demand for efficient

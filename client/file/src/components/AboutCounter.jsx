@@ -1,6 +1,7 @@
 "use client";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import Image from "next/image";
 
 const AboutCounter = () => {
   const { ref, inView } = useInView({
@@ -11,7 +12,12 @@ const AboutCounter = () => {
       <div className='container'>
         <div className='max-w-830-px text-center tw-mb-12 mx-auto'>
           <div className='text-center tw-mb-3'>
-            <img src='assets/images/icons/sparkle.png' alt='Icon' />
+            <Image
+              width={48}
+              height={48}
+              src='/assets/images/icons/sparkle.png'
+              alt='Icon'
+            />
           </div>
           <h3 className='splitTextStyleOne text-capitaliz fw-semibold'>
             We,ve listed some fascinating

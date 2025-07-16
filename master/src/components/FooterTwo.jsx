@@ -42,7 +42,7 @@ const FooterTwo = () => {
                   <Image
                     width={149}
                     height={30}
-                    src='assets/images/logo/logo-white.png'
+                    src='/assets/images/logo/logo-white.png'
                     alt=''
                   />
                 </Link>

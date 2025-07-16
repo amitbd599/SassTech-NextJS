@@ -8,7 +8,7 @@ const AboutFour = () => {
       <Image
         width={419}
         height={640}
-        src='assets/images/bg/mash-gradient-bg3.png'
+        src='/assets/images/bg/mash-gradient-bg3.png'
         alt='Gradient'
         className='position-absolute tw-start-0 top-0 z-n1'
       />
@@ -20,7 +20,7 @@ const AboutFour = () => {
                 <Image
                   width={602}
                   height={599}
-                  src='assets/images/thumbs/about-four-two-thumb.png'
+                  src='/assets/images/thumbs/about-four-two-thumb.png'
                   alt='Thumb'
                   className='w-100'
                 />
@@ -29,14 +29,14 @@ const AboutFour = () => {
                 <Image
                   width={221}
                   height={200}
-                  src='assets/images/thumbs/about-four-thumb-2.png'
+                  src='/assets/images/thumbs/about-four-thumb-2.png'
                   alt='Thumb'
                   className='d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown'
                 />
                 <Image
                   width={83}
                   height={83}
-                  src='assets/images/thumbs/robot-img.png'
+                  src='/assets/images/thumbs/robot-img.png'
                   alt='Thumb'
                   className='d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1'
                 />

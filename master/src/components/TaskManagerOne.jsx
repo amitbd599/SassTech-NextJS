@@ -16,7 +16,7 @@ const TaskManagerOne = () => {
               <Image
                 width={751}
                 height={731}
-                src='assets/images/thumbs/task-manager-thumb.png'
+                src='/assets/images/thumbs/task-manager-thumb.png'
                 alt='Thumb'
               />
             </div>
@@ -57,7 +57,7 @@ const TaskManagerOne = () => {
                     <Image
                       width={38}
                       height={38}
-                      src='assets/images/icons/task-manager-icon1.svg'
+                      src='/assets/images/icons/task-manager-icon1.svg'
                       alt='Icon'
                     />
                   </span>
@@ -79,7 +79,7 @@ const TaskManagerOne = () => {
                     <Image
                       width={40}
                       height={40}
-                      src='assets/images/icons/task-manager-icon2.svg'
+                      src='/assets/images/icons/task-manager-icon2.svg'
                       alt='Icon'
                     />
                   </span>

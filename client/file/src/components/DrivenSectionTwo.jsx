@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,8 +6,13 @@ const DrivenSectionTwo = () => {
   return (
     <section className='py-120'>
       <div className='container'>
-        <div className=''>
-          <img src='assets/images/thumbs/driven-img.png' alt='Thumb' />
+        <div>
+          <Image
+            width={1290}
+            height={590}
+            src='/assets/images/thumbs/driven-img.png'
+            alt='Thumb'
+          />
           <div className='max-w-780-px text-center mx-auto tw-mb-13'>
             <h3 className='splitTextStyleOne text-heading text-capitalize text-capitalize'>
               Driven your business today next level by sasstech

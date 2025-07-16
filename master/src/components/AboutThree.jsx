@@ -26,7 +26,7 @@ const AboutThree = () => {
       <Image
         width={419}
         height={640}
-        src='assets/images/bg/mash-gradient-bg3.png'
+        src='/assets/images/bg/mash-gradient-bg3.png'
         alt='Gradient'
         className='position-absolute tw-start-0 top-0 z-n1'
       />
@@ -38,14 +38,14 @@ const AboutThree = () => {
                 <Image
                   width={602}
                   height={668}
-                  src='assets/images/thumbs/about-four-thumb-1.png'
+                  src='/assets/images/thumbs/about-four-thumb-1.png'
                   alt='Thumb'
                   className='w-100'
                 />
                 <Image
                   width={69}
                   height={64}
-                  src='assets/images/shapes/revenue-shape.png'
+                  src='/assets/images/shapes/revenue-shape.png'
                   alt=''
                   className='flower animate__wobble__two position-absolute tw-start-0 bottom-100 tw--m-24-px z-n1'
                 />
@@ -54,14 +54,14 @@ const AboutThree = () => {
                 <Image
                   width={115}
                   height={195}
-                  src='assets/images/thumbs/about-four-thumb-3.png'
+                  src='/assets/images/thumbs/about-four-thumb-3.png'
                   alt='Thumb'
                   className='d-sm-block d-none tw-mb-4 animated-upDown'
                 />
                 <Image
                   width={221}
                   height={200}
-                  src='assets/images/thumbs/about-four-thumb-2.png'
+                  src='/assets/images/thumbs/about-four-thumb-2.png'
                   alt='Thumb'
                   className='d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown animation-delay-1'
                 />

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -23,8 +24,10 @@ const AboutTeamInner = () => {
           >
             <div className='about-team group-item'>
               <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <img
-                  src='assets/images/thumbs/about-team-img1.jpg'
+                <Image
+                  width={328}
+                  height={432}
+                  src='/assets/images/thumbs/about-team-img1.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -79,8 +82,10 @@ const AboutTeamInner = () => {
           >
             <div className='about-team group-item'>
               <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <img
-                  src='assets/images/thumbs/about-team-img2.jpg'
+                <Image
+                  width={328}
+                  height={432}
+                  src='/assets/images/thumbs/about-team-img2.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -135,8 +140,10 @@ const AboutTeamInner = () => {
           >
             <div className='about-team group-item'>
               <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <img
-                  src='assets/images/thumbs/about-team-img3.jpg'
+                <Image
+                  width={328}
+                  height={432}
+                  src='/assets/images/thumbs/about-team-img3.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />
@@ -191,8 +198,10 @@ const AboutTeamInner = () => {
           >
             <div className='about-team group-item'>
               <div className='position-relative tw-rounded-xl overflow-hidden'>
-                <img
-                  src='assets/images/thumbs/about-team-img4.jpg'
+                <Image
+                  width={328}
+                  height={432}
+                  src='/assets/images/thumbs/about-team-img4.jpg'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300'
                 />

@@ -97,7 +97,7 @@ const HeaderFive = () => {
                 <Image
                   width={150}
                   height={30}
-                  src='assets/images/logo/logo-three.png'
+                  src='/assets/images/logo/logo-three.png'
                   alt='Logo'
                   className='max-w-200-px'
                 />
@@ -205,7 +205,7 @@ const HeaderFive = () => {
               <Image
                 width={150}
                 height={30}
-                src='assets/images/logo/logo.png'
+                src='/assets/images/logo/logo.png'
                 alt='Logo'
               />
             </Link>

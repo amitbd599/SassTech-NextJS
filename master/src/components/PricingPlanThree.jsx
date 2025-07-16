@@ -58,7 +58,7 @@ const PricingPlanThree = () => {
                   <Image
                     width={26}
                     height={27}
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />
@@ -89,7 +89,7 @@ const PricingPlanThree = () => {
                   <Image
                     width={26}
                     height={27}
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />
@@ -120,7 +120,7 @@ const PricingPlanThree = () => {
                   <Image
                     width={26}
                     height={27}
-                    src='assets/images/icons/pricing-five-icon1.svg'
+                    src='/assets/images/icons/pricing-five-icon1.svg'
                     alt='Icon'
                     className='group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat'
                   />

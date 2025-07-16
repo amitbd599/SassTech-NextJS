@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -16,7 +17,7 @@ const FooterTwo = () => {
               </span>
             </h2>
           </div>
-          <div className='' data-aos='fade-up' data-aos-duration={600}>
+          <div data-aos='fade-up' data-aos-duration={600}>
             <Link
               href='#'
               className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium'
@@ -33,12 +34,17 @@ const FooterTwo = () => {
         <div className='container container-two'>
           <div className='row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
             <div className='col' data-aos='fade-up' data-aos-duration={600}>
-              <div className=''>
+              <div>
                 <Link
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
                 >
-                  <img src='assets/images/logo/logo-white.png' alt='' />
+                  <Image
+                    width={149}
+                    height={30}
+                    src='/assets/images/logo/logo-white.png'
+                    alt=''
+                  />
                 </Link>
                 <p className='text-white max-w-330-px tw-text-lg'>
                   A new way to make the payments easy, reliable and 100% secure.
@@ -73,7 +79,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={800}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Shopping</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -144,7 +150,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Information</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -215,7 +221,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Company</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -270,7 +276,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Resource</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -353,7 +359,7 @@ const FooterTwo = () => {
               <ul className='d-flex align-items-center tw-gap-4'>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Faqs
@@ -361,7 +367,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Setting
@@ -369,7 +375,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Privacy
@@ -377,7 +383,7 @@ const FooterTwo = () => {
                 </li>
                 <li>
                   <Link
-                    href='javascript:void(0)'
+                    href='#'
                     className='hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9'
                   >
                     Contact

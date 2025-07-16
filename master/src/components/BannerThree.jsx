@@ -8,7 +8,7 @@ const BannerThree = () => {
       <Image
         width={1033}
         height={800}
-        src='assets/images/shapes/cloud-sky.png'
+        src='/assets/images/shapes/cloud-sky.png'
         alt='Cloud Shape'
         className='position-absolute top-50 tw-end-0 left-right-scale-animation d-sm-block d-none z-n1'
       />
@@ -47,7 +47,7 @@ const BannerThree = () => {
                       <Image
                         width={18}
                         height={16}
-                        src='assets/images/icons/download-cloud-icon.png'
+                        src='/assets/images/icons/download-cloud-icon.png'
                         alt='Icon'
                       />
                     </span>
@@ -85,7 +85,7 @@ const BannerThree = () => {
               <Image
                 width={988}
                 height={738}
-                src='assets/images/thumbs/banner-three-img.png'
+                src='/assets/images/thumbs/banner-three-img.png'
                 alt='Thumb'
               />
             </div>

@@ -1,7 +1,47 @@
+"use client";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 const ServicesDetailsInner = () => {
+  const accordionData = [
+    {
+      title: "What is Sassly?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "Why should I choose Sassly?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "Can I upgrade to a different plan at a later time?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What’s the cost of additional users?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What’s the commitment?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+    {
+      title: "What languages does Sassly AI support?",
+      content:
+        "GoDaddy offers more than just a platform to build your website, we offer everything you need to create an effective, memorable online presence. Already have a site? We offer hosting plans that will keep it fast, secure and online. Our professional",
+    },
+  ];
+
+  const [openIndex, setOpenIndex] = useState(1); // default open second item
+
+  const toggleAccordion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
   return (
     <section className='service-details py-120'>
       <div className='container'>
@@ -9,7 +49,7 @@ const ServicesDetailsInner = () => {
           <div className='col-xl-4 pe-lg-4'>
             <div className='d-flex flex-column tw-gap-4'>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Cargo Domestic Service
@@ -18,7 +58,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Air Freight Services
@@ -27,7 +67,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Intermodal Shipping
@@ -36,7 +76,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Freeze product Shipping
@@ -45,7 +85,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Hot Shot Trucking
@@ -54,7 +94,7 @@ const ServicesDetailsInner = () => {
                 </span>
               </Link>
               <Link
-                href='/service'
+                href='#'
                 className='bg-neutral-50 tw-py-3 tw-pe-205 tw-ps-6 text-main-two-600 hover-text-white hover-bg-main-600 group tw-text-lg fw-bold d-flex align-items-center justify-content-between'
               >
                 Priority Transportation
@@ -86,13 +126,15 @@ const ServicesDetailsInner = () => {
             </div>
           </div>
           <div className='col-xl-8 ps-xl-5'>
-            <div className=''>
-              <img
-                src='assets/images/thumbs/service-details-img.png'
+            <div>
+              <Image
+                width={846}
+                height={473}
+                src='/assets/images/thumbs/service-details-img.png'
                 alt='Thumb'
               />
               <div className='tw-mt-8 d-flex flex-column tw-gap-12'>
-                <div className=''>
+                <div>
                   <h4 className='tw-mb-3 splitTextStyleOne'>
                     Cargo Transportation service
                   </h4>
@@ -106,7 +148,7 @@ const ServicesDetailsInner = () => {
                     perspiciatis ut molestiae, delectus rem.
                   </p>
                 </div>
-                <div className=''>
+                <div>
                   <h5 className='tw-mb-3 splitTextStyleOne'>
                     Sed ut perspiciatis unde omnis iste natus et
                   </h5>
@@ -124,8 +166,10 @@ const ServicesDetailsInner = () => {
                 </div>
                 <div className='d-grid d-md-flex tw-gap-9'>
                   <div className='position-relative max-w-390-px w-100'>
-                    <img
-                      src='assets/images/thumbs/service-details-video-img.jpg'
+                    <Image
+                      width={392}
+                      height={273}
+                      src='/assets/images/thumbs/service-details-video-img.jpg'
                       alt='Thumb'
                       className='w-100 h-100 object-fit-cover'
                     />
@@ -136,7 +180,7 @@ const ServicesDetailsInner = () => {
                       <i className='ph-fill ph-play' />
                     </a>
                   </div>
-                  <div className=''>
+                  <div>
                     <h4 className='tw-mb-3 splitTextStyleOne'>
                       Why Security Important?
                     </h4>
@@ -202,247 +246,80 @@ const ServicesDetailsInner = () => {
                   money by produ The NDIS Cing or buying and selling products
                   akes a lifetime
                 </p>
-                <div className=''>
+                <div>
                   <h5 className='tw-mb-8'>Eligibility checklist :</h5>
                   <div className='row gy-4'>
                     <div className='col-sm-8'>
-                      <img
-                        src='assets/images/thumbs/service-details-img1.jpg'
+                      <Image
+                        width={518}
+                        height={218}
+                        src='/assets/images/thumbs/service-details-img1.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-4'>
-                      <img
-                        src='assets/images/thumbs/service-details-img2.jpg'
+                      <Image
+                        width={300}
+                        height={218}
+                        src='/assets/images/thumbs/service-details-img2.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-4'>
-                      <img
-                        src='assets/images/thumbs/service-details-img3.jpg'
+                      <Image
+                        width={300}
+                        height={273}
+                        src='/assets/images/thumbs/service-details-img3.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-8'>
-                      <img
-                        src='assets/images/thumbs/service-details-img4.jpg'
+                      <Image
+                        width={520}
+                        height={273}
+                        src='/assets/images/thumbs/service-details-img4.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                   </div>
                 </div>
-                <div
-                  className='accordion common-accordion style-two arrow-bg-orange_border'
-                  id='accordionExample'
-                >
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseTwo'
-                        aria-expanded='false'
-                        aria-controls='collapseTwo'
-                      >
-                        What is Sassly?
-                      </button>
-                    </h5>
+                <div className='accordion common-accordion style-two arrow-bg-orange_border'>
+                  {accordionData.map((item, index) => (
                     <div
-                      id='collapseTwo'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
+                      key={index}
+                      className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
+                      data-aos='fade-up'
+                      data-aos-anchor-placement='top-bottom'
+                      data-aos-duration={800}
                     >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
+                      <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
+                        <button
+                          className={`accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 ${
+                            openIndex === index ? "" : "collapsed"
+                          }`}
+                          type='button'
+                          onClick={() => toggleAccordion(index)}
+                          aria-expanded={openIndex === index}
+                        >
+                          {item.title}
+                        </button>
+                      </h5>
+
+                      {openIndex === index && (
+                        <div className='accordion-collapse show'>
+                          <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
+                            <p className='text-neutral-500 tw-leading-212'>
+                              {item.content}
+                            </p>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseOne'
-                        aria-expanded='true'
-                        aria-controls='collapseOne'
-                      >
-                        Why should I choose Sassly?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseOne'
-                      className='accordion-collapse collapse show'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseThree'
-                        aria-expanded='false'
-                        aria-controls='collapseThree'
-                      >
-                        Can I upgrade to a different plan at a later time?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseThree'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseFour'
-                        aria-expanded='false'
-                        aria-controls='collapseFour'
-                      >
-                        What’s the cost of additional users?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseFour'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseFive'
-                        aria-expanded='false'
-                        aria-controls='collapseFive'
-                      >
-                        What’s the commitment?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseFive'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className='accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={800}
-                  >
-                    <h5 className='accordion-header d-flex align-items-center justify-content-between tw-gap-3'>
-                      <button
-                        className='accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed'
-                        type='button'
-                        data-bs-toggle='collapse'
-                        data-bs-target='#collapseSix'
-                        aria-expanded='false'
-                        aria-controls='collapseSix'
-                      >
-                        What languages does Sassly AI support?
-                      </button>
-                    </h5>
-                    <div
-                      id='collapseSix'
-                      className='accordion-collapse collapse'
-                      data-bs-parent='#accordionExample'
-                    >
-                      <div className='accordion-body p-0 tw-mt-605 max-w-620-px'>
-                        <p className='text-neutral-500 tw-leading-212'>
-                          GoDaddy offers more than just a platform to build your
-                          website, we offer everything you need to create an
-                          effective, memorable online presence. Already have a
-                          site? We offer hosting plans that will keep it fast,
-                          secure and online. Our professional
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>

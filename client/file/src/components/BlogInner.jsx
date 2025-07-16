@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -14,8 +15,10 @@ const BlogInner = () => {
                     href='/blog-details'
                     className='w-100 h-100 overflow-hidden tw-rounded-3xl'
                   >
-                    <img
-                      src='assets/images/thumbs/blog-page-img1.png'
+                    <Image
+                      width={884}
+                      height={507}
+                      src='/assets/images/thumbs/blog-page-img1.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -70,11 +73,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
-                      <img
-                        src='assets/images/icons/arrow-long.svg'
+                    <span>
+                      <Image
+                        width={44}
+                        height={9}
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -86,8 +90,10 @@ const BlogInner = () => {
                     href='/blog-details'
                     className='w-100 h-100 overflow-hidden tw-rounded-3xl'
                   >
-                    <img
-                      src='assets/images/thumbs/blog-page-img2.png'
+                    <Image
+                      width={884}
+                      height={507}
+                      src='/assets/images/thumbs/blog-page-img2.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -142,11 +148,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
-                      <img
-                        src='assets/images/icons/arrow-long.svg'
+                    <span>
+                      <Image
+                        width={44}
+                        height={9}
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -158,8 +165,10 @@ const BlogInner = () => {
                     href='/blog-details'
                     className='w-100 h-100 overflow-hidden tw-rounded-3xl'
                   >
-                    <img
-                      src='assets/images/thumbs/blog-page-img3.png'
+                    <Image
+                      width={884}
+                      height={507}
+                      src='/assets/images/thumbs/blog-page-img3.png'
                       alt=''
                       className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                     />
@@ -214,11 +223,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
-                      <img
-                        src='assets/images/icons/arrow-long.svg'
+                    <span>
+                      <Image
+                        width={44}
+                        height={9}
+                        src='/assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -235,8 +245,10 @@ const BlogInner = () => {
                 data-aos-duration={800}
               >
                 <div className='tw-w-95-px tw-h-95-px rounded-circle d-inline-flex'>
-                  <img
-                    src='assets/images/thumbs/blogger.png'
+                  <Image
+                    width={884}
+                    height={507}
+                    src='/assets/images/thumbs/blogger.png'
                     alt=''
                     className='w-100 h-100 object-fit-cover'
                   />
@@ -322,13 +334,15 @@ const BlogInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
-                        src='assets/images/thumbs/recent-post-img1.png'
+                      <Image
+                        width={108}
+                        height={86}
+                        src='/assets/images/thumbs/recent-post-img1.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -352,13 +366,15 @@ const BlogInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
-                        src='assets/images/thumbs/recent-post-img2.png'
+                      <Image
+                        width={108}
+                        height={86}
+                        src='/assets/images/thumbs/recent-post-img2.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -382,13 +398,15 @@ const BlogInner = () => {
                       href='/blog-details'
                       className='tw-rounded-md overflow-hidden flex-shrink-0'
                     >
-                      <img
-                        src='assets/images/thumbs/recent-post-img3.png'
+                      <Image
+                        width={108}
+                        height={86}
+                        src='/assets/images/thumbs/recent-post-img3.png'
                         alt=''
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />

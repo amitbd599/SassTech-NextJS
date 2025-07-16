@@ -12,7 +12,7 @@ const DownloadAppOne = () => {
               <Image
                 width={633}
                 height={619}
-                src='assets/images/thumbs/download-app-thumb.png'
+                src='/assets/images/thumbs/download-app-thumb.png'
                 alt='Thumbnail'
               />
             </div>
