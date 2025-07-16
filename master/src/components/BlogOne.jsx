@@ -9,7 +9,7 @@ const BlogOne = () => {
         <div className='bg-white common-shadow-five py-120 tw-px-90-px'>
           <span className='line w-0 tw-h-2 bg-main-600 tw-mb-4' />
           <div className='d-flex align-items-center justify-content-between tw-mb-12'>
-            <h6 className=''>
+            <h6>
               Insights to help you do what you do better, faster and more
               profitably.
             </h6>

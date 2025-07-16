@@ -38,7 +38,7 @@ const FAQInner = () => {
         <div className='container'>
           <div className='row gy-4'>
             <div className='col-lg-4'>
-              <div className=''>
+              <div>
                 <h3 className='splitTextStyleOne text-heading text-capitalize'>
                   Frequently ask
                   <span className='font-dm-serif fst-italic fw-normal'>
@@ -119,7 +119,7 @@ const FAQInner = () => {
         <div className='container'>
           <div className='row gy-4'>
             <div className='col-lg-5'>
-              <div className=''>
+              <div>
                 <h3 className='splitTextStyleOne text-heading text-capitalize'>
                   Navigating the Digital Marketing Landscape FAQs Unveiled
                 </h3>

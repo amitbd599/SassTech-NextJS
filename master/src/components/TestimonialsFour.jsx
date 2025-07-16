@@ -29,7 +29,7 @@ const TestimonialsFour = () => {
       <div className='container'>
         <div className='row gy-5'>
           <div className='col-lg-6'>
-            <div className=''>
+            <div>
               <div className='tw-mb-10'>
                 <h4 className='tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm'>
                   with the world's favorite CRM
@@ -53,7 +53,7 @@ const TestimonialsFour = () => {
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='d-flex align-items-center tw-gap-05'>
                       <span className='text-orange tw-text-lg'>
                         <i className='ph-fill ph-star' />
@@ -88,7 +88,7 @@ const TestimonialsFour = () => {
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='d-flex align-items-center tw-gap-05'>
                       <span className='text-green tw-text-lg'>
                         <i className='ph-fill ph-star' />
@@ -149,7 +149,7 @@ const TestimonialsFour = () => {
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>Robiul Hasan</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -157,13 +157,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
+                        <div>
                           <Image
                             width={100}
                             height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>
@@ -199,7 +198,7 @@ const TestimonialsFour = () => {
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>John Doe</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -207,13 +206,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
+                        <div>
                           <Image
                             width={100}
                             height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>
@@ -249,7 +247,7 @@ const TestimonialsFour = () => {
                               className='w-100 h-100 object-fit-cover'
                             />
                           </div>
-                          <div className=''>
+                          <div>
                             <h6 className='tw-mb-2'>James anderson</h6>
                             <span className='text-neutral-600'>
                               <span className='fw-semibold text-blue'>CEO</span>
@@ -257,13 +255,12 @@ const TestimonialsFour = () => {
                             </span>
                           </div>
                         </div>
-                        <div className=''>
+                        <div>
                           <Image
                             width={100}
                             height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
-                            className=''
                           />
                         </div>
                       </div>

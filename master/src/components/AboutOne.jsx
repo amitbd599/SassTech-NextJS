@@ -60,8 +60,8 @@ const AboutOne = () => {
                       <span className='bg-neutral-200 tw-w-10 tw-h-10 tw-rounded-xl d-flex justify-content-center align-items-center text-neutral-500'>
                         <i className='ph-bold ph-smiley' />
                       </span>
-                      <div className=''>
-                        <h6 className=''>
+                      <div>
+                        <h6>
                           {inView && (
                             <span>
                               <CountUp delay={0} start={0} end={99} />%
@@ -170,7 +170,7 @@ const AboutOne = () => {
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Innovation at our core</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for
@@ -194,7 +194,7 @@ const AboutOne = () => {
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Simplifying complexity</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for
@@ -218,7 +218,7 @@ const AboutOne = () => {
                         className=' animate__bounce'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <h6 className='tw-mb-4'>Empowering growth.</h6>
                       <p className='text-neutral-500 max-w-400-px'>
                         In today's competitive business, the demand for

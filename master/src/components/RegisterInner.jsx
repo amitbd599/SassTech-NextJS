@@ -10,7 +10,7 @@ const RegisterInner = () => {
             Start Your Journey with us
           </h4>
           <form action='#' className='form-submit d-flex flex-column tw-gap-6'>
-            <div className=''>
+            <div>
               <label
                 htmlFor='name'
                 className='fw-semibold text-heading d-block tw-mb-105'
@@ -24,7 +24,7 @@ const RegisterInner = () => {
                 placeholder='Enter your name'
               />
             </div>
-            <div className=''>
+            <div>
               <label
                 htmlFor='username'
                 className='fw-semibold text-heading d-block tw-mb-105'
@@ -38,7 +38,7 @@ const RegisterInner = () => {
                 placeholder='Enter username'
               />
             </div>
-            <div className=''>
+            <div>
               <label
                 htmlFor='enterEmail'
                 className='fw-semibold text-heading d-block tw-mb-105'
@@ -52,7 +52,7 @@ const RegisterInner = () => {
                 placeholder='Enter your email'
               />
             </div>
-            <div className=''>
+            <div>
               <label
                 htmlFor='createPassword'
                 className='fw-medium text-base text-neutral-800 tw-mb-3'
@@ -73,7 +73,7 @@ const RegisterInner = () => {
                 />
               </div>
             </div>
-            <div className=''>
+            <div>
               <label
                 htmlFor='confirmPassword'
                 className='fw-medium text-base text-neutral-800 tw-mb-3'
@@ -100,10 +100,7 @@ const RegisterInner = () => {
                 id='remember'
               />
               <div className='form-check-label text-neutral-600 fw-semibold'>
-                <label className='' htmlFor='remember'>
-                  {" "}
-                  I agree to sassly
-                </label>
+                <label htmlFor='remember'> I agree to sassly</label>
                 <a
                   href='#'
                   className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'
@@ -112,7 +109,7 @@ const RegisterInner = () => {
                 </a>
               </div>
             </div>
-            <div className=''>
+            <div>
               <button
                 type='submit'
                 className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn button--stroke  tw-gap-5 group active--translate-y-2 tw-px-4 tw-py-505 fw-medium btn-main hover-style-one w-100 rounded-pill'

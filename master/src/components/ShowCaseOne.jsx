@@ -59,7 +59,7 @@ const ShowCaseOne = () => {
         <h3 className='fw-light tw-leading-104 tw-mb-9 text-white'>
           <span className='splitTextStyleOne d-inline-block fw-medium'>
             <span className='fw-semibold'>Comprehensive IT Solution </span>{" "}
-            <span className=''> Growth</span>{" "}
+            <span> Growth</span>{" "}
             <span className='fw-semibold'>&amp; Efficiency</span>
           </span>
         </h3>

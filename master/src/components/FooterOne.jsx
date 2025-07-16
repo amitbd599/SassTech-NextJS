@@ -76,7 +76,6 @@ const FooterOne = () => {
               </ul>
               <div className='d-flex align-items-center justify-content-center tw-gap-405'>
                 <div
-                  className=''
                   data-aos='fade-up'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
@@ -94,7 +93,6 @@ const FooterOne = () => {
                   </a>
                 </div>
                 <div
-                  className=''
                   data-aos='fade-up'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
@@ -133,7 +131,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <Link
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10'
@@ -188,7 +186,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>My account</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -239,7 +237,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={1000}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -298,7 +296,7 @@ const FooterOne = () => {
               data-aos='fade-up'
               data-aos-duration={1200}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text--white tw-mb-8'>Locations</h5>
                 <div className='d-flex align-items-center tw-gap-5'>
                   <span className='d-flex tw-text-3xl text-main-600'>
@@ -309,7 +307,7 @@ const FooterOne = () => {
                       alt='tech'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <p className='text-neutral-400 d-block mb-1'>
                       55 Main Street, 2nd block Malborne, Australia
                     </p>
@@ -333,7 +331,7 @@ const FooterOne = () => {
                       alt='tech'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <a
                       href='tel:+880(123)45688'
                       className='d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9'

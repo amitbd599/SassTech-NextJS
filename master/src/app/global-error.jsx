@@ -4,15 +4,38 @@ export default function GlobalError({ error, reset }) {
   return (
     <html>
       <body>
-        <div className='flex flex-col items-center justify-center h-screen text-center'>
-          <h1 className='text-3xl font-bold mb-4'>Application Error</h1>
-          <p className='mb-6'>{error.message}</p>
-          <button
-            onClick={() => reset()}
-            className='px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700'
-          >
-            Reload
-          </button>
+        <div
+          style={{
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center",
+          }}
+        >
+          <div>
+            <h1>Application Error</h1>
+            <p
+              style={{
+                color: "red",
+              }}
+            >
+              {error.message}
+            </p>
+            <button
+              onClick={() => reset()}
+              style={{
+                backgroundColor: "red",
+                padding: "10px 20px",
+                borderRadius: "10px",
+                color: "#fff",
+                cursor: "pointer",
+                border: "none",
+              }}
+            >
+              Reload
+            </button>
+          </div>
         </div>
       </body>
     </html>

@@ -20,7 +20,7 @@ const OfferTwo = () => {
                 </div>
               </div>
               <div className='col-md-6'>
-                <div className=''>
+                <div>
                   <div className='max-w-780-px text-start mx-auto'>
                     <div
                       className='bg-white tw-py-2 tw-px-7 rounded-pill text-main-600 fw-bold text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max common-shadow-twentyNine'
@@ -41,7 +41,7 @@ const OfferTwo = () => {
                   </div>
                   <div className='tw-mt-11 d-flex flex-column tw-gap-7'>
                     <div className='tw-rounded-3xl border border-neutral-100 tw-py-8 tw-px-9 hover-bg-neutral-100 tw-duration-300 d-flex align-items-start tw-gap-605'>
-                      <div className=''>
+                      <div>
                         <Image
                           width={43}
                           height={43}
@@ -49,7 +49,7 @@ const OfferTwo = () => {
                           alt='icon'
                         />
                       </div>
-                      <div className=''>
+                      <div>
                         <h6 className='tw-mb-405 splitTextStyleOne'>
                           240K+ Download worldwide
                         </h6>
@@ -60,7 +60,7 @@ const OfferTwo = () => {
                       </div>
                     </div>
                     <div className='tw-rounded-3xl border border-neutral-100 tw-py-8 tw-px-9 hover-bg-neutral-100 tw-duration-300 d-flex align-items-start tw-gap-605'>
-                      <div className=''>
+                      <div>
                         <Image
                           width={45}
                           height={45}
@@ -68,7 +68,7 @@ const OfferTwo = () => {
                           alt='icon'
                         />
                       </div>
-                      <div className=''>
+                      <div>
                         <h6 className='tw-mb-405 splitTextStyleOne'>
                           Average 5 star rating
                         </h6>

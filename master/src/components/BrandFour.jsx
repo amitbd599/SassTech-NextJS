@@ -63,7 +63,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={105}
                   height={34}
@@ -78,7 +78,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={700}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={105}
                   height={34}
@@ -93,7 +93,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={105}
                   height={16}
@@ -108,7 +108,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={75}
                   height={26}
@@ -123,7 +123,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={700}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={83}
                   height={24}
@@ -138,7 +138,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={121}
                   height={34}
@@ -153,7 +153,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={90}
                   height={22}
@@ -168,7 +168,7 @@ const BrandFour = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={700}
             >
-              <div className=''>
+              <div>
                 <Image
                   width={83}
                   height={24}

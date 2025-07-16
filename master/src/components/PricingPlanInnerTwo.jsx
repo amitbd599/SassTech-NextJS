@@ -40,7 +40,7 @@ const PricingPlanInnerTwo = () => {
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>
@@ -141,7 +141,7 @@ const PricingPlanInnerTwo = () => {
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>
@@ -242,7 +242,7 @@ const PricingPlanInnerTwo = () => {
                 alt='Arrow'
                 className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 group-hover-item-text-invert'
               />
-              <div className=''>
+              <div>
                 <h3 className='tw-mb-5 fw-semibold group-hover-text-white tw-transition tw-duration-200'>
                   $19<span className='tw-text-xl fw-medium'>/Month</span>
                 </h3>

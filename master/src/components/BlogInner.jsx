@@ -73,13 +73,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
+                    <span>
                       <Image
                         width={44}
                         height={9}
                         src='assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -149,13 +148,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
+                    <span>
                       <Image
                         width={44}
                         height={9}
                         src='assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -225,13 +223,12 @@ const BlogInner = () => {
                     className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
                   >
                     Read More
-                    <span className=''>
+                    <span>
                       <Image
                         width={44}
                         height={9}
                         src='assets/images/icons/arrow-long.svg'
                         alt=''
-                        className=''
                       />
                     </span>
                   </Link>
@@ -345,7 +342,7 @@ const BlogInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -377,7 +374,7 @@ const BlogInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -409,7 +406,7 @@ const BlogInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />

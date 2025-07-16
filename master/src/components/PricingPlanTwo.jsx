@@ -33,7 +33,7 @@ const PricingPlanTwo = () => {
             data-aos-duration={600}
           >
             <div className='position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600'>
-              <div className=''>
+              <div>
                 <div className='tw-ps-205'>
                   <h5 className='tw-mb-1'>Basic plan</h5>
                   <p className='text-neutral-500'>
@@ -138,7 +138,7 @@ const PricingPlanTwo = () => {
             data-aos-duration={800}
           >
             <div className='position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600'>
-              <div className=''>
+              <div>
                 <div className='tw-ps-205'>
                   <h5 className='tw-mb-1'>Premium plan</h5>
                   <p className='text-neutral-500'>
@@ -243,7 +243,7 @@ const PricingPlanTwo = () => {
             data-aos-duration={900}
           >
             <div className='position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600'>
-              <div className=''>
+              <div>
                 <div className='tw-ps-205'>
                   <h5 className='tw-mb-1'>Pro plan</h5>
                   <p className='text-neutral-500'>

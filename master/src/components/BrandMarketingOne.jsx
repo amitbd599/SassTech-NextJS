@@ -44,7 +44,6 @@ const BrandMarketingOne = () => {
                     height={18}
                     src='assets/images/icons/ratings.svg'
                     alt=''
-                    className=''
                   />
                   <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
                     <span className='tw-text-lg text-heading fw-semibold'>
@@ -61,7 +60,7 @@ const BrandMarketingOne = () => {
               </div>
             </div>
             <div className='col-md-6'>
-              <div className=''>
+              <div>
                 <div
                   className='bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
                   data-aos='fade-up'

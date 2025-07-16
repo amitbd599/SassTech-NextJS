@@ -62,7 +62,7 @@ const WorkPlaceOne = () => {
                     />
                   </Link>
                 </div>
-                <div className=''>
+                <div>
                   <div
                     className='nav flex-column gradient-bg nav-pills'
                     id='v-pills-tab'

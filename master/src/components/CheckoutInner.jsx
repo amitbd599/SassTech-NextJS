@@ -7,7 +7,7 @@ const CheckoutInner = () => {
       <div className='container'>
         <div className='row gy-5'>
           <div className='col-xxl-8 col-lg-7'>
-            <div className=''>
+            <div>
               <h6 className='tw-mb-8'>Delivery Information</h6>
               <form action='#' className='form-submit'>
                 <div className='row gy-4'>
@@ -135,7 +135,7 @@ const CheckoutInner = () => {
             </div>
           </div>
           <div className='col-xxl-4 col-lg-5'>
-            <div className=''>
+            <div>
               <h5 className='text-center tw-text-2xl tw-mb-10'>
                 Order Summery
               </h5>
@@ -157,7 +157,7 @@ const CheckoutInner = () => {
                       $34.00
                     </span>
                   </div>
-                  <div className=''>
+                  <div>
                     <form action='#' className='form-submit position-relative'>
                       <input
                         type='text'
@@ -185,7 +185,7 @@ const CheckoutInner = () => {
                     </span>
                   </div>
                 </div>
-                <div className=''>
+                <div>
                   <div className='bg-white tw-rounded-xl tw-p-705 d-flex flex-column tw-gap-305'>
                     <div className='form-check common-check common-radio tw-gap-3 mb-0'>
                       <input

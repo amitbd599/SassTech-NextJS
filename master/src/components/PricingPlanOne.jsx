@@ -83,7 +83,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -122,7 +122,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -133,7 +133,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -146,7 +146,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -159,7 +159,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -172,7 +172,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -185,7 +185,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -198,7 +198,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -211,7 +211,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -222,7 +222,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -235,7 +235,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -275,7 +275,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -314,7 +314,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -325,7 +325,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -338,7 +338,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -351,7 +351,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -364,7 +364,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -377,7 +377,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -390,7 +390,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -403,7 +403,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -414,7 +414,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -427,7 +427,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -467,7 +467,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -506,7 +506,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -517,7 +517,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -530,7 +530,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -543,7 +543,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -556,7 +556,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -569,7 +569,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -582,7 +582,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -595,7 +595,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -606,7 +606,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -619,7 +619,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -669,7 +669,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -708,7 +708,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -719,7 +719,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -732,7 +732,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -745,7 +745,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -758,7 +758,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -771,7 +771,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -784,7 +784,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -797,7 +797,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -808,7 +808,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -821,7 +821,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -861,7 +861,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -900,7 +900,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -911,7 +911,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -924,7 +924,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -937,7 +937,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -950,7 +950,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -963,7 +963,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -976,7 +976,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -989,7 +989,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -1000,7 +1000,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -1013,7 +1013,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -1053,7 +1053,7 @@ const PricingPlanOne = () => {
                     alt='Arrow'
                     className='position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05'
                   />
-                  <div className=''>
+                  <div>
                     <div className='tw-ps-205 tw-pt-205'>
                       <span className='fw-bold text-heading tw-mb-105'>
                         <span className='text-main-600'>85%</span> OFF
@@ -1092,7 +1092,7 @@ const PricingPlanOne = () => {
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <ul className='feature-list d-flex flex-column tw-gap-6'>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -1103,7 +1103,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -1116,7 +1116,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -1129,7 +1129,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={14}
                               height={16}
@@ -1142,7 +1142,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={17}
@@ -1155,7 +1155,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={18}
@@ -1168,7 +1168,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}
@@ -1181,7 +1181,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={19}
                               height={19}
@@ -1192,7 +1192,7 @@ const PricingPlanOne = () => {
                           <span className='text-heading'>Single website </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={18}
                               height={22}
@@ -1205,7 +1205,7 @@ const PricingPlanOne = () => {
                           </span>
                         </li>
                         <li className='d-flex align-items-center tw-gap-305 fw-medium'>
-                          <span className=''>
+                          <span>
                             <Image
                               width={16}
                               height={18}

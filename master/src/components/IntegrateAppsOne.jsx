@@ -47,7 +47,7 @@ const IntegrateAppsOne = () => {
                 className='position-absolute top-50 start-50 animation-rotate-left'
               />
               <div className='position-absolute top-50 start-50 translate-middle'>
-                <h3 className=''>
+                <h3>
                   {inView && (
                     <span className='counter'>
                       <CountUp delay={0} start={0} end={2} />
@@ -60,7 +60,7 @@ const IntegrateAppsOne = () => {
             </div>
           </div>
           <div className='col-xl-6'>
-            <div className=''>
+            <div>
               <div className='text-start mx-auto tw-mb-12'>
                 <div className='tw-mb-10'>
                   <h4 className='tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange'>

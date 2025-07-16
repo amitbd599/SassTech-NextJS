@@ -35,7 +35,7 @@ const IntegratedAppsInner = () => {
                 className='position-absolute top-50 start-50 animation-rotate-left'
               />
               <div className='position-absolute top-50 start-50 translate-middle'>
-                <h3 className=''>
+                <h3>
                   <span className='counter'>2</span>k+
                 </h3>
                 <span className='text-heading'>Integration</span>
@@ -43,7 +43,7 @@ const IntegratedAppsInner = () => {
             </div>
           </div>
           <div className='col-xl-6'>
-            <div className=''>
+            <div>
               <div className='text-start mx-auto tw-mb-12'>
                 <h3 className='splitTextStyleOne text-heading text-capitalize max-w-532-px'>
                   Integrated apps can create seamless workflows

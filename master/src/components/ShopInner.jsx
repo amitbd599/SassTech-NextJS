@@ -385,7 +385,7 @@ const ShopInner = () => {
             </div>
           </div>
           <div className='col-lg-8'>
-            <div className=''>
+            <div>
               {/* Top List Grid start */}
               <div className='border tw-rounded-lg border-neutral-200 tw-p-5 d-flex align-items-center justify-content-between flex-wrap tw-gap-4 tw-mb-6'>
                 <div className='text-heading fw-bold'>
@@ -492,7 +492,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Smart wireless headphone
                         </Link>
                       </h6>
@@ -562,7 +562,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Go pro hero action camera
                         </Link>
                       </h6>
@@ -632,9 +632,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Colorful apple Ipad
-                        </Link>
+                        <Link href='/shop-details'>Colorful apple Ipad</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -702,9 +700,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Humidifiler white grow
-                        </Link>
+                        <Link href='/shop-details'>Humidifiler white grow</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -772,9 +768,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Apple Iphone 16 promax
-                        </Link>
+                        <Link href='/shop-details'>Apple Iphone 16 promax</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -842,7 +836,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Go pro hero action camera
                         </Link>
                       </h6>
@@ -912,7 +906,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Apple smartwatch series
                         </Link>
                       </h6>
@@ -982,9 +976,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Instax pro camera hero
-                        </Link>
+                        <Link href='/shop-details'>Instax pro camera hero</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1052,9 +1044,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Macbook m1 cheap pro
-                        </Link>
+                        <Link href='/shop-details'>Macbook m1 cheap pro</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>
@@ -1122,7 +1112,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           VISION RAC Micro Oven&nbsp;
                         </Link>
                       </h6>
@@ -1192,7 +1182,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
+                        <Link href='/shop-details'>
                           Folding Keayboard display
                         </Link>
                       </h6>
@@ -1262,9 +1252,7 @@ const ShopInner = () => {
                         </span>
                       </div>
                       <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details' className=''>
-                          Logitech Mouse Havit
-                        </Link>
+                        <Link href='/shop-details'>Logitech Mouse Havit</Link>
                       </h6>
                       <span className='text-heading fw-medium'>$112.00</span>
                     </div>

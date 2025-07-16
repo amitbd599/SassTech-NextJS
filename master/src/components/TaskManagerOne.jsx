@@ -61,7 +61,7 @@ const TaskManagerOne = () => {
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <h5 className='tw-mb-6'>Automate Task Creation</h5>
                     <p className='text-neutral-600 max-w-432-px'>
                       In today's competitive business, the demand for efficient
@@ -83,7 +83,7 @@ const TaskManagerOne = () => {
                       alt='Icon'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <h5 className='tw-mb-6'>Simplify your daily routines</h5>
                     <p className='text-neutral-600 max-w-432-px'>
                       In today's competitive business, the demand for efficient

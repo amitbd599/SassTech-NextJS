@@ -32,7 +32,7 @@ const PricingPlanInnerThree = () => {
             data-aos-duration={600}
           >
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
-              <div className=''>
+              <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
                   <span className='text-white tw-text-basen tw-py-105 tw-px-4 bg-main-600 tw-rounded-md fw-medium'>
                     Regular
@@ -141,7 +141,7 @@ const PricingPlanInnerThree = () => {
             data-aos-duration={800}
           >
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
-              <div className=''>
+              <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
                   <span className='text-white tw-text-basen tw-py-105 tw-px-4 bg-orange tw-rounded-md fw-medium'>
                     Regular
@@ -250,7 +250,7 @@ const PricingPlanInnerThree = () => {
             data-aos-duration={1000}
           >
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
-              <div className=''>
+              <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
                   <span className='text-white tw-text-basen tw-py-105 tw-px-4 bg-green tw-rounded-md fw-medium'>
                     Regular

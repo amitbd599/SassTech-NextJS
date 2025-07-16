@@ -65,7 +65,7 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -75,7 +75,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -116,14 +116,14 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -168,7 +168,7 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co-founders
@@ -176,7 +176,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -217,7 +217,7 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -226,7 +226,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -271,7 +271,7 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our co- sales
@@ -281,7 +281,7 @@ const WebsiteOwnerOne = () => {
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}
@@ -322,14 +322,14 @@ const WebsiteOwnerOne = () => {
                         className='animate__flipInY'
                       />
                     </span>
-                    <div className=''>
+                    <div>
                       <p className='text-neutral-500 tw-text-xl'>
                         We get absolutely raving reviews from our sales and
                         customer support teams using close. Even our compa
                       </p>
                       <span className='d-block tw-h-px bg-neutral-100 tw-my-6' />
                       <div className='d-flex align-items-center justify-content-between'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg tw-mb-205'>Rudra Ghosh</h6>
                           <span className='text-neutral-500'>
                             {" "}

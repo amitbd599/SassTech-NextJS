@@ -92,7 +92,6 @@ const HostingPlanOne = () => {
             </h2>
           </div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}
@@ -118,8 +117,8 @@ const HostingPlanOne = () => {
                   data-aos-duration={600}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
+                    <div>
+                      <span>
                         <Image
                           width={70}
                           height={70}
@@ -165,8 +164,8 @@ const HostingPlanOne = () => {
                   data-aos-duration={700}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
+                    <div>
+                      <span>
                         <Image
                           width={81}
                           height={81}
@@ -212,8 +211,8 @@ const HostingPlanOne = () => {
                   data-aos-duration={800}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
+                    <div>
+                      <span>
                         <Image
                           width={80}
                           height={60}
@@ -259,8 +258,8 @@ const HostingPlanOne = () => {
                   data-aos-duration={900}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
+                    <div>
+                      <span>
                         <Image
                           width={74}
                           height={75}
@@ -306,8 +305,8 @@ const HostingPlanOne = () => {
                   data-aos-duration={1000}
                 >
                   <div className='group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300'>
-                    <div className=''>
-                      <span className=''>
+                    <div>
+                      <span>
                         <Image
                           width={81}
                           height={81}

@@ -10,7 +10,7 @@ const LoginInner = () => {
             Start Your Journey with us
           </h4>
           <form action='#' className='form-submit d-flex flex-column tw-gap-6'>
-            <div className=''>
+            <div>
               <label
                 htmlFor='name'
                 className='fw-semibold text-heading d-block tw-mb-105'
@@ -24,7 +24,7 @@ const LoginInner = () => {
                 placeholder='Enter your name'
               />
             </div>
-            <div className=''>
+            <div>
               <label
                 htmlFor='createPassword'
                 className='fw-medium text-base text-neutral-800 tw-mb-3'
@@ -53,9 +53,7 @@ const LoginInner = () => {
                   id='remember'
                 />
                 <div className='form-check-label text-neutral-600 fw-medium'>
-                  <label className='' htmlFor='remember'>
-                    Remember me
-                  </label>
+                  <label htmlFor='remember'>Remember me</label>
                 </div>
               </div>
               <Link
@@ -65,7 +63,7 @@ const LoginInner = () => {
                 Forgot Password?
               </Link>
             </div>
-            <div className=''>
+            <div>
               <button
                 type='submit'
                 className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn button--stroke  tw-gap-5 group active--translate-y-2 tw-px-4 tw-py-505 fw-medium btn-main hover-style-one w-100 rounded-pill'

@@ -4,7 +4,7 @@ const IntegrationFeaturesInner = () => {
   return (
     <section className='py-120'>
       <div className='container'>
-        <div className=''>
+        <div>
           <h3 className='text-capitalize tw-mb-4'>
             work with applications more seamlessly
           </h3>

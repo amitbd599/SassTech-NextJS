@@ -17,7 +17,7 @@ const FooterTwo = () => {
               </span>
             </h2>
           </div>
-          <div className='' data-aos='fade-up' data-aos-duration={600}>
+          <div data-aos='fade-up' data-aos-duration={600}>
             <Link
               href='#'
               className='hover-white hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-11 rounded-pill tw-py-505 fw-medium'
@@ -34,7 +34,7 @@ const FooterTwo = () => {
         <div className='container container-two'>
           <div className='row row-cols-xl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5'>
             <div className='col' data-aos='fade-up' data-aos-duration={600}>
-              <div className=''>
+              <div>
                 <Link
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
@@ -79,7 +79,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={800}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Shopping</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -150,7 +150,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Information</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -221,7 +221,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Company</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>
@@ -276,7 +276,7 @@ const FooterTwo = () => {
               </div>
             </div>
             <div className='col' data-aos='fade-up' data-aos-duration={1000}>
-              <div className=''>
+              <div>
                 <h5 className='fw-medium text-white tw-mb-8'>Resource</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>

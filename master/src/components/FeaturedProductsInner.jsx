@@ -77,9 +77,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Smart wireless headphone
-                  </Link>
+                  <Link href='/shop-detail'>Smart wireless headphone</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -147,9 +145,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Go pro hero action camera
-                  </Link>
+                  <Link href='/shop-detail'>Go pro hero action camera</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -217,9 +213,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Colorful apple Ipad
-                  </Link>
+                  <Link href='/shop-detail'>Colorful apple Ipad</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>
@@ -287,9 +281,7 @@ const FeaturedProductsInner = () => {
                   </li>
                 </ul>
                 <h6 className='tw-text-base tw-my-205'>
-                  <Link href='/shop-detail' className=''>
-                    Humidifiler white grow
-                  </Link>
+                  <Link href='/shop-detail'>Humidifiler white grow</Link>
                 </h6>
                 <span className='text-heading fw-medium'>$112.00</span>
               </div>

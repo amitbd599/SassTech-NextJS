@@ -47,7 +47,7 @@ const BannerFour = () => {
             <span className='text-capitalize font-caveat fw-bold tw-mb-6 h3'>
               With the world's favorite CRM
             </span>
-            <div className=''>
+            <div>
               <div className='position-relative d-inline-block'>
                 <h1 className='splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205'>
                   {" "}

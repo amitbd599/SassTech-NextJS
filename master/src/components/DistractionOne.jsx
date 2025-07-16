@@ -16,7 +16,7 @@ const DistractionOne = () => {
               with app integrations
             </h2>
           </div>
-          <div className=''>
+          <div>
             <Image
               width={1287}
               height={550}
@@ -26,7 +26,7 @@ const DistractionOne = () => {
               data-aos-duration={1500}
             />
           </div>
-          <div className=''>
+          <div>
             <div className='distraction-icon one position-absolute z-1 animation-scalation'>
               <Image
                 width={88}
@@ -81,7 +81,6 @@ const DistractionOne = () => {
                 height={94}
                 src='assets/images/thumbs/distraction-icon7.png'
                 alt='Icon Image'
-                className=''
               />
             </div>
           </div>

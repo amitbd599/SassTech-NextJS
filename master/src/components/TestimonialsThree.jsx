@@ -38,14 +38,13 @@ const TestimonialsThree = () => {
                     data-aos-anchor-placement='top-bottom'
                     data-aos-duration={600}
                   >
-                    <div className=''>
+                    <div>
                       <span className='tw-mb-705'>
                         <Image
                           width={100}
                           height={18}
                           src='assets/images/icons/ratings.svg'
                           alt=''
-                          className=''
                         />
                       </span>
                       <p className='text-30-px fw-normal text-white max-w-672-px tw-leading-145'>
@@ -64,7 +63,7 @@ const TestimonialsThree = () => {
                             alt='Client Thumb'
                           />
                         </div>
-                        <div className=''>
+                        <div>
                           <h6 className='text-white fw-medium tw-mb-1'>
                             James anderson{" "}
                           </h6>
@@ -82,14 +81,13 @@ const TestimonialsThree = () => {
                     data-aos-anchor-placement='top-bottom'
                     data-aos-duration={600}
                   >
-                    <div className=''>
+                    <div>
                       <span className='tw-mb-705'>
                         <Image
                           width={100}
                           height={18}
                           src='assets/images/icons/ratings.svg'
                           alt=''
-                          className=''
                         />
                       </span>
                       <p className='text-30-px fw-normal text-white max-w-672-px tw-leading-145'>
@@ -108,7 +106,7 @@ const TestimonialsThree = () => {
                             alt='Client Thumb'
                           />
                         </div>
-                        <div className=''>
+                        <div>
                           <h6 className='text-white fw-medium tw-mb-1'>
                             James anderson{" "}
                           </h6>

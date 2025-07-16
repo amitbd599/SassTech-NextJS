@@ -100,7 +100,7 @@ const BlogDetailsInner = () => {
                         John Mehedii
                       </span>
                     </div>
-                    <span className=''>
+                    <span>
                       <Image
                         width={42}
                         height={30}
@@ -181,7 +181,7 @@ const BlogDetailsInner = () => {
                 >
                   <div className='row gy-4'>
                     <div className='col-sm-6'>
-                      <div className=''>
+                      <div>
                         <Image
                           width={430}
                           height={430}
@@ -192,7 +192,7 @@ const BlogDetailsInner = () => {
                       </div>
                     </div>
                     <div className='col-sm-6'>
-                      <div className=''>
+                      <div>
                         <Image
                           width={430}
                           height={430}
@@ -307,7 +307,7 @@ const BlogDetailsInner = () => {
                     </div>
                     <div className='flex-grow-1'>
                       <div className='d-flex align-items-start justify-content-between tw-gap-1'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg line-clamp-1'>
                             Rohan De Spond
                           </h6>
@@ -349,7 +349,7 @@ const BlogDetailsInner = () => {
                     </div>
                     <div className='flex-grow-1'>
                       <div className='d-flex align-items-start justify-content-between tw-gap-1'>
-                        <div className=''>
+                        <div>
                           <h6 className='tw-text-lg line-clamp-1'>
                             Rohan De Spond
                           </h6>
@@ -569,7 +569,7 @@ const BlogDetailsInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -601,7 +601,7 @@ const BlogDetailsInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />
@@ -633,7 +633,7 @@ const BlogDetailsInner = () => {
                         className='w-100 h-100 object-fit-cover hover-scale-2 tw-duration-500'
                       />
                     </Link>
-                    <div className=''>
+                    <div>
                       <div className='d-flex align-items-center tw-gap-2'>
                         <span className='text-main-600 tw-text-lg'>
                           <i className='ph-bold ph-calendar-dots' />

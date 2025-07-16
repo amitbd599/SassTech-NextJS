@@ -107,9 +107,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 1 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -163,27 +163,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -202,9 +194,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 2 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -258,27 +250,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -297,9 +281,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 3 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -353,27 +337,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -392,9 +368,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 4 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -448,27 +424,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -487,9 +455,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 5 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -543,27 +511,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -582,9 +542,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 6 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -638,27 +598,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -677,9 +629,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 7 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -733,27 +685,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -772,9 +716,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 8 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -828,27 +772,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -867,9 +803,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 9 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -923,27 +859,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -962,9 +890,9 @@ const PrivacyPolicyInner = () => {
                       activeTab === 10 && "active"
                     } `}
                   >
-                    <div className=''>
+                    <div>
                       {/* Content Start */}
-                      <div className=''>
+                      <div>
                         <h3 className='tw-mb-8'>1.Cancellation and Changes</h3>
                         <h6 className='tw-mb-5'>Description:</h6>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>
@@ -1018,27 +946,19 @@ const PrivacyPolicyInner = () => {
                         <div className='tw-my-4'>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              30 days or more 50% of Deposit
-                            </span>
+                            <span>30 days or more 50% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              15 - 30 days 100% of Deposit
-                            </span>
+                            <span>15 - 30 days 100% of Deposit</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              8 - 15 days 80% of Tour Cost
-                            </span>
+                            <span>8 - 15 days 80% of Tour Cost</span>
                           </p>
                           <p className='fw-bold text-neutral-600 tw-text-lg tw-mb-4 d-flex align-items-center tw-gap-3'>
                             <span className='tw-w-105 tw-h-105 bg-neutral-600 rounded-circle' />
-                            <span className=''>
-                              1 - 7 days 100% of Tour Cost
-                            </span>
+                            <span>1 - 7 days 100% of Tour Cost</span>
                           </p>
                         </div>
                         <p className='text-neutral-500 tw-leading-212 tw-mb-6'>

@@ -25,7 +25,7 @@ const FooterFour = () => {
               </p>
               <div className='tw-mt-6 d-flex flex-column gap-4'>
                 <div className='d-flex align-items-center tw-gap-205'>
-                  <span className=''>
+                  <span>
                     <Image
                       width={22}
                       height={22}
@@ -38,7 +38,7 @@ const FooterFour = () => {
                   </span>
                 </div>
                 <div className='d-flex align-items-center tw-gap-205'>
-                  <span className=''>
+                  <span>
                     <Image
                       width={20}
                       height={20}
@@ -56,7 +56,7 @@ const FooterFour = () => {
               <div className='tw-w-1-px h-100 bg-neutral-200' />
             </div>
             <div className='tw-pt-100-px tw-pb-80-px'>
-              <div className=''>
+              <div>
                 <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                   Our Location
                 </h5>
@@ -108,7 +108,7 @@ const FooterFour = () => {
               <div className='tw-w-1-px h-100 bg-neutral-200' />
             </div>
             <div className='tw-pt-100-px tw-pb-80-px'>
-              <div className=''>
+              <div>
                 <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                   Contact info
                 </h5>
@@ -160,7 +160,7 @@ const FooterFour = () => {
               <div className='tw-w-1-px h-100 bg-neutral-200' />
             </div>
             <div className='tw-pt-100-px tw-pb-80-px'>
-              <div className=''>
+              <div>
                 <h5 className='fw-semibold fw-bold text-heading tw-mb-8 text-uppercase'>
                   Newsletter
                 </h5>

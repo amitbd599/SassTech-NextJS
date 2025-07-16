@@ -13,7 +13,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>
                   Collaborate
                 </h5>
@@ -66,7 +66,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={700}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>
                   My account
                 </h5>
@@ -111,7 +111,7 @@ const FooterThree = () => {
               data-aos='fade-up'
               data-aos-duration={800}
             >
-              <div className=''>
+              <div>
                 <h5 className='fw-medium tw-mb-8 splitTextStyleOne'>Service</h5>
                 <ul className='d-flex flex-column tw-gap-4'>
                   <li>

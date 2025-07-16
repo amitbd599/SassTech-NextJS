@@ -47,7 +47,6 @@ const FeaturesThree = () => {
             </h2>
           </div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}
@@ -206,7 +205,7 @@ const FeaturesThree = () => {
                     + 15 people
                   </span>
                 </div>
-                <div className=''>
+                <div>
                   <input type='file' id='uploadPhoto' hidden={true} />
                   <label
                     htmlFor='uploadPhoto'

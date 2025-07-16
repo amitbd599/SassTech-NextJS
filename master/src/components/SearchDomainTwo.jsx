@@ -170,7 +170,7 @@ const SearchDomainTwo = () => {
               </div>
               <div className='col-md-7'>
                 <div className='ps-lg-5'>
-                  <div className=''>
+                  <div>
                     <span className='tw-px-6 tw-py-1 bg-purple text-white rounded-pill fw-medium tw-mb-5'>
                       Find a new domain
                     </span>

@@ -13,7 +13,6 @@ const AboutFeatures = () => {
             </h3>
           </div>
           <div
-            className=''
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
             data-aos-duration={800}

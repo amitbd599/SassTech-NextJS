@@ -8,7 +8,7 @@ const DownloadAppOne = () => {
       <div className='container'>
         <div className='row gy-4 align-items-center'>
           <div className='col-md-6'>
-            <div className=''>
+            <div>
               <Image
                 width={633}
                 height={619}
@@ -18,7 +18,7 @@ const DownloadAppOne = () => {
             </div>
           </div>
           <div className='col-md-6'>
-            <div className=''>
+            <div>
               <div className='max-w-780-px text-start mx-auto'>
                 <div
                   className='bg-main-600 tw-py-2 tw-px-7 rounded-pill text-white fw-bold text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-6 min-w-max common-shadow-twentyNine'

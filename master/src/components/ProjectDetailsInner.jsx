@@ -37,19 +37,19 @@ const ProjectDetailsInner = () => {
           </div>
           <div className='col-lg-3'>
             <div className='bg-neutral-200 tw-p-54-px d-flex flex-column tw-gap-56-px'>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Clients</h6>
                 <span className='text-neutral-600'>Design Studio In USA </span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Project Type</h6>
                 <span className='text-neutral-600'>Digital Product Design</span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Date</h6>
                 <span className='text-neutral-600'>25 October 2023</span>
               </div>
-              <div className=''>
+              <div>
                 <h6 className='tw-mb-3 fw-semibold'>Website</h6>
                 <Link
                   href='https://themeforest.net6ser/webnextpro'
@@ -215,7 +215,7 @@ const ProjectDetailsInner = () => {
         <div className='tw-mt-80-px '>
           <div className='row gy-4'>
             <div className='col-sm-6'>
-              <div className=''>
+              <div>
                 <Link href='/project' className='w-100 h-100'>
                   <Image
                     width={599}
@@ -247,7 +247,7 @@ const ProjectDetailsInner = () => {
               </div>
             </div>
             <div className='col-sm-6'>
-              <div className=''>
+              <div>
                 <Link href='/project' className='w-100 h-100'>
                   <Image
                     width={599}

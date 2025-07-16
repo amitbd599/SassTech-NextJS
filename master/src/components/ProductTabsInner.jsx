@@ -6,7 +6,7 @@ const ProductTabsInner = () => {
   return (
     <section className='py-120 section-bg-two'>
       <div className='container'>
-        <div className=''>
+        <div>
           <ul
             className='nav nav-pills style-border tw-mb-11 tw-gap-9 flex-wrap'
             id='pills-tab'
@@ -57,8 +57,8 @@ const ProductTabsInner = () => {
             <div
               className={`tab-pane fade show ${activeTab === 1 && "active"}  `}
             >
-              <div className=''>
-                <div className=''>
+              <div>
+                <div>
                   <h4 className='tw-mb-3'>
                     Experience is over the world visit
                   </h4>
@@ -179,8 +179,8 @@ const ProductTabsInner = () => {
             <div
               className={`tab-pane fade show ${activeTab === 2 && "active"}  `}
             >
-              <div className=''>
-                <div className=''>
+              <div>
+                <div>
                   <h4 className='tw-mb-3'>
                     Experience is over the world visit
                   </h4>
@@ -301,8 +301,8 @@ const ProductTabsInner = () => {
             <div
               className={`tab-pane fade show ${activeTab === 3 && "active"}  `}
             >
-              <div className=''>
-                <div className=''>
+              <div>
+                <div>
                   <h4 className='tw-mb-3'>
                     Experience is over the world visit
                   </h4>
@@ -423,8 +423,8 @@ const ProductTabsInner = () => {
             <div
               className={`tab-pane fade show ${activeTab === 4 && "active"}  `}
             >
-              <div className=''>
-                <div className=''>
+              <div>
+                <div>
                   <h4 className='tw-mb-3'>
                     Experience is over the world visit
                   </h4>

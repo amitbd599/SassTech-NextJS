@@ -126,7 +126,7 @@ const ServicesDetailsInner = () => {
             </div>
           </div>
           <div className='col-xl-8 ps-xl-5'>
-            <div className=''>
+            <div>
               <Image
                 width={846}
                 height={473}
@@ -134,7 +134,7 @@ const ServicesDetailsInner = () => {
                 alt='Thumb'
               />
               <div className='tw-mt-8 d-flex flex-column tw-gap-12'>
-                <div className=''>
+                <div>
                   <h4 className='tw-mb-3 splitTextStyleOne'>
                     Cargo Transportation service
                   </h4>
@@ -148,7 +148,7 @@ const ServicesDetailsInner = () => {
                     perspiciatis ut molestiae, delectus rem.
                   </p>
                 </div>
-                <div className=''>
+                <div>
                   <h5 className='tw-mb-3 splitTextStyleOne'>
                     Sed ut perspiciatis unde omnis iste natus et
                   </h5>
@@ -180,7 +180,7 @@ const ServicesDetailsInner = () => {
                       <i className='ph-fill ph-play' />
                     </a>
                   </div>
-                  <div className=''>
+                  <div>
                     <h4 className='tw-mb-3 splitTextStyleOne'>
                       Why Security Important?
                     </h4>
@@ -246,7 +246,7 @@ const ServicesDetailsInner = () => {
                   money by produ The NDIS Cing or buying and selling products
                   akes a lifetime
                 </p>
-                <div className=''>
+                <div>
                   <h5 className='tw-mb-8'>Eligibility checklist :</h5>
                   <div className='row gy-4'>
                     <div className='col-sm-8'>

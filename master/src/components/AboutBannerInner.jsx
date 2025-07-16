@@ -42,7 +42,7 @@ const AboutBannerInner = () => {
                   </div>
                 </div>
               </div>
-              <div className=''>
+              <div>
                 <div className='positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown one'>
                   <Image
                     width={105}

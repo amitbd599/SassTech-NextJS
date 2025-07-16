@@ -250,7 +250,7 @@ const AboutTwo = () => {
           {/* About two thumbs slider End */}
           {/* About two content start */}
           <div className='col-lg-7 ps-lg-5'>
-            <div className=''>
+            <div>
               <div
                 className='bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
                 data-aos='fade-up'

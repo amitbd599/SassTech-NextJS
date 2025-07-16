@@ -36,7 +36,7 @@ const TaskManagementOne = () => {
               data-aos-anchor-placement='top-bottom'
               data-aos-duration={600}
             >
-              <div className=''>
+              <div>
                 Up to{" "}
                 <span className='text-yellow text-stroke-yellow'>70%</span> off
                 managed cloud hosting

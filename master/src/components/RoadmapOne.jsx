@@ -52,7 +52,6 @@ const RoadmapOne = () => {
                       <span className='button__label'>Get Started</span>
                     </Link>
                     <div
-                      className=''
                       data-aos='fade-up'
                       data-aos-anchor-placement='top-bottom'
                       data-aos-duration={800}

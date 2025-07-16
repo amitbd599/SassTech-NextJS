@@ -4,7 +4,7 @@ import React from "react";
 
 const DrivenSectionOne = () => {
   return (
-    <section className=''>
+    <section>
       <div className='container'>
         <div>
           <Image

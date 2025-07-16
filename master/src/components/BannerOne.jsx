@@ -23,7 +23,7 @@ const BannerOne = () => {
       <div className='container max-w-1400-px'>
         <div className='row gy-4 align-items-center'>
           <div className='col-lg-6'>
-            <div className=''>
+            <div>
               <h1 className='splitTextStyleOne fw-light tw-leading-104'>
                 <span className='d-inline-block '>Transform </span>{" "}
                 <span className='d-inline-block fw-semibold'> Your </span>{" "}
@@ -52,7 +52,6 @@ const BannerOne = () => {
                   </Link>
                 </div>
                 <div
-                  className=''
                   data-aos='fade-up'
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
@@ -130,7 +129,6 @@ const BannerOne = () => {
                   height={18}
                   src='assets/images/icons/ratings.svg'
                   alt='Sasstech Next JS'
-                  className=''
                 />
                 <div className='tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px'>
                   <span className='tw-text-lg text-heading fw-semibold'>

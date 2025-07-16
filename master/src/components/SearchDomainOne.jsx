@@ -396,7 +396,7 @@ const SearchDomainOne = () => {
           data-aos-anchor-placement='top-bottom'
           data-aos-duration={800}
         >
-          <span className=''>
+          <span>
             Our Customers say <span className='fw-bold tw-ms-2'>Great</span>{" "}
           </span>
           <Image
@@ -404,9 +404,8 @@ const SearchDomainOne = () => {
             height={18}
             src='assets/images/icons/ratings.svg'
             alt=''
-            className=''
           />
-          <span className=''>4.1 out of 5 based on 16,158 reviews</span>
+          <span>4.1 out of 5 based on 16,158 reviews</span>
           <div className='d-flex align-items-center tw-gap-05'>
             <Image
               width={19}

@@ -82,7 +82,7 @@ const ServicesOne = () => {
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -123,7 +123,7 @@ const ServicesOne = () => {
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -164,7 +164,7 @@ const ServicesOne = () => {
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -205,7 +205,7 @@ const ServicesOne = () => {
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
@@ -246,7 +246,7 @@ const ServicesOne = () => {
                       className='animate__heartBeat'
                     />
                   </span>
-                  <div className=''>
+                  <div>
                     <div className='group-hover-item-d-none tw-mb-4'>
                       <span className='tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600'>
                         Easy Invoicing
