@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -25,7 +26,9 @@ const FeaturesThree = () => {
 
   return (
     <section className='features-three py-120 position-relative z-1'>
-      <img
+      <Image
+        width={272}
+        height={640}
         src='assets/images/shapes/gradient-blue-yellow.png'
         alt='Gradient'
         className='position-absolute tw-end-0 bottom-0 z-n1'
@@ -172,21 +175,27 @@ const FeaturesThree = () => {
                 <div className='d-flex align-items-center tw-gap-2'>
                   <div className='d-flex align-items-center'>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2 border border-white border-3'>
-                      <img
+                      <Image
+                        width={35}
+                        height={35}
                         src='assets/images/thumbs/client-img1.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1 border border-white border-3'>
-                      <img
+                      <Image
+                        width={35}
+                        height={35}
                         src='assets/images/thumbs/client-img2.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px border border-white border-3'>
-                      <img
+                      <Image
+                        width={35}
+                        height={35}
                         src='assets/images/thumbs/client-img3.png'
                         alt='Client Image'
                         className='w-100 h-100 object-fit-cover'
@@ -223,7 +232,9 @@ const FeaturesThree = () => {
                       Asynchronous Meetings
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
+                      <Image
+                        width={48}
+                        height={48}
                         src='assets/images/icons/features-three-icon1.svg'
                         alt='Icon'
                       />
@@ -242,7 +253,9 @@ const FeaturesThree = () => {
                       Monitoring your Time
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
+                      <Image
+                        width={48}
+                        height={48}
                         src='assets/images/icons/features-three-icon2.svg'
                         alt='Icon'
                       />
@@ -270,7 +283,9 @@ const FeaturesThree = () => {
                       built-in Automation
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
+                      <Image
+                        width={50}
+                        height={50}
                         src='assets/images/icons/features-three-icon3.svg'
                         alt='Icon'
                       />
@@ -289,7 +304,9 @@ const FeaturesThree = () => {
                       Remote-Friendly Collaboration
                     </h5>
                     <span className='group-hover-item-text-invert tw-duration-300 animate__heartBeat'>
-                      <img
+                      <Image
+                        width={46}
+                        height={46}
                         src='assets/images/icons/features-three-icon4.svg'
                         alt='Icon'
                       />

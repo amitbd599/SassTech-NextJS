@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
+import Image from "next/image";
 
 const bigImages = [
   "/assets/images/thumbs/shop-details-thumb1.png",
@@ -44,7 +45,12 @@ export default function ShopGallery() {
         {bigImages.map((src, i) => (
           <SwiperSlide key={i}>
             <div className='border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden'>
-              <img src={src} alt={`Product ${i + 1}`} />
+              <Image
+                width={468}
+                height={600}
+                src={src}
+                alt={`Product ${i + 1}`}
+              />
             </div>
           </SwiperSlide>
         ))}
@@ -59,12 +65,12 @@ export default function ShopGallery() {
         slidesPerView={4}
         freeMode={true}
         watchSlidesProgress={true}
-        className='shop-small-thumbs tw-mt-8'
+        className='shop-small-thumbs tw-mt-6'
       >
         {smallImages.map((src, i) => (
           <SwiperSlide key={i} className='h-100'>
             <div className='border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px'>
-              <img src={src} alt={`Thumb ${i + 1}`} />
+              <Image width={94} height={90} src={src} alt={`Thumb ${i + 1}`} />
             </div>
           </SwiperSlide>
         ))}

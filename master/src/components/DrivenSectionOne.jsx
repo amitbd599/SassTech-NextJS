@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,7 +7,12 @@ const DrivenSectionOne = () => {
     <section className=''>
       <div className='container'>
         <div>
-          <img src='assets/images/thumbs/driven-img.png' alt='Thumb' />
+          <Image
+            width={1290}
+            height={590}
+            src='assets/images/thumbs/driven-img.png'
+            alt='Thumb'
+          />
           <div className='max-w-780-px text-center mx-auto'>
             <div className='tw-mb-10 max-w-672-px mx-auto text-center'>
               <h4 className='tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm'>

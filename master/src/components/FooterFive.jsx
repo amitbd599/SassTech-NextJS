@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -47,7 +48,12 @@ const FooterFive = () => {
                   href='/'
                   className='link hover--translate-y-1 active--translate-y-scale-9 tw-mb-6'
                 >
-                  <img src='assets/images/logo/logo-four.png' alt='' />
+                  <Image
+                    width={150}
+                    height={30}
+                    src='assets/images/logo/logo-four.png'
+                    alt=''
+                  />
                 </Link>
                 <p className='max-w-250-px tw-text-lg text-neutral-600'>
                   Build a modern and creative website with crealand
@@ -55,7 +61,9 @@ const FooterFive = () => {
                 <div className='tw-mt-6 d-flex flex-column gap-4'>
                   <div className='d-flex align-items-center tw-gap-205'>
                     <span className=''>
-                      <img
+                      <Image
+                        width={22}
+                        height={22}
                         src='assets/images/icons/phone-icon.png'
                         alt='Icon'
                       />
@@ -66,7 +74,9 @@ const FooterFive = () => {
                   </div>
                   <div className='d-flex align-items-center tw-gap-205'>
                     <span className=''>
-                      <img
+                      <Image
+                        width={20}
+                        height={20}
                         src='assets/images/icons/message-icon.png'
                         alt='Icon'
                       />

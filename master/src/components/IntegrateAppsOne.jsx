@@ -2,6 +2,7 @@
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import Link from "next/link";
+import Image from "next/image";
 
 const IntegrateAppsOne = () => {
   const { ref, inView } = useInView({
@@ -9,7 +10,9 @@ const IntegrateAppsOne = () => {
   });
   return (
     <section className='pt-120 pb-120 overflow-hidden position-relative'>
-      <img
+      <Image
+        width={1918}
+        height={862}
         src='assets/images/bg/mash-gradient-bg6.png'
         alt='Gradient BG'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
@@ -23,16 +26,22 @@ const IntegrateAppsOne = () => {
             data-aos-duration={2000}
           >
             <div className='position-relative tw-p-12 text-center'>
-              <img
+              <Image
+                width={486}
+                height={487}
                 src='assets/images/shapes/rounded-circle.png'
                 alt='Bg Round'
               />
-              <img
+              <Image
+                width={517}
+                height={591}
                 src='assets/images/shapes/round-icons-big.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-right'
               />
-              <img
+              <Image
+                width={488}
+                height={496}
                 src='assets/images/shapes/round-icons-small.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-left'

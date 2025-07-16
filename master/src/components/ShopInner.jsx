@@ -1,5 +1,6 @@
 "use client";
 import PriceRangeFilter from "@/helper/PriceRangeFilter";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -433,7 +434,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={210}
+                          height={212}
                           src='assets/images/thumbs/product-img1.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -501,7 +504,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={198}
+                          height={201}
                           src='assets/images/thumbs/product-img2.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -569,7 +574,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={111}
+                          height={177}
                           src='assets/images/thumbs/product-img3.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -637,7 +644,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={188}
+                          height={190}
                           src='assets/images/thumbs/product-img4.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -705,7 +714,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={196}
+                          height={198}
                           src='assets/images/thumbs/product-img5.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -773,7 +784,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={136}
+                          height={165}
                           src='assets/images/thumbs/product-img6.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -841,7 +854,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={200}
+                          height={202}
                           src='assets/images/thumbs/product-img7.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -909,7 +924,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={150}
+                          height={152}
                           src='assets/images/thumbs/product-img8.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -977,7 +994,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={159}
+                          height={160}
                           src='assets/images/thumbs/product-img9.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -1045,7 +1064,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={200}
+                          height={202}
                           src='assets/images/thumbs/product-img10.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -1113,7 +1134,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={200}
+                          height={202}
                           src='assets/images/thumbs/product-img11.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'
@@ -1181,7 +1204,9 @@ const ShopInner = () => {
                   <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
                     <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                       <Link href='/shop-details' className='d-block'>
-                        <img
+                        <Image
+                          width={200}
+                          height={220}
                           src='assets/images/thumbs/product-img12.png'
                           alt='Product Thumbnail'
                           className='group-hover-item-scale-12 tw-duration-300'

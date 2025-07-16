@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick/lib/slider";
 
 const TestimonialsFive = () => {
@@ -63,7 +64,9 @@ const TestimonialsFive = () => {
                       </span>
                     </div>
                     <div className=''>
-                      <img
+                      <Image
+                        width={100}
+                        height={18}
                         src='assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
@@ -91,7 +94,9 @@ const TestimonialsFive = () => {
                       </span>
                     </div>
                     <div className=''>
-                      <img
+                      <Image
+                        width={100}
+                        height={18}
                         src='assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
@@ -119,7 +124,9 @@ const TestimonialsFive = () => {
                       </span>
                     </div>
                     <div className=''>
-                      <img
+                      <Image
+                        width={100}
+                        height={18}
                         src='assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />
@@ -147,7 +154,9 @@ const TestimonialsFive = () => {
                       </span>
                     </div>
                     <div className=''>
-                      <img
+                      <Image
+                        width={100}
+                        height={18}
                         src='assets/images/icons/ratings.svg'
                         alt='Star Rating'
                       />

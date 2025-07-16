@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick/lib/slider";
 
 const BrandFive = () => {
@@ -60,8 +61,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={600}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={105}
+                    height={34}
                     src='assets/images/thumbs/brand-three-img1.png'
                     alt='Logo'
                   />
@@ -73,8 +76,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={700}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={103}
+                    height={36}
                     src='assets/images/thumbs/brand-three-img2.png'
                     alt='Logo'
                   />
@@ -86,8 +91,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={105}
+                    height={16}
                     src='assets/images/thumbs/brand-three-img3.png'
                     alt='Logo'
                   />
@@ -99,8 +106,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={600}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={75}
+                    height={26}
                     src='assets/images/thumbs/brand-three-img4.png'
                     alt='Logo'
                   />
@@ -112,8 +121,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={700}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={83}
+                    height={24}
                     src='assets/images/thumbs/brand-three-img5.png'
                     alt='Logo'
                   />
@@ -125,8 +136,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={800}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={121}
+                    height={34}
                     src='assets/images/thumbs/brand-three-img6.png'
                     alt='Logo'
                   />
@@ -138,8 +151,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={600}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={90}
+                    height={22}
                     src='assets/images/thumbs/brand-three-img7.png'
                     alt='Logo'
                   />
@@ -151,8 +166,10 @@ const BrandFive = () => {
                 data-aos-anchor-placement='top-bottom'
                 data-aos-duration={700}
               >
-                <div className=''>
-                  <img
+                <div>
+                  <Image
+                    width={83}
+                    height={24}
                     src='assets/images/thumbs/brand-three-img5.png'
                     alt='Logo'
                   />

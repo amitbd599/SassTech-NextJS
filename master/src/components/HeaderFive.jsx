@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -32,10 +33,10 @@ const HeaderFive = () => {
       label: "Home",
       children: [
         { label: "IT Solution", href: "/" },
-        { label: "Web Hosting", href: "/index-2" },
-        { label: "Task Management", href: "/index-3" },
-        { label: "CRM Software", href: "/index-4" },
-        { label: "App Landing", href: "/index-5" },
+        { label: "Web Hosting", href: "/demo-2" },
+        { label: "Task Management", href: "/demo-3" },
+        { label: "CRM Software", href: "/demo-4" },
+        { label: "App Landing", href: "/demo-5" },
       ],
     },
     {
@@ -93,7 +94,9 @@ const HeaderFive = () => {
                 href='/'
                 className='link hover--translate-y-1 active--translate-y-scale-9'
               >
-                <img
+                <Image
+                  width={150}
+                  height={30}
                   src='assets/images/logo/logo-three.png'
                   alt='Logo'
                   className='max-w-200-px'
@@ -199,7 +202,12 @@ const HeaderFive = () => {
           </button>
           <div className='mobile-menu__inner'>
             <Link href='/' className='mobile-menu__logo'>
-              <img src='assets/images/logo/logo.png' alt='Logo' />
+              <Image
+                width={150}
+                height={30}
+                src='assets/images/logo/logo.png'
+                alt='Logo'
+              />
             </Link>
 
             <div className='mobile-menu__menu'>

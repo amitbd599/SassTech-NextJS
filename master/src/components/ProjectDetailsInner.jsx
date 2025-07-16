@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -64,7 +65,9 @@ const ProjectDetailsInner = () => {
           <div className='row gy-4'>
             <div className='col-sm-4'>
               <div className='h-100'>
-                <img
+                <Image
+                  width={390}
+                  height={500}
                   src='assets/images/thumbs/project-details-img1.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
@@ -73,7 +76,9 @@ const ProjectDetailsInner = () => {
             </div>
             <div className='col-sm-8'>
               <div className='h-100'>
-                <img
+                <Image
+                  width={807}
+                  height={500}
                   src='assets/images/thumbs/project-details-img2.png'
                   alt='Thumb'
                   className='w-100 h-100 object-fit-cover'
@@ -212,7 +217,9 @@ const ProjectDetailsInner = () => {
             <div className='col-sm-6'>
               <div className=''>
                 <Link href='/project' className='w-100 h-100'>
-                  <img
+                  <Image
+                    width={599}
+                    height={500}
                     src='assets/images/thumbs/project-details-img3.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'
@@ -242,7 +249,9 @@ const ProjectDetailsInner = () => {
             <div className='col-sm-6'>
               <div className=''>
                 <Link href='/project' className='w-100 h-100'>
-                  <img
+                  <Image
+                    width={599}
+                    height={500}
                     src='assets/images/thumbs/project-details-img4.png'
                     alt='Thumb'
                     className='w-100 h-100 object-fit-cover'

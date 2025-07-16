@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -31,10 +32,11 @@ const BannerFour = () => {
       img: "assets/images/thumbs/banner-dashboard.png",
     },
   ];
-  const tabImages = [{ id: "data" }];
   return (
     <section className='banner-two position-relative z-1 pb-0'>
-      <img
+      <Image
+        width={1920}
+        height={1012}
         src='assets/images/bg/mash-gradient-bg1.png'
         alt='Cloud Shape'
         className='position-absolute top-0 tw-start-0 w-100 z-n1 banner-gradient-bg'
@@ -136,7 +138,9 @@ const BannerFour = () => {
                   >
                     <div className='shadow-lg tw-p-405 tw-rounded-3xl bg-white-gradient common-shadow-eleven backdrop-blur-20 border border-white-02'>
                       <div className='common-shadow-twentyTwo tw-rounded-xl'>
-                        <img
+                        <Image
+                          width={1290}
+                          height={726}
                           src={tab.img}
                           alt='Dashboard Thumb'
                           className='w-100 h-100'

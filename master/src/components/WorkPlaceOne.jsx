@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -6,7 +7,9 @@ const WorkPlaceOne = () => {
   const [active, setActive] = useState(1);
   return (
     <section className='workplace-team py-120 gradient-bg-five position-relative z-1'>
-      <img
+      <Image
+        width={1920}
+        height={1175}
         src='assets/images/shapes/curve-way.png'
         alt='Shape'
         className='position-absolute tw-start-0 bottom-0 z-n1 w-100'
@@ -51,7 +54,12 @@ const WorkPlaceOne = () => {
               <div className='bg-neutral-100 tw-rounded-2xl tw-p-4 max-w-330-px flex-shrink-0'>
                 <div className='tw-ps-4 tw-pt-2 tw-mb-10 tw-pb-10'>
                   <Link href='/'>
-                    <img src='assets/images/logo/logo-two.png' alt='Logo' />
+                    <Image
+                      width={120}
+                      height={30}
+                      src='assets/images/logo/logo-two.png'
+                      alt='Logo'
+                    />
                   </Link>
                 </div>
                 <div className=''>
@@ -68,7 +76,9 @@ const WorkPlaceOne = () => {
                       onClick={() => setActive(1)}
                     >
                       <span className='icon active-white animate__heartBeat'>
-                        <img
+                        <Image
+                          width={19}
+                          height={19}
                           src='assets/images/icons/workplace-tab-icon1.svg'
                           alt='Icon'
                         />
@@ -82,7 +92,9 @@ const WorkPlaceOne = () => {
                       onClick={() => setActive(2)}
                     >
                       <span className='icon active-white animate__heartBeat'>
-                        <img
+                        <Image
+                          width={20}
+                          height={22}
                           src='assets/images/icons/workplace-tab-icon2.svg'
                           alt='Icon'
                         />
@@ -96,7 +108,9 @@ const WorkPlaceOne = () => {
                       onClick={() => setActive(3)}
                     >
                       <span className='icon active-white animate__heartBeat'>
-                        <img
+                        <Image
+                          width={22}
+                          height={22}
                           src='assets/images/icons/workplace-tab-icon3.svg'
                           alt='Icon'
                         />
@@ -110,7 +124,9 @@ const WorkPlaceOne = () => {
                       onClick={() => setActive(4)}
                     >
                       <span className='icon active-white animate__heartBeat'>
-                        <img
+                        <Image
+                          width={23}
+                          height={23}
                           src='assets/images/icons/workplace-tab-icon4.svg'
                           alt='Icon'
                         />
@@ -124,7 +140,9 @@ const WorkPlaceOne = () => {
                       onClick={() => setActive(5)}
                     >
                       <span className='icon active-white animate__heartBeat'>
-                        <img
+                        <Image
+                          width={26}
+                          height={26}
                           src='assets/images/icons/workplace-tab-icon5.svg'
                           alt='Icon'
                         />
@@ -144,7 +162,9 @@ const WorkPlaceOne = () => {
                     } `}
                   >
                     <div className='tw-rounded-2xl'>
-                      <img
+                      <Image
+                        width={826}
+                        height={618}
                         src='assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
@@ -157,7 +177,9 @@ const WorkPlaceOne = () => {
                     } `}
                   >
                     <div className='tw-rounded-2xl'>
-                      <img
+                      <Image
+                        width={826}
+                        height={618}
                         src='assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
@@ -170,7 +192,9 @@ const WorkPlaceOne = () => {
                     } `}
                   >
                     <div className='tw-rounded-2xl'>
-                      <img
+                      <Image
+                        width={826}
+                        height={618}
                         src='assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
@@ -183,7 +207,9 @@ const WorkPlaceOne = () => {
                     } `}
                   >
                     <div className='tw-rounded-2xl'>
-                      <img
+                      <Image
+                        width={826}
+                        height={618}
                         src='assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'
@@ -196,7 +222,9 @@ const WorkPlaceOne = () => {
                     } `}
                   >
                     <div className='tw-rounded-2xl'>
-                      <img
+                      <Image
+                        width={826}
+                        height={618}
                         src='assets/images/thumbs/workplace-tab-thumb.png'
                         alt='Thumbs'
                         className='w-100 h-100'

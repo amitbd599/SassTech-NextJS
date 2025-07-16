@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -18,7 +19,9 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
+                  <Image
+                    width={210}
+                    height={212}
                     src='assets/images/thumbs/product-img1.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
@@ -86,7 +89,9 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
+                  <Image
+                    width={198}
+                    height={201}
                     src='assets/images/thumbs/product-img2.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
@@ -154,7 +159,9 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
+                  <Image
+                    width={111}
+                    height={177}
                     src='assets/images/thumbs/product-img3.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'
@@ -222,7 +229,9 @@ const FeaturedProductsInner = () => {
             <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
               <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
                 <Link href='/shop-detail' className='d-block'>
-                  <img
+                  <Image
+                    width={188}
+                    height={190}
                     src='assets/images/thumbs/product-img4.png'
                     alt='Product Thumbnail'
                     className='group-hover-item-scale-12 tw-duration-300'

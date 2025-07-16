@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useRef } from "react";
 import Slider from "react-slick/lib/slider";
 
@@ -18,7 +19,9 @@ const TestimonialsFour = () => {
   };
   return (
     <section className='testimonials-four py-120 position-relative z-1'>
-      <img
+      <Image
+        width={1920}
+        height={787}
         src='assets/images/bg/mash-gradient-bg5.png'
         alt='Gradient BG'
         className='position-absolute tw-start-0 top-0 w-100 h-100 z-n1'
@@ -43,7 +46,9 @@ const TestimonialsFour = () => {
               <div className='tw-mt-12 d-flex align-items-center tw-gap-405 flex-sm-nowrap flex-wrap'>
                 <div className='tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4'>
                   <span>
-                    <img
+                    <Image
+                      width={59}
+                      height={59}
                       src='assets/images/icons/testimonials-four-icon1.png'
                       alt='Icon'
                     />
@@ -76,7 +81,9 @@ const TestimonialsFour = () => {
                 </div>
                 <div className='tw-rounded-xl bg-white-06 tw-py-205 tw-px-5 d-flex align-items-center tw-gap-4'>
                   <span>
-                    <img
+                    <Image
+                      width={64}
+                      height={61}
                       src='assets/images/icons/testimonials-four-icon2.png'
                       alt='Icon'
                     />
@@ -117,7 +124,9 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
+                        <Image
+                          width={103}
+                          height={41}
                           src='assets/images/thumbs/website-owner-img1.png'
                           alt='Logo'
                           className='animate__flipInY'
@@ -132,7 +141,9 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
+                            <Image
+                              width={84}
+                              height={84}
                               src='assets/images/thumbs/testimonials-short-img1.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
@@ -147,7 +158,9 @@ const TestimonialsFour = () => {
                           </div>
                         </div>
                         <div className=''>
-                          <img
+                          <Image
+                            width={100}
+                            height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
                             className=''
@@ -161,7 +174,9 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
+                        <Image
+                          width={80}
+                          height={25}
                           src='assets/images/thumbs/website-owner-img2.png'
                           alt='Logo'
                           className='animate__flipInY'
@@ -176,7 +191,9 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
+                            <Image
+                              width={84}
+                              height={84}
                               src='assets/images/thumbs/testimonials-short-img2.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
@@ -191,7 +208,9 @@ const TestimonialsFour = () => {
                           </div>
                         </div>
                         <div className=''>
-                          <img
+                          <Image
+                            width={100}
+                            height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
                             className=''
@@ -205,7 +224,9 @@ const TestimonialsFour = () => {
                   <div className='bg-white tw-rounded-2xl common-shadow-twentySix box-layer tw-mb-12'>
                     <div className='box-layer-two tw-p-54-px tw-rounded-2xl bg-white'>
                       <span className='tw-mb-5 animate-left-right animation-delay-3 tw-duration-200'>
-                        <img
+                        <Image
+                          width={120}
+                          height={38}
                           src='assets/images/thumbs/website-owner-img3.png'
                           alt='Logo'
                           className='animate__flipInY'
@@ -220,7 +241,9 @@ const TestimonialsFour = () => {
                       <div className='d-flex align-items-center justify-content-between animate-left-right animation-delay-3'>
                         <div className='d-flex align-items-center tw-gap-6 tw-duration-200'>
                           <div className='tw-h-84-px tw-w-84-px rounded-circle'>
-                            <img
+                            <Image
+                              width={84}
+                              height={84}
                               src='assets/images/thumbs/testimonials-short-img3.png'
                               alt='Image'
                               className='w-100 h-100 object-fit-cover'
@@ -235,7 +258,9 @@ const TestimonialsFour = () => {
                           </div>
                         </div>
                         <div className=''>
-                          <img
+                          <Image
+                            width={100}
+                            height={18}
                             src='assets/images/icons/ratings.svg'
                             alt='Rating'
                             className=''

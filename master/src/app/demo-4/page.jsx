@@ -22,11 +22,11 @@ export async function generateMetadata() {
       title: "About | SassTech",
       description:
         "Learn more about our SaaS software, team, features, and IT solutions.",
-      url: "https://yourdomain.com/about",
+      url: "https://nextjs.sasstech.webnextpro.com/about",
       type: "website",
       images: [
         {
-          url: "https://yourdomain.com/images/about-og.jpg",
+          url: "https://nextjs.sasstech.webnextpro.com/images/about-og.jpg",
           width: 1200,
           height: 630,
           alt: "About SassTech",

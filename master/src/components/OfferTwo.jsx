@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const OfferTwo = () => {
@@ -9,7 +10,9 @@ const OfferTwo = () => {
             <div className='row gy-5 flex-wrap-reverse'>
               <div className='col-md-6'>
                 <div className='pe-lg-5 d-flex h-100'>
-                  <img
+                  <Image
+                    width={523}
+                    height={652}
                     src='assets/images/thumbs/offer-five-thumb.png'
                     alt='Thumbnail'
                     className='w-100'
@@ -39,7 +42,9 @@ const OfferTwo = () => {
                   <div className='tw-mt-11 d-flex flex-column tw-gap-7'>
                     <div className='tw-rounded-3xl border border-neutral-100 tw-py-8 tw-px-9 hover-bg-neutral-100 tw-duration-300 d-flex align-items-start tw-gap-605'>
                       <div className=''>
-                        <img
+                        <Image
+                          width={43}
+                          height={43}
                           src='assets/images/icons/offer-five-icon1.png'
                           alt='icon'
                         />
@@ -56,7 +61,9 @@ const OfferTwo = () => {
                     </div>
                     <div className='tw-rounded-3xl border border-neutral-100 tw-py-8 tw-px-9 hover-bg-neutral-100 tw-duration-300 d-flex align-items-start tw-gap-605'>
                       <div className=''>
-                        <img
+                        <Image
+                          width={45}
+                          height={45}
                           src='assets/images/icons/offer-five-icon2.png'
                           alt='icon'
                         />

@@ -1,14 +1,19 @@
+import Image from "next/image";
 import React from "react";
 
 const AppScreenshotOne = () => {
   return (
     <section className='app-screenshot position-relative gradient-bg-nine z-1 overflow-hidden'>
-      <img
+      <Image
+        width={89}
+        height={89}
         src='assets/images/shapes/arrow-synchronize.png'
         alt='Arrow Synchronize Shape'
         className='position-absolute top-0 tw-start-0 tw-ms-17 tw-mt-160-px animation-rotate-center d-md-block d-none'
       />
-      <img
+      <Image
+        width={425}
+        height={1074}
         src='assets/images/shapes/pattern-shape1.png'
         alt='Pattern Shape'
         className='position-absolute top-0 tw-start-0 z-n1'
@@ -33,7 +38,9 @@ const AppScreenshotOne = () => {
           </p>
         </div>
         <div className='text-center'>
-          <img
+          <Image
+            width={1327}
+            height={621}
             src='assets/images/thumbs/app-download-thumb.png'
             alt='Screenshot Images'
             data-aos='fade-up'

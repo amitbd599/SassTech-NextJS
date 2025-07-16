@@ -33,10 +33,10 @@ const HeaderTwo = () => {
       label: "Home",
       children: [
         { label: "IT Solution", href: "/" },
-        { label: "Web Hosting", href: "/index-2" },
-        { label: "Task Management", href: "/index-3" },
-        { label: "CRM Software", href: "/index-4" },
-        { label: "App Landing", href: "/index-5" },
+        { label: "Web Hosting", href: "/demo-2" },
+        { label: "Task Management", href: "/demo-3" },
+        { label: "CRM Software", href: "/demo-4" },
+        { label: "App Landing", href: "/demo-5" },
       ],
     },
     {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -13,16 +14,22 @@ const IntegratedAppsInner = () => {
             data-aos-duration={2000}
           >
             <div className='position-relative tw-p-12 text-center'>
-              <img
+              <Image
+                width={486}
+                height={487}
                 src='assets/images/shapes/rounded-circle.png'
                 alt='Bg Round'
               />
-              <img
+              <Image
+                width={517}
+                height={591}
                 src='assets/images/shapes/round-icons-big.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-right'
               />
-              <img
+              <Image
+                width={488}
+                height={496}
                 src='assets/images/shapes/round-icons-small.png'
                 alt='Icons'
                 className='position-absolute top-50 start-50 animation-rotate-left'

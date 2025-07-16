@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,7 +6,9 @@ const FeaturesFour = () => {
   return (
     <section className='features-four'>
       <div className='py-120 tw-mx-48-px position-relative'>
-        <img
+        <Image
+          width={1822}
+          height={1327}
           src='assets/images/bg/mash-gradient-bg2.png'
           alt='Mash Gradient BG'
           className='w-100 h-100 position-absolute top-0 tw-start-0 z-n1'
@@ -40,12 +43,16 @@ const FeaturesFour = () => {
                   >
                     Transfer domain
                   </Link>
-                  <img
+                  <Image
+                    width={170}
+                    height={180}
                     src='assets/images/thumbs/features-four-thumb101.png'
                     alt='Thumbnail'
                     className='max-w-40-percent position-absolute top-0 tw-mt-5 tw-end-0 tw-me-5 common-shadow-twentyFive tw-rounded-2xl d-xl-block d-none'
                   />
-                  <img
+                  <Image
+                    width={160}
+                    height={190}
                     src='assets/images/thumbs/features-four-thumb102.png'
                     alt='Thumbnail'
                     className='max-w-40-percent position-absolute bottom-0 tw-start-45 tw-me-5 common-shadow-twentyFive tw-rounded-2xl'
@@ -71,7 +78,9 @@ const FeaturesFour = () => {
                   >
                     Transfer domain
                   </Link>
-                  <img
+                  <Image
+                    width={266}
+                    height={217}
                     src='assets/images/thumbs/features-four-thumb2.png'
                     alt='Thumbnail'
                     className='max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-8 tw-rounded-2xl'
@@ -97,7 +106,9 @@ const FeaturesFour = () => {
                   >
                     Transfer domain
                   </Link>
-                  <img
+                  <Image
+                    width={264}
+                    height={245}
                     src='assets/images/thumbs/features-four-thumb3.png'
                     alt='Thumbnail'
                     className='max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-10 tw-rounded-2xl'
@@ -123,7 +134,9 @@ const FeaturesFour = () => {
                   >
                     Transfer domain
                   </Link>
-                  <img
+                  <Image
+                    width={262}
+                    height={243}
                     src='assets/images/thumbs/features-four-thumb4.png'
                     alt='Thumbnail'
                     className='max-w-40-percent position-absolute bottom-0 tw-end-0 tw-me-8 tw-rounded-2xl'

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,7 +6,9 @@ const BannerFive = () => {
   return (
     <section className='banner-five'>
       <div className='tw-pt-100-px tw-mx-48-px position-relative gradient-bg-seven rounded-top-30-px z-1'>
-        <img
+        <Image
+          width={1833}
+          height={675}
           src='assets/images/shapes/wave-line-shadow.png'
           alt='Wave Line shape'
           className='position-absolute tw-start-0 w-100 bottom-0 z-n1 pb-120'
@@ -41,7 +44,9 @@ const BannerFive = () => {
                         href='https://play.google.com/store/apps'
                         className='hover--translate-y-1 active--translate-y-scale-9 tw-rounded-2xl common-shadow-twentyEight'
                       >
-                        <img
+                        <Image
+                          width={198}
+                          height={63}
                           src='assets/images/icons/store-two1.png'
                           alt='App Store'
                         />
@@ -56,7 +61,9 @@ const BannerFive = () => {
                         href='https://www.apple.com/app-store'
                         className='hover--translate-y-1 active--translate-y-scale-9 tw-rounded-2xl common-shadow-twentyEight'
                       >
-                        <img
+                        <Image
+                          width={199}
+                          height={62}
                           src='assets/images/icons/store-two2.png'
                           alt='Google Store'
                         />
@@ -65,7 +72,9 @@ const BannerFive = () => {
                   </div>
                 </div>
                 <div className='tw-mt-14 d-inline-flex'>
-                  <img
+                  <Image
+                    width={1176}
+                    height={716}
                     src='assets/images/thumbs/banner-five-thumb.png'
                     alt='Thumbnail'
                     data-aos='zoom-in'

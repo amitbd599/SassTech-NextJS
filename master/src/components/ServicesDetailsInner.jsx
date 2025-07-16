@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -126,7 +127,9 @@ const ServicesDetailsInner = () => {
           </div>
           <div className='col-xl-8 ps-xl-5'>
             <div className=''>
-              <img
+              <Image
+                width={846}
+                height={473}
                 src='assets/images/thumbs/service-details-img.png'
                 alt='Thumb'
               />
@@ -163,7 +166,9 @@ const ServicesDetailsInner = () => {
                 </div>
                 <div className='d-grid d-md-flex tw-gap-9'>
                   <div className='position-relative max-w-390-px w-100'>
-                    <img
+                    <Image
+                      width={392}
+                      height={273}
                       src='assets/images/thumbs/service-details-video-img.jpg'
                       alt='Thumb'
                       className='w-100 h-100 object-fit-cover'
@@ -245,28 +250,36 @@ const ServicesDetailsInner = () => {
                   <h5 className='tw-mb-8'>Eligibility checklist :</h5>
                   <div className='row gy-4'>
                     <div className='col-sm-8'>
-                      <img
+                      <Image
+                        width={518}
+                        height={218}
                         src='assets/images/thumbs/service-details-img1.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-4'>
-                      <img
+                      <Image
+                        width={300}
+                        height={218}
                         src='assets/images/thumbs/service-details-img2.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-4'>
-                      <img
+                      <Image
+                        width={300}
+                        height={273}
                         src='assets/images/thumbs/service-details-img3.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'
                       />
                     </div>
                     <div className='col-sm-8'>
-                      <img
+                      <Image
+                        width={520}
+                        height={273}
                         src='assets/images/thumbs/service-details-img4.jpg'
                         alt='Thumb'
                         className='w-100 h-100 object-fit-cover'

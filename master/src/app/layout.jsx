@@ -6,7 +6,7 @@ import RouteScrollToTop from "@/helper/RouteScrollToTop";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./font.css";
-import "./globals.scss";
+import "./globals.css";
 
 export async function generateMetadata() {
   return {

@@ -1,10 +1,7 @@
 "use client";
-import dynamic from "next/dynamic";
-import InitializeAOS from "./InitializeAOS";
 
-const AOSWrapper = dynamic(() => import("@/helper/AOSWrapper"), {
-  ssr: false,
-});
+import InitializeAOS from "./InitializeAOS";
+import AOSWrapper from "@/helper/AOSWrapper";
 
 const AOSWrap = ({ children }) => {
   return (

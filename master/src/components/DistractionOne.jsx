@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -16,7 +17,9 @@ const DistractionOne = () => {
             </h2>
           </div>
           <div className=''>
-            <img
+            <Image
+              width={1287}
+              height={550}
               src='assets/images/shapes/net-shape.png'
               alt='Net Shape'
               data-aos='zoom-in'
@@ -25,43 +28,57 @@ const DistractionOne = () => {
           </div>
           <div className=''>
             <div className='distraction-icon one position-absolute z-1 animation-scalation'>
-              <img
+              <Image
+                width={88}
+                height={88}
                 src='assets/images/thumbs/distraction-icon1.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon two position-absolute z-1 animation-upDown'>
-              <img
+              <Image
+                width={104}
+                height={104}
                 src='assets/images/thumbs/distraction-icon2.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon three position-absolute z-1 animation-upDown animation-delay-1'>
-              <img
+              <Image
+                width={88}
+                height={88}
                 src='assets/images/thumbs/distraction-icon3.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon four position-absolute z-1 animation-upDown animation-delay-2'>
-              <img
+              <Image
+                width={94}
+                height={94}
                 src='assets/images/thumbs/distraction-icon4.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon five position-absolute z-1 animation-scalation animation-delay-1'>
-              <img
+              <Image
+                width={88}
+                height={88}
                 src='assets/images/thumbs/distraction-icon5.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon six position-absolute z-1 animation-scalation animation-delay-2'>
-              <img
+              <Image
+                width={88}
+                height={88}
                 src='assets/images/thumbs/distraction-icon6.png'
                 alt='Icon Image'
               />
             </div>
             <div className='distraction-icon seven position-absolute z-1'>
-              <img
+              <Image
+                width={94}
+                height={94}
                 src='assets/images/thumbs/distraction-icon7.png'
                 alt='Icon Image'
                 className=''
@@ -83,7 +100,9 @@ const DistractionOne = () => {
               <div className='d-flex align-items-center tw-gap-2 z-1'>
                 <span className='button__label'>Start Free Trial</span>
                 <span className='icon'>
-                  <img
+                  <Image
+                    width={18}
+                    height={16}
                     src='assets/images/icons/download-cloud-icon.png'
                     alt='Icon'
                   />

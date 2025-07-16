@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const AboutThree = () => {
@@ -22,7 +23,9 @@ const AboutThree = () => {
   ];
   return (
     <section className='about-two py-120 position-relative z-1 overflow-hidden'>
-      <img
+      <Image
+        width={419}
+        height={640}
         src='assets/images/bg/mash-gradient-bg3.png'
         alt='Gradient'
         className='position-absolute tw-start-0 top-0 z-n1'
@@ -32,24 +35,32 @@ const AboutThree = () => {
           <div className='col-lg-6'>
             <div className='position-relative'>
               <div className='tw-ps-14 position-relative'>
-                <img
+                <Image
+                  width={602}
+                  height={668}
                   src='assets/images/thumbs/about-four-thumb-1.png'
                   alt='Thumb'
                   className='w-100'
                 />
-                <img
+                <Image
+                  width={69}
+                  height={64}
                   src='assets/images/shapes/revenue-shape.png'
                   alt=''
                   className='flower animate__wobble__two position-absolute tw-start-0 bottom-100 tw--m-24-px z-n1'
                 />
               </div>
               <div className='position-absolute bottom-0 tw-start-0 tw-mb-6'>
-                <img
+                <Image
+                  width={115}
+                  height={195}
                   src='assets/images/thumbs/about-four-thumb-3.png'
                   alt='Thumb'
                   className='d-sm-block d-none tw-mb-4 animated-upDown'
                 />
-                <img
+                <Image
+                  width={221}
+                  height={200}
                   src='assets/images/thumbs/about-four-thumb-2.png'
                   alt='Thumb'
                   className='d-block common-shadow-twentyFour tw-rounded-2xl animated-upDown animation-delay-1'

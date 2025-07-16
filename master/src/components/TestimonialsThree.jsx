@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Slider from "react-slick";
 const TestimonialsThree = () => {
   const settings = {
@@ -19,7 +20,9 @@ const TestimonialsThree = () => {
         <div className='container  bg-main-three tw-rounded-2xl  tw-py-16 tw-px-11   tw-gap-74-px'>
           <div className='row '>
             <div className='col-md-5 text-center'>
-              <img
+              <Image
+                width={413}
+                height={415}
                 src='assets/images/thumbs/testimonials-three-thumbs.png'
                 alt='Testimonials Thumb'
                 data-aos='zoom-in'
@@ -37,7 +40,9 @@ const TestimonialsThree = () => {
                   >
                     <div className=''>
                       <span className='tw-mb-705'>
-                        <img
+                        <Image
+                          width={100}
+                          height={18}
                           src='assets/images/icons/ratings.svg'
                           alt=''
                           className=''
@@ -52,7 +57,9 @@ const TestimonialsThree = () => {
                       <span className='d-block w-100 tw-h-px tw-mt-12 tw-mb-4 bg-white-08' />
                       <div className='tw-px-705 tw-py-2 bg-white-06 d-inline-flex align-items-center tw-gap-6'>
                         <div className='tw-w-17 tw-h-17 rounded-circle overflow-hidden'>
-                          <img
+                          <Image
+                            width={70}
+                            height={71}
                             src='assets/images/thumbs/client-img.png'
                             alt='Client Thumb'
                           />
@@ -77,7 +84,9 @@ const TestimonialsThree = () => {
                   >
                     <div className=''>
                       <span className='tw-mb-705'>
-                        <img
+                        <Image
+                          width={100}
+                          height={18}
                           src='assets/images/icons/ratings.svg'
                           alt=''
                           className=''
@@ -92,7 +101,9 @@ const TestimonialsThree = () => {
                       <span className='d-block w-100 tw-h-px tw-mt-12 tw-mb-4 bg-white-08' />
                       <div className='tw-px-705 tw-py-2 bg-white-06 d-inline-flex align-items-center tw-gap-6'>
                         <div className='tw-w-17 tw-h-17 rounded-circle overflow-hidden'>
-                          <img
+                          <Image
+                            width={70}
+                            height={71}
                             src='assets/images/thumbs/client-img.png'
                             alt='Client Thumb'
                           />

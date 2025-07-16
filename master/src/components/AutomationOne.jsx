@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -39,7 +40,9 @@ const AutomationOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={600}
                 >
-                  <img
+                  <Image
+                    width={22}
+                    height={22}
                     src='assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
@@ -54,7 +57,9 @@ const AutomationOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={800}
                 >
-                  <img
+                  <Image
+                    width={22}
+                    height={22}
                     src='assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
@@ -69,7 +74,9 @@ const AutomationOne = () => {
                   data-aos-anchor-placement='top-bottom'
                   data-aos-duration={1000}
                 >
-                  <img
+                  <Image
+                    width={22}
+                    height={22}
                     src='assets/images/icons/check-star.png'
                     alt='Check Icon'
                     className='animate__bounce'
@@ -94,7 +101,9 @@ const AutomationOne = () => {
                   <div className='d-flex align-items-center tw-gap-2 z-1'>
                     <span className='button__label'>Start Free Trial</span>
                     <span className='icon'>
-                      <img
+                      <Image
+                        width={18}
+                        height={16}
                         src='assets/images/icons/download-cloud-icon.png'
                         alt='Icon'
                       />
@@ -106,7 +115,9 @@ const AutomationOne = () => {
           </div>
           <div className='col-lg-6'>
             <div className='automation-thumb position-lg-absolute tw-end-0 bottom-0 me-lg-5 pe-xl-5 max-w-58-percent'>
-              <img
+              <Image
+                width={876}
+                height={758}
                 src='assets/images/thumbs/automation-thumb.png'
                 alt='Thumb'
               />

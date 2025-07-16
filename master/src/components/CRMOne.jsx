@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const CRMOne = () => {
@@ -26,7 +27,9 @@ const CRMOne = () => {
   return (
     <section className='about-four-three position-relative z-1 overflow-hidden'>
       <div className='gradient-bg-top-bottom pb-120 tw-mx-48-px'>
-        <img
+        <Image
+          width={281}
+          height={640}
           src='assets/images/bg/mash-gradient-bg4.png'
           alt='Gradient'
           className='position-absolute tw-end-0 bottom-100 z-n1'
@@ -88,19 +91,25 @@ const CRMOne = () => {
             <div className='col-lg-6'>
               <div className='position-relative'>
                 <div className='tw-ps-14 position-relative'>
-                  <img
+                  <Image
+                    width={563}
+                    height={699}
                     src='assets/images/thumbs/about-four-three-thumb1.png'
                     alt='Thumb'
                     className='w-100'
                   />
                 </div>
                 <div className='position-absolute bottom-0 tw-start-0 tw-mb-6'>
-                  <img
+                  <Image
+                    width={250}
+                    height={113}
                     src='assets/images/thumbs/about-four-three-thumb2.png'
                     alt='Thumb'
                     className='common-shadow-twentyFour tw-rounded-2xl tw-mb-4 animated-upDown'
                   />
-                  <img
+                  <Image
+                    width={83}
+                    height={83}
                     src='assets/images/thumbs/robot-img.png'
                     alt='Thumb'
                     className='d-block tw-ms-8 tw-rounded-2xl animated-upDown animation-delay-1'

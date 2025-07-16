@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +9,9 @@ const DownloadAppOne = () => {
         <div className='row gy-4 align-items-center'>
           <div className='col-md-6'>
             <div className=''>
-              <img
+              <Image
+                width={633}
+                height={619}
                 src='assets/images/thumbs/download-app-thumb.png'
                 alt='Thumbnail'
               />
