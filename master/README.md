@@ -1,61 +1,78 @@
-# SassTech – Next.js React SaaS Template 🚀
+# SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template
 
-A multipurpose SaaS & IT solution template built with **Next.js** and **React**, providing a clean, modular foundation for fast and customizable web apps.
+Thank you for purchasing SassTech - Saas Software and IT Solution Multipurpose NEXT JS Template If you have any questions that are beyond the scope of this help file, please feel free to email, via my user page contact form or put a ticket at Support Center .
+Thank you so much!
 
----
+## All Pages
 
-## 🔁 Table of Contents
+- Home one
+- Home two
+- Home three
+- Home four
+- Home five
+- Pricing-plan
+- About
+- App Integration
+- Intigration-details
+- Policy-privacy
+- Faq
+- Project Details
+- Service Details
+- Shop
+- Shop Details
+- Cart
+- Checkout
+- Blog
+- blog Details
+- Contact
+- Sign In
+- Sign Up
 
-- [Quick Start](#quick-start)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Install Dependencies](#install-dependencies)
-  - [Development](#development)
-  - [Production Build](#production-build)
-- [Project Structure](#project-structure)
-- [Components Overview](#components-overview)
-- [Customization Guide](#customization-guide)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+## Installation
 
----
-
-## 🎬 Quick Start
+- Install recommended version of NodeJS.
+- Use this command line on the terminal to navigate to the project root directory.
+- Run those flowing commands.
 
 ```bash
-git clone https://github.com/amitbd599/SassTech-NextJS.git
-cd SassTech-NextJS/master
-npm install
-npm run dev
-
-
-Visit http://localhost:3000 to see it in action.
-
-
-
-⭐ Features
-Modern Next.js 14+ setup
-Fully TypeScript-ready
-Reusable components: banners, cards, forms, hero sections, etc.
-SEO-friendly meta tags, Head setup
-
-
--------------------------------
-🧰 Getting Started
-Install Dependencies
-npm install
-
-
-Development
-npm run dev
-
-------------------------------
-
-Start a local dev server with hot reloading.
-
-Production Build
-
-npm run build
-npm run start
+  npm install
+  npm run dev
 ```
+
+- You will now see the website live.
+- Build the project using this command.
+- Run those flowing commands.
+
+```bash
+npm run build
+```
+
+## Demo
+
+Insert gif or link to demo
+
+https://nextjs.sasstech.webnextpro.com/
+
+## Features
+
+- 100% pixel perfect design
+- Clean and Simple Style
+- Cross Browser Optimization.
+- Google font.
+- Compatible Browsers – IE9+, Chrome, Safari, Opera, Firefox
+- Documentation – Yes
+- License – GPL
+- Version – 1.0.0
+- Columns – 4
+- Files Included -html, JSX, scss
+- User Friendly Code
+- Easy to customize
+- W3C Validation
+- Clean & Modern Design
+- CSS3 animations
+- Full Responsive
+- SEO friendly code
+
+## Support
+
+- Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have any queries, please feel free to contact us at Support Center. mrsen007@gmail.com
