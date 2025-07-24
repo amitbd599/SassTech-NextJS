@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const PricingPlanTwo = () => {
+const PricingPlanTwo: React.FC = () => {
   return (
     <section className='pricing-plan-three py-120'>
       <div className='container'>

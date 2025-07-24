@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 
-const ProductTabsInner = () => {
-  const [activeTab, setActiveTab] = useState(1);
+const ProductTabsInner: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<number>(1);
   return (
     <section className='py-120 section-bg-two'>
       <div className='container'>

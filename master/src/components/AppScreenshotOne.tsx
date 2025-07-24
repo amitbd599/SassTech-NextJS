@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const AppScreenshotOne = () => {
+const AppScreenshotOne: React.FC = () => {
   return (
     <section className='app-screenshot position-relative gradient-bg-nine z-1 overflow-hidden'>
       <Image

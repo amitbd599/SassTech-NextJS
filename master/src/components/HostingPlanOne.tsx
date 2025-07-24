@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import Slider from "react-slick";
 
-const HostingPlanOne = () => {
+const HostingPlanOne: React.FC = () => {
   const sliderRef = useRef<InstanceType<typeof Slider> | null>(null);
 
   const settings = {

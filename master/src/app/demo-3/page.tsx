@@ -1,3 +1,4 @@
+import React from "react";
 import AutomationOne from "@/components/AutomationOne";
 import BannerThree from "@/components/BannerThree";
 import BrandThree from "@/components/BrandThree";
@@ -14,7 +15,9 @@ import WorkPlaceOne from "@/components/WorkPlaceOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Home - 3 | SassTech - Saas Software and IT Solution",
     description:
@@ -35,9 +38,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='home-three crm-page'>
@@ -87,4 +90,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

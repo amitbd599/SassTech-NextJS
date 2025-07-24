@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const TaskManagementOne = () => {
+const TaskManagementOne: React.FC = () => {
   return (
     <section className='task-management bg-pink-more-light-half drag-rotate-element-section bg-pink-more-light-half'>
       <div className='container'>

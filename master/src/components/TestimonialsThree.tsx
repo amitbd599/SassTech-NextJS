@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import Slider from "react-slick";
-const TestimonialsThree = () => {
-  const settings = {
+import Slider, { Settings } from "react-slick";
+const TestimonialsThree: React.FC = () => {
+  const settings: Settings = {
     infinite: true,
     speed: 1500,
     slidesToShow: 1,

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const AboutTeamInner = () => {
+const AboutTeamInner: React.FC = () => {
   return (
     <section className='about-team py-120'>
       <div className='container'>

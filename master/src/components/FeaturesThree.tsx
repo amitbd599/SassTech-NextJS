@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
-const FeaturesThree = () => {
-  const [open, setOpen] = useState(false);
+const FeaturesThree: React.FC = () => {
+  const [open, setOpen] = useState<boolean>(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
 
   const items = [

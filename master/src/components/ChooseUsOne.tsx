@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const ChooseUsOne = () => {
+const ChooseUsOne: React.FC = () => {
   return (
     <section className='py-120 overflow-hidden'>
       <div className='container'>

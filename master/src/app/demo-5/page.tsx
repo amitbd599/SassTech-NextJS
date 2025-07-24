@@ -1,3 +1,4 @@
+import React from "react";
 import AOSWrap from "@/helper/AOSWrap";
 import HeaderFive from "@/components/HeaderFive";
 import CustomCursor from "@/helper/CustomCursor";
@@ -14,7 +15,9 @@ import TestimonialsFive from "@/components/TestimonialsFive";
 import PricingPlanThree from "@/components/PricingPlanThree";
 import FooterFive from "@/components/FooterFive";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Home - 5 | SassTech - Saas Software and IT Solution",
     description:
@@ -35,9 +38,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='home-five'>
@@ -87,4 +90,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

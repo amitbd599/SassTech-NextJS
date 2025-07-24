@@ -2,8 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const SearchDomainOne = () => {
-  const [activeTab, setActiveTab] = useState("FindNewDomain");
+const SearchDomainOne: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>("FindNewDomain");
   const tabs = [
     {
       id: "FindNewDomain",

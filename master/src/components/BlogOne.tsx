@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogOne = () => {
+const BlogOne: React.FC = () => {
   return (
     <section className='blog'>
       <div className='container'>

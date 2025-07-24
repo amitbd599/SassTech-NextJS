@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FooterTwo = () => {
+const FooterTwo: React.FC = () => {
   return (
     <footer className='footer position-relative z-1 mt-auto pt-120 overflow-hidden rounded-top-45-px gradient-bg-three'>
       {/* Footer Top Start */}

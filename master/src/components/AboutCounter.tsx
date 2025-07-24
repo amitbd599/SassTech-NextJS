@@ -1,12 +1,6 @@
-"use client";
-import { useInView } from "react-intersection-observer";
-import CountUp from "react-countup";
 import Image from "next/image";
 
-const AboutCounter = () => {
-  const { ref, inView } = useInView({
-    threshold: 0,
-  });
+const AboutCounter: React.FC = () => {
   return (
     <section className='about-counter py-120'>
       <div className='container'>
@@ -27,7 +21,6 @@ const AboutCounter = () => {
         </div>
         <div className='row gy-4'>
           <div
-            ref={ref}
             className='col-lg-3 col-sm-6'
             data-aos='fade-up'
             data-aos-anchor-placement='top-bottom'
@@ -35,11 +28,7 @@ const AboutCounter = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                {inView && (
-                  <span className='counter'>
-                    <CountUp delay={0} start={0} end={20} />M
-                  </span>
-                )}
+                <span className='counter'>20M</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 worldwide clients
@@ -54,11 +43,7 @@ const AboutCounter = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                {inView && (
-                  <span className='counter'>
-                    <CountUp delay={0} start={0} end={95} />%
-                  </span>
-                )}
+                <span className='counter'>95%</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 worldwide clients
@@ -73,11 +58,7 @@ const AboutCounter = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                {inView && (
-                  <span className='counter'>
-                    <CountUp delay={0} start={0} end={3} />X
-                  </span>
-                )}
+                <span className='counter'>3X</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 worldwide clients
@@ -92,12 +73,7 @@ const AboutCounter = () => {
           >
             <div className='max-w-295-px tw-max-h-295-px text-center rounded-circle w-100 h-100 aspect-1 d-flex flex-column justify-content-center align-items-center hover-bg-neutral-100 tw-transition tw-duration-200'>
               <h3 className='h1'>
-                {inView && (
-                  <span className='counter'>
-                    <CountUp delay={0} start={0} end={99} />
-                    K+
-                  </span>
-                )}
+                <span className='counter'>99 K+</span>
               </h3>
               <span className='h6 text-uppercase tw-text-base tw-mt-5'>
                 worldwide clients

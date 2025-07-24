@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-const CustomCursor = () => {
+const CustomCursor: React.FC = () => {
   const cursorOuterRef = useRef<HTMLDivElement | null>(null);
   const cursorInnerRef = useRef<HTMLDivElement | null>(null);
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BannerThree = () => {
+const BannerThree: React.FC = () => {
   return (
     <section className='banner-three gradient-bg-five position-relative z-1 overflow-hidden'>
       <Image

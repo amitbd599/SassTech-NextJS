@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const WorkProcessOne = () => {
+const WorkProcessOne: React.FC = () => {
   return (
     <section className='work-process-five py-120'>
       <div className='container'>

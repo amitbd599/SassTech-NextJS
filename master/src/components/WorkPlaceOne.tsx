@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const WorkPlaceOne = () => {
+const WorkPlaceOne: React.FC = () => {
   const [active, setActive] = useState<number | null>(1);
   return (
     <section className='workplace-team py-120 gradient-bg-five position-relative z-1'>

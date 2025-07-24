@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const AboutFeatures = () => {
+const AboutFeatures: React.FC = () => {
   return (
     <section className='about-features py-120 section-bg-two'>
       <div className='container'>

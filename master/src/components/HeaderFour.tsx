@@ -4,10 +4,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
-const HeaderFour = () => {
+const HeaderFour: React.FC = () => {
   let pathname = usePathname();
-  const [scroll, setScroll] = useState(false);
-  let [mobileMenu, setMobileMenu] = useState(false);
+  const [scroll, setScroll] = useState<boolean>(false);
+  let [mobileMenu, setMobileMenu] = useState<boolean>(false);
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset < 150) {
@@ -72,7 +72,7 @@ const HeaderFour = () => {
   ];
 
   /* which top‑level submenu is open?  -1 = none */
-  const [openIndex, setOpenIndex] = useState(-1);
+  const [openIndex, setOpenIndex] = useState<number>(-1);
 
   /* helper */
   const itemIsActive = (item: any) =>

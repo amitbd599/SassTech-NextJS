@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const FAQOne = () => {
+const FAQOne: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(1);
   const accordionData = [
     {

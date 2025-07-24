@@ -1,3 +1,4 @@
+import React from "react";
 import AboutFour from "@/components/AboutFour";
 import AboutThree from "@/components/AboutThree";
 import BannerFour from "@/components/BannerFour";
@@ -13,7 +14,9 @@ import TestimonialsFour from "@/components/TestimonialsFour";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Home - 4 | SassTech - Saas Software and IT Solution",
     description:
@@ -34,9 +37,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='home-crm heading-black'>
@@ -83,4 +86,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

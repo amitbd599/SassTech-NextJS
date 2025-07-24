@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const CheckoutInner = () => {
+const CheckoutInner: React.FC = () => {
   return (
     <section className='py-120'>
       <div className='container'>

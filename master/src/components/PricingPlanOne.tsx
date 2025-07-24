@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const PricingPlanOne = () => {
-  const [activeTab, setActiveTab] = useState("Monthly");
+const PricingPlanOne: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>("Monthly");
 
   const tabs = ["Monthly", "Annually"];
   return (

@@ -1,4 +1,4 @@
-const CounterUpTwo = () => {
+const CounterUpTwo: React.FC = () => {
   return (
     <section className='pt-120'>
       <div className='container'>

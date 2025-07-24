@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const ContactInner = () => {
+const ContactInner: React.FC = () => {
   return (
     <>
       <section className='bg-neutral-light-half style-two'>

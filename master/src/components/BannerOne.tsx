@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import CountUp from "react-countup";
-const BannerOne = () => {
+const BannerOne: React.FC = () => {
   const [activeTab, setActiveTab] = useState("Daily");
 
   const tabs = [

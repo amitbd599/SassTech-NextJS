@@ -1,10 +1,17 @@
 "use client";
 import { useEffect } from "react";
 
-const PhosphorIconsLoader = () => {
+const PhosphorIconsLoader: React.FC = () => {
   useEffect(() => {
     const head = document.head;
-    const weights = ["regular", "thin", "light", "bold", "fill", "duotone"];
+    const weights: string[] = [
+      "regular",
+      "thin",
+      "light",
+      "bold",
+      "fill",
+      "duotone",
+    ];
 
     weights.forEach((weight) => {
       const link = document.createElement("link");
@@ -15,7 +22,7 @@ const PhosphorIconsLoader = () => {
     });
   }, []);
 
-  return null; // This component does not render any visible UI
+  return null;
 };
 
 export default PhosphorIconsLoader;

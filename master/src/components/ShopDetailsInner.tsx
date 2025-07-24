@@ -3,10 +3,10 @@ import ShopGallery from "@/helper/ShopGallery";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const ShopDetailsInner = () => {
-  let [count, setCount] = useState(1);
-  let [color, setColor] = useState(1);
-  let [size, setSize] = useState(1);
+const ShopDetailsInner: React.FC = () => {
+  let [count, setCount] = useState<number>(1);
+  let [color, setColor] = useState<number>(1);
+  let [size, setSize] = useState<number>(1);
   return (
     <>
       <section className='bg-white py-120'>

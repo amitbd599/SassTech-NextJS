@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const FeaturedProductsInner = () => {
+const FeaturedProductsInner: React.FC = () => {
   return (
     <section className='shop py-120'>
       <div className='container'>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const AboutFour = () => {
+const AboutFour: React.FC = () => {
   return (
     <section className='about-four-two py-120 position-relative z-1 overflow-hidden'>
       <Image

@@ -7,7 +7,10 @@ import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+import React from "react";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Project Details | SassTech - Saas Software and IT Solution",
     description:
@@ -28,9 +31,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='heading-black'>
@@ -59,4 +62,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 
-const ShowCaseOne = () => {
-  const slickSettings = {
+const ShowCaseOne: React.FC = () => {
+  const slickSettings: Settings = {
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 1500,

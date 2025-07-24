@@ -8,7 +8,7 @@ type AOSWrapProps = {
   children: ReactNode;
 };
 
-const AOSWrap = ({ children }: AOSWrapProps) => {
+const AOSWrap: React.FC<AOSWrapProps> = ({ children }) => {
   return (
     <AOSWrapper>
       <InitializeAOS />

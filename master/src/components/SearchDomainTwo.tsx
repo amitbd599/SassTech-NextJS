@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const SearchDomainTwo = () => {
+const SearchDomainTwo: React.FC = () => {
   return (
     <section className='search-domain-two pt-120 tw-pb-10 position-relative z-1'>
       <div className='max-w-1524-px mx-auto tw-pt-5'>

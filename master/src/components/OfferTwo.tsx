@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const OfferTwo = () => {
+const OfferTwo: React.FC = () => {
   return (
     <section className='offer-five py-120'>
       <div className='container'>

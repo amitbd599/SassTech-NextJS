@@ -1,16 +1,16 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 
-const PriceRangeFilter = () => {
+const PriceRangeFilter: React.FC = () => {
   const priceGap = 1000;
   const maxRange = 10000;
 
-  const [minPrice, setMinPrice] = useState(2500);
-  const [maxPrice, setMaxPrice] = useState(7500);
+  const [minPrice, setMinPrice] = useState<number>(2500);
+  const [maxPrice, setMaxPrice] = useState<number>(7500);
 
-  const rangeMinRef = useRef(null);
-  const rangeMaxRef = useRef(null);
-  const progressRef = useRef(null);
+  const rangeMinRef = useRef<HTMLInputElement | null>(null);
+  const rangeMaxRef = useRef<HTMLInputElement | null>(null);
+  const progressRef = useRef<HTMLDivElement | null>(null);
 
   // Update progress bar visually
   useEffect(() => {
@@ -23,28 +23,36 @@ const PriceRangeFilter = () => {
   }, [minPrice, maxPrice]);
 
   // Handle range input changes
-  const handleRangeChange = (type, value) => {
-    value = parseInt(value, 10);
+  const handleRangeChange = (type: "min" | "max", value: string) => {
+    const parsedValue = parseInt(value, 10);
     if (type === "min") {
-      if (maxPrice - value >= priceGap) {
-        setMinPrice(value);
+      if (maxPrice - parsedValue >= priceGap) {
+        setMinPrice(parsedValue);
       }
     } else {
-      if (value - minPrice >= priceGap) {
-        setMaxPrice(value);
+      if (parsedValue - minPrice >= priceGap) {
+        setMaxPrice(parsedValue);
       }
     }
   };
 
   // Handle number input changes
-  const handleInputChange = (type, value) => {
-    value = parseInt(value, 10);
-    if (isNaN(value)) return;
-    if (type === "min" && maxPrice - value >= priceGap && value >= 0) {
-      setMinPrice(value);
+  const handleInputChange = (type: "min" | "max", value: string) => {
+    const parsedValue = parseInt(value, 10);
+    if (isNaN(parsedValue)) return;
+    if (
+      type === "min" &&
+      maxPrice - parsedValue >= priceGap &&
+      parsedValue >= 0
+    ) {
+      setMinPrice(parsedValue);
     }
-    if (type === "max" && value - minPrice >= priceGap && value <= maxRange) {
-      setMaxPrice(value);
+    if (
+      type === "max" &&
+      parsedValue - minPrice >= priceGap &&
+      parsedValue <= maxRange
+    ) {
+      setMaxPrice(parsedValue);
     }
   };
 

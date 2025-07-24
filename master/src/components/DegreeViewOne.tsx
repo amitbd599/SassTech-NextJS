@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const DegreeViewOne = () => {
+const DegreeViewOne: React.FC = () => {
   return (
     <section className='degree-view tw-pt-9'>
       <div className='container'>

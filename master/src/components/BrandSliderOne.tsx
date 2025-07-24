@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Slider, { Settings } from "react-slick";
 
-const BrandSliderOne = () => {
+const BrandSliderOne: React.FC = () => {
   const settings: Settings = {
     dots: false,
     infinite: true,

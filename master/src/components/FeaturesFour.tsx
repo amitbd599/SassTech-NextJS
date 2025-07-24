@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FeaturesFour = () => {
+const FeaturesFour: React.FC = () => {
   return (
     <section className='features-four'>
       <div className='py-120 tw-mx-48-px position-relative'>

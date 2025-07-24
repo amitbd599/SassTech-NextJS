@@ -1,3 +1,4 @@
+import React from "react";
 import AboutBannerInner from "@/components/AboutBannerInner";
 import AboutCounter from "@/components/AboutCounter";
 import AboutFeatures from "@/components/AboutFeatures";
@@ -12,7 +13,9 @@ import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "About | SassTech - Saas Software and IT Solution",
     description:
@@ -33,9 +36,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='heading-black'>
@@ -79,4 +82,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

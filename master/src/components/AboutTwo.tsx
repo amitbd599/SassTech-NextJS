@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
-const AboutTwo = () => {
+const AboutTwo: React.FC = () => {
   return (
     <section className='about-two py-120 position-relative z-1 overflow-hidden'>
       <Image

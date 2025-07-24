@@ -17,7 +17,9 @@ import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 import Image from "next/image";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "About | SassTech - Saas Software and IT Solution",
     description:
@@ -38,9 +40,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       {/* CustomCursor */}
@@ -104,4 +106,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

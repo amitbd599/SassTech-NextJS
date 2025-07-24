@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const ShopInner = () => {
-  let [gridView, setGridView] = useState(false);
+const ShopInner: React.FC = () => {
+  let [gridView, setGridView] = useState<boolean>(false);
 
   return (
     <section className={`shop py-120 ${gridView && "grid-view"} `}>

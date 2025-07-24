@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const IntegrateAppsOne = () => {
+const IntegrateAppsOne: React.FC = () => {
   return (
     <section className='pt-120 pb-120 overflow-hidden position-relative'>
       <Image

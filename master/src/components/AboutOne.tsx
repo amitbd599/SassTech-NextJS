@@ -1,5 +1,5 @@
 import Image from "next/image";
-const AboutOne = () => {
+const AboutOne: React.FC = () => {
   return (
     <section className='py-120 drag-rotate-element-section'>
       <div className='container'>

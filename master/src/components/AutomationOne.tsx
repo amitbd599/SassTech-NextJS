@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const AutomationOne = () => {
+const AutomationOne: React.FC = () => {
   return (
     <section className='automation pt-120 position-relative z-1 tw-pb-94-px'>
       <div className='container'>

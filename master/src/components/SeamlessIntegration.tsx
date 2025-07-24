@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const SeamlessIntegration = () => {
+const SeamlessIntegration: React.FC = () => {
   return (
     <section className='seamless-integration py-120'>
       <div className='container max-w-1400-px'>

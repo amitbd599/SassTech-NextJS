@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BrandMarketingOne = () => {
+const BrandMarketingOne: React.FC = () => {
   return (
     <section className='overflow-hidden '>
       <div className='brand-marketing py-120'>

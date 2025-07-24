@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const TaskManagerOne = () => {
+const TaskManagerOne: React.FC = () => {
   return (
     <section className='task-manager pt-120'>
       <div className='container'>

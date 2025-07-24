@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 
-const BrandThree = () => {
-  const settings = {
+const BrandThree: React.FC = () => {
+  const settings: Settings = {
     infinite: true,
     speed: 1500,
     slidesToShow: 7,

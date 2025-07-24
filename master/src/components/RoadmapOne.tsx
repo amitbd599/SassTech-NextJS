@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-const RoadmapOne = () => {
+const RoadmapOne: React.FC = () => {
   return (
     <section className='py-120 section-bg-one'>
       <div className='container max-w-1440-px'>

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function InitializeAOS() {
+const InitializeAOS: React.FC = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -13,4 +13,6 @@ export default function InitializeAOS() {
   }, []);
 
   return null;
-}
+};
+
+export default InitializeAOS;

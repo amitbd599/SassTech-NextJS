@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const TopHeaderTwo = () => {
+const TopHeaderTwo: React.FC = () => {
   return (
     <div className='tw-pt-3 tw-pb-4 position-absolute top-0 tw-start-0 tw-end-0 w-100 tw-z-991'>
       <div className='container max-w-1290-px'>

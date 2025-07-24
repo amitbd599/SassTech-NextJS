@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const CRMOne = () => {
+const CRMOne: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(1);
   const accordionData = [
     {

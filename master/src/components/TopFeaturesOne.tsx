@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Marquee from "react-fast-marquee";
 
-const TopFeaturesOne = () => {
+const TopFeaturesOne: React.FC = () => {
   return (
     <div className='bg-white border-top border-neutral-100 tw-py-4 common-shadow-one'>
       <div className='container'>

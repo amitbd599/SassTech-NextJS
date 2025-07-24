@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const DownloadAppOne = () => {
+const DownloadAppOne: React.FC = () => {
   return (
     <section className='download-app py-120'>
       <div className='container'>

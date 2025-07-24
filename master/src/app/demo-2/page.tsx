@@ -15,7 +15,10 @@ import WebsiteOwnerOne from "@/components/WebsiteOwnerOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+import React from "react";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Home - 2 | SassTech - Saas Software and IT Solution",
     description:
@@ -36,9 +39,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='home-two'>
@@ -91,4 +94,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

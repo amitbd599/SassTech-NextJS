@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const WebsiteOwnerOne = () => {
+const WebsiteOwnerOne: React.FC = () => {
   return (
     <section className='overflow-hidden gradient-bg-four'>
       <div className='website-owner pb-120 position-relative z-1'>

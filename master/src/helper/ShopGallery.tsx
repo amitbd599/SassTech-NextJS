@@ -1,15 +1,18 @@
 "use client";
+
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs, FreeMode } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper"; // 👈 Import Swiper type
 
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
+
 import Image from "next/image";
 
-const bigImages = [
+const bigImages: string[] = [
   "/assets/images/thumbs/shop-details-thumb1.png",
   "/assets/images/thumbs/shop-details-thumb2.png",
   "/assets/images/thumbs/shop-details-thumb3.png",
@@ -17,7 +20,7 @@ const bigImages = [
   "/assets/images/thumbs/shop-details-thumb5.png",
 ];
 
-const smallImages = [
+const smallImages: string[] = [
   "/assets/images/thumbs/shop-details-small-thumb1.png",
   "/assets/images/thumbs/shop-details-small-thumb2.png",
   "/assets/images/thumbs/shop-details-small-thumb3.png",
@@ -26,7 +29,7 @@ const smallImages = [
 ];
 
 export default function ShopGallery() {
-  const [thumbs, setThumbs] = useState(null);
+  const [thumbs, setThumbs] = useState<SwiperType | null>(null); // 👈 add type
 
   return (
     <>
@@ -55,7 +58,6 @@ export default function ShopGallery() {
           </SwiperSlide>
         ))}
       </Swiper>
-
       {/* -------- THUMB SLIDER -------- */}
       <Swiper
         modules={[FreeMode, Thumbs]}

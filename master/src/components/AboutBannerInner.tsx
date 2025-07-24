@@ -1,8 +1,8 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
-const AboutBannerInner = () => {
+const AboutBannerInner: React.FC = () => {
   return (
     <section className='about-banner tw-mt-15'>
       <div className='container max-w-1800-px'>

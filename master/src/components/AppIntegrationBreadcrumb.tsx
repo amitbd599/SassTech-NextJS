@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const AppIntegrationBreadcrumb = () => {
+const AppIntegrationBreadcrumb: React.FC = () => {
   return (
     <section className='pt-120 section-bg-two pb-120'>
       <div className='container max-w-1290-px'>

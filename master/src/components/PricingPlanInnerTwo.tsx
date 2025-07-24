@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const PricingPlanInnerTwo = () => {
+const PricingPlanInnerTwo: React.FC = () => {
   return (
     <section className='pricing-plan-two section-bg-two py-120'>
       <div className='container'>

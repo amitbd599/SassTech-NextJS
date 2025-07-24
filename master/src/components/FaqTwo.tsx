@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const FaqTwo = () => {
+const FaqTwo: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(1);
   const faqItems = [
     {

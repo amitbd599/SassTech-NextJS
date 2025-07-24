@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Slider, { Settings } from "react-slick";
 
-const BrandFive = () => {
+const BrandFive: React.FC = () => {
   const settings: Settings = {
     infinite: true,
     speed: 1500,

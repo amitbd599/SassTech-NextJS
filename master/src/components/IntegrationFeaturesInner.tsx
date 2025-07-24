@@ -1,6 +1,6 @@
 import React from "react";
 
-const IntegrationFeaturesInner = () => {
+const IntegrationFeaturesInner: React.FC = () => {
   return (
     <section className='py-120'>
       <div className='container'>

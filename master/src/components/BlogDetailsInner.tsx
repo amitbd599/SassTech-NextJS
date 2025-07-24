@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogDetailsInner = () => {
+const BlogDetailsInner: React.FC = () => {
   return (
     <section className='py-120'>
       <div className='container'>

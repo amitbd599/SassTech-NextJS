@@ -1,13 +1,6 @@
-"use client";
-import { useInView } from "react-intersection-observer";
-import CountUp from "react-countup";
-
-const CounterUpThree = () => {
-  const { ref, inView } = useInView({
-    threshold: 0,
-  });
+const CounterUpThree: React.FC = () => {
   return (
-    <section ref={ref} className='section-bg-two py-120'>
+    <section className='section-bg-two py-120'>
       <div className='container'>
         <div className='max-w-780-px text-center mx-auto tw-mb-13'>
           <div
@@ -29,11 +22,7 @@ const CounterUpThree = () => {
         <div className='border-top border-bottom d-flex align-items-center justify-content-between flex-sm-nowrap flex-wrap tw-gap-148-px'>
           <div className='text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200'>
             <h2 className='h1'>
-              {inView && (
-                <span className='counter'>
-                  <CountUp delay={0} start={0} end={282} />+
-                </span>
-              )}
+              <span className='counter'>282+</span>
             </h2>
             <span className='h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none'>
               worldwide clients
@@ -44,11 +33,7 @@ const CounterUpThree = () => {
           </div>
           <div className='text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200'>
             <h2 className='h1'>
-              {inView && (
-                <span className='counter'>
-                  <CountUp delay={0} start={0} end={95} />%
-                </span>
-              )}
+              <span className='counter'>95%</span>
             </h2>
             <span className='h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none'>
               worldwide clients
@@ -59,11 +44,7 @@ const CounterUpThree = () => {
           </div>
           <div className='text-center tw-pt-13 tw-pb-9 d-flex flex-column justify-content-center align-items-center tw-transition tw-duration-200'>
             <h2 className='h1'>
-              {inView && (
-                <span className='counter'>
-                  <CountUp delay={0} start={0} end={282} />+
-                </span>
-              )}
+              <span className='counter'>282+</span>
             </h2>
             <span className='h6 text-uppercase tw-text-base tw-mt-5 d-sm-block d-none'>
               worldwide clients

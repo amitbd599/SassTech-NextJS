@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRef } from "react";
 import Slider, { Settings } from "react-slick";
 
-const TestimonialsFour = () => {
+const TestimonialsFour: React.FC = () => {
   const sliderRef = useRef<InstanceType<typeof Slider> | null>(null);
 
   const settings: Settings = {

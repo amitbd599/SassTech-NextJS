@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FooterThree = () => {
+const FooterThree: React.FC = () => {
   return (
     <section className='footer-three bg-pink-more-light bg-pink-more-light'>
       <div className='py-120'>

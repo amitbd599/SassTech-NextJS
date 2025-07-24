@@ -1,3 +1,4 @@
+import React from "react";
 import AppIntegrationBreadcrumb from "@/components/AppIntegrationBreadcrumb";
 import CounterUpThree from "@/components/CounterUpThree";
 import DrivenSectionTwo from "@/components/DrivenSectionTwo";
@@ -10,7 +11,9 @@ import TopHeaderOne from "@/components/TopHeaderOne";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "App-intigration | SassTech - Saas Software and IT Solution",
     description:
@@ -31,9 +34,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='heading-black'>
@@ -71,4 +74,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

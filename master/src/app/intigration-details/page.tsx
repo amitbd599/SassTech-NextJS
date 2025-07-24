@@ -1,3 +1,4 @@
+import React from "react";
 import FaqTwo from "@/components/FaqTwo";
 import FooterThree from "@/components/FooterThree";
 import HeaderOne from "@/components/HeaderOne";
@@ -9,7 +10,9 @@ import WorkProcessTwo from "@/components/WorkProcessTwo";
 import AOSWrap from "@/helper/AOSWrap";
 import CustomCursor from "@/helper/CustomCursor";
 
-export async function generateMetadata() {
+import type { Metadata } from "next";
+
+export const generateMetadata = async (): Promise<Metadata> => {
   return {
     title: "Integration-details | SassTech - Saas Software and IT Solution",
     description:
@@ -30,9 +33,9 @@ export async function generateMetadata() {
       ],
     },
   };
-}
+};
 
-const page = () => {
+const Page: React.FC = () => {
   return (
     <AOSWrap>
       <section className='heading-black'>
@@ -67,4 +70,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

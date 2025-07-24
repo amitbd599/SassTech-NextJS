@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const ServicesDetailsInner = () => {
+const ServicesDetailsInner: React.FC = () => {
   const accordionData = [
     {
       title: "What is Sassly?",

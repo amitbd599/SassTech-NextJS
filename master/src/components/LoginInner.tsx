@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const LoginInner = () => {
+const LoginInner: React.FC = () => {
   return (
     <section className='account py-120'>
       <div className='container'>

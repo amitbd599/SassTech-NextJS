@@ -2,8 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const TestimonialsOne = () => {
-  let [active, setActive] = useState(2);
+const TestimonialsOne: React.FC = () => {
+  let [active, setActive] = useState<number>(2);
   return (
     <section className='testimonials py-120 bg-neutral-50 position-relative z-1'>
       <Image

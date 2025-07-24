@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FooterFour = () => {
+const FooterFour: React.FC = () => {
   return (
     <section className='footer-four'>
       <div className=' pt-120 tw-mx-48-px position-relative gradient-bg-bottom-top'>

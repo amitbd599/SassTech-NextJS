@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const AboutThree = () => {
+const AboutThree: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(1);
   const accordionItems = [
     {

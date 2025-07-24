@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const DistractionOne = () => {
+const DistractionOne: React.FC = () => {
   return (
     <section className='distraction'>
       <div className='container max-w-1290-px'>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const WorkProcessTwo = () => {
+const WorkProcessTwo: React.FC = () => {
   return (
     <section className='section-bg-two py-120'>
       <div className='container'>

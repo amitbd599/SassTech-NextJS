@@ -1,9 +1,9 @@
-"use client";
+import ProductQty from "@/helper/ProductQty";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 
-const CartInner = () => {
+const CartInner: React.FC = () => {
   return (
     <section className='bg-white py-120'>
       <div className='container'>
@@ -79,8 +79,8 @@ const CartInner = () => {
                           </span>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
-                          {/* QTY */}
-                          <QTY />
+                          {/* ProductQty */}
+                          <ProductQty />
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <span className='fw-bold tw-text-lg text-heading'>
@@ -125,8 +125,8 @@ const CartInner = () => {
                           </span>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
-                          {/* QTY */}
-                          <QTY />
+                          {/* ProductQty */}
+                          <ProductQty />
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <span className='fw-bold tw-text-lg text-heading'>
@@ -171,8 +171,8 @@ const CartInner = () => {
                           </span>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
-                          {/* QTY */}
-                          <QTY />
+                          {/* ProductQty */}
+                          <ProductQty />
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <span className='fw-bold tw-text-lg text-heading'>
@@ -217,8 +217,8 @@ const CartInner = () => {
                           </span>
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
-                          {/* QTY */}
-                          <QTY />
+                          {/* ProductQty */}
+                          <ProductQty />
                         </td>
                         <td className='important-tw-py-5 important-tw-px-9 border-bottom border-neutral-200'>
                           <span className='fw-bold tw-text-lg text-heading'>
@@ -377,37 +377,6 @@ const CartInner = () => {
         </div>
       </div>
     </section>
-  );
-};
-
-const QTY = () => {
-  let [qty, setQty] = useState(1);
-  return (
-    <>
-      <div className='d-flex'>
-        <button
-          onClick={() => {
-            qty > 1 && setQty(qty - 1);
-          }}
-          type='button'
-          className='text-heading hover-text-main-600 active-scale-09 tw-text-xl tw-w-11 tw-h-11 border border-neutral-200 tw-leading-none decrement-btn'
-        >
-          <i className='ph-bold ph-minus' />
-        </button>
-        <input
-          value={qty}
-          type='text'
-          className='border border-neutral-200 bg-neutral-200 tw-w-11 tw-h-11 text-center focus-outline-0 text-heading fw-bold tw-w-11 input-value'
-        />
-        <button
-          onClick={() => setQty(qty + 1)}
-          type='button'
-          className='text-heading hover-text-main-600 active-scale-09 tw-text-xl tw-w-11 tw-h-11 border border-neutral-200 tw-leading-none increment-btn'
-        >
-          <i className='ph-bold ph-plus' />
-        </button>
-      </div>
-    </>
   );
 };
 

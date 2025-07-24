@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const CtaOne = () => {
+const CtaOne: React.FC = () => {
   return (
     <section className='cta py-md-0 py-5'>
       <div className='container'>

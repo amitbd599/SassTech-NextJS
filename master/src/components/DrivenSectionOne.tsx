@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const DrivenSectionOne = () => {
+const DrivenSectionOne: React.FC = () => {
   return (
     <section>
       <div className='container'>

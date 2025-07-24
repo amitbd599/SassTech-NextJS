@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const OfferOne = () => {
+const OfferOne: React.FC = () => {
   return (
     <section className='offer py-120 overflow-hidden'>
       <div className='container'>

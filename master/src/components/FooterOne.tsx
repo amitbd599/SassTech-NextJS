@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const FooterOne = () => {
+const FooterOne: React.FC = () => {
   return (
     <footer className='footer bg-black position-relative z-1 mt-auto tw-pt-16 overflow-hidden'>
       {/* Footer Top Start */}

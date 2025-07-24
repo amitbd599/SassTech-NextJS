@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const AboutFeaturesOne = () => {
+const AboutFeaturesOne: React.FC = () => {
   return (
     <section className='about-features'>
       <div className='container'>

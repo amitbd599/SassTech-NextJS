@@ -1,4 +1,4 @@
-const TopHeaderThree = () => {
+const TopHeaderThree: React.FC = () => {
   return (
     <div className='bg-main-600 tw-py-205 d-sm-block d-none'>
       <div className='container'>

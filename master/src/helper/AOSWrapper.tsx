@@ -1,6 +1,10 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-const AOSWrapper = ({ children }) => {
+type AOSWrapperProps = {
+  children: ReactNode;
+};
+
+const AOSWrapper: React.FC<AOSWrapperProps> = ({ children }) => {
   return <>{children}</>;
 };
 

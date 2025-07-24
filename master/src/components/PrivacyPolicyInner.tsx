@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 
-const PrivacyPolicyInner = () => {
-  const [activeTab, setActiveTab] = useState(1);
+const PrivacyPolicyInner: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<number>(1);
   return (
     <section className='privacy-policy py-120'>
       <div className='container'>

@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const BannerFour = () => {
-  const [activeTab, setActiveTab] = useState("data");
+const BannerFour: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>("data");
   const tabs = [
     {
       id: "data",
