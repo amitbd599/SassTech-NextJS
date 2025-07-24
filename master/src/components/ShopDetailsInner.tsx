@@ -1,7 +1,7 @@
 "use client";
-import ShopGallery from "@/helper/ShopGallery";
 import Link from "next/link";
 import React, { useState } from "react";
+import ShopGallery from "../helper/ShopGallery";
 
 const ShopDetailsInner: React.FC = () => {
   let [count, setCount] = useState<number>(1);

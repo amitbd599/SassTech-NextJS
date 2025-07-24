@@ -1,23 +1,23 @@
-import AboutOne from "@/components/AboutOne";
-import BannerOne from "@/components/BannerOne";
-import BlogOne from "@/components/BlogOne";
-import BrandSliderOne from "@/components/BrandSliderOne";
-import ChooseUsOne from "@/components/ChooseUsOne";
-import CtaOne from "@/components/CtaOne";
-import FAQOne from "@/components/FAQOne";
-import FooterOne from "@/components/FooterOne";
-import HeaderOne from "@/components/HeaderOne";
-import OfferOne from "@/components/OfferOne";
-import RoadmapOne from "@/components/RoadmapOne";
-import ShowCaseOne from "@/components/ShowCaseOne";
-import TestimonialsOne from "@/components/TestimonialsOne";
-import TopFeaturesOne from "@/components/TopFeaturesOne";
-import TopHeaderOne from "@/components/TopHeaderOne";
-import AOSWrap from "@/helper/AOSWrap";
-import CustomCursor from "@/helper/CustomCursor";
+import BannerOne from "../components/BannerOne";
+import BlogOne from "../components/BlogOne";
+import BrandSliderOne from "../components/BrandSliderOne";
+import ChooseUsOne from "../components/ChooseUsOne";
+import CtaOne from "../components/CtaOne";
+import FAQOne from "../components/FAQOne";
+import FooterOne from "../components/FooterOne";
+import HeaderOne from "../components/HeaderOne";
+import OfferOne from "../components/OfferOne";
+import RoadmapOne from "../components/RoadmapOne";
+import ShowCaseOne from "../components/ShowCaseOne";
+import TestimonialsOne from "../components/TestimonialsOne";
+import TopFeaturesOne from "../components/TopFeaturesOne";
+import TopHeaderOne from "../components/TopHeaderOne";
+import AOSWrap from "../helper/AOSWrap";
+import CustomCursor from "../helper/CustomCursor";
 import Image from "next/image";
 
 import type { Metadata } from "next";
+import AboutOne from "../components/AboutOne";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {

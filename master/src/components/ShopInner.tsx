@@ -1,8 +1,9 @@
 "use client";
-import PriceRangeFilter from "@/helper/PriceRangeFilter";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import PriceRangeFilter from "../helper/PriceRangeFilter";
+import ShopSearchForm from "./form/ShopSearchForm";
 
 const ShopInner: React.FC = () => {
   let [gridView, setGridView] = useState<boolean>(false);
@@ -21,19 +22,8 @@ const ShopInner: React.FC = () => {
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   Search Here
                 </h5>
-                <form action='#' className='position-relative'>
-                  <input
-                    type='text'
-                    className='tw-ps-4 tw-pe-12 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden tw-rounded-md shadow-none flex-grow-1 border border-neutral-200 focus-border-main-600 tw-duration-300'
-                    placeholder='Search here...'
-                  />
-                  <button
-                    type='submit'
-                    className='position-absolute top-50 tw--translate-y-50 tw-end-0 text-main-two-600 tw-text-lg d-flex tw-me-5'
-                  >
-                    <i className='ph-bold ph-magnifying-glass' />
-                  </button>
-                </form>
+                {/* ShopSearchForm */}
+                <ShopSearchForm />
               </div>
               <div
                 className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'

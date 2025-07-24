@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  reactStrictMode: false,
   images: {
-    unoptimized: true,
+    domains: ["nextjs.sasstech.webnextpro.com"],
+  },
+  compress: true,
+  experimental: {
+    serverActions: true,
   },
 };
 

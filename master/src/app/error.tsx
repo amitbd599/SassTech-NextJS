@@ -2,14 +2,15 @@
 
 import { useEffect } from "react";
 
-interface ErrorProps {
+export default function GlobalError({
+  error,
+  reset,
+}: {
   error: Error;
   reset: () => void;
-}
-
-export default function Error({ error, reset }: ErrorProps) {
+}) {
   useEffect(() => {
-    console.error("Page error:", error);
+    console.error(error);
   }, [error]);
 
   return (

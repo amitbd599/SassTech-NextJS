@@ -6,10 +6,6 @@ const CustomCursor: React.FC = () => {
   const cursorOuterRef = useRef<HTMLDivElement | null>(null);
   const cursorInnerRef = useRef<HTMLDivElement | null>(null);
 
-  // Optional: Prevent console warnings/errors during dev preview
-  console.warn = () => {};
-  console.error = () => {};
-
   useEffect(() => {
     const cursorOuter = cursorOuterRef.current;
     const cursorInner = cursorInnerRef.current;

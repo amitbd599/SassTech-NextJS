@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import BlogSearchForm from "./form/BlogSearchForm";
 
 const BlogInner: React.FC = () => {
   return (
@@ -306,19 +307,8 @@ const BlogInner: React.FC = () => {
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Search Here
                 </h5>
-                <form action='#' className='position-relative'>
-                  <input
-                    type='text'
-                    className='tw-ps-4 tw-pe-12 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                    placeholder='Search here...'
-                  />
-                  <button
-                    type='submit'
-                    className='position-absolute top-50 tw--translate-y-50 tw-end-0 text-main-two-600 tw-text-lg d-flex tw-me-5'
-                  >
-                    <i className='ph-bold ph-magnifying-glass' />
-                  </button>
-                </form>
+                {/* BlogDetailsSearchForm */}
+                <BlogSearchForm />
               </div>
               <div
                 className='bg-neutral-50 tw-px-8 tw-py-8'

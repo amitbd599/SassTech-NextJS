@@ -1,12 +1,12 @@
 import React from "react";
-import Breadcrumb from "@/components/Breadcrumb";
-import CheckoutInner from "@/components/CheckoutInner";
-import FooterThree from "@/components/FooterThree";
-import HeaderOne from "@/components/HeaderOne";
-import TaskManagementOne from "@/components/TaskManagementOne";
-import TopHeaderOne from "@/components/TopHeaderOne";
-import AOSWrap from "@/helper/AOSWrap";
-import CustomCursor from "@/helper/CustomCursor";
+import Breadcrumb from "../../components/Breadcrumb";
+import CheckoutInner from "../../components/CheckoutInner";
+import FooterThree from "../../components/FooterThree";
+import HeaderOne from "../../components/HeaderOne";
+import TaskManagementOne from "../../components/TaskManagementOne";
+import TopHeaderOne from "../../components/TopHeaderOne";
+import AOSWrap from "../../helper/AOSWrap";
+import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
 

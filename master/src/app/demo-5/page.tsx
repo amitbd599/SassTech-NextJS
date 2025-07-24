@@ -1,19 +1,19 @@
 import React from "react";
-import AOSWrap from "@/helper/AOSWrap";
-import HeaderFive from "@/components/HeaderFive";
-import CustomCursor from "@/helper/CustomCursor";
-import TopHeaderThree from "@/components/TopHeaderThree";
-import BannerFive from "@/components/BannerFive";
-import BrandFive from "@/components/BrandFive";
-import WorkProcessOne from "@/components/WorkProcessOne";
-import OfferTwo from "@/components/OfferTwo";
-import AboutFeaturesOne from "@/components/AboutFeaturesOne";
-import CounterUpTwo from "@/components/CounterUpTwo";
-import DownloadAppOne from "@/components/DownloadAppOne";
-import AppScreenshotOne from "@/components/AppScreenshotOne";
-import TestimonialsFive from "@/components/TestimonialsFive";
-import PricingPlanThree from "@/components/PricingPlanThree";
-import FooterFive from "@/components/FooterFive";
+import AOSWrap from "../../helper/AOSWrap";
+import HeaderFive from "../../components/HeaderFive";
+import CustomCursor from "../../helper/CustomCursor";
+import TopHeaderThree from "../../components/TopHeaderThree";
+import BannerFive from "../../components/BannerFive";
+import BrandFive from "../../components/BrandFive";
+import WorkProcessOne from "../../components/WorkProcessOne";
+import OfferTwo from "../../components/OfferTwo";
+import AboutFeaturesOne from "../../components/AboutFeaturesOne";
+import CounterUpTwo from "../../components/CounterUpTwo";
+import DownloadAppOne from "../../components/DownloadAppOne";
+import AppScreenshotOne from "../../components/AppScreenshotOne";
+import TestimonialsFive from "../../components/TestimonialsFive";
+import PricingPlanThree from "../../components/PricingPlanThree";
+import FooterFive from "../../components/FooterFive";
 
 import type { Metadata } from "next";
 

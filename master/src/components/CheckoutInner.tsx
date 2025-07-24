@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import DeliveryInformationForm from "./form/DeliveryInformationForm";
+import ApplyCodeForm from "./form/ApplyCodeForm";
 
 const CheckoutInner: React.FC = () => {
   return (
@@ -9,129 +11,8 @@ const CheckoutInner: React.FC = () => {
           <div className='col-xxl-8 col-lg-7'>
             <div>
               <h6 className='tw-mb-8'>Delivery Information</h6>
-              <form action='#' className='form-submit'>
-                <div className='row gy-4'>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='First Name'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-user' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='Last Name'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-user' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='Address here'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-map-pin' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <select className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'>
-                        <option value='current City'>Current City</option>
-                        <option value='Old City'>Old City</option>
-                      </select>
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-bold ph-caret-down' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-12'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='House Number & street number'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-bold ph-house' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-12'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='Apartment, suit, Unit etc'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-map-pin' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='Zip Code'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-map-pin-simple' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-6'>
-                    <div className='position-relative'>
-                      <input
-                        type='text'
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none'
-                        placeholder='Your Phone'
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-50 translate-middle-y tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-phone' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-12'>
-                    <div className='position-relative'>
-                      <textarea
-                        className='form-control bg-neutral-100 border border-neutral-100 focus-border-main-600 text-neutral-500 fw-medium tw-px-6 tw-py-4 tw-pe-15 tw-rounded-lg shadow-none tw-min-h-210-px'
-                        placeholder='Write Something....'
-                        defaultValue={""}
-                      />
-                      <span className='tw-text-xl text-main-600 d-flex tw-leading-none position-absolute top-0 tw-mt-6 tw-end-0 tw-me-6'>
-                        <i className='ph-fill ph-user' />
-                      </span>
-                    </div>
-                  </div>
-                  <div className='col-sm-12'>
-                    <button
-                      type='submit'
-                      className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn button--stroke  tw-gap-5 group active--translate-y-2 tw-px-4 tw-py-505 fw-medium btn-main hover-style-one w-100 tw-rounded-lg'
-                      data-block='button'
-                    >
-                      <span className='button__flair' />
-                      <span className='button__label'>
-                        Save All Information
-                      </span>
-                    </button>
-                  </div>
-                </div>
-              </form>
+              {/* DeliveryInformationForm */}
+              <DeliveryInformationForm />
             </div>
           </div>
           <div className='col-xxl-4 col-lg-5'>
@@ -158,21 +39,8 @@ const CheckoutInner: React.FC = () => {
                     </span>
                   </div>
                   <div>
-                    <form action='#' className='form-submit position-relative'>
-                      <input
-                        type='text'
-                        className='form-control tw-rounded-md tw-py-4 tw-px-6 text-neutral-600 bg-white shadow-none border border-transparent focus-border-main-600 placeholder-neutral-600 fw-bold tw-pe-140-px'
-                        placeholder='Enter voucher Code'
-                      />
-                      <button
-                        type='submit'
-                        className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-px-6 tw-py-405 fw-medium btn-main hover-style-one position-absolute top-0 tw-end-0 h-100'
-                        data-block='button'
-                      >
-                        <span className='button__flair' />
-                        <span className='button__label'>Apply code</span>
-                      </button>
-                    </form>
+                    {/* ApplyCodeForm */}
+                    <ApplyCodeForm />
                   </div>
                 </div>
                 <div className='tw-my-8'>

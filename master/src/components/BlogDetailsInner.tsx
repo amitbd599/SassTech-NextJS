@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import BlogDetailsForm from "./form/BlogDetailsForm";
+import BlogSearchForm from "./form/BlogSearchForm";
 
 const BlogDetailsInner: React.FC = () => {
   return (
@@ -387,71 +389,8 @@ const BlogDetailsInner: React.FC = () => {
                   <h5 className='splitTextStyleOne tw-mb-9'>
                     Write your comment
                   </h5>
-                  <form action='#'>
-                    <div className='row gy-4'>
-                      <div className='col-sm-6'>
-                        <input
-                          type='text'
-                          className='tw-px-6 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                          placeholder='Enter your name*'
-                        />
-                      </div>
-                      <div className='col-sm-6'>
-                        <input
-                          type='email'
-                          className='tw-px-6 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                          placeholder='Enter your mail*'
-                        />
-                      </div>
-                      <div className='col-sm-6'>
-                        <input
-                          type='number'
-                          className='tw-px-6 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                          placeholder='Enter your number*'
-                        />
-                      </div>
-                      <div className='col-sm-6'>
-                        <input
-                          type='url'
-                          className='tw-px-6 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                          placeholder='Website*'
-                        />
-                      </div>
-                      <div className='col-sm-12'>
-                        <textarea
-                          className='tw-px-6 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300 tw-h-280-px'
-                          placeholder='Enter your Massage*'
-                          defaultValue={""}
-                        />
-                      </div>
-                      <div className='col-sm-12'>
-                        <div className='form-check common-check d-flex tw-gap-205 tw-my-4'>
-                          <input
-                            className='form-check-input'
-                            type='checkbox'
-                            id='comment-check'
-                          />
-                          <label
-                            className='form-check-label text-neutral-600 tw-text-sm fw-medium'
-                            htmlFor='comment-check'
-                          >
-                            Save my name, email, and website in this browser for
-                            the next time I comment.
-                          </label>
-                        </div>
-                      </div>
-                      <div className='col-sm-12'>
-                        <button
-                          type='submit'
-                          className='hover-black btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0 tw-px-13 tw-py-505 tw-mt-8'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Send Messege</span>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
+                  {/* BlogDetailsForm */}
+                  <BlogDetailsForm />
                 </div>
               </div>
             </div>
@@ -526,19 +465,8 @@ const BlogDetailsInner: React.FC = () => {
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Search Here
                 </h5>
-                <form action='#' className='position-relative'>
-                  <input
-                    type='text'
-                    className='tw-ps-4 tw-pe-12 tw-py-4 bg-white tw-placeholder-text-main-two-600 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden rounded-0 shadow-none flex-grow-1 border border-white focus-border-main-600 tw-duration-300'
-                    placeholder='Search here...'
-                  />
-                  <button
-                    type='submit'
-                    className='position-absolute top-50 tw--translate-y-50 tw-end-0 text-main-two-600 tw-text-lg d-flex tw-me-5'
-                  >
-                    <i className='ph-bold ph-magnifying-glass' />
-                  </button>
-                </form>
+                {/* BlogSearchForm */}
+                <BlogSearchForm />
               </div>
               <div
                 className='bg-neutral-100 tw-px-8 tw-py-8'

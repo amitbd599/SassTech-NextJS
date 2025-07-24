@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import SearchDomainForm from "./form/SearchDomainForm";
 
 const SearchDomainTwo: React.FC = () => {
   return (
@@ -182,34 +183,10 @@ const SearchDomainTwo: React.FC = () => {
                       never been more critic. business
                     </p>
                   </div>
-                  <form
-                    action='#'
-                    className='d-flex tw-gap-6 flex-column flex-xl-row tw-mt-8'
-                  >
-                    <div className='position-relative flex-grow-1'>
-                      <input
-                        type='text'
-                        className='tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100'
-                        placeholder='Enter your desire domain name'
-                      />
-                      <select className='select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold'>
-                        <option value='.xyz'>.xyz</option>
-                        <option value='.shop'>.shop</option>
-                        <option value='.icu'>.icu</option>
-                        <option value='.site'>.site</option>
-                        <option value='.in'>.in</option>
-                        <option value='.gives'>.gives</option>
-                      </select>
-                    </div>
-                    <button
-                      type='submit'
-                      className='hover-black hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold'
-                      data-block='button'
-                    >
-                      <span className='button__flair' />
-                      <span className='button__label'>Search</span>
-                    </button>
-                  </form>
+                  {/* SearchDomainForm */}
+                  <div className='tw-mt-8'>
+                    <SearchDomainForm />
+                  </div>
                 </div>
               </div>
             </div>

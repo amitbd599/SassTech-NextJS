@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import FooterSearchFormOne from "./form/FooterSearchFormOne";
 
 const FooterOne: React.FC = () => {
   return (
-    <footer className='footer bg-black position-relative z-1 mt-auto tw-pt-16 overflow-hidden'>
+    <footer className='footer one bg-black position-relative z-1 mt-auto tw-pt-16 overflow-hidden'>
       {/* Footer Top Start */}
       <div className='container'>
         <div className='d-flex align-items-center tw-gap-505'>
@@ -142,32 +143,8 @@ const FooterOne: React.FC = () => {
                     alt='tech'
                   />
                 </Link>
-                <form
-                  action='#'
-                  className='d-flex flex-md-row flex-column tw-gap-5 form-submit'
-                >
-                  <div className='position-relative flex-grow-1'>
-                    <input
-                      type='email'
-                      className='tw-h-14 tw-rounded-lg bg-white-08 tw-ps-12 border border-neutral-700 focus-border-main-600 text-white focus-outline-0 w-100 tw-pe-6'
-                      placeholder='Email Address'
-                    />
-                    <span className='text-white tw-text-lg position-absolute top-50 tw-start-0 tw--translate-y-50 tw-ms-5 d-flex'>
-                      <i className='ph ph-envelope-simple' />
-                    </span>
-                  </div>
-                  <button
-                    type='submit'
-                    className='btn btn-main hover-style-three button--stroke d-inline-flex align-items-center justify-content-center tw-gap-2 group active--translate-y-2 fw-semibold flex-shrink-0 hover--translate-y-1 active--translate-y-scale-9'
-                    data-block='button'
-                  >
-                    <span className='button__flair' />
-                    <span className='button__label'>Sign Up</span>
-                    <span className='text-white tw-text-sm tw-rounded d-flex justify-content-center align-items-center position-relative group-hover-text-main-600 tw-duration-500'>
-                      <i className='ph-bold ph-caret-right' />
-                    </span>
-                  </button>
-                </form>
+                {/* FooterSearchFormOne */}
+                <FooterSearchFormOne />
                 <p className='text-neutral-500 fw-semibold tw-mt-9'>
                   By subscribing, you're accept{" "}
                   <Link

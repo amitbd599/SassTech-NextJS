@@ -1,14 +1,14 @@
 import React from "react";
-import Breadcrumb from "@/components/Breadcrumb";
-import FooterThree from "@/components/FooterThree";
-import HeaderOne from "@/components/HeaderOne";
-import PricingPlanInner from "@/components/PricingPlanInner";
-import PricingPlanInnerThree from "@/components/PricingPlanInnerThree";
-import PricingPlanInnerTwo from "@/components/PricingPlanInnerTwo";
-import TaskManagementOne from "@/components/TaskManagementOne";
-import TopHeaderOne from "@/components/TopHeaderOne";
-import AOSWrap from "@/helper/AOSWrap";
-import CustomCursor from "@/helper/CustomCursor";
+import Breadcrumb from "../../components/Breadcrumb";
+import FooterThree from "../../components/FooterThree";
+import HeaderOne from "../../components/HeaderOne";
+import PricingPlanInner from "../../components/PricingPlanInner";
+import PricingPlanInnerThree from "../../components/PricingPlanInnerThree";
+import PricingPlanInnerTwo from "../../components/PricingPlanInnerTwo";
+import TaskManagementOne from "../../components/TaskManagementOne";
+import TopHeaderOne from "../../components/TopHeaderOne";
+import AOSWrap from "../../helper/AOSWrap";
+import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
 

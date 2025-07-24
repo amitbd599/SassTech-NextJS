@@ -1,15 +1,15 @@
 import React from "react";
-import AppIntegrationBreadcrumb from "@/components/AppIntegrationBreadcrumb";
-import CounterUpThree from "@/components/CounterUpThree";
-import DrivenSectionTwo from "@/components/DrivenSectionTwo";
-import FaqTwo from "@/components/FaqTwo";
-import FooterThree from "@/components/FooterThree";
-import HeaderOne from "@/components/HeaderOne";
-import SeamlessIntegration from "@/components/SeamlessIntegration";
-import TaskManagementOne from "@/components/TaskManagementOne";
-import TopHeaderOne from "@/components/TopHeaderOne";
-import AOSWrap from "@/helper/AOSWrap";
-import CustomCursor from "@/helper/CustomCursor";
+import AppIntegrationBreadcrumb from "../../components/AppIntegrationBreadcrumb";
+import CounterUpThree from "../../components/CounterUpThree";
+import DrivenSectionTwo from "../../components/DrivenSectionTwo";
+import FaqTwo from "../../components/FaqTwo";
+import FooterThree from "../../components/FooterThree";
+import HeaderOne from "../../components/HeaderOne";
+import SeamlessIntegration from "../../components/SeamlessIntegration";
+import TaskManagementOne from "../../components/TaskManagementOne";
+import TopHeaderOne from "../../components/TopHeaderOne";
+import AOSWrap from "../../helper/AOSWrap";
+import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
 

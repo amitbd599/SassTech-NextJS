@@ -9,27 +9,27 @@ const BannerFour: React.FC = () => {
     {
       id: "data",
       label: "data",
-      img: "assets/images/thumbs/banner-dashboard.png",
+      img: "/assets/images/thumbs/banner-dashboard.png",
     },
     {
       id: "Automation",
       label: "Automation",
-      img: "assets/images/thumbs/banner-dashboard_2.png",
+      img: "/assets/images/thumbs/banner-dashboard_2.png",
     },
     {
       id: "Pipeline",
       label: "Pipeline",
-      img: "assets/images/thumbs/banner-dashboard.png",
+      img: "/assets/images/thumbs/banner-dashboard.png",
     },
     {
       id: "Productivity",
       label: "Productivity",
-      img: "assets/images/thumbs/banner-dashboard_2.png",
+      img: "/assets/images/thumbs/banner-dashboard_2.png",
     },
     {
       id: "Reporting",
       label: "Reporting",
-      img: "assets/images/thumbs/banner-dashboard.png",
+      img: "/assets/images/thumbs/banner-dashboard.png",
     },
   ];
   return (

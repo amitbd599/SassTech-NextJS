@@ -9,19 +9,19 @@ const CRMOne: React.FC = () => {
       title: "Automate everything",
       content:
         "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
-      image: "assets/images/thumbs/faq-thumb2.png",
+      image: "/assets/images/thumbs/faq-thumb2.png",
     },
     {
       title: "Deploy AI",
       content:
         "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
-      image: "assets/images/thumbs/faq-thumb1.png",
+      image: "/assets/images/thumbs/faq-thumb1.png",
     },
     {
       title: "Powerful reporting",
       content:
         "ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.",
-      image: "assets/images/thumbs/faq-thumb3.png",
+      image: "/assets/images/thumbs/faq-thumb3.png",
     },
   ];
   return (

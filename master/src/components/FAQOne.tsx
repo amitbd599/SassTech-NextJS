@@ -10,25 +10,25 @@ const FAQOne: React.FC = () => {
       title: "Tailored solution",
       content:
         "We customize our technology to fit your specific need ensuring the best possible outcomes.",
-      img: "assets/images/thumbs/faq-thumb2.png",
+      img: "/assets/images/thumbs/faq-thumb2.png",
     },
     {
       title: "Cutting-edge technology",
       content:
         "We customize our technology to fit your specific need ensuring the best possible outcomes.",
-      img: "assets/images/thumbs/faq-thumb1.png",
+      img: "/assets/images/thumbs/faq-thumb1.png",
     },
     {
       title: "Discovery & Analysis",
       content:
         "We customize our technology to fit your specific need ensuring the best possible outcomes.",
-      img: "assets/images/thumbs/faq-thumb3.png",
+      img: "/assets/images/thumbs/faq-thumb3.png",
     },
     {
       title: "Deployment & Support",
       content:
         "We customize our technology to fit your specific need ensuring the best possible outcomes.",
-      img: "assets/images/thumbs/faq-thumb4.png",
+      img: "/assets/images/thumbs/faq-thumb4.png",
     },
   ];
   return (

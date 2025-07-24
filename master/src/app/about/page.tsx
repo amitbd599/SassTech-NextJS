@@ -1,17 +1,17 @@
 import React from "react";
-import AboutBannerInner from "@/components/AboutBannerInner";
-import AboutCounter from "@/components/AboutCounter";
-import AboutFeatures from "@/components/AboutFeatures";
-import AboutTeamInner from "@/components/AboutTeamInner";
-import BrandThree from "@/components/BrandThree";
-import FooterThree from "@/components/FooterThree";
-import HeaderOne from "@/components/HeaderOne";
-import PricingPlanTwo from "@/components/PricingPlanTwo";
-import TaskManagementOne from "@/components/TaskManagementOne";
-import TestimonialsOne from "@/components/TestimonialsOne";
-import TopHeaderOne from "@/components/TopHeaderOne";
-import AOSWrap from "@/helper/AOSWrap";
-import CustomCursor from "@/helper/CustomCursor";
+import AboutCounter from "../../components/AboutCounter";
+import AboutFeatures from "../../components/AboutFeatures";
+import AboutTeamInner from "../../components/AboutTeamInner";
+import BrandThree from "../../components/BrandThree";
+import FooterThree from "../../components/FooterThree";
+import HeaderOne from "../../components/HeaderOne";
+import PricingPlanTwo from "../../components/PricingPlanTwo";
+import TaskManagementOne from "../../components/TaskManagementOne";
+import TestimonialsOne from "../../components/TestimonialsOne";
+import TopHeaderOne from "../../components/TopHeaderOne";
+import AOSWrap from "../../helper/AOSWrap";
+import CustomCursor from "../../helper/CustomCursor";
+import AboutBannerInner from "../../components/AboutBannerInner";
 
 import type { Metadata } from "next";
 
