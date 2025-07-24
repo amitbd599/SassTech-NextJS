@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import ShopGallery from "../helper/ShopGallery";
+import dynamic from "next/dynamic";
+
+const ShopGallery = dynamic(() => import("../helper/ShopGallery"));
 
 const ShopDetailsInner: React.FC = () => {
   let [count, setCount] = useState<number>(1);
@@ -185,9 +187,9 @@ const ShopDetailsInner: React.FC = () => {
                             </button>
                             <input
                               value={count}
+                              readOnly
                               type='text'
                               className='border-0 text-center focus-outline-0 text-heading fw-bold tw-w-11 input-value'
-                              defaultValue={0}
                             />
                             <button
                               onClick={() => {

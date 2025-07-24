@@ -6,12 +6,7 @@ const PricingPlanInnerThree: React.FC = () => {
     <section className='pricing-plan-three py-120'>
       <div className='container'>
         <div className='max-w-672-px text-center mx-auto tw-mb-12'>
-          <div
-            className='bg-white tw-py-2 tw-px-705 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={600}
-          >
+          <div className='bg-white tw-py-2 tw-px-705 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max'>
             <span className='text-gradient-teal'> what we offering </span>
           </div>
           <h3 className='splitTextStyleOne text-heading text-capitalize'>
@@ -25,12 +20,7 @@ const PricingPlanInnerThree: React.FC = () => {
           </p>
         </div>
         <div className='row gy-4'>
-          <div
-            className='col-lg-4'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={600}
-          >
+          <div className='col-lg-4'>
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
               <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
@@ -47,12 +37,7 @@ const PricingPlanInnerThree: React.FC = () => {
                   maintenance
                 </p>
                 <div className='d-flex flex-column tw-gap-5 tw-mt-10'>
-                  <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={600}
-                  >
+                  <div className='d-flex align-items-center tw-gap-305  aos-animate'>
                     <span className='tw-text-lg'>
                       <i className='text-gradient-teal ph-bold ph-check' />
                     </span>
@@ -61,9 +46,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={620}
                   >
                     <span className='tw-text-lg'>
@@ -74,9 +57,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={640}
                   >
                     <span className='tw-text-lg'>
@@ -87,9 +68,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={660}
                   >
                     <span className='tw-text-lg'>
@@ -100,9 +79,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={680}
                   >
                     <span className='tw-text-lg'>
@@ -134,12 +111,7 @@ const PricingPlanInnerThree: React.FC = () => {
               </div>
             </div>
           </div>
-          <div
-            className='col-lg-4'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={800}
-          >
+          <div className='col-lg-4' data-aos-duration={800}>
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
               <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
@@ -156,12 +128,7 @@ const PricingPlanInnerThree: React.FC = () => {
                   maintenance
                 </p>
                 <div className='d-flex flex-column tw-gap-5 tw-mt-10'>
-                  <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={600}
-                  >
+                  <div className='d-flex align-items-center tw-gap-305  aos-animate'>
                     <span className='tw-text-lg'>
                       <i className='text-gradient-teal ph-bold ph-check' />
                     </span>
@@ -170,9 +137,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={620}
                   >
                     <span className='tw-text-lg'>
@@ -183,9 +148,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={640}
                   >
                     <span className='tw-text-lg'>
@@ -196,9 +159,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={660}
                   >
                     <span className='tw-text-lg'>
@@ -209,9 +170,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={680}
                   >
                     <span className='tw-text-lg'>
@@ -243,12 +202,7 @@ const PricingPlanInnerThree: React.FC = () => {
               </div>
             </div>
           </div>
-          <div
-            className='col-lg-4'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={1000}
-          >
+          <div className='col-lg-4' data-aos-duration={1000}>
             <div className='tw-rounded-xl overflow-hidden bg-neutral-50 border border-neutral-200 hover-border-white hover-bg-white tw-px-11 tw-py-14 tw-transition tw-duration-200 position-relative hover-common-shadow-fourteen'>
               <div>
                 <div className='d-flex align-items-center justify-content-between flex-wrap tw-gap-2'>
@@ -265,12 +219,7 @@ const PricingPlanInnerThree: React.FC = () => {
                   maintenance
                 </p>
                 <div className='d-flex flex-column tw-gap-5 tw-mt-10'>
-                  <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
-                    data-aos-duration={600}
-                  >
+                  <div className='d-flex align-items-center tw-gap-305  aos-animate'>
                     <span className='tw-text-lg'>
                       <i className='text-gradient-teal ph-bold ph-check' />
                     </span>
@@ -279,9 +228,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={620}
                   >
                     <span className='tw-text-lg'>
@@ -292,9 +239,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={640}
                   >
                     <span className='tw-text-lg'>
@@ -305,9 +250,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={660}
                   >
                     <span className='tw-text-lg'>
@@ -318,9 +261,7 @@ const PricingPlanInnerThree: React.FC = () => {
                     </span>
                   </div>
                   <div
-                    className='d-flex align-items-center tw-gap-305 aos-init aos-animate'
-                    data-aos='fade-up'
-                    data-aos-anchor-placement='top-bottom'
+                    className='d-flex align-items-center tw-gap-305  aos-animate'
                     data-aos-duration={680}
                   >
                     <span className='tw-text-lg'>

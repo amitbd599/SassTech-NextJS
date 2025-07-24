@@ -1,5 +1,4 @@
-import Script from "next/script";
-import InitializeAOS from "../helper/InitializeAOS";
+// import "bootstrap/dist/js/bootstrap.js";
 import PhosphorIconsLoader from "../helper/PhosphorIconsLoader";
 import RouteScrollToTop from "../helper/RouteScrollToTop";
 import { Jost } from "next/font/google";
@@ -91,16 +90,10 @@ export default function RootLayout({
       `}
     >
       <body suppressHydrationWarning={true}>
-        <InitializeAOS />
         <RouteScrollToTop />
         <PhosphorIconsLoader />
 
         {children}
-
-        <Script
-          src='/assets/js/boostrap.bundle.min.js'
-          strategy='afterInteractive'
-        />
       </body>
     </html>
   );

@@ -1,11 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["nextjs.sasstech.webnextpro.com"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "nextjs.sasstech.webnextpro.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
   compress: true,
   experimental: {
-    serverActions: true,
+    serverActions: {}, // ✅ correct format
   },
 };
 

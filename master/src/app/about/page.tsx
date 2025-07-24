@@ -2,7 +2,6 @@ import React from "react";
 import AboutCounter from "../../components/AboutCounter";
 import AboutFeatures from "../../components/AboutFeatures";
 import AboutTeamInner from "../../components/AboutTeamInner";
-import BrandThree from "../../components/BrandThree";
 import FooterThree from "../../components/FooterThree";
 import HeaderOne from "../../components/HeaderOne";
 import PricingPlanTwo from "../../components/PricingPlanTwo";
@@ -14,6 +13,8 @@ import CustomCursor from "../../helper/CustomCursor";
 import AboutBannerInner from "../../components/AboutBannerInner";
 
 import type { Metadata } from "next";
+import dynamic from "next/dynamic";
+const BrandThree = dynamic(() => import("../../components/BrandThree"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {

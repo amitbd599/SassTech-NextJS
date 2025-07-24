@@ -1,21 +1,26 @@
+import dynamic from "next/dynamic";
 import React from "react";
 import AutomationOne from "../../components/AutomationOne";
 import BannerThree from "../../components/BannerThree";
-import BrandThree from "../../components/BrandThree";
+
 import DistractionOne from "../../components/DistractionOne";
 import FeaturesThree from "../../components/FeaturesThree";
 import FooterThree from "../../components/FooterThree";
 import HeaderThree from "../../components/HeaderThree";
-import PlanExecuteOne from "../../components/PlanExecuteOne";
 import PricingPlanTwo from "../../components/PricingPlanTwo";
 import TaskManagementOne from "../../components/TaskManagementOne";
 import TaskManagerOne from "../../components/TaskManagerOne";
-import TestimonialsThree from "../../components/TestimonialsThree";
 import WorkPlaceOne from "../../components/WorkPlaceOne";
 import AOSWrap from "../../helper/AOSWrap";
 import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
+
+const BrandThree = dynamic(() => import("../../components/BrandThree"));
+const TestimonialsThree = dynamic(
+  () => import("../../components/TestimonialsThree")
+);
+const PlanExecuteOne = dynamic(() => import("../../components/PlanExecuteOne"));
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {

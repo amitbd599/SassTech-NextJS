@@ -29,12 +29,7 @@ const TaskManagementOne: React.FC = () => {
             className='position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none'
           />
           <div className='tw-mb-8 text-center max-w-570-px mx-auto'>
-            <div
-              className='tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13'
-              data-aos='fade-up'
-              data-aos-anchor-placement='top-bottom'
-              data-aos-duration={600}
-            >
+            <div className='tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13'>
               <div>
                 Up to{" "}
                 <span className='text-yellow text-stroke-yellow'>70%</span> off

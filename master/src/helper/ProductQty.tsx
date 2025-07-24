@@ -17,6 +17,7 @@ const ProductQty: React.FC = () => {
         </button>
         <input
           value={qty}
+          readOnly
           type='text'
           className='border border-neutral-200 bg-neutral-200 tw-w-11 tw-h-11 text-center focus-outline-0 text-heading fw-bold tw-w-11 input-value'
         />

@@ -39,12 +39,7 @@ const ServicesOne: React.FC = () => {
       />
       <div className='container max-w-1552-px'>
         <div className='max-w-672-px text-center mx-auto tw-mb-12'>
-          <div
-            className='bg-white-06 tw-py-3 tw-px-305 rounded-pill text-white fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max aos-init aos-animate'
-            data-aos='fade-up'
-            data-aos-anchor-placement='top-bottom'
-            data-aos-duration={600}
-          >
+          <div className='bg-white-06 tw-py-3 tw-px-305 rounded-pill text-white fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max  aos-animate'>
             <span className='tw-w-205 tw-h-205 bg-yellow rounded-circle' />
             Up to <span className='text-yellow'>70%</span> off managed cloud
             hosting
