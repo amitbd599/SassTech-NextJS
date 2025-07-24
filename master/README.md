@@ -55,6 +55,8 @@ https://nextjs.sasstech.webnextpro.com/
 
 ## Features
 
+- TypeScript support.
+- Latest NEXT & React version.
 - 100% pixel perfect design
 - Clean and Simple Style
 - Cross Browser Optimization.
