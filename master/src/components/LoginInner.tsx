@@ -13,7 +13,7 @@ const LoginInner: React.FC = () => {
           {/* LoginInnerForm */}
           <LoginInnerForm />
           <div className='form-check-label text-neutral-600 fw-semibold tw-mt-405 text-center'>
-            <span>Are you new here?</span>
+            <span>Are you new here?</span>{" "}
             <Link
               href='/register'
               className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'

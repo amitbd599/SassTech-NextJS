@@ -12,7 +12,7 @@ const nextConfig = {
   },
   compress: true,
   experimental: {
-    serverActions: {}, // ✅ correct format
+    serverActions: {},
   },
 };
 

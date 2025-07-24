@@ -105,12 +105,7 @@ const ProjectDetailsInner: React.FC = () => {
                 pursue pleasure rationally encounter
               </p>
               <ul className='xs-grid-cols-2 d-grid tw-gap-6 tw-mt-14'>
-                <li
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={200}
-                >
+                <li className='d-flex align-items-center tw-gap-4'>
                   <span className='text-main-600 d-flex'>
                     <i className='ph-bold ph-check' />
                   </span>
@@ -118,12 +113,7 @@ const ProjectDetailsInner: React.FC = () => {
                     Efficient Sprint Planning
                   </span>
                 </li>
-                <li
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={400}
-                >
+                <li className='d-flex align-items-center tw-gap-4'>
                   <span className='text-main-600 d-flex'>
                     <i className='ph-bold ph-check' />
                   </span>
@@ -131,12 +121,7 @@ const ProjectDetailsInner: React.FC = () => {
                     Iterative Delivery Approach
                   </span>
                 </li>
-                <li
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={400}
-                >
+                <li className='d-flex align-items-center tw-gap-4'>
                   <span className='text-main-600 d-flex'>
                     <i className='ph-bold ph-check' />
                   </span>
@@ -144,12 +129,7 @@ const ProjectDetailsInner: React.FC = () => {
                     Standups and Demos
                   </span>
                 </li>
-                <li
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={400}
-                >
+                <li className='d-flex align-items-center tw-gap-4'>
                   <span className='text-main-600 d-flex'>
                     <i className='ph-bold ph-check' />
                   </span>
@@ -176,12 +156,7 @@ const ProjectDetailsInner: React.FC = () => {
                 pleasure{" "}
               </p>
               <div className='tw-mt-14'>
-                <div
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={200}
-                >
+                <div className='d-flex align-items-center tw-gap-4'>
                   <span className='text-white tw-w-605 tw-h-605 bg-main-600 d-flex justify-content-center align-items-center rounded-circle'>
                     <i className='ph-bold ph-check' />
                   </span>
@@ -193,12 +168,7 @@ const ProjectDetailsInner: React.FC = () => {
                 </p>
               </div>
               <div className='tw-mt-14'>
-                <div
-                  className='d-flex align-items-center tw-gap-4'
-                  data-aos='fade-up'
-                  data-aos-duration={1000}
-                  data-aos-delay={200}
-                >
+                <div className='d-flex align-items-center tw-gap-4'>
                   <span className='text-white tw-w-605 tw-h-605 bg-main-600 d-flex justify-content-center align-items-center rounded-circle'>
                     <i className='ph-bold ph-check' />
                   </span>

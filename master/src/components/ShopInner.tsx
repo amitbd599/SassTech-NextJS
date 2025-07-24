@@ -1,35 +1,44 @@
-"use client";
+import React, { use } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
 import PriceRangeFilter from "../helper/PriceRangeFilter";
 import ShopSearchForm from "./form/ShopSearchForm";
 
+import shopData from "../data/shops.json";
+
+type Shop = {
+  id: number;
+  title: string;
+  price: string;
+  img: string;
+};
+
+async function getShops(): Promise<Shop[]> {
+  // Simulate async fetch
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(shopData);
+    }, 100); // Simulates slight delay
+  });
+}
+
 const ShopInner: React.FC = () => {
-  let [gridView, setGridView] = useState<boolean>(false);
+  const shops = use(getShops());
 
   return (
-    <section className={`shop py-120 ${gridView && "grid-view"} `}>
+    <section className='shop py-120 '>
       <div className='container'>
         <div className='row gy-4'>
           <div className='col-lg-4'>
             <div className='d-flex flex-column tw-gap-705'>
-              <div
-                className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'>
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   Search Here
                 </h5>
                 {/* ShopSearchForm */}
                 <ShopSearchForm />
               </div>
-              <div
-                className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'>
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   Categories
                 </h5>
@@ -96,11 +105,7 @@ const ShopInner: React.FC = () => {
               {/* PriceRangeFilter */}
               <PriceRangeFilter />
 
-              <div
-                className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'>
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   select by size
                 </h5>
@@ -147,11 +152,7 @@ const ShopInner: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'>
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   Filter by Rating
                 </h5>
@@ -313,11 +314,7 @@ const ShopInner: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='tw-px-8 tw-py-8 common-shadow-nineteen tw-rounded-lg'>
                 <h5 className='border-start border-2 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6 text-capitalize'>
                   Popular tags
                 </h5>
@@ -396,858 +393,82 @@ const ShopInner: React.FC = () => {
                       </select>
                     </div>
                   </div>
-                  <div className='d-flex align-items-center tw-gap-4'>
-                    <button
-                      onClick={() => setGridView(false)}
-                      type='button'
-                      className={`tw-text-2xl hover-text-main-600 tw-leading-none  list-view-btn ${
-                        gridView === false && "text-main-600"
-                      }`}
-                    >
-                      <i className='ph-bold ph-list-bullets' />
-                    </button>
-                    <button
-                      onClick={() => setGridView(true)}
-                      type='button'
-                      className={`tw-text-2xl hover-text-main-600 tw-leading-none text-heading grid-view-btn ${
-                        gridView && "text-main-600"
-                      }`}
-                    >
-                      <i className='ph-bold ph-squares-four' />
-                    </button>
-                  </div>
                 </div>
               </div>
               {/* Top List Grid End */}
               <div className='row gy-4 product-item-wrapper'>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={210}
-                          height={212}
-                          src='/assets/images/thumbs/product-img1.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
+                {shops.map((item, index) => (
+                  <div className='col-md-4 col-sm-6 col-xs-6' key={index}>
+                    <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
+                      <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
+                        <Link href='/shop-details' className='d-block'>
+                          <Image
+                            width={200}
+                            height={200}
+                            src={item.img}
+                            alt='Product Thumbnail'
+                            className='group-hover-item-scale-12 tw-duration-300'
+                          />
                         </Link>
+                        <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
+                          <button
+                            type='button'
+                            className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
+                          >
+                            <i className='ph-bold ph-eye' />
+                          </button>
+                          <button
+                            type='button'
+                            className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
+                          >
+                            <i className='ph-bold ph-star' />
+                          </button>
+                          <button
+                            type='button'
+                            className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
+                          >
+                            <i className='ph-bold ph-arrows-down-up' />
+                          </button>
+                        </div>
+                        <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
+                          <Link
+                            href='/cart'
+                            className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
+                            data-block='button'
+                          >
+                            <span className='button__flair' />
+                            <span className='button__label'>Add To Cart</span>
+                          </Link>
+                        </div>
                       </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
+                      <div className='product-item__content text-center tw-px-2'>
+                        <div className='d-inline-flex align-items-center tw-gap-1'>
+                          <span className='text-star text-main-600 tw-text-base d-flex'>
+                            <i className='ph-fill ph-star' />
+                          </span>
+                          <span className='text-star text-main-600 tw-text-base d-flex'>
+                            <i className='ph-fill ph-star' />
+                          </span>
+                          <span className='text-star text-main-600 tw-text-base d-flex'>
+                            <i className='ph-fill ph-star' />
+                          </span>
+                          <span className='text-star text-main-600 tw-text-base d-flex'>
+                            <i className='ph-fill ph-star' />
+                          </span>
+                          <span className='text-star text-neutral-300 tw-text-base d-flex'>
+                            <i className='ph-fill ph-star' />
+                          </span>
+                        </div>
+                        <h6 className='tw-text-base tw-my-205'>
+                          <Link href='/shop-details'>{item.title}</Link>
+                        </h6>
+                        <span className='text-heading fw-medium'>
+                          ${item.price}
                         </span>
                       </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          Smart wireless headphone
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
                     </div>
                   </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={198}
-                          height={201}
-                          src='/assets/images/thumbs/product-img2.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          Go pro hero action camera
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={111}
-                          height={177}
-                          src='/assets/images/thumbs/product-img3.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Colorful apple Ipad</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={188}
-                          height={190}
-                          src='/assets/images/thumbs/product-img4.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Humidifiler white grow</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={196}
-                          height={198}
-                          src='/assets/images/thumbs/product-img5.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Apple Iphone 16 promax</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={136}
-                          height={165}
-                          src='/assets/images/thumbs/product-img6.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          Go pro hero action camera
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={200}
-                          height={202}
-                          src='/assets/images/thumbs/product-img7.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          Apple smartwatch series
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={150}
-                          height={152}
-                          src='/assets/images/thumbs/product-img8.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Instax pro camera hero</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={159}
-                          height={160}
-                          src='/assets/images/thumbs/product-img9.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Macbook m1 cheap pro</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={200}
-                          height={202}
-                          src='/assets/images/thumbs/product-img10.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          VISION RAC Micro Oven&nbsp;
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={200}
-                          height={202}
-                          src='/assets/images/thumbs/product-img11.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>
-                          Folding Keayboard display
-                        </Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-xs-6'>
-                  <div className='product-item group-item d-flex flex-column tw-gap-5 hover-common-shadow-four bg-white tw-pb-2 tw-rounded-2xl'>
-                    <div className='product-item__thumb position-relative overflow-hidden d-block border border-neutral-200 tw-rounded-2xl tw-min-h-290-px d-flex justify-content-center align-items-center'>
-                      <Link href='/shop-details' className='d-block'>
-                        <Image
-                          width={200}
-                          height={220}
-                          src='/assets/images/thumbs/product-img12.png'
-                          alt='Product Thumbnail'
-                          className='group-hover-item-scale-12 tw-duration-300'
-                        />
-                      </Link>
-                      <div className='d-flex flex-column tw-gap-3 position-absolute top-0 tw-end-0 tw-mt-4 tw-me-4 translate-x-100-16 group-hover-item-translate-x-0 tw-duration-500'>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-eye' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-star' />
-                        </button>
-                        <button
-                          type='button'
-                          className='tw-w-10 tw-h-10 bg-neutral-200 text-heading hover-bg-main-600 hover-text-white tw-text-lg d-flex justify-content-center align-items-center tw-rounded-md tw-duration-200 active-scale-09'
-                        >
-                          <i className='ph-bold ph-arrows-down-up' />
-                        </button>
-                      </div>
-                      <div className='position-absolute tw-start-0 bottom-0 tw-mb-4 tw-px-6 w-100 tw-scale-04 tw-invisible opacity-0 group-hover-item-opacity-1 group-hover-item-visible group-hover-item-scale-1 tw-duration-500'>
-                        <Link
-                          href='/cart'
-                          className='hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-black hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-3 tw-py-305 tw-text-sm fw-semibold rounded-pill w-100'
-                          data-block='button'
-                        >
-                          <span className='button__flair' />
-                          <span className='button__label'>Add To Cart</span>
-                        </Link>
-                      </div>
-                    </div>
-                    <div className='product-item__content text-center tw-px-2'>
-                      <div className='d-inline-flex align-items-center tw-gap-1'>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-main-600 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                        <span className='text-star text-neutral-300 tw-text-base d-flex'>
-                          <i className='ph-fill ph-star' />
-                        </span>
-                      </div>
-                      <h6 className='tw-text-base tw-my-205'>
-                        <Link href='/shop-details'>Logitech Mouse Havit</Link>
-                      </h6>
-                      <span className='text-heading fw-medium'>$112.00</span>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

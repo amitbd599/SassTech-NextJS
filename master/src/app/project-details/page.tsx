@@ -8,7 +8,8 @@ import AOSWrap from "../../helper/AOSWrap";
 import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
-import React from "react";
+import React, { Suspense } from "react";
+import Loading from "../loading";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
@@ -50,7 +51,9 @@ const Page: React.FC = () => {
         <Breadcrumb title={"Project Details"} />
 
         {/* ProjectDetailsInner */}
-        <ProjectDetailsInner />
+        <Suspense fallback={<Loading />}>
+          <ProjectDetailsInner />
+        </Suspense>
 
         {/* TaskManagementOne */}
         <TaskManagementOne />

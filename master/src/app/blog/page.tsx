@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import BlogInner from "../../components/BlogInner";
 import Breadcrumb from "../../components/Breadcrumb";
 import FooterThree from "../../components/FooterThree";
@@ -7,6 +7,7 @@ import TaskManagementOne from "../../components/TaskManagementOne";
 import TopHeaderOne from "../../components/TopHeaderOne";
 import AOSWrap from "../../helper/AOSWrap";
 import CustomCursor from "../../helper/CustomCursor";
+import Loading from "../loading";
 
 import type { Metadata } from "next";
 
@@ -50,7 +51,9 @@ const Page: React.FC = () => {
         <Breadcrumb title={"Blog Page"} />
 
         {/* BlogInner */}
-        <BlogInner />
+        <Suspense fallback={<Loading />}>
+          <BlogInner />
+        </Suspense>
 
         {/* TaskManagementOne */}
         <TaskManagementOne />

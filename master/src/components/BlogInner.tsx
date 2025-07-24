@@ -1,250 +1,112 @@
+import React, { use } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import BlogSearchForm from "./form/BlogSearchForm";
+import blogData from "../data/blogs.json";
+
+type Blog = {
+  id: number;
+  title: string;
+  excerpt: string;
+  img: string;
+};
+
+async function getBlogs(): Promise<Blog[]> {
+  // Simulate async fetch
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(blogData);
+    }, 100); // Simulates slight delay
+  });
+}
 
 const BlogInner: React.FC = () => {
+  const blogs = use(getBlogs());
   return (
     <section className='py-120'>
       <div className='container'>
         <div className='row gy-4'>
           <div className='col-lg-8'>
             <div className='d-flex flex-column tw-gap-15'>
-              <div data-aos='fade-up' data-aos-duration={800}>
-                <div className='position-relative'>
-                  <Link
-                    href='/blog-details'
-                    className='w-100 h-100 overflow-hidden tw-rounded-3xl'
-                  >
-                    <Image
-                      width={884}
-                      height={507}
-                      src='/assets/images/thumbs/blog-page-img1.png'
-                      alt=''
-                      className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
-                    />
-                  </Link>
-                  <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
-                    24 Feb
-                  </h6>
-                </div>
-                <div className='tw-mt-10'>
-                  <div className='tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap'>
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-user' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Mehedii .H
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph-bold ph-chats-circle' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Comments (03)
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-clock' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        3 min Read
-                      </span>
-                    </div>
-                  </div>
-                  <h4 className='tw-mb-4'>
-                    <Link href='/blog-details' className='splitTextStyleOne'>
-                      The whimsically named Egg Canvas brainch{" "}
-                    </Link>
-                  </h4>
-                  <p className='tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne'>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but majority have suffered teration in some form,
-                    by injected humour, or randomised words which don't look
-                    even slight believable. If you are going to use a passage of
-                    Lorem Ipsum.
-                  </p>
-                  <Link
-                    href='/blog-details'
-                    className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
-                  >
-                    Read More
-                    <span>
+              {blogs.map((item, index) => (
+                <div key={index}>
+                  <div className='position-relative'>
+                    <Link
+                      href='/blog-details'
+                      className='w-100 h-100 overflow-hidden tw-rounded-3xl'
+                    >
                       <Image
-                        width={44}
-                        height={9}
-                        src='/assets/images/icons/arrow-long.svg'
-                        alt=''
+                        width={884}
+                        height={507}
+                        src={item.img}
+                        alt='blog_img'
+                        className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
                       />
-                    </span>
-                  </Link>
-                </div>
-              </div>
-              <div data-aos='fade-up' data-aos-duration={800}>
-                <div className='position-relative'>
-                  <Link
-                    href='/blog-details'
-                    className='w-100 h-100 overflow-hidden tw-rounded-3xl'
-                  >
-                    <Image
-                      width={884}
-                      height={507}
-                      src='/assets/images/thumbs/blog-page-img2.png'
-                      alt=''
-                      className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
-                    />
-                  </Link>
-                  <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
-                    24 Feb
-                  </h6>
-                </div>
-                <div className='tw-mt-10'>
-                  <div className='tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap'>
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-user' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Mehedii .H
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph-bold ph-chats-circle' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Comments (03)
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-clock' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        3 min Read
-                      </span>
-                    </div>
-                  </div>
-                  <h4 className='tw-mb-4'>
-                    <Link href='/blog-details' className='splitTextStyleOne'>
-                      The whimsically named Egg Canvas brainch{" "}
                     </Link>
-                  </h4>
-                  <p className='tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne'>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but majority have suffered teration in some form,
-                    by injected humour, or randomised words which don't look
-                    even slight believable. If you are going to use a passage of
-                    Lorem Ipsum.
-                  </p>
-                  <Link
-                    href='/blog-details'
-                    className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
-                  >
-                    Read More
-                    <span>
-                      <Image
-                        width={44}
-                        height={9}
-                        src='/assets/images/icons/arrow-long.svg'
-                        alt=''
-                      />
-                    </span>
-                  </Link>
-                </div>
-              </div>
-              <div data-aos='fade-up' data-aos-duration={800}>
-                <div className='position-relative'>
-                  <Link
-                    href='/blog-details'
-                    className='w-100 h-100 overflow-hidden tw-rounded-3xl'
-                  >
-                    <Image
-                      width={884}
-                      height={507}
-                      src='/assets/images/thumbs/blog-page-img3.png'
-                      alt=''
-                      className='w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500'
-                    />
-                  </Link>
-                  <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
-                    24 Feb
-                  </h6>
-                </div>
-                <div className='tw-mt-10'>
-                  <div className='tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap'>
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-user' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Mehedii .H
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph-bold ph-chats-circle' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        Comments (03)
-                      </span>
-                    </div>
-                    <span className='tw-w-205 border border-neutral-200' />
-                    <div className='d-flex align-items-center tw-gap-2'>
-                      <span className='text-main-600 tw-text-lg'>
-                        <i className='ph ph-clock' />
-                      </span>
-                      <span className='text-neutral-600 tw-text-sm'>
-                        3 min Read
-                      </span>
-                    </div>
+                    <h6 className='blog-date tw-duration-300 tw-py-4 text-white d-flex justify-content-center align-items-center max-w-85-px w-100 tw-px-4 text-center tw-rounded-lg fw-medium position-absolute top-0 tw-start-0 tw-mt-4 tw-ms-4 bg-main-600 fw-bold font-body'>
+                      24 Feb
+                    </h6>
                   </div>
-                  <h4 className='tw-mb-4'>
-                    <Link href='/blog-details' className='splitTextStyleOne'>
-                      The whimsically named Egg Canvas brainch{" "}
+                  <div className='tw-mt-10'>
+                    <div className='tw-mb-4 d-flex align-items-center tw-gap-205 flex-wrap'>
+                      <div className='d-flex align-items-center tw-gap-2'>
+                        <span className='text-main-600 tw-text-lg'>
+                          <i className='ph ph-user' />
+                        </span>
+                        <span className='text-neutral-600 tw-text-sm'>
+                          Mehedii .H
+                        </span>
+                      </div>
+                      <span className='tw-w-205 border border-neutral-200' />
+                      <div className='d-flex align-items-center tw-gap-2'>
+                        <span className='text-main-600 tw-text-lg'>
+                          <i className='ph-bold ph-chats-circle' />
+                        </span>
+                        <span className='text-neutral-600 tw-text-sm'>
+                          Comments (03)
+                        </span>
+                      </div>
+                      <span className='tw-w-205 border border-neutral-200' />
+                      <div className='d-flex align-items-center tw-gap-2'>
+                        <span className='text-main-600 tw-text-lg'>
+                          <i className='ph ph-clock' />
+                        </span>
+                        <span className='text-neutral-600 tw-text-sm'>
+                          3 min Read
+                        </span>
+                      </div>
+                    </div>
+                    <h4 className='tw-mb-4'>
+                      <Link href='/blog-details' className='splitTextStyleOne'>
+                        {item.title}
+                      </Link>
+                    </h4>
+                    <p className='tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne'>
+                      {item.excerpt}
+                    </p>
+                    <Link
+                      href='/blog-details'
+                      className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
+                    >
+                      Read More
+                      <span>
+                        <Image
+                          width={44}
+                          height={9}
+                          src='/assets/images/icons/arrow-long.svg'
+                          alt=''
+                        />
+                      </span>
                     </Link>
-                  </h4>
-                  <p className='tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne'>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but majority have suffered teration in some form,
-                    by injected humour, or randomised words which don't look
-                    even slight believable. If you are going to use a passage of
-                    Lorem Ipsum.
-                  </p>
-                  <Link
-                    href='/blog-details'
-                    className='text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider'
-                  >
-                    Read More
-                    <span>
-                      <Image
-                        width={44}
-                        height={9}
-                        src='/assets/images/icons/arrow-long.svg'
-                        alt=''
-                      />
-                    </span>
-                  </Link>
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
           <div className='col-lg-4 ps-xl-5 ps-lg-4'>
             {/* Sidebar Start */}
             <div className='d-flex flex-column tw-gap-8'>
-              <div
-                className='bg-neutral-50 tw-px-8 text-center tw-py-17'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='bg-neutral-50 tw-px-8 text-center tw-py-17'>
                 <div className='tw-w-95-px tw-h-95-px rounded-circle d-inline-flex'>
                   <Image
                     width={884}
@@ -299,22 +161,14 @@ const BlogInner: React.FC = () => {
                   </li>
                 </ul>
               </div>
-              <div
-                className='bg-neutral-50 tw-px-8 tw-py-8'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='bg-neutral-50 tw-px-8 tw-py-8'>
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Search Here
                 </h5>
                 {/* BlogDetailsSearchForm */}
                 <BlogSearchForm />
               </div>
-              <div
-                className='bg-neutral-50 tw-px-8 tw-py-8'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='bg-neutral-50 tw-px-8 tw-py-8'>
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Recent News
                 </h5>
@@ -417,11 +271,7 @@ const BlogInner: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className='bg-neutral-50 tw-px-8 tw-py-8'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='bg-neutral-50 tw-px-8 tw-py-8'>
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Catagories
                 </h5>
@@ -464,11 +314,7 @@ const BlogInner: React.FC = () => {
                   </Link>
                 </div>
               </div>
-              <div
-                className='bg-neutral-50 tw-px-8 tw-py-8'
-                data-aos='fade-up'
-                data-aos-duration={800}
-              >
+              <div className='bg-neutral-50 tw-px-8 tw-py-8'>
                 <h5 className='border-start border-4 border-main-600 text-main-two-600 tw-ps-2 splitTextStyleOne tw-mb-6'>
                   Populer Tags
                 </h5>

@@ -13,7 +13,7 @@ const RegisterInner: React.FC = () => {
           {/* RegisterInnerForm */}
           <RegisterInnerForm />
           <div className='form-check-label text-neutral-600 fw-semibold tw-mt-405 text-center'>
-            <span>Already have an account?</span>
+            <span>Already have an account?</span>{" "}
             <Link
               href='/login'
               className='text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600'

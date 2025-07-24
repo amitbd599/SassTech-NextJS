@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Breadcrumb from "../../components/Breadcrumb";
 import FooterThree from "../../components/FooterThree";
 import HeaderOne from "../../components/HeaderOne";
@@ -9,6 +9,7 @@ import AOSWrap from "../../helper/AOSWrap";
 import CustomCursor from "../../helper/CustomCursor";
 
 import type { Metadata } from "next";
+import Loading from "../loading";
 
 export const generateMetadata = async (): Promise<Metadata> => {
   return {
@@ -50,7 +51,9 @@ const Page: React.FC = () => {
         <Breadcrumb title={"Shop Page"} />
 
         {/* ShopInner */}
-        <ShopInner />
+        <Suspense fallback={<Loading />}>
+          <ShopInner />
+        </Suspense>
 
         {/* TaskManagementOne */}
         <TaskManagementOne />
